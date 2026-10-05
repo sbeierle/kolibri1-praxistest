@@ -13,7 +13,7 @@ Preprint / Architecture Report
 | | |
 |---|---|
 | Bericht (Preprint) | [DOI 10.5281/zenodo.23171160](https://doi.org/10.5281/zenodo.23171160) |
-| Dieses Repository | eigene DOI folgt bei der Zenodo-Archivierung, der Bericht ist als verwandte Publikation verlinkt |
+| Dieses Repository | [github.com/sbeierle/kolibri1-praxistest](https://github.com/sbeierle/kolibri1-praxistest), eigene DOI folgt bei der Zenodo-Archivierung, der Bericht ist als verwandte Publikation verlinkt |
 | Version | v1.0 |
 | Lizenz | Code: MIT · Bericht und Ergebnisse: CC BY 4.0 (siehe `LICENSE-DATA.md`) |
 | Unabhängigkeit | Keine Verbindung zu Aleph Alpha, kein Auftrag, keine Vergütung |
@@ -36,7 +36,7 @@ Preprint / Architecture Report
 
 - System-Prompt: Mit Datum, aber ohne Wissensstichtag erfindet das Modell Ereignisse; erst Datum plus Stichtag (18.06.2026) ordnet die WM-Frage richtig ein.
 
-Details im Bericht: [`report/kolibri1-praxistest.md`](report/kolibri1-praxistest.md) (Diagramme in der PDF-Fassung).
+Details im Bericht: [`report/kolibri1-praxistest.md`](report/kolibri1-praxistest.md).
 
 ## Struktur
 ```
@@ -46,7 +46,7 @@ report/      Bericht (Markdown, PDF)
 scripts/     Testharness, Suiten, Auswertung, PowerShell-Läufe
 context/     Gesetzestexte und Sektorlisten, die in Prompts eingesetzt werden
 results/     Rohdaten je Lauf (runde1..3), logs/, summary.csv, environment.md, README.md
-docs/assets/ bereinigte Screenshots
+docs/assets/ Abbildungen und bereinigte Screenshots
 ```
 
 ## Schnellstart

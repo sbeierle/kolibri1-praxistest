@@ -11,6 +11,7 @@ authors:
 version: "1.0"
 date-released: "2026-10-05"
 license: "MIT"
+repository-code: "https://github.com/sbeierle/kolibri1-praxistest"
 keywords:
   - Kolibri-1
   - NIS2

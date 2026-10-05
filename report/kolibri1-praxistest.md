@@ -23,15 +23,9 @@ Ich teste das offene MoE-Sprachmodell Aleph Alpha Kolibri-1 (78,1 Mrd. Parameter
 
 Kolibri-1 ist auf einer einzelnen H200 schnell (rund 145 Token/s im Einzelstrom, erstes Token nach etwa 0,4 s), bei deutschem Fachwissen zu NIS2 und Berufsrecht aber unzuverlässig und ohne Absicherung zum Erfinden neigend. Als Chat-Assistent für Alltagstexte, IT-Dienstleister-Fragen und Souveränitätsthemen taugt es im Test gut; für Rechtsauskünfte nur mit Gesetzestext im Prompt (dann bei Normen, Fristen und Einstufung in 96 bis 100 % der Läufe richtig, aus dem Kopf etwa die Hälfte) und menschlicher Prüfung.
 
-| Kennzahl | Wert |
-|---|---|
-| Tempo im Einzelstrom | rund 145 Token/s, erstes Token nach etwa 0,4 s |
-| Last, 64 parallele kurze Anfragen | 3.709 Token/s, 0 Fehler |
-| Prompt-Injection | 39 von 40 abgewehrt (97,5 %) |
-| NIS2-Einstufung, aus dem Kopf / mit Gesetzestext | 53 % / 96 % |
-| Meldepflicht-Triage, aus dem Kopf / mit Text | 77 % / 100 % |
-| Fristen komplett richtig, aus dem Kopf / mit Text | 20 von 50 / 50 von 50 |
-| Gesetzestext im Prompt, Runde 2 (10 Fragen) | 100 von 100 Läufen richtig |
+![Messwerte aus Runde 1 bis 3: Tempo, Last, Injection, NIS2-Einstufung, Triage, Fristen](../docs/assets/fig_kpi.png)
+
+*Abbildung 1: Messwerte aus Runde 1 bis 3, Details in den Befunden 1, 5 und 6.*
 
 - **Tempo:** Median 142–162 Token/s je Anfrage, TTFT-Median 0,41–0,43 s, 0 Fehler in allen Läufen (mit ungetunter Standard-MoE-Konfiguration, die Zahlen sind eher konservativ).
 
@@ -62,11 +56,11 @@ Getestet wurde ein einzelner Server mit einer H200 SXM (141 GB) bei [RunPod](htt
 
 ![RunPod-Konsole mit einer H200 SXM](../docs/assets/runpod.png)
 
-*Testhardware: eine H200 SXM bei RunPod, 4,62 $/h, 93 % VRAM belegt (131 GiB). Podname und Kennung sind entfernt.*
+*Abbildung 7: Testhardware: eine H200 SXM bei RunPod, 4,62 $/h, 93 % VRAM belegt (131 GiB). Podname und Kennung sind entfernt.*
 
 ![vLLM-Startmeldung](../docs/assets/vllm_start.png)
 
-*Serverstart: vLLM meldet "Application startup complete". Laut Warnung im Log bringt das Modell Temperatur 1,0, top_k 128 und top_p 0,97 als Standard mit.*
+*Abbildung 8: Serverstart: vLLM meldet "Application startup complete". Laut Warnung im Log bringt das Modell Temperatur 1,0, top_k 128 und top_p 0,97 als Standard mit.*
 
 **Umfang.** Insgesamt 1.851 gewertete Läufe in drei Runden am 05.10.2026 (Runde 1: 406, Runde 2: 510, Runde 3: 935); 1.663 davon automatisch bewertet, 188 nur zum manuellen Lesen. Dazu kommen 60 verworfene Läufe (Probeläufe, ein Verbindungsabbruch). Übersicht in `results/README.md`.
 
@@ -98,20 +92,19 @@ Bei acht gleichzeitigen Anfragen fiel die Rate je Anfrage nur auf etwa 135 Token
 | 16 | 1,53 s | 2,57 s / 3,11 s | 394 |
 | 32 | 2,44 s | 4,28 s / 4,80 s | 473 |
 
-Abbildung (Balkendiagramm in der PDF-Fassung): Durchsatz und Antwortzeit bei 1, 8, 16 und 32 gleichzeitigen 8.000-Token-Dokumenten, Werte aus der Tabelle oben.
+![Lasttest mit 8.000-Token-Dokumenten: Durchsatz und Antwortzeit](../docs/assets/fig_last_8k.png)
+
+*Abbildung 2: Lasttest, 8.000-Token-Dokument je Anfrage, Werte aus der Tabelle oben.*
 
 Mit kurzen Prompts sieht die Last so aus (je eine Welle mit 64 Anfragen, `effort none`, 0 Fehler):
 
-| Gleichzeitige Anfragen | Token/s gesamt | Antwort komplett (p50) | Erstes Token (Median) |
-|---|---|---|---|
-| 1 | 144,7 | 1,92 s | 0,49 s |
-| 4 | 489,4 | 2,29 s | 0,42 s |
-| 16 | 1.382 | 2,97 s | 0,40 s |
-| 64 | 3.709,1 | 3,60 s | 0,43 s |
+![Lasttest mit kurzen Prompts: Durchsatz bei 1, 4, 16 und 64 gleichzeitigen Anfragen](../docs/assets/fig_last_kurz.png)
+
+*Abbildung 3: Lasttest mit kurzen Prompts, 64 Anfragen je Stufe, effort none, 0 Fehler. Antwortzeit (p50) 1,92 / 2,29 / 2,97 / 3,6 s, erstes Token 0,49 / 0,42 / 0,40 / 0,43 s.*
 
 ![Lasttest mit 64 Anfragen](../docs/assets/last_64_stack.png)
 
-*Rohausgabe des Lasttests: Server-Log (oben) und Ergebnistabelle des Skripts (unten).*
+*Abbildung 9: Rohausgabe des Lasttests: Server-Log (oben) und Ergebnistabelle des Skripts (unten).*
 
 Bei 32 gleichzeitigen Anfragen mit 8.000-Token-Dokumenten liegt die komplette Antwort im Median nach 4,3 s vor. Der Gesamtdurchsatz wächst von 1 auf 32 Anfragen um das 6-fache, nicht um das 32-fache: Pro Nutzer wird es langsamer, der Server skaliert also nicht linear. Nicht gemessen sind mehr als 32 gleichzeitige Anfragen, längere Dokumente und Dauerlast.
 
@@ -246,15 +239,21 @@ Mit Gesetzestext im Prompt stuft Kolibri-1 NIS2-Fälle in 96 % der Läufe richti
 | Belegextraktion als JSON | 20 synthetische Belege, 100 Läufe | nicht getestet | 100 von 100 |
 | Langer Text (8.000 und 32.000 Token) | 5 Aufgaben, 15 Läufe | nicht getestet | 15 von 15 |
 
-*Abbildung (Balkendiagramm in der PDF-Fassung): Erstcheck, Triage und Fristen, Kopf gegen Text. Die Werte stehen in der Tabelle oben.*
+![Erstcheck, Triage und Fristen: aus dem Kopf gegen mit Gesetzestext](../docs/assets/fig_kopf_vs_text.png)
+
+*Abbildung 4: Runde 3, 400 Läufe Erstcheck, 240 Triage, 100 Fristen; Antwortschlüssel von Claude, nicht juristisch geprüft.*
 
 **Erstcheck.** Aus dem Kopf liegt die Quote bei 55 % (Temperatur 0,3) und 51 % (1,0). Bei 34 der 80 Fehlläufe weicht das Modell aus ("kenne die genauen Schwellenwerte nicht"), und das JSON-Feld landet trotzdem meist auf "nicht betroffen"; die übrigen 46 sind selbstsicher falsch. Das ist eine grobe Auszählung nach Schlagwörtern. Mit Text sind 7 von 170 Läufen falsch, und zwar fast alle bei großen Herstellern (Autozulieferer 5 von 10, Maschinenbau groß und Chemie je 1): Das Modell stuft sie als "besonders wichtig" ein und verwechselt Anlage 1 mit Anlage 2, obwohl der Text die Sektoren richtig zuordnet. Die Konsistenz (häufigste Antwort je Fall) liegt mit Text bei 93 %, ohne bei 73 bis 74 %. Bei den drei Grenzfällen ohne Schlüssel (Systemhaus mit Handel, ERP-Hersteller, Spedition) spaltet sich das Ergebnis zwischen "wichtig" und "nicht betroffen", auch mit Text. Das ist die ehrliche Antwort auf eine offene Rechtsfrage und kein Fehler des Modells.
 
-*Abbildung (Hantel-Diagramm in der PDF-Fassung): Trefferquote je Fall, Kopf gegen Text, 17 Fälle mit Schlüssel.*
+![Erstcheck je Fall, Kopf gegen Text](../docs/assets/fig_erstcheck_je_fall.png)
+
+*Abbildung 5: Runde 3, 17 Fälle mit Schlüssel, je 10 Läufe pro Bedingung; Sektorenliste aus Drittquelle.*
 
 **Triage.** Harmlose Vorfälle (abgefangenes Phishing, geblockte Brute-Force-Versuche, geplante Wartung) erkennt das Modell auch aus dem Kopf zu 100 %. Die Fehler konzentrieren sich auf vier Fälle mit eindeutig erheblichem Vorfall: Datenabfluss von 40.000 Kundensätzen, DDoS gegen den Webshop, Rechenzentrums-Ausfall und manipuliertes Fernwartungs-Update (zusammen 28 Fehlläufe). Von diesen 28 sind nach grober Auszählung nur 3 selbstsicher falsch, die übrigen weichen aus ("hängt davon ab", "kenne die Kriterien nicht sicher"). Das Antwortformat kannte aber nur wahr oder falsch, deshalb steht im Feld "nicht erheblich". Wer die Antwort automatisch weiterverarbeitet, übersieht damit erhebliche Vorfälle; ein Format mit der Option "unklar" wäre die naheliegende Gegenmaßnahme (nicht getestet).
 
-*Abbildung (Kreisdiagramme in der PDF-Fassung): Fehlläufe aus dem Kopf, ausweichend gegen selbstsicher falsch (grobe Schlagwortzählung).*
+![Fehlläufe aus dem Kopf: ausweichend gegen selbstsicher falsch](../docs/assets/fig_fehlerarten.png)
+
+*Abbildung 6: Runde 3, 80 Fehlläufe Einstufung und 28 Fehlläufe Triage aus dem Kopf; Aufteilung nach Schlagwörtern.*
 
 **Fristen.** Aus dem Kopf nennt das Modell die einschlägige Vorschrift fast nie richtig (1 von 50 Antworten nennt § 32 BSIG). Stattdessen kommen § 8a und § 8b BSIG (alte Fassung) sowie § 8 oder § 30 NIS2UmsuCG, also veraltete oder erfundene Fundstellen. In 22 von 50 Antworten stimmt kein einziges Datum. Mit Text sind es 50 von 50. Die Startzeitpunkte lagen bewusst so, dass keine Wochenenden oder Feiertage die Fristen verschieben.
 
@@ -337,7 +336,7 @@ Bericht, Testharness (Python), Testfälle und Antwortschlüssel wurden gemeinsam
 
 ## Code- und Datenverfügbarkeit
 
-- Repository (Testcode, Kontextdateien, Rohdaten aller Läufe, Logs): [GITHUB-URL]
+- Repository (Testcode, Kontextdateien, Rohdaten aller Läufe, Logs): <https://github.com/sbeierle/kolibri1-praxistest>
 - Dieser Bericht: <https://doi.org/10.5281/zenodo.23171160>
 - Das Repository erhält bei der Archivierung eine eigene DOI und verweist auf diesen Bericht.
 - Lizenzen: Bericht und Ergebnisdaten CC BY 4.0, Code MIT. Die Kontextdateien (Gesetzestexte, Sektorenliste) sind davon ausgenommen, siehe `context/README.md`.
