@@ -1,0 +1,758 @@
+id;suite;titel;auto_score;frage;antwort;schluessel;bewertung_1-5;notiz
+luk-01;luecken;Lückencheck 1 (Lücken: meldeprozess, mfa, schulung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+{""luecken"": [""meldeprozess"", ""schulung"", ""mfa""], ""begruendung"": ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt. Es gibt keinerlei Schulungen oder Sensibilisierung zur Informationssicherheit. Anmeldung an VPN, Mail und Admin-Konten nur mit Passwort, keine Mehr-Faktor-Authentifizierung.""}";Eingebaute Lücken: meldeprozess, mfa, schulung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-01;luecken;Lückencheck 1 (Lücken: meldeprozess, mfa, schulung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""schulung"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Anmeldung an VPN, Mail und Admin-Konten nur mit Passwort, keine Mehr-Faktor-Authentifizierung"",
+    ""Es gibt keinerlei Schulungen oder Sensibilisierung zur Informationssicherheit"",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, mfa, schulung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-01;luecken;Lückencheck 1 (Lücken: meldeprozess, mfa, schulung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""schulung"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Anmeldung an VPN, Mail und Admin-Konten nur mit Passwort, keine Mehr-Faktor-Authentifizierung."",
+    ""Es gibt keinerlei Schulungen oder Sensibilisierung zur Informationssicherheit."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, mfa, schulung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-01;luecken;Lückencheck 1 (Lücken: meldeprozess, mfa, schulung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""schulung"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Anmeldung an VPN, Mail und Admin-Konten erfolgt nur mit Passwort, eine Mehr-Faktor-Authentifizierung fehlt."",
+    ""Es gibt keinerlei Schulungen oder Sensibilisierung zur Informationssicherheit."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, mfa, schulung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-01;luecken;Lückencheck 1 (Lücken: meldeprozess, mfa, schulung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""schulung"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Anmeldung an VPN, Mail und Admin-Konten erfolgt nur mit Passwort, eine Mehr-Faktor-Authentifizierung ist nicht vorhanden."",
+    ""Es gibt keinerlei Schulungen oder Sensibilisierung zur Informationssicherheit."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, mfa, schulung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-02;luecken;Lückencheck 2 (Lücken: backup, mfa, patchmanagement);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""backup"", ""patchmanagement""],
+  ""begruendung"": [
+    ""Die Anmeldung an VPN, Mail und Admin-Konten erfolgt ausschließlich mit Passwort, eine Mehr-Faktor-Authentifizierung fehlt."",
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden."",
+    ""Updates werden nur unregelmäßig eingespielt und einige Server laufen seit Jahren ohne Sicherheitsupdates.""
+  ]
+}
+```";Eingebaute Lücken: backup, mfa, patchmanagement. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-02;luecken;Lückencheck 2 (Lücken: backup, mfa, patchmanagement);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""backup"", ""patchmanagement""],
+  ""begruendung"": [
+    ""Keine Mehr-Faktor-Authentifizierung bei VPN, Mail und Admin-Konten"",
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden"",
+    ""Updates werden nur unregelmäßig eingespielt und einige Server laufen seit Jahren ohne Sicherheitsupdates""
+  ]
+}
+```";Eingebaute Lücken: backup, mfa, patchmanagement. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-02;luecken;Lückencheck 2 (Lücken: backup, mfa, patchmanagement);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""backup"", ""patchmanagement""],
+  ""begruendung"": [
+    ""Anmeldung an VPN, Mail und Admin-Konten nur mit Passwort, keine Mehr-Faktor-Authentifizierung."",
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten, ein Rücksicherungstest hat nie stattgefunden."",
+    ""Updates werden nur unregelmäßig eingespielt, einige Server laufen seit Jahren ohne Sicherheitsupdates.""
+  ]
+}
+```";Eingebaute Lücken: backup, mfa, patchmanagement. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-02;luecken;Lückencheck 2 (Lücken: backup, mfa, patchmanagement);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""backup"", ""patchmanagement""],
+  ""begruendung"": [
+    ""Anmeldung an VPN, Mail und Admin-Konten erfolgt nur mit Passwort, eine Mehr-Faktor-Authentifizierung ist nicht vorhanden."",
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden."",
+    ""Updates werden nur unregelmäßig eingespielt und einige Server laufen seit Jahren ohne Sicherheitsupdates.""
+  ]
+}
+```";Eingebaute Lücken: backup, mfa, patchmanagement. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-02;luecken;Lückencheck 2 (Lücken: backup, mfa, patchmanagement);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""backup"", ""patchmanagement""],
+  ""begruendung"": ""Keine Mehr-Faktor-Authentifizierung bei VPN, Mail und Admin-Konten; Backup liegt auf demselben NAS wie Produktivdaten und ein Rücksicherungstest hat nie stattgefunden; Updates werden nur unregelmäßig eingespielt und einige Server laufen seit Jahren ohne Sicherheitsupdates.""
+}
+```";Eingebaute Lücken: backup, mfa, patchmanagement. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-03;luecken;Lückencheck 3 (Lücken: meldeprozess, notfallplan, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""notfallplan"", ""zugriffskonzept"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Es existiert kein Notfallplan oder Wiederanlaufplan, im Ernstfall würde improvisiert."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-03;luecken;Lückencheck 3 (Lücken: meldeprozess, notfallplan, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""notfallplan"", ""zugriffskonzept"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke, Rechte werden nie überprüft."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-03;luecken;Lückencheck 3 (Lücken: meldeprozess, notfallplan, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""zugriffskonzept"", ""notfallplan"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht und im Ernstfall würde improvisiert."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-03;luecken;Lückencheck 3 (Lücken: meldeprozess, notfallplan, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""zugriffskonzept"", ""notfallplan"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft, was ein angemessenes Zugriffskonzept vermissen lässt."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-03;luecken;Lückencheck 3 (Lücken: meldeprozess, notfallplan, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Sicherheitsupdates werden für Server und Clients in";"
+
+```json
+{
+  ""luecken"": [""zugriffskonzept"", ""notfallplan"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-04;luecken;Lückencheck 4 (Lücken: backup, meldeprozess, notfallplan);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Das einzige Backup liegt auf demselben NAS wie die ";"
+
+```json
+{
+  ""luecken"": [""backup"", ""notfallplan"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden."",
+    ""Ein Notfall- oder Wiederanlaufplan existiert nicht und im Ernstfall würde improvisiert."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: backup, meldeprozess, notfallplan. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-04;luecken;Lückencheck 4 (Lücken: backup, meldeprozess, notfallplan);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Das einzige Backup liegt auf demselben NAS wie die ";"
+
+```json
+{
+  ""luecken"": [""backup"", ""notfallplan"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: backup, meldeprozess, notfallplan. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-04;luecken;Lückencheck 4 (Lücken: backup, meldeprozess, notfallplan);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Das einzige Backup liegt auf demselben NAS wie die ";"
+
+```json
+{
+  ""luecken"": [""backup"", ""notfallplan"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht und im Ernstfall würde improvisiert."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: backup, meldeprozess, notfallplan. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-04;luecken;Lückencheck 4 (Lücken: backup, meldeprozess, notfallplan);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Das einzige Backup liegt auf demselben NAS wie die ";"
+
+```json
+{
+  ""luecken"": [""backup"", ""notfallplan"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden."",
+    ""Ein Notfallplan oder Wiederanlaufplan existiert nicht und im Ernstfall würde improvisiert."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: backup, meldeprozess, notfallplan. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-04;luecken;Lückencheck 4 (Lücken: backup, meldeprozess, notfallplan);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Das einzige Backup liegt auf demselben NAS wie die ";"
+
+```json
+{
+  ""luecken"": [
+    ""backup"",
+    ""notfallplan"",
+    ""meldeprozess""
+  ],
+  ""begruendung"": [
+    ""Das einzige Backup liegt auf demselben NAS wie die Produktivdaten und ein Rücksicherungstest hat nie stattgefunden."",
+    ""Ein Notfallplan oder Wiederanlaufplan existiert nicht und im Ernstfall würde improvisiert."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: backup, meldeprozess, notfallplan. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-05;luecken;Lückencheck 5 (Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""risikoanalyse"", ""lieferkette"", ""zugriffskonzept"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Dienstleister und Zulieferer werden nie auf Sicherheit geprüft, Verträge enthalten keine Sicherheitsanforderungen."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke, Rechte werden nie überprüft."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-05;luecken;Lückencheck 5 (Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""lieferkette"", ""zugriffskonzept"", ""risikoanalyse"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Dienstleister und Zulieferer werden nie auf Sicherheit geprüft und Verträge enthalten keine Sicherheitsanforderungen."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft."",
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-05;luecken;Lückencheck 5 (Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""lieferkette"", ""zugriffskonzept"", ""risikoanalyse"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Dienstleister und Zulieferer werden nie auf Sicherheit geprüft und Verträge enthalten keine Sicherheitsanforderungen."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft."",
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-05;luecken;Lückencheck 5 (Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""lieferkette"", ""zugriffskonzept"", ""risikoanalyse"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Dienstleister und Zulieferer werden nie auf Sicherheit geprüft und Verträge enthalten keine Sicherheitsanforderungen."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft."",
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-05;luecken;Lückencheck 5 (Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein dokumentierter Notfallplan für IT-Ausfälle und ";"
+
+```json
+{
+  ""luecken"": [""lieferkette"", ""zugriffskonzept"", ""risikoanalyse"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Dienstleister und Zulieferer werden nie auf Sicherheit geprüft und Verträge enthalten keine Sicherheitsanforderungen."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke und Rechte werden nie überprüft."",
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: lieferkette, risikoanalyse, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-06;luecken;Lückencheck 6 (Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Fernzugänge und Administratorkonten sind durch";"
+
+```json
+{
+  ""luecken"": [""patchmanagement"", ""notfallplan"", ""verschluesselung"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Updates werden nur unregelmäßig eingespielt, einige Server laufen seit Jahren ohne Sicherheitsupdates."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-06;luecken;Lückencheck 6 (Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Fernzugänge und Administratorkonten sind durch";"
+
+```json
+{
+  ""luecken"": [""verschluesselung"", ""notfallplan"", ""meldeprozess"", ""patchmanagement""],
+  ""begruendung"": [
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt."",
+    ""Updates werden nur unregelmäßig eingespielt, einige Server laufen seit Jahren ohne Sicherheitsupdates.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-06;luecken;Lückencheck 6 (Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Fernzugänge und Administratorkonten sind durch";"
+
+```json
+{
+  ""luecken"": [""patchmanagement"", ""notfallplan"", ""verschluesselung"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Updates werden nur unregelmäßig eingespielt, einige Server laufen seit Jahren ohne Sicherheitsupdates."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-06;luecken;Lückencheck 6 (Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Fernzugänge und Administratorkonten sind durch";"
+
+```json
+{
+  ""luecken"": [""patchmanagement"", ""notfallplan"", ""verschluesselung"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Updates werden nur unregelmäßig eingespielt, einige Server laufen seit Jahren ohne Sicherheitsupdates."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-06;luecken;Lückencheck 6 (Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Fernzugänge und Administratorkonten sind durch";"
+
+```json
+{
+  ""luecken"": [""verschluesselung"", ""notfallplan"", ""meldeprozess"", ""patchmanagement""],
+  ""begruendung"": [
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt."",
+    ""Updates werden nur unregelmäßig eingespielt, einige Server laufen seit Jahren ohne Sicherheitsupdates.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, patchmanagement, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-07;luecken;Lückencheck 7 (Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Mitarbeitenden erhalten jährlich eine Schulung";"
+
+```json
+{
+  ""luecken"": [""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Es gibt keinen Notfallplan oder Wiederanlaufplan, im Ernstfall wird improvisiert."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke, Rechte werden nie überprüft."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-07;luecken;Lückencheck 7 (Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Mitarbeitenden erhalten jährlich eine Schulung";"
+
+```json
+{
+  ""luecken"": [""verschluesselung"", ""meldeprozess"", ""notfallplan"", ""zugriffskonzept""],
+  ""begruendung"": [
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke, Rechte werden nie überprüft.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-07;luecken;Lückencheck 7 (Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Mitarbeitenden erhalten jährlich eine Schulung";"
+
+```json
+{
+  ""luecken"": [""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""meldeprozess""],
+  ""begruendung"": ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert. Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt. Alle Mitarbeitenden haben Zugriff auf alle Laufwerke, Rechte werden nie überprüft. Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-07;luecken;Lückencheck 7 (Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Mitarbeitenden erhalten jährlich eine Schulung";"
+
+```json
+{
+  ""luecken"": [""meldeprozess"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept""],
+  ""begruendung"": [
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt."",
+    ""Einen Notfallplan oder Wiederanlaufplan gibt es nicht, im Ernstfall würde improvisiert."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke, Rechte werden nie überprüft.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-07;luecken;Lückencheck 7 (Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Alle Mitarbeitenden erhalten jährlich eine Schulung";"
+
+```json
+{
+  ""luecken"": [""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""meldeprozess""],
+  ""begruendung"": [
+    ""Es gibt keinen Notfallplan oder Wiederanlaufplan."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt."",
+    ""Alle Mitarbeitenden haben Zugriff auf alle Laufwerke, Rechte werden nie überprüft."",
+    ""Wer Sicherheitsvorfälle erkennt, bewertet und meldet, ist nirgends festgelegt.""
+  ]
+}
+```";Eingebaute Lücken: meldeprozess, notfallplan, verschluesselung, zugriffskonzept. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-08;luecken;Lückencheck 8 (Lücken: mfa, risikoanalyse, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein Prozess zur Erkennung und Meldung von Sicherhei";"
+
+```json
+{
+  ""luecken"": [""mfa"", ""verschluesselung"", ""risikoanalyse""],
+  ""begruendung"": [
+    ""Anmeldung an VPN, Mail und Admin-Konten nur mit Passwort, keine Mehr-Faktor-Authentifizierung"",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt"",
+    ""Eine Risikoanalyse hat nie stattgefunden""
+  ]
+}
+```";Eingebaute Lücken: mfa, risikoanalyse, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-08;luecken;Lückencheck 8 (Lücken: mfa, risikoanalyse, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein Prozess zur Erkennung und Meldung von Sicherhei";"
+
+```json
+{
+  ""luecken"": [""risikoanalyse"", ""mfa"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Anmeldung an VPN, Mail und Admin-Konten nur mit Passwort, keine Mehr-Faktor-Authentifizierung."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: mfa, risikoanalyse, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-08;luecken;Lückencheck 8 (Lücken: mfa, risikoanalyse, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein Prozess zur Erkennung und Meldung von Sicherhei";"
+
+```json
+{
+  ""luecken"": [""risikoanalyse"", ""mfa"", ""verschluesselung""],
+  ""begruendung"": ""Eine Risikoanalyse hat nie stattgefunden. Anmeldung an VPN, Mail und Admin-Konten erfolgt nur mit Passwort ohne Mehr-Faktor-Authentifizierung. Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+}
+```";Eingebaute Lücken: mfa, risikoanalyse, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-08;luecken;Lückencheck 8 (Lücken: mfa, risikoanalyse, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein Prozess zur Erkennung und Meldung von Sicherhei";"
+
+```json
+{
+  ""luecken"": [""risikoanalyse"", ""mfa"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Die Anmeldung an VPN, Mail und Admin-Konten erfolgt ausschließlich mit Passwort ohne Mehr-Faktor-Authentifizierung."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: mfa, risikoanalyse, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;
+luk-08;luecken;Lückencheck 8 (Lücken: mfa, risikoanalyse, verschluesselung);1.0;"Prüfe den folgenden Ist-Zustand eines Unternehmens anhand des Textes zu den Risikomanagementmaßnahmen (§ 30 BSIG). Nenne ausschließlich Maßnahmen, die laut Ist-Zustand FEHLEN oder mangelhaft sind. Was als vorhanden beschrieben ist, nennst du nicht. Antworte ausschließlich mit JSON: {""luecken"": [Liste aus: ""mfa"", ""backup"", ""patchmanagement"", ""schulung"", ""notfallplan"", ""verschluesselung"", ""zugriffskonzept"", ""lieferkette"", ""risikoanalyse"", ""meldeprozess""], ""begruendung"": ""ein Satz je Lücke""}
+
+<<<TEXT
+{{CONTEXT:recht.txt}}
+TEXT>>>
+
+Ist-Zustand:
+- Ein Prozess zur Erkennung und Meldung von Sicherhei";"
+
+```json
+{
+  ""luecken"": [""risikoanalyse"", ""mfa"", ""verschluesselung""],
+  ""begruendung"": [
+    ""Eine Risikoanalyse hat nie stattgefunden."",
+    ""Anmeldung an VPN, Mail und Admin-Konten nur mit Passwort, keine Mehr-Faktor-Authentifizierung."",
+    ""Laptops, USB-Sticks und Dateiübertragung sind unverschlüsselt.""
+  ]
+}
+```";Eingebaute Lücken: mfa, risikoanalyse, verschluesselung. Alle anderen Themen sind als erfüllt beschrieben (Nennung = erfunden).;;

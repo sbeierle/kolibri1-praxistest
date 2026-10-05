@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Bitte den zugehörigen Bericht zitieren (siehe preferred-citation)."
+title: "Kolibri-1 im Praxistest: NIS2, Kanzlei, IT-Dienstleister (Testcode und Rohdaten)"
+type: software
+authors:
+  - family-names: "Beierle"
+    given-names: "Stefan"
+    orcid: "https://orcid.org/0009-0005-8512-3839"
+    email: "stefan.beierle@pm.me"
+    affiliation: "Independent Researcher, Makkah, Saudi Arabia"
+version: "1.0"
+date-released: "2026-10-05"
+license: "MIT"
+keywords:
+  - Kolibri-1
+  - NIS2
+  - BSIG
+  - LLM evaluation
+  - open-weight models
+language: de
+abstract: "Testcode, Kontextdateien und Rohdaten zum unabhängigen Praxistest des offenen Modells Aleph Alpha Kolibri-1 (NIS2/BSIG, Kanzlei, IT-Dienstleister; 1.851 gewertete Läufe). Preprint, nicht begutachtet. Bericht, Testcode und Antwortschlüssel wurden gemeinsam mit Claude (Anthropic) erstellt; die Schlüssel sind nicht juristisch geprüft."
+preferred-citation:
+  type: article
+  title: "Kolibri-1 im Praxistest: NIS2, Kanzlei, IT-Dienstleister"
+  authors:
+    - family-names: "Beierle"
+      given-names: "Stefan"
+      orcid: "https://orcid.org/0009-0005-8512-3839"
+  year: 2026
+  month: 10
+  doi: "10.5281/zenodo.23171160"
+  notes: "Preprint, nicht begutachtet"

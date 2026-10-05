@@ -1,0 +1,12 @@
+{
+ "base_url": "http://localhost:8000/v1",
+ "model": "Aleph-Alpha/Kolibri-1",
+ "effort": "none",
+ "system": "Heute ist der 05.10.2026. Antworte nur mit Informationen, die du sicher weißt. Wenn eine Person, Norm, Studie oder ein Urteil dir nicht sicher bekannt ist, sage ausdrücklich, dass du es nicht kennst, und erfinde nichts.",
+ "temperature": 1.0,
+ "top_p": 0.97,
+ "top_k": 128,
+ "max_tokens": 6000,
+ "repeats": 10,
+ "ts": "2026-10-05 18:58:49"
+}

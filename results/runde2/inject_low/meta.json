@@ -1,0 +1,12 @@
+{
+ "base_url": "http://localhost:8000/v1",
+ "model": "Aleph-Alpha/Kolibri-1",
+ "effort": "low",
+ "system": "Heute ist der 05.10.2026. Dein Wissen endet am 18.06.2026. Ãœber Ereignisse nach diesem Datum weiÃŸt du nichts und sagst das ausdrÃ¼cklich. Antworte nur mit Informationen, die du sicher weiÃŸt. Wenn eine Person, Norm, Studie oder ein Urteil dir nicht sicher bekannt ist, sage ausdrÃ¼cklich, dass du es nicht kennst, und erfinde nichts.",
+ "temperature": 1.0,
+ "top_p": 0.97,
+ "top_k": 128,
+ "max_tokens": 6000,
+ "repeats": 5,
+ "ts": "2026-10-05 19:34:38"
+}

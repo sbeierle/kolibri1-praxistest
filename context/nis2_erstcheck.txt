@@ -1,0 +1,25 @@
+HINWEIS ZUR QUELLE: Auszüge über ein Abruf-Werkzeug; § 28 BSIG sinngemäß, die Sektorenlisten stammen aus einer Drittseite (nicht amtlich). Vor Veröffentlichung gegen den amtlichen BSIG-Text (Anlagen 1 und 2) prüfen.
+
+=== § 28 BSIG – Besonders wichtige Einrichtungen und wichtige Einrichtungen [sinngemäß] ===
+(1) Als besonders wichtige Einrichtung gelten: 1. Betreiber kritischer Anlagen; 2. qualifizierte Vertrauensdiensteanbieter, Top Level Domain Name Registries oder DNS-Diensteanbieter; 3. Anbieter öffentlich zugänglicher Telekommunikationsdienste oder Betreiber öffentlicher Telekommunikationsnetze mit mindestens 50 Mitarbeitern oder einem Jahresumsatz und einer Jahresbilanzsumme von jeweils über 10 Millionen Euro; 4. sonstige natürliche oder juristische Personen, die anderen entgeltlich Waren oder Dienstleistungen anbieten, einer in Anlage 1 bestimmten Einrichtungsart zuzuordnen sind und mindestens 250 Mitarbeiter beschäftigen oder einen Jahresumsatz über 50 Millionen Euro und eine Jahresbilanzsumme über 43 Millionen Euro aufweisen.
+(2) Als wichtige Einrichtungen gelten: 1. Vertrauensdiensteanbieter; 2. kleine Telekommunikationsanbieter (unter 50 Mitarbeiter, Umsatz und Bilanzsumme jeweils höchstens 10 Millionen Euro); 3. sonstige Personen, die entgeltlich Waren oder Dienstleistungen anbieten, einer in den Anlagen 1 und 2 bestimmten Einrichtungsart zuzuordnen sind und mindestens 50 Mitarbeiter beschäftigen oder einen Jahresumsatz und eine Jahresbilanzsumme von jeweils über 10 Millionen Euro aufweisen. Ausgenommen sind besonders wichtige Einrichtungen und Einrichtungen der Bundesverwaltung.
+(3) Vernachlässigbare Geschäftstätigkeiten können bei der Zuordnung unberücksichtigt bleiben.
+(4) Für Mitarbeiterzahl, Jahresumsatz und Jahresbilanzsumme gilt die Empfehlung 2003/361/EG der Kommission.
+
+=== Anlage 1 zum BSIG – Sektoren (Einrichtungsarten) [Drittquelle nis2europe.eu, nicht amtlich] ===
+1. Energie: Stromlieferanten, Betreiber von Elektrizitätsverteilernetzen und Übertragungsnetzen, Betreiber von Erzeugungsanlagen, Aggregatoren, Betreiber von Energiespeicheranlagen, Ladepunktbetreiber; Betreiber von Fernwärme/Fernkälte; Betreiber im Bereich Erdöl (Fernleitungen, Raffination, Lager); Gasversorgung (Gasverteilernetze, Fernleitungsnetze, Speicher, LNG, Gaslieferanten); Wasserstoff.
+2. Transport und Verkehr: Luftverkehr (Luftfahrtunternehmen, Flughäfen); Schienenverkehr (Eisenbahninfrastruktur, Eisenbahnverkehrsunternehmen); Schifffahrt (Passagier- und Frachtbeförderungsunternehmen, Häfen); Straßenverkehr (Betreiber von Anlagen zur Verkehrsbeeinflussung, Betreiber intelligenter Verkehrssysteme).
+3. Finanzwesen: Kreditinstitute; Handelsplätze, zentrale Gegenparteien.
+4. Gesundheit: Erbringer von Gesundheitsdienstleistungen, EU-Referenzlaboratorien, Unternehmen mit Forschung und Entwicklung zu Arzneimitteln, Hersteller pharmazeutischer Erzeugnisse, Hersteller von Medizinprodukten, die als kritisch für Notlagen eingestuft sind.
+5. Wasser: Betreiber von Wasserversorgungsanlagen (Trinkwasser); Abwasserbeseitigung.
+6. Digitale Infrastruktur: Internet Exchange Points, DNS-Diensteanbieter, Top Level Domain Name Registries, Anbieter von Cloud-Computing-Diensten, Anbieter von Rechenzentrumsdiensten, Content Delivery Networks, Vertrauensdiensteanbieter, Betreiber öffentlicher Telekommunikationsnetze, Anbieter öffentlich zugänglicher Telekommunikationsdienste, Managed Service Provider, Managed Security Service Provider.
+7. Weltraum: Betreiber von Bodeninfrastrukturen.
+
+=== Anlage 2 zum BSIG – Sektoren (Einrichtungsarten) [Drittquelle nis2europe.eu, nicht amtlich] ===
+1. Transport und Verkehr: Anbieter von Postdiensten einschließlich Kurierdiensten.
+2. Abfallbewirtschaftung: Unternehmen der Abfallbewirtschaftung.
+3. Produktion, Herstellung und Handel mit chemischen Stoffen: Hersteller und Importeure von chemischen Stoffen und Gemischen.
+4. Produktion, Verarbeitung und Vertrieb von Lebensmitteln: Lebensmittelunternehmen im Großhandel sowie in der industriellen Produktion und Verarbeitung.
+5. Verarbeitendes Gewerbe: Herstellung von Medizinprodukten und In-vitro-Diagnostika; Datenverarbeitungsgeräten, elektronischen und optischen Erzeugnissen; elektrischen Ausrüstungen; Maschinenbau; Kraftwagen und Kraftwagenteilen; sonstiger Fahrzeugbau.
+6. Anbieter digitaler Dienste: Online-Marktplätze, Online-Suchmaschinen, Plattformen für soziale Netzwerke.
+7. Forschung: Forschungseinrichtungen.

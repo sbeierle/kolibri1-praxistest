@@ -1,0 +1,57 @@
+id;suite;titel;auto_score;frage;antwort;schluessel;bewertung_1-5;notiz
+nis2-01;nis2;Betroffenheit Maschinenbau;0.33;Ein Maschinenbauer in Baden-Württemberg hat 120 Mitarbeiter und 30 Mio. Euro Jahresumsatz. Ist er nach dem neuen BSI-Gesetz (NIS2-Umsetzung) betroffen? Wenn ja, als was? Kurz begründen.;"
+
+**Nein, sehr wahrscheinlich nicht direkt betroffen.**
+
+**Begründung:** NIS2 erfasst nur Unternehmen in **bestimmten Sektoren** (Energie, Wasser, Gesundheit, Verkehr, Finanzwesen, Digitalinfrastruktur, öffentliche Verwaltung etc.). Maschinenbau gehört **nicht** zu den gelisteten Sektoren der NIS2-Richtlinie bzw. deren deutscher Umsetzung (NIS2UmsuCG).
+
+Die Unternehmensgröße (120 Mitarbeiter, 30 Mio. € Umsatz) würde zwar die Schwellenwerte für „wichtige Entitäten"" (>50 Mitarbeiter oder >10 Mio. € Umsatz) überschreiten – aber nur relevant, wenn der **Sektor** erfasst wäre. Da Maschinenbau nicht gelistet ist, greift NIS2 hier nicht.
+
+**Einschränkung:** Falls das Unternehmen zugleich relevante IKT-Dienstleistungen erbringt oder als kritischer Zulieferer für gelistete Sektoren fungiert, könnte eine indirekte Betroffenheit bestehen (z. B. über Lieferkettenanforderungen der betroffenen Kunden).";Ja, mittleres Unternehmen, Sektor Maschinenbau (NIS2 Anh. II / BSIG §28) -> 'wichtige Einrichtung' [pruefen Anhang].;;
+nis2-02;nis2;Meldefristen rechnen;0.67;Eine wichtige Einrichtung erfährt am Montag, 05.10.2026 um 08:15 Uhr von einem erheblichen Sicherheitsvorfall. Nenne die Meldefristen nach BSIG mit konkretem Datum und Uhrzeit.;"
+
+Nach dem BSI-Gesetz (BSIG) gelten für Betreiber kritischer Infrastrukturen („wichtige Einrichtungen“) im Falle eines erheblichen Sicherheitsvorfalls folgende Meldefristen gegenüber dem Bundesamt für Sicherheit in der Informationstechnik (BSI):
+
+1. **Frühwarnung**  
+   - **Frist:** unverzüglich, spätestens innerhalb von **24 Stunden** nach Feststellung des Vorfalls.  
+   - **Konkreter Zeitpunkt:** Dienstag, **06.10.2026, 08:15 Uhr**.
+
+2. **Vorfallmeldung**  
+   - **Frist:** unverzüglich, spätestens innerhalb von **72 Stunden** nach Feststellung des Vorfalls.  
+   - **Konkreter Zeitpunkt:** Freitag, **09.10.2026, 08:15 Uhr**.
+
+3. **Abschlussbericht**  
+   - **Frist:** innerhalb von **einem Monat** nach Abschluss der Meldung.  
+   - **Konkreter Zeitpunkt:** Montag, **05.11.2026, 08:15 Uhr** (unter Annahme, dass die Meldung fristgerecht erfolgt ist und die Frist vom Tag nach der Vorfallmeldung läuft).
+
+**Hinweis:**  
+- Die Berechnung basiert auf dem Zeitpunkt der Kenntnisnahme (05.10.2026, 08:15 Uhr).  
+- Die genauen Fristen können je nach aktueller Fassung des BSIG und der Art des Vorfalls variieren. Es empfiehlt sich, die aktuelle Rechtslage zu prüfen.  
+- Die Meldefristen können sich überschneiden oder verlängern, wenn zusätzliche Informationen angefordert werden.";"§32 BSIG [verifiziert]: Erstmeldung/Fruehwarnung 24h -> Di 06.10.2026 08:15; Meldung 72h -> Do 08.10.2026 08:15; Abschluss 1 Monat.";;
+nis2-03;nis2;Registrierungsfrist;0.5;Bis wann muss sich eine Einrichtung nach dem BSIG beim BSI registrieren, nachdem sie festgestellt hat, dass sie unter das Gesetz fällt?;"
+
+Nach dem BSI-Gesetz (BSIG) muss sich eine Einrichtung **unverzüglich** nach Kenntnisnahme registrieren, dass sie unter das Gesetz fällt. „Unverzüglich“ ist ein juristischer Begriff und bedeutet „ohne schuldhaftes Zögern“. Es gibt keine feste Frist in Tagen oder Wochen, aber die Registrierung sollte zeitnah erfolgen, sobald die Pflichten erkannt wurden.";§33 BSIG [verifiziert]: innerhalb von 3 Monaten.;;
+nis2-04;nis2;Lieferkette;0.5;Muss ein mittelständischer IT-Betrieb im Rahmen von NIS2 auch seine Lieferanten betrachten? Mit Normverweis.;"
+
+Ja, sofern Ihr Betrieb in den Anwendungsbereich der NIS2-Richtlinie fällt, müssen Sie auch Ihre Lieferanten bzw. die Lieferkette in Ihre Sicherheitsmaßnahmen einbeziehen.
+
+**Rechtliche Grundlage (Normverweis):**  
+**Artikel 21 Absatz 2 Buchstabe g NIS2-Richtlinie (2022/2555/EU)** verlangt von den betroffenen Einrichtungen, dass ihre Risikoanalyse und ihre Sicherheitsmanagementmaßnahmen **die Sicherheit der Lieferkette** berücksichtigen. Dazu gehören auch Risiken, die durch Lieferanten, Dienstleister oder Unterauftragnehmer entstehen können.
+
+**Wichtig für Sie als Mittelständler:**  
+- Prüfen Sie zunächst, ob Ihr Unternehmen überhaupt unter die NIS2 fällt (Größe, Sektor, Kritischerkeit). Nur dann besteht diese Pflicht.  
+- Die Umsetzung erfolgt national, z. B. durch das in Deutschland geplante **NIS2UmsuCG** bzw. Änderungen des BSI-Gesetzes.  
+- Als Best Practice kann die **ISO/IEC 27001** herangezogen werden, die auch Lieferkettenrisiken (z. B. im Annex A, Kontrolle 5.19) adressiert.
+
+Empfehlung: Führen Sie eine Lieferkette-Risikoanalyse durch und prüfen Sie die Sicherheitspraktiken Ihrer kritischen Lieferanten.";"Ja; §30 Abs.2 Nr.4 BSIG [verifiziert] / Art.21(2)(d) NIS2 [pruefen]: Sicherheit der Lieferkette.";;
+nis2-05;nis2;Geschäftsleitung;0.0;Was sind die persönlichen Pflichten der Geschäftsleitung nach BSIG? Nenne die Paragrafen.;"
+
+Da bin ich mir leider nicht sicher, was genau gemeint ist, und möchte nichts Falsches behaupten.
+
+Falls du das **BSI-Gesetz (BSIG)** meinst – also das Gesetz über das Bundesamt für Sicherheit in der Informationstechnik –, so gibt es dort meines Wissens keine ausdrücklich so bezeichneten „persönlichen Pflichten der Geschäftsleitung"". Das Gesetz richtet sich in erster Linie an **Betreiber Kritischer Infrastrukturen** und sieht dort Pflichten wie Risikomanagement, Umsetzung von Sicherheitsmaßnahmen und Meldepflichten bei Sicherheitsvorfällen vor (grob §§ 8a ff. BSIG). Ob und wie diese Pflichten konkret der Geschäftsleitung persönlich zugeordnet werden, kann ich nicht zuverlässig wiedergeben.
+
+Könntest du mir kurz sagen:
+1. Meinst du wirklich das BSI-Gesetz, oder vielleicht ein anderes Gesetz (z. B. aus Österreich oder der Schweiz)?
+2. In welchem Zusammenhang bist du auf die Frage gestoßen (z. B. Prüfung, Weiterbildung, Compliance)?
+
+Dann kann ich dir gezielter weiterhelfen – oder ehrlich sagen, wenn ich es nicht weiß.";§38 BSIG [verifiziert]: Umsetzung/Ueberwachung der Risikomassnahmen, Schulungspflicht (Abs.3).;;

@@ -1,0 +1,1230 @@
+id;suite;titel;auto_score;frage;antwort;schluessel;bewertung_1-5;notiz
+prax-01;praxis;Kanzlei: Rügefrist Software (§ 377 HGB vs. Vertrag);0.75;"Sachverhalt: Mandant (GmbH) lieferte Software an einen Kunden (ebenfalls GmbH). Der Kunde rügt drei Wochen nach Übergabe Mängel an der Benutzeroberfläche und verweigert die Zahlung. Im Vertrag steht: Rügen müssen binnen 10 Tagen schriftlich erfolgen.
+
+Frage des Associates: Wie ist die Rechtslage zur Rügefrist, und wie reagieren wir taktisch im nächsten Anwaltsschreiben?";"
+
+## Rechtslage zur Rügefrist
+
+**1. Gesetzliche Rügeobliegenheit (§ 377 HGB)**
+
+Da beide Parteien GmbHs und somit Kaufleute sind, ist zunächst § 377 HGB zu prüfen. Danach muss der Käufer die Ware nach Entdeckung eines Mangels **unverzüglich** rügen, sonst gilt die Ware als genehmigt. „Unverzüglich"" bedeutet ohne schuldhaftes Zögern. Eine Rüge nach drei Wochen ist regelmäßig nicht unverzüglich, es sei denn, der Mangel war erst zu diesem Zeitpunkt erkennbar (z. B. weil die Benutzeroberfläche erst im laufenden Betrieb auffällt).
+
+**2. Vertragliche Rügefrist (10 Tage)**
+
+Die vertragliche Klausel, die Rügen binnen 10 Tagen schriftlich verlangt, ist grundsätzlich zulässig. Ihre Wirksamkeit hängt jedoch von folgenden Umständen ab, die aus dem vorliegenden Sachverhalt **nicht ersichtlich** sind:
+
+- **Individuell vereinbart oder AGB?** Bei einer individuell ausgehandelten Klausel ist sie weitgehend wirksam. Bei einer AGB-Klausel ist zu prüfen, ob sie den Kunden unangemessen benachteiligt (§§ 305 ff. BGB).
+- **Kaufmännisches Vertrauen:** Im B2B-Bereich sind kürzere Rügefristen eher hinzunehmen als im Verbraucherrecht.
+
+**3. Folge der verspäteten Rüge**
+
+Wenn die Rüge fristverspätet ist, kann der Verkäufer die Mängelansprüche verweigern. Der Kunde verliert dann seinen Anspruch auf Nacherfüllung, Minderung oder Rücktritt. Der Zahlungsanspruch des Verkäufers bleibt bestehen.
+
+---
+
+## Taktische Empfehlung für das Anwaltsschreiben
+
+1. **Zahlungsaufforderung mit Fristsetzung** (z. B. 14 Tage): Forderung der restlichen Vergütung unter Hinweis auf die fristgerechte Rügeobliegenheit.
+
+2. **Rüge der verspäteten Mängelrüge:** Explizit darauf hinweisen, dass die Rüge nach drei Wochen die vertragliche 10-Tage-Frist (und/oder die Unverzüglichkeit nach § 377 HGB) verfehlt.
+
+3. **Vorbehalt bezüglich Erkennbarkeit:** Vorsorglich darauf hinweisen, dass selbst wenn der Mangel erst später erkennbar war, die Vertragsklausel eine absolute Frist vorsieht (falls zutreffend).
+
+4. **Keine Zugeständnisse:** Keine Anerkennung von Mängeln oder Angebot zur Nacherfüllung machen, solange die Rügefrist nicht gewahrt ist.
+
+---
+
+## Zu klärende Punkte (vor Versand prüfen)
+
+| Punkt | Relevanz |
+|---|---|
+| Ist die 10-Tage-Klausel individuell oder AGB? | Bestimmt die Wirksamkeitsprüfung |
+| Sind beide Parteien Kaufleute i. S. d. HGB? | § 377 HGB greift nur dann |
+| Wann war der Mangel konkret erkennbar? | Relevanz für „unverzüglich"" |
+| Gibt es weitere Vertragsbedingungen (z. B. Untersuchungsobliegenheit)? | Kann die Bewertung ändern |
+
+**Hinweis:** Ohne Kenntnis der vollständigen Vertragsunterlagen und der genauen Umstände der Mängelentdeckung kann ich keine verbindliche rechtliche Beurteilung abgeben. Die vorstehende Darstellung basiert ausschließlich auf dem vorgelegten Sachverhalt.";[pruefen] § 377 HGB (Rügeobliegenheit unter Kaufleuten), vertragliche Frist, AGB-Kontrolle (§ 307 BGB) falls Klausel gestellt, Einordnung Kauf/Werk, erkennbare vs. verdeckte Mängel.;;
+prax-01;praxis;Kanzlei: Rügefrist Software (§ 377 HGB vs. Vertrag);1.0;"Sachverhalt: Mandant (GmbH) lieferte Software an einen Kunden (ebenfalls GmbH). Der Kunde rügt drei Wochen nach Übergabe Mängel an der Benutzeroberfläche und verweigert die Zahlung. Im Vertrag steht: Rügen müssen binnen 10 Tagen schriftlich erfolgen.
+
+Frage des Associates: Wie ist die Rechtslage zur Rügefrist, und wie reagieren wir taktisch im nächsten Anwaltsschreiben?";"
+
+## Rechtliche Einordnung der Rügefrist
+
+### 1. Anwendbare Normen
+
+Da beide Parteien Kaufleute (GmbHs) sind, greift primär **§ 377 HGB** (Rügeobliegenheit beim Handelsgeschäft):
+
+- Der Käufer muss die Ware **unverzüglich** nach Entdeckung des Mangels rügen.
+- „Unverzüglich"" bedeutet „ohne schuldhaftes Zögern"" – in der Praxis meist wenige Werktage.
+
+Die vertragliche Rügefrist von **10 Tagen schriftlich** ist eine **vertragliche Verkürzung/Präzisierung** dieser gesetzlichen Obliegenheit. Solche Klauseln sind im B2B-Bereich grundsätzlich **zulässig**, sofern sie nicht unangemessen benachteiligend sind.
+
+### 2. Wichtige Prüfungspunkte
+
+| Prüfpunkt | Relevanz |
+|-----------|----------|
+| **Individualvereinbarung oder AGB?** | Bei AGB-Klauseln greift die Inhaltskontrolle nach §§ 305 ff. BGB; eine starre 10-Tage-Frist für UI-Mängel könnte als unangemessen gelten, wenn die Mängel nicht bei normaler Nutzung sofort erkennbar sind. |
+| **Wann war der Mangel erkennbar?** | UI-Mängel (z. B. Layout-Fehler, Funktionsfehler) sind oft erst bei intensiver Nutzung oder unter bestimmten Bedingungen sichtbar. Die 10 Tage laufen ab **Erkennbarkeit**, nicht ab Übergabe. |
+| **War die Rüge „unverzüglich"" i.S.d. § 377 HGB?** | Auch ohne vertragliche Frist: 3 Wochen nach Übergabe ist tendenziell **nicht unverzüglich**, es sei denn, der Mangel war erst spät erkennbar. |
+
+### 3. Rechtsfolge der verspäteten Rüge
+
+- Bei **Kaufvertrag**: Der Verkäufer kann die **Einrede der verspäteten Rüge** erheben (§ 377 Abs. 3 HGB). Der Käufer verliert dann seine Mängelrechte (Gewährleistung), soweit nicht Arglist des Verkäufers vorliegt.
+- Bei **Werkvertrag** (falls individuelle Softwareentwicklung): § 640 BGB (Abnahme) und § 634 BGB; eine vertragliche Rügefrist kann hier ebenfalls wirksam sein, die Rechtsfolgen sind aber etwas anders gelagert.
+
+**Wichtig:** Ich kann ohne Einsicht in den Vertragswortlaut (insb. AGB vs. Individualabrede) und ohne Kenntnis des genauen Sachverhalts zur Erkennbarkeit der Mängel **keine abschließende rechtliche Bewertung** vornehmen.
+
+---
+
+## Taktische Empfehlung für das Anwaltsschreiben
+
+### Sofortige Schritte:
+1. **Vertrag prüfen**: Ist die 10-Tage-Klausel eine Individualvereinbarung oder AGB? Falls AGB: Angemessenheitsprüfung.
+2. **Mängellage klären**: Welche UI-Mängel genau? Wann waren sie erkennbar? Gab es eine Testphase oder Abnahme?
+3. **Kommunikation mit Mandanten abstimmen**: Hat der Kunde den Mangel jemals schriftlich gerügt? Liegt eine formelle Mängelrüge vor?
+
+### Inhalt des Anwaltsschreibens:
+
+**Kernaussage:**
+- Erhebung der **Einrede der verspäteten Rüge** / Erfüllung der vertraglichen Rügeobliegenheit nicht erfolgt.
+- Aufforderung zur **sofortigen Zahlung** unter Setzung einer kurzen Frist (z. B. 7–14 Tage).
+- Vorbehalt weiterer Rechtsbehelfe.
+
+**Mögliche Argumentation:**
+- Die vertragliche Rügefrist von 10 Tagen ist abgelaufen (3 Wochen = 21 Tage > 10 Tage).
+- Alternativ: Selbst unter § 377 HGB wäre die Rüge nicht „unverzüglich"" erfolgt, da die Mängel bereits bei Übergabe erkennbar gewesen sein müssten (UI-Mängel sind in der Regel bei normaler Nutzung erkennbar).
+- **Einschränkung**: Falls der Kunde darlegen kann, dass die Mängel erst später erkennbar waren (z. B. bestimmte Browser, bestimmte Nutzungsszenarien), könnte die Frist später begonnen haben. Darauf sollten wir uns einstellen.
+
+### Was wir **nicht** tun sollten:
+- Keine Anerkennung der Mängelhaftung.
+- Keine Teilzahlung oder Kulanz ohne Anweisung des Mandanten.
+- Keine emotionalen Formulierungen – sachlich bleiben.
+
+### Offene Fragen, die wir klären müssen:
+1. **Vertragstyp**: Kaufvertrag (Standardsoftware) oder Werkvertrag (individuelle Entwicklung)?
+2. **Klauselcharakter**: Individualabrede oder AGB?
+3. **Abnahme**: Wurde eine förmliche Abnahme durchgeführt? Falls ja, Beginn der Rügefrist ab Abnahme.
+4. **Mängelbeschreibung**: Welche konkreten UI-Mängel? Wann erstmals aufgetreten?
+5. **Kommunikation**: Gab es zwischen den Parteien vorab informelle Rügen?
+
+---
+
+**Hinweis:** Meine Antwort basiert auf dem allgemeinen deutschen Rechtstand bis Juni 2026. Für eine verbindliche rechtliche Bewertung ist die Prüfung des konkreten Vertragswortlauts und des vollständigen Sachverhalts erforderlich. Falls der Mandant die Software individuell entwickeln ließ oder es sich um AGB handelt, kann die Bewertung abweichen – in diesem Fall bitte ich um Übermittlung der relevanten Vertragsdokumente.";[pruefen] § 377 HGB (Rügeobliegenheit unter Kaufleuten), vertragliche Frist, AGB-Kontrolle (§ 307 BGB) falls Klausel gestellt, Einordnung Kauf/Werk, erkennbare vs. verdeckte Mängel.;;
+prax-01;praxis;Kanzlei: Rügefrist Software (§ 377 HGB vs. Vertrag);1.0;"Sachverhalt: Mandant (GmbH) lieferte Software an einen Kunden (ebenfalls GmbH). Der Kunde rügt drei Wochen nach Übergabe Mängel an der Benutzeroberfläche und verweigert die Zahlung. Im Vertrag steht: Rügen müssen binnen 10 Tagen schriftlich erfolgen.
+
+Frage des Associates: Wie ist die Rechtslage zur Rügefrist, und wie reagieren wir taktisch im nächsten Anwaltsschreiben?";"
+
+## Rechtslage zur Rügefrist
+
+Die Beurteilung hängt maßgeblich von der **Vertragsqualifikation** und der **Kaufmannseigenschaft** beider Parteien ab:
+
+### 1. Kaufvertrag zwischen Kaufleuten (§§ 377, 378 HGB)
+Wenn es sich um einen Kaufvertrag über Software handelt und beide Parteien Kaufleute sind (GmbH, die ein Handelsgewerbe betreibt), gilt § 377 HGB. Der Käufer muss die Ware unverzüglich nach Ablieferung untersuchen und erkennbare Mängel unverzüglich rügen. Die vertragliche Klausel (10 Tage, schriftlich) verkürzt die gesetzliche Frist. Solche Verkürzungen sind grundsätzlich zulässig, müssen aber **angemessen** sein. 10 Tage können bei Software angemessen sein, insbesondere wenn die UI Mängel offensichtlich sind.
+
+**Folge einer verspäteten Rüge:** Der Verkäufer kann die Mängelrechte des Käufers ausschließen, es sei denn, er kannte den Mangel oder garantierte ihn (§ 377 Abs. 3 HGB).
+
+### 2. Werkvertrag (§§ 633 ff. BGB)
+Bei individueller Softwareentwicklung tendiert die Rechtsprechung oft zum Werkvertrag. In diesem Fall gilt **keine gesetzliche Rügefrist** wie § 377 HGB. Die Mängelansprüche verjähren nach § 634a BGB (regelmäßig 2 Jahre). Die vertragliche 10-Tage-Klausel wäre dann eine **Ausschlussfrist**, die grundsätzlich zulässig ist, aber der Inhaltskontrolle (§ 307 BGB) unterliegen kann, wenn es sich um AGB handelt.
+
+### 3. Was ich nicht sicher weiß
+Ohne den vollständigen Vertragstext und Kenntnis der genauen Vertragsgegenstands (Standardsoftware vs. individuelle Entwicklung) kann ich die Qualifikation nicht sicher vornehmen. Auch ob die 10-Tage-Frist als AGB oder individuelle Klausel zu werten ist, ist mir nicht bekannt.
+
+---
+
+## Taktische Empfehlung für das Anwaltsschreiben
+
+1. **Prüfung der Fristangemessenheit:** Argumentieren, dass 10 Tage für die Prüfung von UI-Mängeln nicht angemessen waren, insbesondere wenn die Mängel erst bei tieferer Prüfung erkennbar waren.
+
+2. **Mangel nicht offensichtlich:** Falls die UI-Mängel nicht ohne Weiteres erkennbar waren, argumentieren, dass die Rügefrist erst mit Erkennbarkeit der Mängel zu laufen beginnt.
+
+3. **Verweigerung der Zahlung zurückweisen:** Unabhängig von der Rügefrist sollten Sie die Mängelrüge substantiiert prüfen und ggf. auf Nachbesserung bestehen, um eine vollständige Zahlungsverweigerung des Kunden nicht zu legitimieren.
+
+4. **Dokumentation:** Sichern Sie alle Kommunikationsunterlagen und prüfen Sie, ob die schriftliche Rügeform tatsächlich eingehalten wurde.
+
+**Empfehlung:** Ich rate, den vollständigen Vertrag und die Umstände der Softwareentwicklung einem spezialisierten Anwalt vorzulegen, um die Vertragsqualifikation und die Angemessenheit der Klausel sicherzustellen.";[pruefen] § 377 HGB (Rügeobliegenheit unter Kaufleuten), vertragliche Frist, AGB-Kontrolle (§ 307 BGB) falls Klausel gestellt, Einordnung Kauf/Werk, erkennbare vs. verdeckte Mängel.;;
+prax-01;praxis;Kanzlei: Rügefrist Software (§ 377 HGB vs. Vertrag);0.75;"Sachverhalt: Mandant (GmbH) lieferte Software an einen Kunden (ebenfalls GmbH). Der Kunde rügt drei Wochen nach Übergabe Mängel an der Benutzeroberfläche und verweigert die Zahlung. Im Vertrag steht: Rügen müssen binnen 10 Tagen schriftlich erfolgen.
+
+Frage des Associates: Wie ist die Rechtslage zur Rügefrist, und wie reagieren wir taktisch im nächsten Anwaltsschreiben?";"
+
+## Rechtslage zur Rügefrist
+
+### 1. Anwendbarkeit des kaufmännischen Rügeobliegenheitsrechts (§ 377 HGB)
+
+Da beide Parteien GmbHs sind, ist zu prüfen, ob ein **Handelsgeschäft** vorliegt. GmbHs können Kaufleute im Sinne des HGB sein, wenn sie ein Handelsgewerbe betreiben (§ 1 HGB). Softwarevertrieb kann ein Handelsgewerbe sein.
+
+Wenn § 377 HGB anwendbar ist:
+
+- Der Käufer muss die Ware **unverzüglich** nach Ablieferung rügen, sonst gilt sie als **genehmigt** (§ 377 Abs. 1 HGB).
+- „Unverzüglich"" bedeutet **ohne schuldhaftes Zögern**.
+- Eine vertragliche Frist von 10 Tagen kann als Konkretisierung des „unverzüglich"" verstanden werden, ist aber nicht zwingend identisch.
+- **Wichtig:** § 377 HGB betrifft primär **offenkundige Mängel**. Bei **verborgenen Mängeln** muss der Käufer unverzüglich nach **Entdeckung** rügen (§ 377 Abs. 1 HGB, h.M.).
+
+### 2. Vertragliche Rügefrist (10 Tage, schriftlich)
+
+Wenn die Klausel in **AGB** enthalten ist, unterliegt sie der **AGB-Kontrolle** nach §§ 305 ff. BGB:
+
+- **Im B2B-Bereich** ist der Maßstab weniger streng als im Verbraucherbereich, aber eine **unangemessene Benachteiligung** nach § 307 BGB kann auch zwischen Unternehmern vorliegen.
+- Eine Frist von 10 Tagen kann je nach **Art des Mangels** und **Erkennbarkeit** angemessen oder unangemessen sein.
+- Bei **Software** sind nicht alle Mängel sofort erkennbar (z.B. latent fehlerhafte UI-Elemente, die erst bei bestimmter Nutzung auftreten).
+- Die Rechtsprechung hat in verschiedenen Kontexten entschieden, dass sehr kurze Rügefristen problematisch sein können, insbesondere wenn Mängel **nicht sofort erkennbar** sind.
+
+### 3. Zusammenfassung der Rechtslage
+
+| Aspekt | Bewertung |
+|--------|-----------|
+| § 377 HGB | Möglicherweise anwendbar, wenn Handelsgeschäft vorliegt |
+| 10-Tage-Frist | Kann als unangemessen kurz gelten, insbesondere bei nicht sofort erkennbaren Mängeln |
+| offenkundige vs. verborgene Mängel | Bei verborgenen Mängeln gilt die Frist möglicherweise nicht in gleicher Schärfe |
+| Rechtsfolge bei Fristverletzung | Genehmigungsfiktion (§ 377 HGB) oder Verlust von Mängelrechten (vertraglich) |
+
+**Wichtige Unsicherheiten:** Ob es sich um AGB handelt, ob beide Parteien Kaufleute sind, und ob die Mängel offenkundig oder verborgen waren, sind hier nicht vollständig geklärt. Diese Punkte müssen im Einzelfall geprüft werden.
+
+---
+
+## Taktische Überlegungen für das nächste Anwaltsschreiben
+
+### 1. Prüfungsschritte vor Abfassung
+
+- **Handelsgeschäft?** → Ist § 377 HGB anwendbar?
+- **AGB?** → Ist die 10-Tage-Klausel Teil von AGB oder individuell verhandelt?
+- **Mangelart?** → Waren die UI-Mängel offenkundig (sofort erkennbar) oder verborgen (erst bei bestimmter Nutzung)?
+- **Zeitpunkt der Kenntnis?** → Wann hat der Kunde die Mängel tatsächlich entdeckt?
+
+### 2. Mögliche Argumente gegenüber dem Kunden
+
+- **Falls § 377 HGB anwendbar und Mängel offenkundig:** Die Rüge nach 3 Wochen könnte als verspätet gelten. Hier ist die Position des Mandanten **schwach**.
+- **Falls Mängel verborgen:** Der Kunde muss unverzüglich nach **Entdeckung** rügen. Wenn der Kunde die Mängel erst nach 3 Wochen entdeckt hat, ist die Rüge **rechtzeitig**. Hier ist die Position des Mandanten **stärker**.
+- **Falls AGB-Klausel:** Argumentation, dass die 10-Tage-Frist **unangemessen kurz** ist und gegen § 307 BGB verstößt, insbesondere bei nicht sofort erkennbaren Softwaremängeln.
+- **Falls Frist individuell verhandelt:** Geringerer Angriffspunkt, da § 307 BGB hier weniger streng greift.
+
+### 3. Empfohlene Herangehensweise im Anwaltsschreiben
+
+1. **Sachlich bleiben:** Auf die Mängelrüge eingehen, ohne die Fristverletzung zu ignorieren.
+2. **Position des Mandanten darlegen:** Die vertraglichen Mängelrechte (Nacherfüllung, Minderung, Rücktritt) grundsätzlich anerkennen, aber auf die Rügefrist hinweisen.
+3. **Argumentation vorbereiten:**
+   - Falls Mängel offenkundig: Auf § 377 HGB oder die vertragliche Frist verweisen.
+   - Falls Mängel verborgen: Argumentieren, dass die Rüge erst nach Entdeckung erfolgen musste und daher rechtzeitig ist.
+   - Falls AGB: Argumentation zur Unangemessenheit der Frist.
+4. **Ziel:** Möglicherweise die Zahlungsverweigerung relativieren oder eine einvernehmliche Lösung anstreben (z.B. Teilzahlung, Nacherfüllung).
+
+### 4. Wichtig
+
+Die taktische Ausrichtung hängt stark von den **konkreten Umständen** ab, die hier nicht vollständig vorliegen. Ich empfehle, die oben genannten Prüfungsschritte durchzuführen und die Argumentation entsprechend anzupassen.
+
+**Hinweis:** Diese Antwort basiert auf meinem Wissensstand und ersetzt keine individuelle Rechtsberatung. Die konkrete Fallprüfung durch die zuständige Kanzlei ist unerlässlich.";[pruefen] § 377 HGB (Rügeobliegenheit unter Kaufleuten), vertragliche Frist, AGB-Kontrolle (§ 307 BGB) falls Klausel gestellt, Einordnung Kauf/Werk, erkennbare vs. verdeckte Mängel.;;
+prax-01;praxis;Kanzlei: Rügefrist Software (§ 377 HGB vs. Vertrag);1.0;"Sachverhalt: Mandant (GmbH) lieferte Software an einen Kunden (ebenfalls GmbH). Der Kunde rügt drei Wochen nach Übergabe Mängel an der Benutzeroberfläche und verweigert die Zahlung. Im Vertrag steht: Rügen müssen binnen 10 Tagen schriftlich erfolgen.
+
+Frage des Associates: Wie ist die Rechtslage zur Rügefrist, und wie reagieren wir taktisch im nächsten Anwaltsschreiben?";"
+
+## Rechtslage zur Rügefrist
+
+### 1. Anwendbares Recht
+
+Da beide Parteien Kaufleute i.S.d. § 377 HGB sind (GmbH), gilt die **kaufmännische Untersuchungs- und Rügepflicht** nach § 377 HGB ergänzend zum Kaufvertragsrecht (§§ 433 ff. BGB).
+
+### 2. Gesetzliche Rügefrist
+
+- **Offensichtliche Mängel:** unverzüglich nach Übergabe zu rügen (§ 377 Abs. 1 HGB)
+- **Nicht offensichtliche Mängel:** unverzüglich nach Entdeckung (§ 377 Abs. 3 HGB)
+
+### 3. Vertragliche 10-Tage-Frist
+
+Die vertragliche Klausel „Rügen binnen 10 Tagen schriftlich"" ist grundsätzlich **dispositiv** – § 377 HGB ist nach herrschender Auffassung abdingbar. Eine Verkürzung auf 10 Tage ist **zulässig**, wenn:
+
+- es sich um eine **Individualvereinbarung** handelt → wirksam
+- es sich um **AGB** handelt → Prüfung nach §§ 307 ff. BGB erforderlich (Kurzfristigkeit könnte unangemessen benachteiligen, aber 10 Tage für Benutzeroberfläche-Mängel, die bei Übergabe erkennbar sind, ist in der Regel noch vertretbar)
+
+**Wichtig:** Mir liegt nicht vor, ob die Klausel individuell verhandelt oder als AGB gestellt wurde. Das muss für die endgültige Bewertung geklärt werden.
+
+### 4. Rechtsfolge der verspäteten Rüge
+
+Nach § 377 Abs. 3 S. 2 HGB gilt die Sache als **genehmigt**, wenn der Käufer nicht rechtzeitig rügt. Der Kunde verliert damit seine Mängelrechte (Nacherfüllung, Minderung, Rücktritt, Schadensersatz).
+
+Die Mängelrüge erfolgte **drei Wochen nach Übergabe** – das ist **verspätet** sowohl gegenüber der gesetzlichen als auch der vertraglichen Frist.
+
+---
+
+## Taktische Empfehlung für das Anwaltsschreiben
+
+1. **Rügeverspätung rügen:** Die Mängelanzeige ist sowohl nach § 377 HGB als auch nach der vertraglichen 10-Tage-Klausel **unverzüglich/fristgerecht nicht erfolgt**.
+
+2. **Genehmigungsfiktion in Anspruch nehmen:** Gemäß § 377 Abs. 3 S. 2 HGB gilt die Software als genehmigt.
+
+3. **Zahlungsaufforderung:** Die Kaufpreisforderung ist fällig und zahlbar. Fristsetzung zur Zahlung (z.B. 14 Tage).
+
+4. **Keine konkludente Anerkennung:** Wir sollten ausdrücklich festhalten, dass wir die Mängelrüge **zurückweisen** und keine Nacherfüllung geschuldet ist.
+
+5. **Vorbehalt:** Falls der Kunde gerichtlich vorgeht, müssten wir die Wirksamkeit der 10-Tage-Klausel (AGB-Kontrolle) verteidigen – das ist das **Hauptrisiko** in diesem Fall.
+
+---
+
+**Offene Punkte, die zu klären sind:**
+- War die 10-Tage-Klausel individuell verhandelt oder AGB?
+- Gab es bereits eine förmliche Zahlungsaufforderung vor der Mängelrüge?
+- Liegt eine schriftliche Mängelrüge des Kunden vor (Formvoraussetzung der Klausel)?";[pruefen] § 377 HGB (Rügeobliegenheit unter Kaufleuten), vertragliche Frist, AGB-Kontrolle (§ 307 BGB) falls Klausel gestellt, Einordnung Kauf/Werk, erkennbare vs. verdeckte Mängel.;;
+prax-02;praxis;Kanzlei: Kernargumente Verzug aus Gegenschriftsatz;1.0;"Sachverhalt: Die Müller GmbH (unser Mandant) und die Schulz KG vereinbarten die Lieferung von 40 Pumpen bis zum 15.01.2026. Geliefert wurde am 03.03.2026. Die Schulz KG wendet in ihrer Erwiderung ein: (1) Der Vorlieferant sei ausgefallen, sie habe die Verspätung nicht zu vertreten. (2) Es sei keine Mahnung erfolgt, Verzug sei daher nicht eingetreten. (3) Hilfsweise rechne sie mit einer Gegenforderung über 8.500 EUR auf.
+
+Aufgabe: Formuliere drei Kernargumente zur Absicherung des Verzugsanspruchs und setze der Gegenseite eine angemessene Frist.";"
+
+# Kernargumente zum Verzugsanspruch der Müller GmbH
+
+## 1. Verzug ohne Mahnung eingetreten (§ 286 Abs. 2 Nr. 1 BGB)
+
+Die Parteien vereinbarten einen **kalendermäßig bestimmten Leistungszeitpunkt** (15.01.2026). Gemäß § 286 Abs. 2 Nr. 1 BGB ist der Gläubiger bei kalendermäßiger Bestimmung des Leistungszeitpunkts **nicht auf eine Mahnung angewiesen**. Der Verzug trat daher mit Ablauf des 15.01.2026 kraft Gesetzes ein. Die Einrede der Schulz KG, keine Mahnung erfolgt sei, ist unbegründet.
+
+## 2. Vorlieferant ist kein Entlastungsgrund (§ 278 BGB)
+
+Der Ausfall eines Vorlieferanten stellt **kein von der Müller GmbH nicht zu vertretendes Umstand** im Sinne des § 280 Abs. 1 Satz 2 BGB dar. Die Beschaffung von Vorlieferungen ist ein **eigenes wirtschaftliches Risiko** des Schuldners. Die Müller GmbH hat das Verschulden des Vorlieferanten gemäß § 278 BGB zu vertreten, da dieser als Erfüllungsgehilfe bzw. Beschaffungsgehilfe anzusehen ist. Die Leistung wurde erst am 03.03.2026 erbracht – die Verzugszeit betrug somit **47 Tage** (16.01.–03.03.2026).
+
+## 3. Hilfsweiser Einwand der Aufrechnung (§ 387 BGB) – zu prüfen
+
+Die von der Schulz KG hilfsweise erklärte Aufrechnung mit einer Gegenforderung über 8.500 EUR ist **nur dann wirksam**, wenn:
+- die Gegenforderung **fällig** ist,
+- sie **dem Grunde und der Höhe nach bestimmt** ist,
+- sie **gleichartig** mit der Hauptforderung ist.
+
+Aus dem vorgelegten Sachverhalt lässt sich **nicht entnehmen**, ob die Gegenforderung bereits fällig und hinreichend bestimmt ist. Wir bitten um konkrete Bezifferung und Belegvorlage. Zudem bleibt die Aufrechnung selbst dann unschädlich für den Verzugsanspruch, soweit die Hauptforderung (Verzugszinsen/Schadensersatz) den Gegenbetrag übersteigt.
+
+---
+
+## Fristsetzung
+
+Wir fordern Sie hiermit auf, innerhalb von **14 Tagen ab Zugang dieses Schreibens** (also bis zum **19.10.2026**) Folgendes vorzulegen:
+
+1. **Belegdaten zur Gegenforderung** (Rechnung, Fälligkeitsdatum, konkrete Bezifferung des Grundes),
+2. **Erklärung zur Zahlung der Verzugszinsen** in Höhe von 5 Prozentpunkten über dem Basiszinssatz gemäß § 288 Abs. 1 BGB für die Dauer des Verzugs (16.01.–03.03.2026) bzw. auf den geschuldeten Schadensersatz.
+
+Sollte innerhalb der Frist keine Zahlung oder hinreichende Begründung erfolgen, werden wir ohne weitere Ankündigung **rechtliche Schritte** einleiten.
+
+---
+
+**Hinweis:** Über Ereignisse nach dem 18.06.2026 hinausgehende Informationen liegen mir nicht vor. Die vorliegende Einschätzung basiert ausschließlich auf dem vorgelegten Sachverhalt und dem mir bekannten Rechtsstand.";"[pruefen] § 286 Abs. 2 Nr. 1 BGB (kalendermäßig bestimmte Leistungszeit, Mahnung entbehrlich); Beschaffungsrisiko/Vorlieferant, § 276 BGB; Aufrechnung bestreiten bzw. Substantiierung.";;
+prax-02;praxis;Kanzlei: Kernargumente Verzug aus Gegenschriftsatz;1.0;"Sachverhalt: Die Müller GmbH (unser Mandant) und die Schulz KG vereinbarten die Lieferung von 40 Pumpen bis zum 15.01.2026. Geliefert wurde am 03.03.2026. Die Schulz KG wendet in ihrer Erwiderung ein: (1) Der Vorlieferant sei ausgefallen, sie habe die Verspätung nicht zu vertreten. (2) Es sei keine Mahnung erfolgt, Verzug sei daher nicht eingetreten. (3) Hilfsweise rechne sie mit einer Gegenforderung über 8.500 EUR auf.
+
+Aufgabe: Formuliere drei Kernargumente zur Absicherung des Verzugsanspruchs und setze der Gegenseite eine angemessene Frist.";"
+
+# Stellungnahme zur Erwiderung der Schulz KG
+
+## Drei Kernargumente zur Absicherung des Verzugsanspruchs
+
+### 1. Kalendermäßige Leistungszeit → Verzug ohne Mahnung (§ 286 Abs. 2 Nr. 1 BGB)
+
+Die Parteien haben die Lieferung der 40 Pumpen bis zum **15.01.2026** vereinbart. Es handelt sich somit um eine **kalendermäßig bestimmte Leistungszeit**. Gemäß § 286 Abs. 2 Nr. 1 BGB tritt der Verzug **ohne Mahnung** mit Ablauf des 15.01.2026 kraft Gesetzes ein.
+
+**Einwand der Schulz KG ist unbegründet.** Die Behauptung, es sei keine Mahnung erfolgt und daher kein Verzug eingetreten, verkennt die gesetzliche Regelung für kalendermäßig bestimmte Leistungszeiten. Die Mahnung ist hier gesetzlich entbehrlich.
+
+---
+
+### 2. Beschaffungsrisiko liegt beim Verkäufer
+
+Die Schulz KG beruft sich auf den Ausfall ihres Vorlieferanten. Dieser Einwand ist **unbegründet**, da:
+
+- Die Wahl des Vorlieferanten eine **interne Angelegenheit des Verkäufers** ist.
+- Der Verkäufer das **Beschaffungsrisiko** trägt.
+- Solange die Leistung grundsätzlich noch erbracht werden konnte (hier: tatsächliche Lieferung am 03.03.2026), liegt keine **Unmöglichkeit** (§ 275 Abs. 1 BGB) vor, die den Verkäufer von der Leistungspflicht befreien würde.
+- Der Verzug ist nicht dadurch beseitigt, dass der Verkäufer auf einen Vorlieferanten angewiesen war.
+
+---
+
+### 3. Aufrechnung nur hilfsweise und unter Vorbehalt der Prüfung
+
+Die Schulz KG erhebt **hilfsweise** Aufrechnung mit einer Gegenforderung über 8.500 EUR. Zur Beurteilung dieser Einrede sind folgende Voraussetzungen des §§ 387 ff. BGB zu prüfen:
+
+| Voraussetzung | Status |
+|---|---|
+| Gegenseitigkeit der Forderungen | Vorliegend gegeben (beide Parteien sind Gläubiger bzw. Schuldner) |
+| Fälligkeit der Gegenforderung | **Unbekannt** – Sachverhalt enthält keine Angabe zur Fälligkeit |
+| Begründetheit der Gegenforderung | **Unbekannt** – Art und Grundlage der Gegenforderung sind nicht dargelegt |
+| Aufrechnungsverbot | **Unbekannt** |
+
+**Hinweis:** Die Aufrechnung ist nur wirksam, wenn die Gegenforderung fällig und begründet ist. Solange dies nicht dargelegt ist, bleibt die **volle Forderung** des Mandanten bestehen. Die Aufrechnung mindert die Forderung lediglich um den Aufrechnungsbetrag, beseitigt sie nicht.
+
+---
+
+## Fristsetzung
+
+Der Schulz KG wird hiermit eine **Frist von 14 Tagen** zur Stellungnahme zu folgenden Punkten gesetzt:
+
+1. **Detaillierte Begründung** der behaupteten Gegenforderung über 8.500 EUR (Art, Grundlage, Fälligkeit).
+2. **Nachweis**, dass die Gegenforderung begründet und fällig ist.
+3. **Erklärung**, ob die Aufrechnung form- und fristgerecht erklärt wurde (§ 388 BGB).
+
+Sollte innerhalb der Frist keine ausreichende Stellungnahme erfolgen, wird der Mandant die **volle Forderung** ohne Abzug geltend machen und die Zahlung fristgerecht einfordern.
+
+---
+
+*Hinweis: Soweit die Gegenforderung der Schulz KG nicht hinreichend substantiiert ist, bleibt die Forderung des Mandanten in voller Höhe bestehen. Eine abschließende Beurteilung der Aufrechnung ist erst nach Vorlage der erforderlichen Angaben möglich.*";"[pruefen] § 286 Abs. 2 Nr. 1 BGB (kalendermäßig bestimmte Leistungszeit, Mahnung entbehrlich); Beschaffungsrisiko/Vorlieferant, § 276 BGB; Aufrechnung bestreiten bzw. Substantiierung.";;
+prax-02;praxis;Kanzlei: Kernargumente Verzug aus Gegenschriftsatz;1.0;"Sachverhalt: Die Müller GmbH (unser Mandant) und die Schulz KG vereinbarten die Lieferung von 40 Pumpen bis zum 15.01.2026. Geliefert wurde am 03.03.2026. Die Schulz KG wendet in ihrer Erwiderung ein: (1) Der Vorlieferant sei ausgefallen, sie habe die Verspätung nicht zu vertreten. (2) Es sei keine Mahnung erfolgt, Verzug sei daher nicht eingetreten. (3) Hilfsweise rechne sie mit einer Gegenforderung über 8.500 EUR auf.
+
+Aufgabe: Formuliere drei Kernargumente zur Absicherung des Verzugsanspruchs und setze der Gegenseite eine angemessene Frist.";"
+
+# Stellungnahme: Verzugssicherung und Fristsetzung
+
+**Mandant:** Müller GmbH (Verkäuferin)
+**Gegner:** Schulz KG (Käuferin)
+**Vertragsgegenstand:** 40 Pumpen, Liefertermin: 15.01.2026
+**Tatsächliche Lieferung:** 03.03.2026
+
+---
+
+## I. Drei Kernargumente zur Verzugssicherung
+
+### 1. Verzug ohne Mahnung gemäß § 286 Abs. 2 Nr. 1 BGB
+
+Der vereinbarte Liefertermin vom **15.01.2026** ist eine **kalendermäßig bestimmte Leistungszeit**. Nach § 286 Abs. 2 Nr. 1 BGB tritt der Verzug **ohne Mahnung** mit Ablauf des 15.01.2026, also ab dem **16.01.2026**, ein.
+
+**Entgegnung auf Einwand (2):** Der Einwand der Schulz KG, es sei keine Mahnung erfolgt, ist **unbegründet**. Die Mahnungserfordernis des § 286 Abs. 1 BGB ist durch die kalendermäßige Bestimmung verdrängt.
+
+### 2. Vorlieferant-Ausfall begründet keinen Verzugsausschluss
+
+Der Einwand des ausgefallenen Vorlieferanten (Einwand 1) ist **rechtlich irrelevant**:
+
+- Der Schuldner trägt das **Lieferkettenrisiko** selbst.
+- Ein Vorlieferant-Ausfall ist **kein Leistungshindernis** im Sinne des § 275 Abs. 1 BGB, da die Leistung (Lieferung der Pumpen) **tatsächlich erbracht** wurde – nur verspätet.
+- Ein bloßes Leistungsunvermögen (§ 275 Abs. 2 BGB) **befreit nicht** von der Leistungspflicht, sondern begründet gerade den Verzug.
+- Es liegt kein Fall der **Unmöglichkeit** vor, da die Lieferung letztlich erfolgte.
+
+**Fazit:** Die Müller GmbH ist in Verzug seit dem 16.01.2026.
+
+### 3. Aufrechnung der Schulz KG ist unwirksam
+
+Der hilfsweise erhobene Aufrechnungseinwand (Einwand 3) ist **zurückzuweisen**, da:
+
+- Die Schulz KG die **Fälligkeit, Bestimmtheit und Liquidität** ihrer Gegenforderung in Höhe von 8.500 EUR **nicht substantiiert dargelegt** hat.
+- Eine Aufrechnung nach § 387 BGB setzt voraus, dass die Gegenforderung **fällig und liquide** ist.
+- Ohne Nachweis dieser Voraussetzungen ist die Aufrechnung **unwirksam**.
+- Zudem ist die Aufrechnung nur mit einer **Geldforderung** gegen einen **Geldanspruch** (Kaufpreis) möglich – dies ist zwar grundsätzlich der Fall, aber die Gegenforderung muss dennoch **bestehen und fällig** sein.
+
+**Fristsetzung:**
+
+Wir fordern die Schulz KG auf, **innerhalb von 14 Tagen** ab Zugang dieses Schreibens:
+
+1. Den **Kaufpreis** für die 40 Pumpen zu zahlen,
+2. Die **Gegenforderung in Höhe von 8.500 EUR** **substantiiert** darzulegen (Fälligkeit, Rechtsgrundlage, Nachweis),
+3. Eine **Erklärung zur Wirksamkeit der Aufrechnung** abzugeben.
+
+Sollten die Anforderungen nicht fristgerecht erfüllt werden, behalten wir uns vor, **Verzugszinsen** gemäß § 288 BGB, **Anwaltskosten** und weitere **Schadensersatzansprüche** geltend zu machen.
+
+---
+
+**Hinweis:** Die Frist von 14 Tagen ist als angemessen anzusehen. Die konkrete Zinshöhe und etwaige weitergehende Schadensersatzansprüche hängen von weiteren Tatsachen ab (z.B. Höhe des Kaufpreises, Verzugsschaden), die im vorliegenden Sachverhalt nicht angegeben sind.";"[pruefen] § 286 Abs. 2 Nr. 1 BGB (kalendermäßig bestimmte Leistungszeit, Mahnung entbehrlich); Beschaffungsrisiko/Vorlieferant, § 276 BGB; Aufrechnung bestreiten bzw. Substantiierung.";;
+prax-02;praxis;Kanzlei: Kernargumente Verzug aus Gegenschriftsatz;1.0;"Sachverhalt: Die Müller GmbH (unser Mandant) und die Schulz KG vereinbarten die Lieferung von 40 Pumpen bis zum 15.01.2026. Geliefert wurde am 03.03.2026. Die Schulz KG wendet in ihrer Erwiderung ein: (1) Der Vorlieferant sei ausgefallen, sie habe die Verspätung nicht zu vertreten. (2) Es sei keine Mahnung erfolgt, Verzug sei daher nicht eingetreten. (3) Hilfsweise rechne sie mit einer Gegenforderung über 8.500 EUR auf.
+
+Aufgabe: Formuliere drei Kernargumente zur Absicherung des Verzugsanspruchs und setze der Gegenseite eine angemessene Frist.";"
+
+**Kernargumente zur Absicherung des Verzugsanspruchs:**
+
+1. **Verzug ohne Mahnung (§ 286 Abs. 2 Nr. 1 BGB):** Der Liefertag 15.01.2026 war kalendermäßig bestimmt. Bei einem kalendermäßig bestimmten Leistungszeitpunkt tritt der Schuldner ohne vorherige Mahnung in Verzug. Die Einwendung der Schulz KG, es sei keine Mahnung erfolgt, ist daher unbegründet. Der Verzug ist am 16.01.2026 eingetreten.
+
+2. **Vorlieferantenausfall kein Entschuldigungsgrund (§ 276 Abs. 2 BGB):** Die Schulz KG hat das Beschaffungsrisiko für die 40 Pumpen zu tragen. Der Ausfall ihres Vorlieferanten ist kein von ihr nicht zu vertretender Umstand im Sinne des § 286 BGB. Das Verschulden ihrer Vorlieferanten ist ihr gemäß § 276 Abs. 2 BGB zuzurechnen. Die Verspätung bleibt ihr daher zuzurechnen.
+
+3. **Hilfsweise: Aufrechnung unwirksam:** Die hilfsweise erklärte Aufrechnung mit einer Gegenforderung über 8.500 EUR ist nur wirksam, wenn die Gegenforderung fällig und unbestritten oder rechtskräftig festgestellt ist. Bis zum Nachweis der Fälligkeit und unbestrittenen Bestehens der Gegenforderung bleibt die Aufrechnung unwirksam. Die Verzugszinsen und Schadensersatzansprüche der Müller GmbH bleiben unberührt.
+
+**Fristsetzung:**
+
+Wir fordern Sie auf, innerhalb von **14 Tagen ab Zugang dieses Schreibens** den offenen Betrag nebst Verzugszinsen (§ 288 BGB) zu begleichen. Sollte die Frist fruchtlos verstreichen, werden wir ohne weitere Ankündigung rechtliche Schritte einleiten, einschließlich der Geltendmachung von Verzugszinsen, Schadensersatz und ggf. der Einrede des nicht erfüllten Vertrags.";"[pruefen] § 286 Abs. 2 Nr. 1 BGB (kalendermäßig bestimmte Leistungszeit, Mahnung entbehrlich); Beschaffungsrisiko/Vorlieferant, § 276 BGB; Aufrechnung bestreiten bzw. Substantiierung.";;
+prax-02;praxis;Kanzlei: Kernargumente Verzug aus Gegenschriftsatz;1.0;"Sachverhalt: Die Müller GmbH (unser Mandant) und die Schulz KG vereinbarten die Lieferung von 40 Pumpen bis zum 15.01.2026. Geliefert wurde am 03.03.2026. Die Schulz KG wendet in ihrer Erwiderung ein: (1) Der Vorlieferant sei ausgefallen, sie habe die Verspätung nicht zu vertreten. (2) Es sei keine Mahnung erfolgt, Verzug sei daher nicht eingetreten. (3) Hilfsweise rechne sie mit einer Gegenforderung über 8.500 EUR auf.
+
+Aufgabe: Formuliere drei Kernargumente zur Absicherung des Verzugsanspruchs und setze der Gegenseite eine angemessene Frist.";"
+
+# Kernargumente zur Absicherung des Verzugsanspruchs
+
+## Argument 1: Kalendermäßig bestimmter Liefertermin — Verzug ohne Mahnung (§ 286 Abs. 2 Nr. 1 BGB)
+
+Der Kaufvertrag sah die Lieferung bis zum **15.01.2026** vor. Es handelt sich um einen **kalendermäßig bestimmten Termin**. Nach § 286 Abs. 2 Nr. 1 BGB kommt der Schuldner **ohne Mahnung** in Verzug, wenn ein bestimmter Kalendertag vereinbart ist und die Leistung nicht fristgerecht erbracht wird.
+
+Die Lieferung erfolgte erst am **03.03.2026**, also rund **47 Tage nach** dem vereinbarten Termin. Der Einwand der Schulz KG, es sei keine Mahnung erfolgt, ist daher **rechtlich unbeachtlich**. Der Verzug ist **automatisch** mit dem 16.01.2026 eingetreten.
+
+> **Rechtsfolge:** Der Schuldner ist ab dem 16.01.2026 im Verzug; Verzugszinsen (§ 288 Abs. 1 BGB) und Schadensersatzansprüche (§ 280 Abs. 1, Abs. 2, § 286 BGB) stehen zu.
+
+---
+
+## Argument 2: Vorlieferant-Ausfall ist kein Verschuldensausschluss
+
+Die Schulz KG trägt das **Beschaffungsrisiko** für die Lieferung. Sie ist gegenüber dem Vorlieferanten verpflichtet und muss ihre Pflichten aus dem Kaufvertrag mit der Müller GmbH **selbst** erfüllen.
+
+Ein **Vorlieferant-Ausfall** begründet grundsätzlich **keinen Entschuldigungsgrund**, es sei denn:
+
+- die Schulz KG hat **ordnungsgemäß gemahnt** und der Vorlieferant hat dennoch nicht geliefert (dann ggf. §§ 284, 286 Abs. 2 Nr. 1 BGB i.V.m. § 313 BGB, **Wegfall der Geschäftsgrundlage**), oder
+- die Schulz KG hat **redlich und fristgerecht** nach Ersatzbeschaffung gesucht und dokumentiert.
+
+Die Schulz KG hat ihre **Darlegungs- und Beweislast** für eine Entlastungsgründe nach § 280 Abs. 1 S. 2 BGB **nicht** erfüllt. Der bloße Hinweis auf einen ausgefallenen Vorlieferanten genügt **nicht**.
+
+> **Rechtsfolge:** Die Verspätung ist der Schulz KG **zuzurechnen**; Schadensersatzansprüche bleiben bestehen.
+
+---
+
+## Argument 3: Fristsetzung zur Nacherfüllung und Aufrechnungserklärung
+
+Zur Wahrung der Rechte aus § 323 BGB (Rücktritt) und § 324 BGB (Schadensersatz statt der Leistung) setzen wir der Schulz KG eine **angemessene Frist** zur Nacherfüllung bzw. Abrechnung.
+
+Gleichzeitig weisen wir darauf hin, dass die **Gegenforderung über 8.500 EUR** durch **Aufrechnungserklärung** (§ 387 ff. BGB) geltend zu machen ist. Eine bloße „hilfsweise Aufrechnung“ in der Erwiderung **ohne Aufrechnungserklärung** gegenüber der Müller GmbH ist **rechtlich unwirksam**. Die Schulz KG muss ihre Aufrechnungserklärung **schriftlich und eindeutig** gegenüber der Müller GmbH abgeben.
+
+> **Rechtsfolge:** Die Müller GmbH behält sich vor, nach Fristablauf **Rücktritt** oder **Schadensersatz** geltend zu machen.
+
+---
+
+# Fristsetzung
+
+**Wir setzen der Schulz KG hiermit eine Frist von 14 Tagen ab Zugang dieses Schreibens zur:**
+
+1. **Nacherfüllung:** Stellungnahme zur Verspätung und Mitteilung, ob die Lieferung der 40 Pumpen noch erfolgen wird, oder
+2. **Abrechnung:** Abrechnung der Gegenforderung über 8.500 EUR und **Aufrechnungserklärung** im Sinne des § 387 BGB gegenüber der Müller GmbH.
+
+**Nach fruchtlosem Ablauf der Frist** behält sich die Müller GmbH vor:
+
+- Verzugszinsen ab dem 16.01.2026 geltend zu machen (§ 288 Abs. 1 BGB),
+- Schadensersatzansprüche wegen der Verspätung zu prüfen (§§ 280, 286 BGB),
+- vom Kaufvertrag **Rücktritt** zu erklären (§ 323 BGB), sofern die Frist zur Nacherfüllung erfolglos abgelaufen ist,
+- die **Aufrechnungserklärung** der Schulz KG als **unwirksam** zurückzuweisen, da keine ordnungsgemäße Aufrechnung vorliegt.
+
+Mit freundlichen Grüßen  
+**[Kanzlei]**
+
+---
+
+*Hinweis: Diese Einschätzung beruht auf dem vorliegenden Sachverhalt. Es ist zu prüfen, ob vertragliche Abreden (z. B. Verjährungsfristen, Gerichtsstand, vereinbarte Verzugszinsen) vorliegen, die abweichende Rechtsfolgen begründen könnten.*";"[pruefen] § 286 Abs. 2 Nr. 1 BGB (kalendermäßig bestimmte Leistungszeit, Mahnung entbehrlich); Beschaffungsrisiko/Vorlieferant, § 276 BGB; Aufrechnung bestreiten bzw. Substantiierung.";;
+prax-03;praxis;Kanzlei: Haftungsklausel AGB-Prüfung;1.0;"Prüfe diese Klausel aus Allgemeinen Geschäftsbedingungen eines IT-Dienstleisters gegenüber Unternehmern auf Fallstricke nach deutschem AGB-Recht:
+
+""Die Haftung des Auftragnehmers ist in allen Fällen auf den Auftragswert beschränkt. Für leichte Fahrlässigkeit wird nicht gehaftet.""";"
+
+# Prüfung der Haftungsklausel nach deutschem AGB-Recht
+
+## Ausgangslage
+
+Die Klausel stammt aus AGB eines IT-Dienstleisters und richtet sich an **Unternehmer** (§ 310 Abs. 1 BGB). Die Inhaltskontrolle richtet sich daher primär nach § 307 BGB; die zwingenden Verbotsvorschriften der §§ 308, 309 BGB finden nur eingeschränkte Anwendung.
+
+---
+
+## 1. Pauschale Haftungsbeschränkung auf den Auftragswert „in allen Fällen""
+
+Diese Formulierung ist in mehrfacher Hinsicht angreifbar:
+
+- **Vorsatz und grobe Fahrlässigkeit:** Eine Haftungsbeschränkung oder -ausschluss für Vorsatz und grobe Fahrlässigkeit ist nach § 309 Nr. 7 BGB (und im Unternehmerkontext nach § 307 Abs. 1, Abs. 2 Nr. 2 BGB) **regelmäßig unwirksam**. Das Wort „in allen Fällen"" erfasst auch diese Haftungsformen und ist daher mindestens insoweit nichtig.
+- **Leben, Körper, Gesundheit:** Ein Ausschluss der Haftung für Schäden aus der Verletzung von Leben, Körper oder Gesundheit ist zwinglich unwirksam (§ 309 Nr. 7a BGB; im Unternehmerkontext nach § 307 Abs. 2 Nr. 1 BGB).
+- **Kardinalpflichten:** Bei wesentlichen Vertragspflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertrauen darf, ist eine Beschränkung auf den Auftragswert nach § 307 Abs. 2 Nr. 1 BGB **unangemessen**, wenn die Erreichung des Vertragszwecks gefährdet ist. Bei einem IT-Dienstleister wären dies z. B. die Gewährleistung der vereinbarten Funktionalität, der Datenschutz oder die IT-Sicherheit.
+- **Pauschalität:** Der Begriff „in allen Fällen"" ohne Differenzierung nach Verschuldensgrad oder Schadenskategorie verstößt gegen das Transparenzgebot (§ 307 Abs. 1 S. 2 BGB) und ist als unangemessene Benachteiligung zu werten.
+
+**Ergebnis:** Die Klausel ist in weiten Teilen **unwirksam**.
+
+---
+
+## 2. Haftungsausschluss für leichte Fahrlässigkeit
+
+- **Hauptleistungspflichten:** Ein vollständiger Haftungsausschluss für leichte Fahrlässigkeit bei der Verletzung wesentlicher Vertragspflichten ist nach § 307 Abs. 2 Nr. 1 BGB **unwirksam**, da er den Vertragszweck vereiteln und den Vertragspartner unangemessen benachteiligen würde. Bei einem IT-Dienstleister betrifft dies z. B. die vertraglich geschuldete Leistung selbst (z. B. fehlerhafte Software, unzureichende Systemverfügbarkeit).
+- **Nebenpflichten:** Ein Haftungsausschluss für leichte Fahrlässigkeit bei rein nebenpflichtlichen Verpflichtungen kann in engen Grenzen zulässig sein, ist aber in der vorliegenden Pauschalierung („in allen Fällen"") ebenfalls nicht zu halten.
+- **Vorsatz/grobe Fahrlässigkeit:** Auch hier gilt: Ein Ausschluss ist unwirksam.
+
+**Ergebnis:** Der pauschale Haftungsausschluss für leichte Fahrlässigkeit ist **in der vorliegenden Form unwirksam**.
+
+---
+
+## 3. Zusammenfassung der Fallstricke
+
+| Fallstrick | Rechtsgrundlage | Bewertung |
+|---|---|---|
+| Pauschale Beschränkung „in allen Fällen"" | § 307 Abs. 1, Abs. 2 Nr. 1, 2 BGB; § 309 Nr. 7 BGB (analog) | **Unwirksam** |
+| Haftung für Vorsatz/grobe Fahrlässigkeit nicht ausgenommen | § 307 Abs. 2 Nr. 2 BGB; § 309 Nr. 7 BGB | **Unwirksam** |
+| Keine Ausnahme für Leben, Körper, Gesundheit | § 309 Nr. 7a BGB; § 307 Abs. 2 Nr. 1 BGB | **Unwirksam** |
+| Pauschaler Ausschluss für leichte Fahrlässigkeit (Hauptpflichten) | § 307 Abs. 2 Nr. 1 BGB | **Unwirksam** |
+| Transparenzgebot verletzt | § 307 Abs. 1 S. 2 BGB | **Unwirksam** |
+
+---
+
+## 4. Hinweis
+
+- Die vorstehende Prüfung ist eine **allgemeine rechtliche Einschätzung** auf Basis des vorgelegten Wortlauts und ersetzt keine individuelle Beratung im konkreten Einzelfall.
+- Es ist nicht ausgeschlossen, dass im konkreten Vertragszusammenhang ergänzende Klauseln, individuelle Vereinbarungen oder besondere Umstände die Bewertung beeinflussen. **Bitte teilen Sie mit, ob weitere Klauseln oder Sachverhaltsdetails vorliegen.**
+- Über Ereignisse nach dem 18.06.2026 – einschließlich möglicher neuer Rechtsprechung des BGH oder des EuGH – liegen mir keine Informationen vor.";[pruefen] §§ 307, 309 Nr. 7 BGB (Ausstrahlung auf B2B), § 276 Abs. 3 BGB (Vorsatz nicht ausschließbar), Kardinalpflichten, Leben/Körper/Gesundheit.;;
+prax-03;praxis;Kanzlei: Haftungsklausel AGB-Prüfung;1.0;"Prüfe diese Klausel aus Allgemeinen Geschäftsbedingungen eines IT-Dienstleisters gegenüber Unternehmern auf Fallstricke nach deutschem AGB-Recht:
+
+""Die Haftung des Auftragnehmers ist in allen Fällen auf den Auftragswert beschränkt. Für leichte Fahrlässigkeit wird nicht gehaftet.""";"
+
+# Prüfung der Haftungsklausel nach deutschem AGB-Recht
+
+Die vorgelegte Klausel lautet:
+
+> „Die Haftung des Auftragnehmers ist in allen Fällen auf den Auftragswert beschränkt. Für leichte Fahrlässigkeit wird nicht gehaftet.""
+
+Ich prüfe ausschließlich auf Basis dieser Klausel und der mir vorliegenden allgemeinen Rechtsgrundlagen. Weitere Sachverhaltsdetails (z. B. Art der IT-Dienstleistung, vereinbarte Kardinalpflichten, Datenschutzrelevanz) kenne ich nicht und kann sie nicht berücksichtigen.
+
+---
+
+## 1. Pauschaler Haftungsausschluss für Vorsatz – unwirksam
+
+Die Formulierung „in allen Fällen"" erfasst auch **Vorsatz**. Ein Haftungsausschluss für Vorsatz ist nach **§ 309 Nr. 7 lit. a BGB** in AGB **unwirksam**.
+
+Die Klausel ist in diesem Punkt zwingend zu korrigieren.
+
+---
+
+## 2. Pauschaler Haftungsausschluss für grobe Fahrlässigkeit – unwirksam
+
+Die Formulierung „in allen Fällen"" erfasst ebenfalls **grobe Fahrlässigkeit**. Auch hier greift **§ 309 Nr. 7 lit. b BGB**: Ein Haftungsausschluss für grobe Fahrlässigkeit ist in AGB **unwirksam**.
+
+Gleiches gilt für die **Beschränkung auf den Auftragswert**, soweit sie Vorsatz oder grobe Fahrlässigkeit betrifft.
+
+---
+
+## 3. Haftungsausschluss für leichte Fahrlässigkeit – grundsätzlich möglich, aber eingeschränkt
+
+Ein pauschaler Haftungsausschluss für **leichte Fahrlässigkeit** ist **nicht per se unwirksam**, unterliegt aber der Inhaltskontrolle nach **§ 307 BGB**:
+
+- **Nebenpflichten:** Ein Ausschluss ist in der Regel zulässig.
+- **Kardinalpflichten (wesentliche Vertragspflichten):** Ein pauschaler Ausschluss wäre nach **§ 307 Abs. 1, Abs. 2 Nr. 1 BGB** unwirksam, da er den Vertragszweck gefährden würde.
+
+Bei einem IT-Dienstleister wären typischerweise **Datenschutz, Datenintegrität und Verfügbarkeit** als Kardinalpflichten zu betrachten. Ein vollständiger Haftungsausschluss für leichte Fahrlässigkeit in diesen Bereichen wäre **unangemessen** und damit **unwirksam**.
+
+---
+
+## 4. Pauschale Beschränkung auf den Auftragswert – problematisch
+
+Die Beschränkung auf den Auftragswert ist **sehr eng** und erfasst sämtliche Schadensarten, einschließlich:
+
+- **Vermögensschäden** (z. B. Datenverlust, Ausfallkosten)
+- **Personenschäden** (z. B. wenn die IT-Dienstleistung sicherheitsrelevant ist)
+- **Mangelfolgeschäden**
+
+Nach **§ 309 Nr. 7 BGB** und **§ 309 Nr. 8 BGB** ist eine Beschränkung, die **Leben, Körper, Gesundheit** betrifft, in AGB **unwirksam**. Auch für **Vorsatz und grobe Fahrlässigkeit** ist eine solche pauschale Beschränkung unwirksam.
+
+---
+
+## Zusammenfassung der Fallstricke
+
+| Problem | Norm | Folge |
+|---------|------|-------|
+| Erfassung von Vorsatz | § 309 Nr. 7 lit. a BGB | Unwirksam |
+| Erfassung grober Fahrlässigkeit | § 309 Nr. 7 lit. b BGB | Unwirksam |
+| Pauschaler Ausschluss leichte Fahrlässigkeit bei Kardinalpflichten | § 307 BGB | Unwirksam |
+| Pauschale Beschränkung auf Auftragswert (alle Fälle) | § 309 Nr. 7, 8 BGB; § 307 BGB | Unwirksam in weiten Teilen |
+
+---
+
+## Empfehlung
+
+Die Klausel ist in der vorliegenden Form **weitgehend unwirksam** und birgt ein erhebliches **Klägerrisiko**, da unwirksame Klauseln nach **§ 306 BGB** durch die gesetzlichen Regelungen ersetzt werden, die für den Auftragnehmer **ungünstiger** sein können (z. B. volle Haftung nach §§ 280, 281 BGB ohne Obergrenzen).
+
+Eine wirksame Klausel müsste zumindest:
+
+1. **Vorsatz und grobe Fahrlässigkeit** ausdrücklich von der Beschränkung ausnehmen,
+2. den Haftungsausschluss für **leichte Fahrlässigkeit auf Nebenpflichten** begrenzen,
+3. die **Kardinalpflichten** (insbesondere Datenschutz, Datenintegrität) von einem Haftungsausschluss ausnehmen,
+4. eine **angemessene Haftungsbegrenzung** für Vermögensschäden bei leichter Fahrlässigkeit vorsehen (z. B. im Rahmen des vorhersehbaren Schadens).
+
+Ob eine konkrete Ausgestaltung wirksam ist, hängt von den **einzelnen Vertragsgestaltungen** und dem **konkreten Dienstgegenstand** ab. Dazu benötige ich weitere Informationen.";[pruefen] §§ 307, 309 Nr. 7 BGB (Ausstrahlung auf B2B), § 276 Abs. 3 BGB (Vorsatz nicht ausschließbar), Kardinalpflichten, Leben/Körper/Gesundheit.;;
+prax-03;praxis;Kanzlei: Haftungsklausel AGB-Prüfung;1.0;"Prüfe diese Klausel aus Allgemeinen Geschäftsbedingungen eines IT-Dienstleisters gegenüber Unternehmern auf Fallstricke nach deutschem AGB-Recht:
+
+""Die Haftung des Auftragnehmers ist in allen Fällen auf den Auftragswert beschränkt. Für leichte Fahrlässigkeit wird nicht gehaftet.""";"
+
+# Prüfung der Klausel nach deutschem AGB-Recht
+
+Die Klausel enthält mehrere erhebliche Fallstricke und ist in weiten Teilen voraussichtlich unwirksam.
+
+## 1. Pauschale Haftungsbegrenzung auf den Auftragswert „in allen Fällen""
+
+**Problem:** Die Formulierung „in allen Fällen"" erfasst ohne Differenzierung auch **Vorsatz und grobe Fahrlässigkeit**.
+
+- Eine Haftungsbegrenzung für **Vorsatz** ist in AGB grundsätzlich **unwirksam** (§ 307 Abs. 1, Abs. 2 Nr. 1 BGB; verstößt gegen den Grundgedanken des § 276 Abs. 3 BGB).
+- Für **grobe Fahrlässigkeit** ist eine pauschale Begrenzung auf den Auftragswert ebenfalls regelmäßig **unangemessen** (§ 307 Abs. 1, Abs. 2 Nr. 1 BGB).
+- Bei **Personenschäden** (Leben, Körper, Gesundheit) ist eine Haftungsbeschränkung in AGB nach **§ 309 Nr. 7 BGB** nur zulässig, wenn die Haftung für Vorsatz und grobe Fahrlässigkeit unberührt bleibt. Die Klausel genügt diesem Erfordernis nicht, da sie „in allen Fällen"" greift.
+
+## 2. Vollständiger Haftungsausschluss für leichte Fahrlässigkeit
+
+**Problem:** Der pauschale Ausschluss der Haftung für leichte Fahrlässigkeit ist in mehrfacher Hinsicht unwirksam:
+
+- **Bei Verletzung von Kardinalpflichten** (wesentlichen Vertragspflichten, z. B. Lieferung einer funktionsfähigen Software, Gewährleistung der Datensicherheit, Gewährleistung der Verfügbarkeit): Ein Haftungsausschluss für leichte Fahrlässigkeit ist nach ständiger Rechtsprechung des BGH **unwirksam** (§ 307 Abs. 1, Abs. 2 Nr. 1 BGB).
+- **Bei Personenschäden**: Ein Haftungsausschluss für leichte Fahrlässigkeit ist in AGB nach **§ 309 Nr. 7 BGB** grundsätzlich **unwirksam**.
+- **Bei Sachschäden**: Ein pauschaler Ausschluss auch bei Kardinalpflichten ist **unangemessen**.
+
+## 3. Fehlende Differenzierung
+
+Die Klausel unterscheidet nicht zwischen:
+- **Verschuldensgraden** (Vorsatz, grobe Fahrlässigkeit, leichte Fahrlässigkeit)
+- **Schadensarten** (Personenschäden, Sachschäden, Vermögensschäden)
+- **Pflichtarten** (Kardinalpflichten, Nebenpflichten)
+
+Eine wirksame Haftungsklausel muss diese Differenzierungen vornehmen.
+
+## 4. Transparenzgebot (§ 307 Abs. 1 S. 2 BGB)
+
+Die Formulierung „in allen Fällen"" ist **zu unbestimmt und zu weit gefasst**. Sie verstößt gegen das Transparenzgebot, da der Vertragspartner den Umfang der Haftungsbeschränkung nicht klar erkennen kann.
+
+## 5. Zusammenfassung der Unwirksamkeit
+
+| Klauselteil | Rechtsfolge |
+|---|---|
+| Begrenzung „in allen Fällen"" auf Auftragswert | Unwirksam, soweit Vorsatz/grobe Fahrlässigkeit oder Personenschäden erfasst |
+| Ausschluss für leichte Fahrlässigkeit | Unwirksam bei Kardinalpflichten und Personenschäden |
+| Fehlende Differenzierung | Verstößt gegen § 307 Abs. 1 S. 2 BGB (Transparenz) |
+
+## Empfohlene Formulierung (als Orientierung)
+
+Eine wirksame Klausel müsste zumindest folgende Differenzierungen enthalten:
+
+1. **Vorsatz und grobe Fahrlässigkeit:** Unbeschränkte Haftung.
+2. **Leichte Fahrlässigkeit bei Kardinalpflichten:** Haftung beschränkt auf den vertragstypischen, vorhersehbaren Schaden (oder auf den Auftragswert).
+3. **Leichte Fahrlässigkeit bei Nebenpflichten:** Haftung beschränkt auf den Auftragswert oder ausgeschlossen.
+4. **Personenschäden (Leben, Körper, Gesundheit):** Unbeschränkte Haftung in allen Fällen.
+
+---
+
+**Hinweis:** Diese Einschätzung basiert auf den allgemeinen Grundsätzen des AGB-Rechts (§§ 305–310 BGB) und der ständigen Rechtsprechung des BGH. Für eine abschließende Beurteilung des konkreten Einzelfalls ist die Prüfung des gesamten Vertragswerks und der konkreten Leistungsbeschreibung erforderlich.";[pruefen] §§ 307, 309 Nr. 7 BGB (Ausstrahlung auf B2B), § 276 Abs. 3 BGB (Vorsatz nicht ausschließbar), Kardinalpflichten, Leben/Körper/Gesundheit.;;
+prax-03;praxis;Kanzlei: Haftungsklausel AGB-Prüfung;1.0;"Prüfe diese Klausel aus Allgemeinen Geschäftsbedingungen eines IT-Dienstleisters gegenüber Unternehmern auf Fallstricke nach deutschem AGB-Recht:
+
+""Die Haftung des Auftragnehmers ist in allen Fällen auf den Auftragswert beschränkt. Für leichte Fahrlässigkeit wird nicht gehaftet.""";"
+
+## Prüfung der Klausel
+
+Die Klausel enthält mehrere gravierende Fallstricke und ist in wesentlichen Teilen **unwirksam**.
+
+### 1. Haftungsausschluss für Vorsatz – unwirksam
+
+§ 309 Nr. 7 lit. a BGB verbietet den Ausschluss der Haftung für **Vorsatz**. Dies ist zwingendes Recht und gilt auch im unternehmerischen Geschäftsverkehr (B2B). Ein pauschaler Haftungsausschluss „in allen Fällen"" erfasst auch Vorsatz und ist damit **nichtig**.
+
+### 2. Haftungsausschluss für grobe Fahrlässigkeit – unwirksam
+
+§ 309 Nr. 7 lit. b BGB verbietet ebenfalls den Ausschluss der Haftung für **grobe Fahrlässigkeit**, und zwar unabhängig davon, ob der Vertragspartner Unternehmer oder Verbraucher ist. Auch dieser Teil der Klausel ist **unwirksam**.
+
+### 3. Ausschluss der Haftung für leichte Fahrlässigkeit bei Kardinalpflichten – unwirksam
+
+Der pauschale Ausschluss der Haftung für leichte Fahrlässigkeit ist problematisch, soweit **wesentliche Vertragspflichten (Kardinalpflichten)** betroffen sind. Diese Pflichtverletzung führt nach ständiger Rechtsprechung zur Unwirksamkeit des Haftungsausschlusses, da sie den Vertragszweck gefährden würde (§ 307 Abs. 2 Nr. 2 BGB i.V.m. § 309 Nr. 7 lit. c BGB). Auch im B2B-Bereich bleibt die Inhaltskontrolle nach § 307 BGB anwendbar, wenngleich die Abwägung der beiderseitigen Interessen etwas großzügiger ausfallen kann.
+
+### 4. Haftungsbegrenzung auf den Auftragswert
+
+Eine Deckelung der Haftung auf den Auftragswert ist **grundsätzlich zulässig**, greift jedoch **nicht** bei Vorsatz, grober Fahrlässigkeit oder der Verletzung wesentlicher Vertragspflichten. Insoweit ist die Begrenzung insoweit **unwirksam**, als sie diese Fälle erfassen würde.
+
+### Zusammenfassung
+
+| Teil der Klausel | Wirksamkeit |
+|---|---|
+| Haftungsausschluss für Vorsatz | ❌ Unwirksam (§ 309 Nr. 7 lit. a BGB) |
+| Haftungsausschluss für grobe Fahrlässigkeit | ❌ Unwirksam (§ 309 Nr. 7 lit. b BGB) |
+| Haftungsausschluss für leichte Fahrlässigkeit bei Kardinalpflichten | ❌ Unwirksam (§ 307 Abs. 2 Nr. 2 BGB) |
+| Haftungsbegrenzung auf den Auftragswert (bei zulässiger leichter Fahrlässigkeit, nicht-Kardinalpflichten) | ✅ Grundsätzlich zulässig |
+
+**Empfehlung:** Die Klausel sollte so umformuliert werden, dass Vorsatz und grobe Fahrlässigkeit ausdrücklich ausgenommen bleiben und die Haftungsbegrenzung klar auf Fälle der leichten Fahrlässigkeit bei Nebenpflichten begrenzt wird.";[pruefen] §§ 307, 309 Nr. 7 BGB (Ausstrahlung auf B2B), § 276 Abs. 3 BGB (Vorsatz nicht ausschließbar), Kardinalpflichten, Leben/Körper/Gesundheit.;;
+prax-03;praxis;Kanzlei: Haftungsklausel AGB-Prüfung;1.0;"Prüfe diese Klausel aus Allgemeinen Geschäftsbedingungen eines IT-Dienstleisters gegenüber Unternehmern auf Fallstricke nach deutschem AGB-Recht:
+
+""Die Haftung des Auftragnehmers ist in allen Fällen auf den Auftragswert beschränkt. Für leichte Fahrlässigkeit wird nicht gehaftet.""";"
+
+# Prüfung der Haftungsbeschränkungsklausel
+
+**Klausel:** *„Die Haftung des Auftragnehmers ist in allen Fällen auf den Auftragswert beschränkt. Für leichte Fahrlässigkeit wird nicht gehaftet.""*
+
+Die Klausel ist in mehrfacher Hinsicht angreifbar und teilweise **unwirksam**.
+
+---
+
+## 1. Unwirksamkeit hinsichtlich Vorsatz und grober Fahrlässigkeit
+
+§ 309 Nr. 7 b) und c) BGB verbieten in AGB einen Haftungsausschluss oder eine Beschränkung der Haftung für **Vorsatz** und **grobe Fahrlässigkeit**. Die Formulierung „in allen Fällen"" erfasst auch diese Fälle und ist insoweit **nichtig**.
+
+> Die Klausel muss zumindest auslegende Lesart erfahren: Die Beschränkung gilt nur für leichte Fahrlässigkeit und Pflichtverletzungen außerhalb der Kardinalpflichten.
+
+---
+
+## 2. Unwirksamkeit bei Personenschäden
+
+§ 309 Nr. 7 a) BGB verbietet einen Haftungsausschluss auch bei **leichter Fahrlässigkeit** für Schäden aus der Verletzung von **Leben, Körper oder Gesundheit**. Diese sind in der Klausel nicht ausgenommen und damit **unwirksam**.
+
+---
+
+## 3. Problem: Kardinalpflichten
+
+§ 309 Nr. 7 d) BGB und § 307 BGB verbieten eine Beschränkung der Haftung für die Verletzung von **Kardinalpflichten** auf einen Betrag, der unter dem **vorhersehbaren, vertragstypischen Schaden** liegt.
+
+Bei einem IT-Dienstleister sind typische Kardinalpflichten:
+- **Verfügbarkeit** der vereinbarten Systeme
+- **Datensicherheit** und Vertraulichkeit
+- **Funktionale Mängelfreiheit** der Software
+
+Eine pauschale Obergrenze in Höhe des **Auftragswertes** kann den vertragstypischen Schaden erheblich unterschreiten (z. B. Ausfall eines Produktionssystems mit hohem Folgeschaden). Die Klausel ist insoweit **unangemessen benachteiligend** und **unwirksam**.
+
+---
+
+## 4. Problem: Pauschale Obergrenze „Auftragswert""
+
+Selbst bei leichter Fahrlässigkeit und Nebenpflichten darf die Haftung in AGB nicht pauschal auf den **Auftragswert** begrenzt werden, wenn der vertragstypische Schaden höher ist. Die Klausel enthält keine Differenzierung nach Schadensart oder -höhe.
+
+---
+
+## 5. Hinweis: § 310 Abs. 1 BGB (Unternehmer)
+
+Da es um **Unternehmer** geht, ist die Klauselkontrolle nach § 310 Abs. 1 BGB etwas gelockert. Die §§ 305–309 BGB gelten mit Rücksicht auf die im Handelsverkehr geltenden Gewohnheiten und Gebräuche. Dennoch:
+
+- § 309 Nr. 7 BGB bleibt auch im B2B-Bereich **grundsätzlich anwendbar** (insbesondere die Kernverbote für Vorsatz, grobe Fahrlässigkeit und Personenschäden).
+- § 307 BGB gilt uneingeschränkt.
+
+Die Klausel ist daher auch gegenüber Unternehmern **in den genannten Punkten unwirksam**.
+
+---
+
+## Empfohlene Fassung (orientierend)
+
+Eine zulässige Klausel müsste mindestens folgende Elemente enthalten:
+
+1. **Vorsatz und grobe Fahrlässigkeit:** unbeschränkte Haftung.
+2. **Personenschäden:** unbeschränkte Haftung.
+3. **Kardinalpflichten:** Haftung auf den **vorhersehbaren, vertragstypischen Schaden** beschränkt (nicht pauschal auf den Auftragswert).
+4. **Nebenpflichten / leichte Fahrlässigkeit:** Haftung auf den **vorhersehbaren, vertragstypischen Schaden** beschränkt, ggf. mit einer Obergrenze (z. B. Auftragswert oder Jahresvergütung).
+5. **Transparenz:** klare Definition, welche Pflichten Kardinalpflichten sind.
+
+Beispielhaft:
+
+> *„Die Haftung des Auftragnehmers ist bei Vorsatz und grober Fahrlässigkeit unbeschränkt. Bei Verletzung von Leben, Körper oder Gesundheit ist die Haftung unbeschränkt. Bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) ist die Haftung auf den vorhersehbaren, vertragstypischen Schaden begrenzt. Bei Verletzung von Nebenpflichten durch leichte Fahrlässigkeit ist die Haftung auf den vorhersehbaren, vertragstypischen Schaden begrenzt und auf den Auftragswert beschränkt.""*
+
+---
+
+**Fazit:** Die vorliegende Klausel ist in der Formulierung „in allen Fällen"" **unwirksam** und bedarf einer nachgeschärften Fassung. Ich empfehle, die Klausel vor Verwendung rechtlich prüfen zu lassen.";[pruefen] §§ 307, 309 Nr. 7 BGB (Ausstrahlung auf B2B), § 276 Abs. 3 BGB (Vorsatz nicht ausschließbar), Kardinalpflichten, Leben/Körper/Gesundheit.;;
+prax-04;praxis;Kanzlei: Erstberatung für den Partner zusammenfassen;1.0;"Formuliere aus diesen Gesprächsnotizen eine sachliche Zusammenfassung für den Partner. Ergänze keine Fakten und benenne offene Punkte.
+
+- Mandant: Herr Brandt, Inhaber Brandt Metallbau GmbH
+- Streit mit Lieferant Kranz KG wegen Stahlträgern
+- bestellt 15.08., geliefert 02.09., 40 Stück statt 50
+- Kaufpreis netto 48.000 EUR, davon 30.000 EUR bezahlt
+- 6 Träger verzogen, Rüge per E-Mail am 05.09.
+- Lieferant reagiert nicht
+- Bauprojekt droht sich zu verzögern
+- keine Rechtsschutzversicherung
+- Frage des Mandanten: Rücktritt oder Nachlieferung?";"
+
+**Sachverhalt – Brandt Metallbau GmbH / Kranz KG**
+
+**Mandant:** Herr Brandt, Inhaber der Brandt Metallbau GmbH.
+
+**Gegenstand des Streits:** Lieferung von Stahlträgern durch die Kranz KG.
+
+**Fakten:**
+- Bestellung: 15.08.2026
+- Lieferung: 02.09.2026
+- Geliefert: 40 Stück; bestellt: 50 Stück (Mengenabweichung)
+- Kaufpreis netto: 48.000 EUR; davon 30.000 EUR bereits bezahlt
+- 6 Träger sind verzogen
+- Sachmängelrüge per E-Mail am 05.09.2026 (Verzug)
+- Lieferant reagiert bislang nicht
+- Bauprojekt des Mandanten droht sich zu verzögern
+- Keine Rechtsschutzversicherung vorhanden
+
+**Frage des Mandanten:** Rücktritt oder Nachlieferung?
+
+---
+
+**Offene Punkte:**
+1. Wurde neben den 6 verzogenen Trägern auch die Mengenabweichung (40 statt 50 Stück) formgerecht gerügt?
+2. Bis wann war die vollständige Lieferung der 50 Stück zu erwarten (vereinbarter Liefertermin)?
+3. Kaufvertrag oder Werkvertrag? (Bedeutung für Mangelrechte und Rücktrittsvoraussetzungen)
+4. Welcher Vertragspartner ist die Kranz KG – die Brandt Metallbau GmbH oder Herr Brandt persönlich?
+5. Wurde dem Lieferanten eine Frist zur Nacherfüllung gesetzt?
+6. Wer ist der unmittelbare Abnehmer des Bauprojekts, und in welchem Umfang droht eine konkrete Verzögerung?
+7. Wer ist für die Abwicklung des Bauprojekts verantwortlich (eigener Bauleiter, Subunternehmer)?";Alle Fakten korrekt übernehmen (48.000/30.000, 05.09.), nichts erfinden, offene Punkte nennen (z. B. Fristsetzung, Bestellmenge, Rügeinhalt).;;
+prax-04;praxis;Kanzlei: Erstberatung für den Partner zusammenfassen;1.0;"Formuliere aus diesen Gesprächsnotizen eine sachliche Zusammenfassung für den Partner. Ergänze keine Fakten und benenne offene Punkte.
+
+- Mandant: Herr Brandt, Inhaber Brandt Metallbau GmbH
+- Streit mit Lieferant Kranz KG wegen Stahlträgern
+- bestellt 15.08., geliefert 02.09., 40 Stück statt 50
+- Kaufpreis netto 48.000 EUR, davon 30.000 EUR bezahlt
+- 6 Träger verzogen, Rüge per E-Mail am 05.09.
+- Lieferant reagiert nicht
+- Bauprojekt droht sich zu verzögern
+- keine Rechtsschutzversicherung
+- Frage des Mandanten: Rücktritt oder Nachlieferung?";"
+
+**Zusammenfassung für den Partner**
+
+**Mandant:** Herr Brandt, Inhaber der Brandt Metallbau GmbH
+
+**Streitgegner:** Kranz KG (Lieferant)
+
+**Sachverhalt:**
+Der Mandant bestellte Stahlträger und erhielt diese am 02.09. in einer Menge von 40 Stück statt der bestellten 50 Stück. Der Kaufpreis netto beträgt 48.000 EUR; hiervon hat der Mandant bereits 30.000 EUR bezahlt. Zudem sind 6 Träger verzogen. Der Mandant hat dies per E-Mail am 05.09. gerügt. Der Lieferant hat bislang nicht reagiert. Es besteht die Gefahr einer Verzögerung des Bauprojekts des Mandanten.
+
+**Offene Punkte:**
+- Rechtsschutzversicherung: keine vorhanden.
+- Juristische Bewertung, ob Rücktritt vom Vertrag oder Nachlieferung der fehlenden bzw. mangelfreien Stückzahl angezeigt ist.
+- Ob eine Nachfristsetzung zur Nachlieferung erfolgt ist oder noch erfolgen muss.
+- Mögliche weitere Ansprüche (Minderung, Schadensersatz) – nicht erörtert in den Notizen.
+- Ob und inwieweit der Lieferant zur Nachlieferung in der Lage ist (Verfügbarkeit von 10 zusätzlichen Trägern bzw. Ersatz für 6 verzogene Träger).
+
+**Anmerkung:** Es handelt sich ausschließlich um die vorliegenden Gesprächsnotizen. Weitere Details zum Vertrag (z. B. vereinbarter Liefertermin, Kaufvertragsklauseln, Haftungsausschlüsse) sind nicht dokumentiert.";Alle Fakten korrekt übernehmen (48.000/30.000, 05.09.), nichts erfinden, offene Punkte nennen (z. B. Fristsetzung, Bestellmenge, Rügeinhalt).;;
+prax-04;praxis;Kanzlei: Erstberatung für den Partner zusammenfassen;1.0;"Formuliere aus diesen Gesprächsnotizen eine sachliche Zusammenfassung für den Partner. Ergänze keine Fakten und benenne offene Punkte.
+
+- Mandant: Herr Brandt, Inhaber Brandt Metallbau GmbH
+- Streit mit Lieferant Kranz KG wegen Stahlträgern
+- bestellt 15.08., geliefert 02.09., 40 Stück statt 50
+- Kaufpreis netto 48.000 EUR, davon 30.000 EUR bezahlt
+- 6 Träger verzogen, Rüge per E-Mail am 05.09.
+- Lieferant reagiert nicht
+- Bauprojekt droht sich zu verzögern
+- keine Rechtsschutzversicherung
+- Frage des Mandanten: Rücktritt oder Nachlieferung?";"
+
+## Zusammenfassung für den Partner
+
+**Mandant:** Herr Brandt, Inhaber der Brandt Metallbau GmbH
+
+**Gegenstand:** Rechtsstreit mit dem Lieferanten Kranz KG betreffend Stahlträger.
+
+**Sachverhalt:**
+
+- Bestellung am 15.08.; Lieferung am 02.09. mit 40 statt der bestellten 50 Stück.
+- Kaufpreis netto 48.000 EUR; davon 30.000 EUR bereits bezahlt.
+- 6 der gelieferten Träger sind verzogen. Rüge erfolgte per E-Mail am 05.09.
+- Der Lieferant reagiert bislang nicht auf die Rüge.
+- Das Bauprojekt des Mandanten droht sich zu verzögern.
+
+**Gegebenenfalls relevant:**
+- Keine Rechtsschutzversicherung vorhanden.
+
+**Frage des Mandanten:** Rücktritt vom Vertrag oder Nachlieferung?
+
+---
+
+## Offene Punkte
+
+1. **Jahre** der Bestellung, Lieferung und Rüge sind in den Notizen nicht angegeben.
+2. Ob dem Lieferanten eine **Nachfrist zur Nachlieferung oder Mängelbeseitigung** gesetzt wurde, ist nicht ersichtlich.
+3. Ob bereits eine **Rücktrittserklärung** abgegeben wurde, ist nicht angegeben.
+4. Die **vertragliche Grundlage** (z. B. Kaufvertrag, AGB, individuelle Vereinbarung) ist nicht bekannt.
+5. Ob die 6 verzogenen Träger innerhalb der 40 gelieferten Stück sind oder gesondert zu betrachten sind, ergibt sich aus den Notizen nicht eindeutig.
+6. Ob und in welcher Höhe der Preis für die mangelhaften bzw. nicht gelieferten Träger zurückbehalten oder gemindert wurde, ist nicht angegeben.
+
+**Hinweis:** Ich habe nur die oben aufgeführten Informationen aus den Gesprächsnotizen übernommen. Weitere rechtliche Einschätzung kann ich auf dieser Grundlage nicht abgeben.";Alle Fakten korrekt übernehmen (48.000/30.000, 05.09.), nichts erfinden, offene Punkte nennen (z. B. Fristsetzung, Bestellmenge, Rügeinhalt).;;
+prax-04;praxis;Kanzlei: Erstberatung für den Partner zusammenfassen;1.0;"Formuliere aus diesen Gesprächsnotizen eine sachliche Zusammenfassung für den Partner. Ergänze keine Fakten und benenne offene Punkte.
+
+- Mandant: Herr Brandt, Inhaber Brandt Metallbau GmbH
+- Streit mit Lieferant Kranz KG wegen Stahlträgern
+- bestellt 15.08., geliefert 02.09., 40 Stück statt 50
+- Kaufpreis netto 48.000 EUR, davon 30.000 EUR bezahlt
+- 6 Träger verzogen, Rüge per E-Mail am 05.09.
+- Lieferant reagiert nicht
+- Bauprojekt droht sich zu verzögern
+- keine Rechtsschutzversicherung
+- Frage des Mandanten: Rücktritt oder Nachlieferung?";"
+
+**Zusammenfassung für den Partner**
+
+**Mandant:** Herr Brandt, Inhaber Brandt Metallbau GmbH
+
+**Gegenpartei:** Kranz KG (Lieferant)
+
+**Sachverhalt:**
+- Streit um Lieferung von Stahlträgern
+- Bestellung vom 15.08., Lieferung am 02.09.
+- Geliefert: 40 Stück statt bestellter 50
+- Kaufpreis netto: 48.000 EUR; davon 30.000 EUR bereits bezahlt
+- 6 der gelieferten Träger sind verzogen
+- Mängelrüge per E-Mail am 05.09. gesendet
+- Lieferant hat bislang nicht reagiert
+- Bauprojekt des Mandanten droht sich zu verzögern
+- Keine Rechtsschutzversicherung vorhanden
+
+**Offene Punkte:**
+1. Ob der Mandant unter Rücktritt vom Vertrag oder auf Nachlieferung in Anspruch nehmen möchte – dies ist derzeit die Kernfrage des Mandanten.
+2. Ob und in welcher Höhe ein Schaden aus der drohenden Bauverzögerung geltend gemacht werden soll.
+3. Ob die Mängelrüge per E-Mail form- und fristgerecht erfolgte (Zustellnachweis, Zugangsbestätigung).
+4. Ob der Lieferant bereits zur Nachlieferung aufgefordert wurde oder ob lediglich die Rüge erfolgt ist.
+5. Ob eine Fristsetzung zur Nacherfüllung erfolgt ist.
+
+*Hinweis: Diese Zusammenfassung basiert ausschließlich auf den vorgelegten Gesprächsnotizen. Es wurden keine zusätzlichen Tatsachen ergänzt.*";Alle Fakten korrekt übernehmen (48.000/30.000, 05.09.), nichts erfinden, offene Punkte nennen (z. B. Fristsetzung, Bestellmenge, Rügeinhalt).;;
+prax-04;praxis;Kanzlei: Erstberatung für den Partner zusammenfassen;1.0;"Formuliere aus diesen Gesprächsnotizen eine sachliche Zusammenfassung für den Partner. Ergänze keine Fakten und benenne offene Punkte.
+
+- Mandant: Herr Brandt, Inhaber Brandt Metallbau GmbH
+- Streit mit Lieferant Kranz KG wegen Stahlträgern
+- bestellt 15.08., geliefert 02.09., 40 Stück statt 50
+- Kaufpreis netto 48.000 EUR, davon 30.000 EUR bezahlt
+- 6 Träger verzogen, Rüge per E-Mail am 05.09.
+- Lieferant reagiert nicht
+- Bauprojekt droht sich zu verzögern
+- keine Rechtsschutzversicherung
+- Frage des Mandanten: Rücktritt oder Nachlieferung?";"
+
+**Zusammenfassung für den Partner**
+
+**Mandant:**
+Herr Brandt, Inhaber Brandt Metallbau GmbH. Keine Rechtsschutzversicherung.
+
+**Gegenstand:**
+Streit mit Lieferant Kranz KG um gelieferte Stahlträger.
+
+**Sachverhalt:**
+- Bestellung: 15.08.
+- Lieferung: 02.09.
+- Menge: 40 Stück statt bestellter 50 Stück (fehlend: 10 Stück)
+- Kaufpreis netto: 48.000 EUR; davon 30.000 EUR bereits bezahlt
+- 6 der gelieferten Träger sind verzogen; Rüge erfolgte per E-Mail am 05.09.
+- Der Lieferant reagiert bislang nicht auf die Rüge.
+
+**Dringlichkeit:**
+Das Bauprojekt des Mandanten droht sich zu verzögern.
+
+**Offene Punkte / offene Frage des Mandanten:**
+- Rücktritt vom Kaufvertrag oder Nachlieferung (vollständiger und mängelfreier)?
+- Juristische Einordnung beider Optionen unter Berücksichtigung der Teillieferung (10 Stück fehlen) und des Mangels (6 verzogene Träger).
+- Ggf. Fristsetzung zur Nacherfüllung und deren Verstreichen lassen als Voraussetzung für den Rücktritt.
+- Bitte um rechtliche Bewertung und Empfehlung.
+
+*Hinweis: Keine weiteren Fakten aus den Notizen vorhanden. Ob und wann eine Frist zur Nacherfüllung gesetzt wurde, ist den Notizen nicht zu entnehmen und sollte geprüft werden.*";Alle Fakten korrekt übernehmen (48.000/30.000, 05.09.), nichts erfinden, offene Punkte nennen (z. B. Fristsetzung, Bestellmenge, Rügeinhalt).;;
+prax-05;praxis;Verwaltung: Bescheid in Bürgerbrief übersetzen;1.0;"Übersetze folgenden internen Bescheid-Entwurf in ein verständliches Bürgeranschreiben:
+
+Der Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich gemäß § 16 Abs. 1 StrG i.V.m. der städtischen Sondernutzungssatzung vom 12.04.2018 wird abgelehnt, da die Restgehwegbreite von 1,20 m durch die geplante Bestuhlung um 45 cm unterschritten wird und eine Gefährdung der Leichtigkeit des Fußgängerverkehrs sowie mobilitätseingeschränkter Personen nicht ausgeschlossen werden kann. Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt erhoben werden.";"
+
+Sehr geehrte Damen und Herren,
+
+vielen Dank für Ihren Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich.
+
+Leider müssen wir Ihren Antrag ablehnen. Durch die geplante Bestuhlung würde die verbleibende Gehwegbreite um 45 cm unter das erforderliche Mindestmaß von 1,20 m sinken. Dies könnte den Fußgängerverkehr und die Mobilität von Menschen mit eingeschränkter Gehfähigkeit gefährden.
+
+Rechtsgrundlage für diese Entscheidung ist § 16 Abs. 1 des Straßen- und Wegegesetzes (StrG) in Verbindung mit unserer Sondernutzungssatzung vom 12. April 2018.
+
+Gegen diesen Bescheid können Sie innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt erheben. Wir bitten Sie, den Widerspruch schriftlich einzureichen.
+
+Mit freundlichen Grüßen  
+[Name]  
+Beschwerdemanagement, [Stadt]";Kernaussage und Frist unverändert: Ablehnung, 1,20 m, 45 cm, ein Monat nach Bekanntgabe, Widerspruch, Rechtsamt. Auf Rechenfehler achten (Restbreite wäre 75 cm).;;
+prax-05;praxis;Verwaltung: Bescheid in Bürgerbrief übersetzen;0.86;"Übersetze folgenden internen Bescheid-Entwurf in ein verständliches Bürgeranschreiben:
+
+Der Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich gemäß § 16 Abs. 1 StrG i.V.m. der städtischen Sondernutzungssatzung vom 12.04.2018 wird abgelehnt, da die Restgehwegbreite von 1,20 m durch die geplante Bestuhlung um 45 cm unterschritten wird und eine Gefährdung der Leichtigkeit des Fußgängerverkehrs sowie mobilitätseingeschränkter Personen nicht ausgeschlossen werden kann. Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt erhoben werden.";"
+
+Sehr geehrte Damen und Herren,
+
+vielen Dank für Ihren Antrag auf eine Sondernutzungserlaubnis für den Außenbereich. Wir haben Ihren Antrag sorgfältig geprüft.
+
+**Entscheidung**
+
+Leider müssen wir Ihren Antrag ablehnen.
+
+**Begründung**
+
+Ihr Vorhaben sieht eine Bestuhlung vor, die den Gehweg um 45 cm verengt. Nach der Prüfung durch unsere Fachleute verbleibt damit eine Restgehwegbreite von nur 1,20 m. Diese Breite ist zu gering, um den Fußgängerverkehr – insbesondere auch für mobilitätseingeschränkte Personen wie Rollstuhlfahrer oder Menschen mit Kinderwagen – sicher und ungehindert passieren zu lassen. Eine Gefährdung der Leichtigkeit des Fußgängerverkehrs kann daher nicht ausgeschlossen werden.
+
+Die Ablehnung stützt sich auf § 16 Abs. 1 des Straßengesetzes (StrG) in Verbindung mit unserer Sondernutzungssatzung vom 12.04.2018.
+
+**Ihr Recht auf Widerspruch**
+
+Gegen diesen Bescheid können Sie Widerspruch erheben.
+
+- **Frist:** Der Widerspruch muss innerhalb eines Monats nach Bekanntgabe dieses Bescheids bei uns eingehen.
+- **Stelle:** Widerspruch ist beim Rechtsamt der Stadtverwaltung einzureichen.
+
+Bitte beachten Sie, dass die Frist mit dem Zugang dieses Schreibens beginnt. Wir empfehlen Ihnen, den Widerspruch schriftlich oder persönlich einzureichen und den Eingang bestätigen zu lassen.
+
+Sollten Sie Fragen zu diesem Bescheid haben, stehen wir Ihnen gerne zur Verfügung.
+
+Mit freundlichen Grüßen
+
+[Name]
+Beschwerdemanagement / Fachbereich [zuständig]
+Stadtverwaltung [Name]
+
+---
+
+*Hinweis: Dieses Schreiben ist ein übersetzter Entwurf. Vor Versand bitte durch das Rechtsamt auf formelle und inhaltliche Richtigkeit prüfen lassen.*";Kernaussage und Frist unverändert: Ablehnung, 1,20 m, 45 cm, ein Monat nach Bekanntgabe, Widerspruch, Rechtsamt. Auf Rechenfehler achten (Restbreite wäre 75 cm).;;
+prax-05;praxis;Verwaltung: Bescheid in Bürgerbrief übersetzen;0.71;"Übersetze folgenden internen Bescheid-Entwurf in ein verständliches Bürgeranschreiben:
+
+Der Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich gemäß § 16 Abs. 1 StrG i.V.m. der städtischen Sondernutzungssatzung vom 12.04.2018 wird abgelehnt, da die Restgehwegbreite von 1,20 m durch die geplante Bestuhlung um 45 cm unterschritten wird und eine Gefährdung der Leichtigkeit des Fußgängerverkehrs sowie mobilitätseingeschränkter Personen nicht ausgeschlossen werden kann. Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt erhoben werden.";"
+
+**Bürgeranschreiben**
+
+[Name der Stadt]
+[Abteilung / Stelle]
+
+[Vorname Nachname]
+[Straße, Hausnummer]
+[PLZ Ort]
+
+[Ort], den [Datum]
+
+**Betreff: Ihr Antrag auf Sondernutzungserlaubnis für den Außenbereich**
+
+Sehr geehrte/r Frau/Herr [Nachname],
+
+vielen Dank für Ihren Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich. Wir haben Ihren Antrag geprüft und müssen Ihnen leider mitteilen, dass wir ihm nicht stattgeben können.
+
+**Begründung:**
+
+Die von Ihnen geplante Bestuhlung würde die nutzbare Gehwegbreite auf 1,20 m verringern. Damit bliebe nicht mehr ausreichend Platz für alle Fußgängerinnen und Fußgänger, insbesondere auch für Menschen mit eingeschränkter Mobilität. Eine Gefährdung der Sicherheit und der leichten Nutzbarkeit des Gehwegs kann daher nicht ausgeschlossen werden.
+
+Maßgeblich sind § 16 Abs. 1 des Straßengesetzes sowie die städtische Sondernutzungssatzung vom 12. April 2018.
+
+**Ihre Rechtsbehelfsbelehrung:**
+
+Gegen diesen Bescheid können Sie innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt der Stadt [Name der Stadt] einlegen. Der Widerspruch ist schriftlich oder zur Niederschrift einzureichen.
+
+Mit freundlichen Grüßen
+
+[Name]
+[Stelle / Abteilung]";Kernaussage und Frist unverändert: Ablehnung, 1,20 m, 45 cm, ein Monat nach Bekanntgabe, Widerspruch, Rechtsamt. Auf Rechenfehler achten (Restbreite wäre 75 cm).;;
+prax-05;praxis;Verwaltung: Bescheid in Bürgerbrief übersetzen;0.86;"Übersetze folgenden internen Bescheid-Entwurf in ein verständliches Bürgeranschreiben:
+
+Der Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich gemäß § 16 Abs. 1 StrG i.V.m. der städtischen Sondernutzungssatzung vom 12.04.2018 wird abgelehnt, da die Restgehwegbreite von 1,20 m durch die geplante Bestuhlung um 45 cm unterschritten wird und eine Gefährdung der Leichtigkeit des Fußgängerverkehrs sowie mobilitätseingeschränkter Personen nicht ausgeschlossen werden kann. Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt erhoben werden.";"
+
+Sehr geehrte/r Antragsteller/in,
+
+wir haben Ihren Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich gemäß § 16 Abs. 1 StrG in Verbindung mit der städtischen Sondernutzungssatzung vom 12.04.2018 geprüft.
+
+Leider müssen wir Ihren Antrag ablehnen.
+
+**Begründung:**
+Nach unserer Prüfung würde die geplante Bestuhlung die verfügbare Restgehwegbreite auf 1,20 Meter verringern. Dies entspricht einer Reduktion um 45 Zentimeter gegenüber dem erforderlichen Mindestmaß. Eine Gefährdung der Leichtigkeit des Fußgängerverkehrs sowie mobilitätseingeschränkter Personen – beispielsweise von Rollstuhlnutzerinnen und Rollstuhlnutzern – kann in diesem Zusammenhang nicht ausgeschlossen werden. Aus diesem Grund ist die Sondernutzung in der beantragten Form nicht zulässig.
+
+**Ihr Recht auf Widerspruch:**
+Gegen diesen Bescheid können Sie innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt der Stadtverwaltung erheben. Bitte richten Sie Ihren Widerspruch schriftlich oder zur Niederschrift an das zuständige Rechtsamt und nennen Sie den Aktenzeichen/ das Vorhaben, auf das sich der Bescheid bezieht.
+
+Für Rückfragen stehen wir Ihnen gerne zur Verfügung.
+
+Mit freundlichen Grüßen
+Ihr Team Beschwerdemanagement
+Stadtverwaltung [Name]
+
+---
+
+*Hinweis: Dieses Anschreiben ist eine bürgerfreundliche Umformulierung des internen Bescheids. Die rechtliche Kernaussage, die zitierten Normen und die Frist von einem Monat nach Bekanntgabe sind beibehalten worden.*";Kernaussage und Frist unverändert: Ablehnung, 1,20 m, 45 cm, ein Monat nach Bekanntgabe, Widerspruch, Rechtsamt. Auf Rechenfehler achten (Restbreite wäre 75 cm).;;
+prax-05;praxis;Verwaltung: Bescheid in Bürgerbrief übersetzen;0.86;"Übersetze folgenden internen Bescheid-Entwurf in ein verständliches Bürgeranschreiben:
+
+Der Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich gemäß § 16 Abs. 1 StrG i.V.m. der städtischen Sondernutzungssatzung vom 12.04.2018 wird abgelehnt, da die Restgehwegbreite von 1,20 m durch die geplante Bestuhlung um 45 cm unterschritten wird und eine Gefährdung der Leichtigkeit des Fußgängerverkehrs sowie mobilitätseingeschränkter Personen nicht ausgeschlossen werden kann. Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt erhoben werden.";"
+
+**Stadtverwaltung [Stadtname]**
+Rechtsamt / Beschwerdemanagement
+
+[Ort], den [Datum]
+
+Sehr geehrte/r [Name],
+
+vielen Dank für Ihren Antrag auf Erteilung einer Sondernutzungserlaubnis für den Außenbereich. Wir haben Ihren Antrag sorgfältig geprüft.
+
+Leider müssen wir Ihnen mitteilen, dass wir Ihren Antrag **ablehnen** müssen.
+
+**Begründung:**
+
+Ihr Vorhaben – die geplante Bestuhlung – würde die verfügbare Gehwegbreite auf 1,20 m reduzieren. Diese Breite unterschreitet die erforderliche Mindestrestbreite um 45 cm. Dadurch kann nicht ausgeschlossen werden, dass der Fußgängerverkehr sowie die Mobilität mobilitätseingeschränkter Personen beeinträchtigt werden.
+
+**Rechtsgrundlage:**
+
+Die Ablehnung erfolgt auf Grundlage von § 16 Abs. 1 StrG in Verbindung mit der städtischen Sondernutzungssatzung vom 12.04.2018.
+
+**Ihre Rechtsbehelfsmöglichkeit:**
+
+Gegen diesen Bescheid können Sie innerhalb eines Monats nach Bekanntgabe Widerspruch beim Rechtsamt der Stadtverwaltung erheben. Bitte richten Sie Ihren Widerspruch schriftlich an:
+
+Rechtsamt
+Stadtverwaltung [Stadtname]
+[Adresse]
+
+Die Frist beginnt mit dem Tag, an dem Ihnen dieser Bescheid zugeht.
+
+Wir bedauern, Ihnen keine positive Entscheidung mitteilen zu können, und stehen Ihnen für Rückfragen gerne zur Verfügung.
+
+Mit freundlichen Grüßen
+
+[Name]
+Beschwerdemanagement, Stadtverwaltung [Stadtname]";Kernaussage und Frist unverändert: Ablehnung, 1,20 m, 45 cm, ein Monat nach Bekanntgabe, Widerspruch, Rechtsamt. Auf Rechenfehler achten (Restbreite wäre 75 cm).;;
+prax-06;praxis;Steuerbüro: Bewirtungsbeleg prüfen (JSON);1.0;"Extrahiere aus diesem Beleg die Felder datum, gesamtbetrag, trinkgeld, ust_betrag und prüfe, welche Pflichtangaben für einen Bewirtungsbeleg nach § 4 Abs. 5 Nr. 2 EStG fehlen oder unvollständig sind. Gib JSON mit den Keys datum, gesamtbetrag, trinkgeld, ust_betrag, fehlende_angaben (Liste) aus.
+
+Restaurant Zum Goldenen Hirsch, Karlsruhe
+Rechnung Nr. 4471 vom 12.09.2026
+2x Menü à 38,50 EUR
+3x Getränke à 6,20 EUR
+Zwischensumme 95,60 EUR (inkl. 19 % USt = 15,26 EUR)
+Trinkgeld 10,00 EUR
+Gesamt bezahlt 105,60 EUR
+Handschriftlich ergänzt: ""Besprechung Hr. Weber""";"
+
+```json
+{
+  ""datum"": ""12.09.2026"",
+  ""gesamtbetrag"": ""105,60 EUR"",
+  ""trinkgeld"": ""10,00 EUR"",
+  ""ust_betrag"": ""15,26 EUR"",
+  ""fehlende_angaben"": [
+    ""Vollständiger Name des Teilnehmers (nur 'Hr. Weber' genannt, Vorname fehlt)"",
+    ""Konkreter Anlass der Bewirtung (nur 'Besprechung' genannt, keine inhaltliche Beschreibung des Anlasses)""
+  ]
+}
+```";[pruefen] § 4 Abs. 5 Nr. 2 EStG: Ort, Tag, Teilnehmer, Anlass, Höhe. Fehlend/unvollständig: Teilnehmer (nur 'Hr. Weber', Rest fehlt), Anlass unpräzise. Gesamt 105,60, Trinkgeld 10,00, USt 15,26.;;
+prax-06;praxis;Steuerbüro: Bewirtungsbeleg prüfen (JSON);0.8;"Extrahiere aus diesem Beleg die Felder datum, gesamtbetrag, trinkgeld, ust_betrag und prüfe, welche Pflichtangaben für einen Bewirtungsbeleg nach § 4 Abs. 5 Nr. 2 EStG fehlen oder unvollständig sind. Gib JSON mit den Keys datum, gesamtbetrag, trinkgeld, ust_betrag, fehlende_angaben (Liste) aus.
+
+Restaurant Zum Goldenen Hirsch, Karlsruhe
+Rechnung Nr. 4471 vom 12.09.2026
+2x Menü à 38,50 EUR
+3x Getränke à 6,20 EUR
+Zwischensumme 95,60 EUR (inkl. 19 % USt = 15,26 EUR)
+Trinkgeld 10,00 EUR
+Gesamt bezahlt 105,60 EUR
+Handschriftlich ergänzt: ""Besprechung Hr. Weber""";"
+
+```json
+{
+  ""datum"": ""12.09.2026"",
+  ""gesamtbetrag"": ""105,60 EUR"",
+  ""trinkgeld"": ""10,00 EUR"",
+  ""ust_betrag"": ""15,26 EUR"",
+  ""fehlende_angaben"": [
+    ""Vollständiger Vorname der bewirteten Person (nur 'Hr. Weber' genannt)"",
+    ""Vollständige Anschrift des Restaurants (nur 'Karlsruhe' genannt, keine Straße/Hausnummer/PLZ)"",
+    ""Präziser Anlass der Bewirtung (nur 'Besprechung' sehr allgemein, kein konkreter geschäftlicher Anlass genannt)""
+  ]
+}
+```";[pruefen] § 4 Abs. 5 Nr. 2 EStG: Ort, Tag, Teilnehmer, Anlass, Höhe. Fehlend/unvollständig: Teilnehmer (nur 'Hr. Weber', Rest fehlt), Anlass unpräzise. Gesamt 105,60, Trinkgeld 10,00, USt 15,26.;;
+prax-06;praxis;Steuerbüro: Bewirtungsbeleg prüfen (JSON);0.8;"Extrahiere aus diesem Beleg die Felder datum, gesamtbetrag, trinkgeld, ust_betrag und prüfe, welche Pflichtangaben für einen Bewirtungsbeleg nach § 4 Abs. 5 Nr. 2 EStG fehlen oder unvollständig sind. Gib JSON mit den Keys datum, gesamtbetrag, trinkgeld, ust_betrag, fehlende_angaben (Liste) aus.
+
+Restaurant Zum Goldenen Hirsch, Karlsruhe
+Rechnung Nr. 4471 vom 12.09.2026
+2x Menü à 38,50 EUR
+3x Getränke à 6,20 EUR
+Zwischensumme 95,60 EUR (inkl. 19 % USt = 15,26 EUR)
+Trinkgeld 10,00 EUR
+Gesamt bezahlt 105,60 EUR
+Handschriftlich ergänzt: ""Besprechung Hr. Weber""";"
+
+```json
+{
+  ""datum"": ""12.09.2026"",
+  ""gesamtbetrag"": 105.60,
+  ""trinkgeld"": 10.00,
+  ""ust_betrag"": 15.26,
+  ""fehlende_angaben"": [
+    ""Name des Bewirtenden"",
+    ""Teilnehmer der Bewirtung""
+  ]
+}
+```";[pruefen] § 4 Abs. 5 Nr. 2 EStG: Ort, Tag, Teilnehmer, Anlass, Höhe. Fehlend/unvollständig: Teilnehmer (nur 'Hr. Weber', Rest fehlt), Anlass unpräzise. Gesamt 105,60, Trinkgeld 10,00, USt 15,26.;;
+prax-06;praxis;Steuerbüro: Bewirtungsbeleg prüfen (JSON);0.6;"Extrahiere aus diesem Beleg die Felder datum, gesamtbetrag, trinkgeld, ust_betrag und prüfe, welche Pflichtangaben für einen Bewirtungsbeleg nach § 4 Abs. 5 Nr. 2 EStG fehlen oder unvollständig sind. Gib JSON mit den Keys datum, gesamtbetrag, trinkgeld, ust_betrag, fehlende_angaben (Liste) aus.
+
+Restaurant Zum Goldenen Hirsch, Karlsruhe
+Rechnung Nr. 4471 vom 12.09.2026
+2x Menü à 38,50 EUR
+3x Getränke à 6,20 EUR
+Zwischensumme 95,60 EUR (inkl. 19 % USt = 15,26 EUR)
+Trinkgeld 10,00 EUR
+Gesamt bezahlt 105,60 EUR
+Handschriftlich ergänzt: ""Besprechung Hr. Weber""";"
+
+{
+  ""datum"": ""12.09.2026"",
+  ""gesamtbetrag"": 105.6,
+  ""trinkgeld"": 10.0,
+  ""ust_betrag"": 15.26,
+  ""fehlende_angaben"": [
+    ""name_und_anschrift_des_bewirtenden""
+  ]
+}";[pruefen] § 4 Abs. 5 Nr. 2 EStG: Ort, Tag, Teilnehmer, Anlass, Höhe. Fehlend/unvollständig: Teilnehmer (nur 'Hr. Weber', Rest fehlt), Anlass unpräzise. Gesamt 105,60, Trinkgeld 10,00, USt 15,26.;;
+prax-06;praxis;Steuerbüro: Bewirtungsbeleg prüfen (JSON);0.8;"Extrahiere aus diesem Beleg die Felder datum, gesamtbetrag, trinkgeld, ust_betrag und prüfe, welche Pflichtangaben für einen Bewirtungsbeleg nach § 4 Abs. 5 Nr. 2 EStG fehlen oder unvollständig sind. Gib JSON mit den Keys datum, gesamtbetrag, trinkgeld, ust_betrag, fehlende_angaben (Liste) aus.
+
+Restaurant Zum Goldenen Hirsch, Karlsruhe
+Rechnung Nr. 4471 vom 12.09.2026
+2x Menü à 38,50 EUR
+3x Getränke à 6,20 EUR
+Zwischensumme 95,60 EUR (inkl. 19 % USt = 15,26 EUR)
+Trinkgeld 10,00 EUR
+Gesamt bezahlt 105,60 EUR
+Handschriftlich ergänzt: ""Besprechung Hr. Weber""";"
+
+```json
+{
+  ""datum"": ""12.09.2026"",
+  ""gesamtbetrag"": ""105,60 EUR"",
+  ""trinkgeld"": ""10,00 EUR"",
+  ""ust_betrag"": ""15,26 EUR"",
+  ""fehlende_angaben"": [""Teilnehmer der Bewirtung""]
+}
+```";[pruefen] § 4 Abs. 5 Nr. 2 EStG: Ort, Tag, Teilnehmer, Anlass, Höhe. Fehlend/unvollständig: Teilnehmer (nur 'Hr. Weber', Rest fehlt), Anlass unpräzise. Gesamt 105,60, Trinkgeld 10,00, USt 15,26.;;

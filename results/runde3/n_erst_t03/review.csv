@@ -1,0 +1,2191 @@
+id;suite;titel;auto_score;frage;antwort;schluessel;bewertung_1-5;notiz
+erst-01a;erstcheck;Erstcheck Stromlieferant [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Energieversorger, die Haushalte und Gewerbe mit Strom beliefern, sind nach dem NIS2-Umsetzungsrecht als besonders wichtige Einrichtungen eingestuft, unabhängig von Mitarbeiterzahl oder Umsatz.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01a;erstcheck;Erstcheck Stromlieferant [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Energieversorger, die Haushalte und Gewerbe mit Strom beliefern, fallen in den besonders wichtigen Sektor Energie nach NIS2/BSI-Gesetz.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01a;erstcheck;Erstcheck Stromlieferant [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Energieversorger, die Strom an Haushalte und Gewerbe liefern, fallen unter Anhang I des BSI-Gesetzes (Sektor Energie) und sind unabhängig von ihrer Größe besonders wichtige Einrichtungen.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01a;erstcheck;Erstcheck Stromlieferant [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Energieversorger fallen nach dem BSI-Gesetz unabhängig von ihrer Größe unter die besonders wichtigen Einrichtungen.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01a;erstcheck;Erstcheck Stromlieferant [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Stromversorgung gehört zu den Sektoren, die nach NIS2 als besonders wichtige Einrichtungen eingestuft sind, unabhängig von Mitarbeiterzahl oder Umsatz.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01b;erstcheck;Erstcheck Stromlieferant [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Der Energieversorger ist als Stromlieferant in Anlage 1 (Sektor Energie) aufgeführt und erfüllt die Kriterien für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG (über 250 Mitarbeiter, Umsatz über 50 Mio. EUR, Bilanzsumme über 43 Mio. EUR).""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01b;erstcheck;Erstcheck Stromlieferant [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Der Energieversorger ist ein Stromlieferant und damit einer in Anlage 1 (Energie) bestimmten Einrichtungsart zuzuordnen; mit 320 Mitarbeitern, 90 Mio. EUR Umsatz und 60 Mio. EUR Bilanzsumme erfüllt er die Kriterien des § 28 Abs. 1 Nr. 4 BSIG für besonders wichtige Einrichtungen.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01b;erstcheck;Erstcheck Stromlieferant [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Der Energieversorger ist als Stromlieferant in Anlage 1 (Sektor Energie) aufgeführt und erfüllt mit 320 Mitarbeitern, 90 Mio. EUR Umsatz und 60 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01b;erstcheck;Erstcheck Stromlieferant [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Der Energieversorger ist ein Stromlieferant und damit einer in Anlage 1 bestimmten Einrichtungsart (Energie) zuzuordnen; mit 320 Mitarbeitern, 90 Mio. EUR Umsatz und 60 Mio. EUR Bilanzsumme erfüllt er die Kriterien des § 28 Abs. 1 Nr. 4 BSIG für besonders wichtige Einrichtungen.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-01b;erstcheck;Erstcheck Stromlieferant [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Energieversorger, der Haushalte und Gewerbe mit Strom beliefert.
+Mitarbeiter: 320.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 60 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Der Energieversorger ist als Stromlieferant einer in Anlage 1 bestimmten Einrichtungsart (Energie) zuzuordnen und überschreitet mit 320 Mitarbeitern, 90 Mio. Euro Umsatz und 60 Mio. Euro Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02a;erstcheck;Erstcheck Maschinenbau mittel [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Einstufungskriterien und Schwellenwerte des BSI-Gesetzes zur NIS2-Umsetzung nicht sicher genug, um eine verlässliche Einordnung vorzunehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02a;erstcheck;Erstcheck Maschinenbau mittel [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung überschreitet die Schwellenwerte für wichtige Einrichtungen (mehr als 50 Mitarbeiter bzw. mehr als 10 Mio. EUR Umsatz), erreicht aber nicht die Schwellenwerte für besonders wichtige Einrichtungen (mehr als 250 Mitarbeiter bzw. mehr als 50 Mio. EUR Umsatz bzw. mehr als 43 Mio. EUR Bilanzsumme).""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02a;erstcheck;Erstcheck Maschinenbau mittel [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Schwellenwerte und Sektorzuordnungen des BSI-Gesetzes nach NIS2-Umsetzung nicht sicher genug, um eine verlässliche Einordnung des Maschinenbaus vorzunehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02a;erstcheck;Erstcheck Maschinenbau mittel [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";;[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02a;erstcheck;Erstcheck Maschinenbau mittel [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Werkzeugmaschinenhersteller fallen unter den Sektor Fertigung; mit 120 Mitarbeitern, 30 Mio. EUR Umsatz und 22 Mio. EUR Bilanzsumme überschreitet das Unternehmen die Größenmerkmale für wichtige Einrichtungen nach NIS2/BSI-Gesetz.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02b;erstcheck;Erstcheck Maschinenbau mittel [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Maschinenbau ist in Anlage 2 Punkt 5 als Einrichtungsart genannt; mit 120 Mitarbeitern sowie Umsatz und Bilanzsumme jeweils über 10 Mio. EUR erfüllt die Einrichtung die Kriterien für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02b;erstcheck;Erstcheck Maschinenbau mittel [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist einer in Anlage 2 bestimmten Einrichtungsart (Maschinenbau) zuzuordnen und erfüllt die Schwellenwerte für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme jeweils über 10 Mio. EUR).""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02b;erstcheck;Erstcheck Maschinenbau mittel [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist dem Maschinenbau zuzuordnen, der in Anlage 2 (Verarbeitendes Gewerbe) aufgeführt ist, und erfüllt die Schwellenwerte für eine wichtige Einrichtung (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme über 10 Mio. EUR), erreicht aber nicht die höheren Schwellenwerte für eine besonders wichtige Einrichtung.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02b;erstcheck;Erstcheck Maschinenbau mittel [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist dem Sektor Verarbeitendes Gewerbe (Maschinenbau) in Anlage 2 zuzuordnen und erfüllt die Schwellenwerte für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme jeweils über 10 Mio. EUR).""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-02b;erstcheck;Erstcheck Maschinenbau mittel [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 120.
+Jahresumsatz: 30 Mio. EUR.
+Jahresbilanzsumme: 22 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist dem Sektor Verarbeitendes Gewerbe (Anlage 2, Punkt 5) zuzuordnen und erfüllt die Schwellenwerte für wichtige Einrichtungen (mindestens 50 Mitarbeiter bzw. Jahresumsatz und Jahresbilanzsumme jeweils über 10 Mio. EUR).""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03a;erstcheck;Erstcheck Maschinenbau groß [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung überschreitet mit 380 Mitarbeitern sowie 120 Mio. EUR Umsatz und 90 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 BSI-Gesetz und fällt als Fertigungsunternehmen in den Anwendungsbereich der NIS2-Richtlinie.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03a;erstcheck;Erstcheck Maschinenbau groß [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung fällt als Hersteller von Werkzeugmaschinen unter Anhang II der NIS2-Richtlinie (Herstellung von anderen Erzeugnissen) und erfüllt die Größenkriterien für große Unternehmen (mindestens 250 Mitarbeiter und mindestens 50 Mio. EUR Umsatz).""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03a;erstcheck;Erstcheck Maschinenbau groß [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Sektoreinordnungen und Schwellenwerte des BSI-Gesetzes nicht mit Sicherheit und kann daher keine verlässliche Einstufung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03a;erstcheck;Erstcheck Maschinenbau groß [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Maschinenbau ist kein Sektor, der im BSI-Gesetz (NIS2-Umsetzungsgesetz) als betroffener Sektor aufgeführt ist.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03a;erstcheck;Erstcheck Maschinenbau groß [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung überschreitet mit 380 Mitarbeitern, 120 Mio. EUR Umsatz und 90 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen im verarbeitenden Gewerbe nach NIS2/BSI-Gesetz.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03b;erstcheck;Erstcheck Maschinenbau groß [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Maschinenbau ist in Anlage 2 (Verarbeitendes Gewerbe) aufgeführt, und die Einrichtung erfüllt die Größenmerkmale für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03b;erstcheck;Erstcheck Maschinenbau groß [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist dem Maschinenbau zuzuordnen, der in Anlage 2 zum BSIG unter 'Verarbeitendes Gewerbe' aufgeführt ist, und überschreitet mit 380 Mitarbeitern, 120 Mio. EUR Umsatz und 90 Mio. EUR Bilanzsumme die Schwellenwerte für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03b;erstcheck;Erstcheck Maschinenbau groß [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung fällt unter Anlage 2 Nr. 5 (Verarbeitendes Gewerbe, Maschinenbau) und erfüllt die Schwellenwerte für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG; die Anlage 2 ist jedoch eine Drittquelle und nicht amtlich.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03b;erstcheck;Erstcheck Maschinenbau groß [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Maschinenbau ist in Anlage 2 (nicht Anlage 1) aufgeführt, daher fällt die Einrichtung unter § 28 Abs. 2 Nr. 3 BSIG (wichtige Einrichtung) und nicht unter Abs. 1 Nr. 4 (besonders wichtige Einrichtung). Mit 380 Mitarbeitern überschreitet sie die Schwellenwerte für wichtige Einrichtungen deutlich.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-03b;erstcheck;Erstcheck Maschinenbau groß [Text];0.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Werkzeugmaschinen (Maschinenbau).
+Mitarbeiter: 380.
+Jahresumsatz: 120 Mio. EUR.
+Jahresbilanzsumme: 90 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung fällt unter Anlage 1 Sektor 5 (Maschinenbau) und überschreitet mit 380 Mitarbeitern sowie 120 Mio. EUR Umsatz und 90 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen gemäß § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-04a;erstcheck;Erstcheck Maschinenbau klein [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich bin nicht sicher, ob der Sondermaschinenbau unter die NIS2-Sektoren des BSI-Gesetzes fällt; zudem ist die Einrichtung mit 35 Mitarbeitern und 6 Mio. EUR Umsatz sehr wahrscheinlich ein kleines Unternehmen, das die Größenkriterien für besonders wichtige oder wichtige Einrichtungen nicht erfüllt.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04a;erstcheck;Erstcheck Maschinenbau klein [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung erfüllt die Größenkriterien für wichtige Einrichtungen nach § 29 BSI-Gesetz nicht, da sie weniger als 50 Beschäftigte hat und der Jahresumsatz unter 10 Mio. EUR liegt.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04a;erstcheck;Erstcheck Maschinenbau klein [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung gehört nicht zu einem kritischen Sektor nach NIS2 und erreicht bei 35 Mitarbeitern weder die Umsatz- noch die Bilanzsumme-Schwelle von 10 Mio. EUR.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04a;erstcheck;Erstcheck Maschinenbau klein [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Herstellung von Maschinen fällt zwar in eine NIS2-betroffene Branche, jedoch überschreitet die Einrichtung mit 35 Mitarbeitern, 6 Mio. EUR Umsatz und 5 Mio. EUR Bilanzsumme nicht die Größenkriterien für mittlere Unternehmen (50 Mitarbeiter, 10 Mio. EUR Umsatz oder 8 Mio. EUR Bilanzsumme).""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04a;erstcheck;Erstcheck Maschinenbau klein [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist ein kleines Unternehmen mit 35 Mitarbeitern und 6 Mio. EUR Umsatz/Bilanzsumme und erfüllt damit die Größenmerkmale (mindestens 50 Mitarbeiter und 10 Mio. EUR Umsatz/Bilanzsumme) für wichtige oder besonders wichtige Einrichtungen nach dem BSI-Gesetz nicht.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04b;erstcheck;Erstcheck Maschinenbau klein [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung erfüllt weder die Schwellenwerte für besonders wichtige Einrichtungen (mindestens 250 Mitarbeiter oder Umsatz über 50 Mio. Euro und Bilanzsumme über 43 Mio. Euro) noch für wichtige Einrichtungen (mindestens 50 Mitarbeiter oder Umsatz und Bilanzsumme jeweils über 10 Mio. Euro).""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04b;erstcheck;Erstcheck Maschinenbau klein [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung fällt zwar unter den Sektor Verarbeitendes Gewerbe (Anlage 2 Nr. 5), erreicht aber weder die erforderlichen 50 Mitarbeiter noch einen Jahresumsatz und eine Jahresbilanzsumme von jeweils über 10 Millionen Euro für die Einstufung als wichtige Einrichtung.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04b;erstcheck;Erstcheck Maschinenbau klein [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist zwar dem Maschinenbau zuzuordnen, der in Anlage 2 (Verarbeitendes Gewerbe) aufgeführt ist, erreicht aber weder die Mitarbeiterzahl von 50 noch die Schwellen von jeweils über 10 Millionen Euro Umsatz und Bilanzsumme für wichtige Einrichtungen.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04b;erstcheck;Erstcheck Maschinenbau klein [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist zwar einer in Anlage 2 genannten Einrichtungsart (Maschinenbau) zuzuordnen, erfüllt aber weder die 50-Mitarbeiter-Schwelle noch die Umsatz- und Bilanzsummen-Schwellen von jeweils über 10 Mio. EUR für wichtige Einrichtungen, und die Schwellen für besonders wichtige Einrichtungen sind ebenfalls nicht erreicht.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-04b;erstcheck;Erstcheck Maschinenbau klein [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Sondermaschinen (Maschinenbau).
+Mitarbeiter: 35.
+Jahresumsatz: 6 Mio. EUR.
+Jahresbilanzsumme: 5 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist zwar dem Maschinenbau (Anlage 2) zuzuordnen, erfüllt aber weder die Mitarbeiterzahl von mindestens 50 noch die Umsatz- und Bilanzsummenschwelle von jeweils über 10 Mio. Euro für wichtige Einrichtungen und ist auch keine besonders wichtige Einrichtung.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-05a;erstcheck;Erstcheck Lebensmittel industriell [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung überschreitet mit 140 Mitarbeitern, 28 Mio. EUR Jahresumsatz und 15 Mio. EUR Jahresbilanzsumme die Schwellenwerte für eine wesentliche Einrichtung im Sektor der Lebensmittelherstellung nach NIS2/BSI-Gesetz.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05a;erstcheck;Erstcheck Lebensmittel industriell [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Lebensmittelhersteller und fällt damit in den Sektor Lebensmittel, der im BSI-Gesetz als wichtige Einrichtung eingestuft wird, nicht als besonders wichtige Einrichtung.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05a;erstcheck;Erstcheck Lebensmittel industriell [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Hersteller von Lebensmitteln und fällt damit unter die Kategorie der wichtigen Einrichtungen nach NIS2, da sie die Größenmerkmale eines mittleren Unternehmens erfüllt.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05a;erstcheck;Erstcheck Lebensmittel industriell [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung ist ein Hersteller von Lebensmitteln (Backwaren und Fertiggerichte) und fällt damit in den Sektor Lebensmittel, der nach NIS2/BSI-Gesetz als besonders wichtige Einrichtung eingestuft ist. Mit 140 Mitarbeitern und 28 Mio. EUR Umsatz erfüllt sie zudem die Größenkriterien für ein mittleres Unternehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05a;erstcheck;Erstcheck Lebensmittel industriell [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";;[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05b;erstcheck;Erstcheck Lebensmittel industriell [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Lebensmittelhersteller (Anlage 2 Nr. 4) mit 140 Mitarbeitern und erfüllt damit die Kriterien für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05b;erstcheck;Erstcheck Lebensmittel industriell [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Lebensmittelunternehmen (Anlage 2 Nr. 4) mit 140 Mitarbeitern und erfüllt damit die Kriterien für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05b;erstcheck;Erstcheck Lebensmittel industriell [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Lebensmittelunternehmen in industrieller Produktion und Verarbeitung (Anlage 2) und erfüllt die Schwellenwerte für wichtige Einrichtungen mit 140 Mitarbeitern sowie einem Umsatz und einer Bilanzsumme jeweils über 10 Mio. Euro.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05b;erstcheck;Erstcheck Lebensmittel industriell [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung fällt unter Anlage 2 Punkt 4 (Lebensmittel) und erfüllt die Kriterien für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG, da sie mindestens 50 Mitarbeiter beschäftigt und Umsatz sowie Bilanzsumme jeweils über 10 Mio. EUR liegen; die Schwellenwerte für besonders wichtige Einrichtungen (250 Mitarbeiter bzw. 50 Mio. EUR Umsatz und 43 Mio. EUR Bilanzsumme) werden nicht erreicht.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-05b;erstcheck;Erstcheck Lebensmittel industriell [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Industrieller Hersteller von Backwaren und Fertiggerichten.
+Mitarbeiter: 140.
+Jahresumsatz: 28 Mio. EUR.
+Jahresbilanzsumme: 15 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Hersteller fällt unter Anlage 2 Punkt 4 (Lebensmittelunternehmen in industrieller Produktion und Verarbeitung) und erfüllt die Kriterien einer wichtigen Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG mit mindestens 50 Mitarbeitern sowie Jahresumsatz und Jahresbilanzsumme jeweils über 10 Millionen Euro.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-06a;erstcheck;Erstcheck Arztpraxis [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine kleine Hausarztpraxis mit 8 Mitarbeitern fällt nicht zu den regulierten Einrichtungen im Gesundheitssektor nach NIS2/BSI-Gesetz, da dort vor allem Krankenhäuser, Apotheken und Hersteller von Medizinprodukten erfasst sind.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06a;erstcheck;Erstcheck Arztpraxis [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine kleine Hausarztpraxis mit 8 Mitarbeitern fällt nicht unter die Kategorien besonders wichtiger oder wichtiger Einrichtungen nach NIS2/BSI-Gesetz, da diese sich auf größere Einrichtungen in kritischen Sektoren konzentrieren.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06a;erstcheck;Erstcheck Arztpraxis [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Hausarztpraxis erfüllt die Größenmerkmale (Schwellenwerte) des NIS2-Umsetzungsrechts nicht, da sie mit 8 Mitarbeitern und 1,2 Mio. EUR Umsatz weit unter den erforderlichen Größenordnungen liegt.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06a;erstcheck;Erstcheck Arztpraxis [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine ambulante Hausarztpraxis ist im BSI-Gesetz weder als besonders wichtige noch als wichtige Einrichtung aufgeführt; die NIS2-Kategorien erfassen im Gesundheitswesen primär Krankenhäuser und weitere spezifische Sektoren, nicht jedoch kleine ambulante Praxen.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06a;erstcheck;Erstcheck Arztpraxis [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Arztpraxen sind im Gesundheitswesen nach NIS2 als wichtige Einrichtungen eingestuft, nicht als besonders wichtige Einrichtungen wie etwa Krankenhäuser.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06b;erstcheck;Erstcheck Arztpraxis [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Hausarztpraxis fällt zwar unter den Sektor Gesundheit (Anlage 1), erfüllt aber keine der Größenschwellen für wichtige oder besonders wichtige Einrichtungen.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06b;erstcheck;Erstcheck Arztpraxis [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Hausarztpraxis fällt zwar unter den Gesundheitssektor (Anlage 1, Sektor 4), erfüllt aber weder die Schwellenwerte für besonders wichtige Einrichtungen (mindestens 250 Mitarbeiter oder 50 Mio. EUR Umsatz und 43 Mio. EUR Bilanzsumme) noch für wichtige Einrichtungen (mindestens 50 Mitarbeiter oder 10 Mio. EUR Umsatz und Bilanzsumme jeweils).""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06b;erstcheck;Erstcheck Arztpraxis [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Hausarztpraxis ist zwar ein Erbringer von Gesundheitsdienstleistungen gemäß Anlage 1, erfüllt aber weder die Größenmerkmale für besonders wichtige Einrichtungen (250 Mitarbeiter bzw. 50 Mio. EUR Umsatz und 43 Mio. EUR Bilanzsumme) noch für wichtige Einrichtungen (50 Mitarbeiter bzw. 10 Mio. EUR Umsatz und Bilanzsumme).""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06b;erstcheck;Erstcheck Arztpraxis [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Hausarztpraxis fällt zwar unter den Gesundheitssektor (Anlage 1), erreicht aber weder die Schwellenwerte für besonders wichtige Einrichtungen (250 Mitarbeiter bzw. 50 Mio. Euro Umsatz und 43 Mio. Euro Bilanzsumme) noch für wichtige Einrichtungen (50 Mitarbeiter bzw. 10 Mio. Euro Umsatz und Bilanzsumme).""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-06b;erstcheck;Erstcheck Arztpraxis [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hausarztpraxis.
+Mitarbeiter: 8.
+Jahresumsatz: 1.2 Mio. EUR.
+Jahresbilanzsumme: 0.6 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Hausarztpraxis ist zwar ein Erbringer von Gesundheitsdienstleistungen gemäß Anlage 1, erfüllt aber weder die Größenkriterien für eine besonders wichtige Einrichtung (250 Mitarbeiter bzw. 50 Mio. EUR Umsatz und 43 Mio. EUR Bilanzsumme) noch für eine wichtige Einrichtung (50 Mitarbeiter bzw. 10 Mio. EUR Umsatz und Bilanzsumme).""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-07a;erstcheck;Erstcheck Privatklinik [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Privatklinik überschreitet mit 450 Beschäftigten, 55 Mio. EUR Jahresumsatz und 48 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen im Gesundheitssektor nach NIS2/BSI-Gesetz.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07a;erstcheck;Erstcheck Privatklinik [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";;[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07a;erstcheck;Erstcheck Privatklinik [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Krankenhäuser und andere Gesundheitseinrichtungen fallen im Gesundheitssektor unter die besonders wichtigen Einrichtungen nach NIS2/BSI-Gesetz, unabhängig von der Größe.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07a;erstcheck;Erstcheck Privatklinik [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Krankenhäuser im Gesundheitssektor gelten nach der NIS2-Richtlinie als besonders wichtige Einrichtungen.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07a;erstcheck;Erstcheck Privatklinik [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Krankenhäuser im Gesundheitswesen sind nach dem BSI-Gesetz besonders wichtige Einrichtungen, unabhängig von der genauen Mitarbeiter- oder Umsatzgröße.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07b;erstcheck;Erstcheck Privatklinik [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Privatklinik ist als Erbringer von Gesundheitsdienstleistungen der Einrichtungsart in Anlage 1 Sektor 4 zuzuordnen und überschreitet mit 450 Mitarbeitern die Schwelle von 250 Mitarbeitern für besonders wichtige Einrichtungen.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07b;erstcheck;Erstcheck Privatklinik [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Privatklinik ist ein Erbringer von Gesundheitsdienstleistungen (Anlage 1 Sektor 4) und überschreitet mit 450 Mitarbeitern, 55 Mio. EUR Umsatz und 48 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07b;erstcheck;Erstcheck Privatklinik [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Privatklinik ist als Erbringer von Gesundheitsdienstleistungen einer in Anlage 1 bestimmten Einrichtungsart zuzuordnen und überschreitet sowohl die Mitarbeiterzahl (450 ≥ 250) als auch die Umsatz- und Bilanzsummen-Schwellen (55 Mio. EUR > 50 Mio. EUR und 48 Mio. EUR > 43 Mio. EUR), womit sie nach § 28 Abs. 1 Nr. 4 BSIG als besonders wichtige Einrichtung gilt.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07b;erstcheck;Erstcheck Privatklinik [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Privatklinik ist als Erbringerin von Gesundheitsdienstleistungen einer in Anlage 1 genannten Einrichtungsart zuzuordnen und erfüllt mit 450 Mitarbeitern die Schwelle von 250 Mitarbeitern; zudem übersteigen Umsatz (55 Mio. EUR) und Bilanzsumme (48 Mio. EUR) die jeweiligen Grenzwerte.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-07b;erstcheck;Erstcheck Privatklinik [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Privatklinik, erbringt stationäre Gesundheitsdienstleistungen.
+Mitarbeiter: 450.
+Jahresumsatz: 55 Mio. EUR.
+Jahresbilanzsumme: 48 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Privatklinik ist einer in Anlage 1 (Sektor Gesundheit) bestimmten Einrichtungsart zuzuordnen und erfüllt die Kriterien des § 28 Abs. 1 Nr. 4 BSIG, da sie mindestens 250 Mitarbeiter beschäftigt und zudem Jahresumsatz über 50 Mio. EUR sowie Jahresbilanzsumme über 43 Mio. EUR aufweist.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08a;erstcheck;Erstcheck Managed Service Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung hat 80 Mitarbeiter und überschreitet mit 12 Mio. EUR Umsatz sowie 6 Mio. EUR Bilanzsumme die Schwellenwerte für wichtige Einrichtungen nach dem NIS2-Umsetzungsrecht.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08a;erstcheck;Erstcheck Managed Service Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""IT-Dienstleister mit über 50 Mitarbeitern und über 10 Mio. EUR Jahresumsatz fällt unter wichtige Einrichtungen nach BSI-Gesetz.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08a;erstcheck;Erstcheck Managed Service Provider [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Einstufungskriterien des BSI-Gesetzes nach NIS2-Umsetzung nicht mit Sicherheit und kann daher keine Betroffenheit eines Managed Service Providers feststellen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08a;erstcheck;Erstcheck Managed Service Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Ein Managed Service Provider fällt typischerweise unter die Kategorie der wichtigen Einrichtungen im Bereich digitale Infrastruktur bzw. IKT-Dienstleister nach NIS2/BSI-Gesetz; die genauen Schwellenwerte und Einordnungskriterien des novellierten BSI-Gesetzes kenne ich jedoch nicht im Detail.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08a;erstcheck;Erstcheck Managed Service Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung betreibt als Managed Service Provider digitale Infrastruktur und erfüllt mit 80 Mitarbeitern, 12 Mio. EUR Umsatz und 6 Mio. EUR Bilanzsumme die Größenkriterien für wichtige Einrichtungen, nicht jedoch für besonders wichtige Einrichtungen.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08b;erstcheck;Erstcheck Managed Service Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Managed Service Provider ist in Anlage 1 (Sektor Digitale Infrastruktur) als Einrichtungsart aufgeführt und erfüllt mit 80 Mitarbeitern das Kriterium von mindestens 50 Mitarbeitern gemäß § 28 Abs. 2 Nr. 3 BSIG. Er ist keine besonders wichtige Einrichtung, da die Schwellenwerte dafür (250 Mitarbeiter bzw. 50 Mio. Euro Umsatz und 43 Mio. Euro Bilanzsumme) nicht erreicht werden.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08b;erstcheck;Erstcheck Managed Service Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Managed Service Provider ist in Anlage 1 als Einrichtungsart aufgeführt und erfüllt die Kriterien einer wichtigen Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG, da er mindestens 50 Mitarbeiter beschäftigt (80) und zudem einen Jahresumsatz über 10 Mio. Euro aufweist. Er ist keine besonders wichtige Einrichtung, da er weder Telekommunikationsanbieter ist noch die höheren Schwellenwerte von 250 Mitarbeitern bzw. 50 Mio. Euro Umsatz und 43 Mio. Euro Bilanzsumme erreicht.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08b;erstcheck;Erstcheck Managed Service Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der MSP ist als Managed Service Provider in Anlage 1 (Digitale Infrastruktur) genannt und fällt unter § 28 Abs. 2 Nr. 3 BSIG, da er mindestens 50 Mitarbeiter beschäftigt (80) und keine besonders wichtige Einrichtung ist (Schwellenwerte von 250 Mitarbeitern bzw. 50 Mio. EUR Umsatz und 43 Mio. EUR Bilanzsumme nicht erreicht).""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08b;erstcheck;Erstcheck Managed Service Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der MSP ist als Managed Service Provider einer in Anlage 1 bestimmten Einrichtungsart (Digitale Infrastruktur) zuzuordnen und erfüllt mit 80 Mitarbeitern die Schwelle von mindestens 50 Mitarbeitern für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-08b;erstcheck;Erstcheck Managed Service Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: IT-Dienstleister, der die IT-Infrastruktur seiner Kunden im Auftrag betreibt und überwacht (Managed Service Provider).
+Mitarbeiter: 80.
+Jahresumsatz: 12 Mio. EUR.
+Jahresbilanzsumme";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der MSP ist als Managed Service Provider in Anlage 1 (Sektor Digitale Infrastruktur) aufgeführt und erfüllt mit 80 Mitarbeitern die Schwelle von mindestens 50 Mitarbeitern für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09a;erstcheck;Erstcheck Managed Security Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung überschreitet mit 300 Mitarbeitern und 70 Mio. EUR Jahresumsatz die Größenkriterien für ein großes Unternehmen nach NIS2 und ist damit unabhängig vom Sektor als besonders wichtige Einrichtung einzustufen.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09a;erstcheck;Erstcheck Managed Security Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung überschreitet mit 300 Mitarbeitern und 70 Mio. EUR Umsatz die Größenmerkmale für besonders wichtige Einrichtungen und erbringt ICT-Dienstleistungsmanagement, das unter den NIS2-Anwendungsbereich fällt.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09a;erstcheck;Erstcheck Managed Security Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung überschreitet mit 300 Mitarbeitern, 70 Mio. EUR Umsatz und 50 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 BSI-Gesetz.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09a;erstcheck;Erstcheck Managed Security Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung überschreitet mit 300 Mitarbeitern und 70 Mio. EUR Umsatz die Größenschwellen für ein großes Unternehmen nach NIS2 und ist als ICT-Dienstleister potenziell vom Anwendungsbereich erfasst.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09a;erstcheck;Erstcheck Managed Security Provider [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung fällt unter ICT-Dienstleistungsmanagement (Sicherheitsdienste) nach Anhang I NIS2 und erfüllt die Schwellenwerte für ein großes Unternehmen (>=250 Mitarbeiter und >=50 Mio. EUR Umsatz).""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09b;erstcheck;Erstcheck Managed Security Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung ist als Managed Security Service Provider in Anlage 1 (Sektor 6, Digitale Infrastruktur) aufgeführt und erfüllt mit 300 Mitarbeitern, 70 Mio. EUR Umsatz und 50 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09b;erstcheck;Erstcheck Managed Security Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung ist ein Managed Security Service Provider, der in Anlage 1 (Sektor Digitale Infrastruktur) genannt wird, und erfüllt mit 300 Mitarbeitern sowie einem Umsatz von 70 Mio. EUR und einer Bilanzsumme von 50 Mio. EUR die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09b;erstcheck;Erstcheck Managed Security Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung ist ein Managed Security Service Provider, der in Anlage 1 (Sektor 6, Digitale Infrastruktur) genannt wird, und erfüllt die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG (mindestens 250 Mitarbeiter bzw. Jahresumsatz über 50 Mio. Euro und Jahresbilanzsumme über 43 Mio. Euro).""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09b;erstcheck;Erstcheck Managed Security Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Managed Security Service Provider sind in Anlage 1 (Sektor Digitale Infrastruktur) als Einrichtungsart aufgeführt; mit 300 Mitarbeitern überschreitet die Einrichtung die Schwelle von 250 Mitarbeitern für besonders wichtige Einrichtungen.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-09b;erstcheck;Erstcheck Managed Security Provider [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Managed Security Services mit eigenem Security Operations Center.
+Mitarbeiter: 300.
+Jahresumsatz: 70 Mio. EUR.
+Jahresbilanzsumme: 50 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Die Einrichtung ist ein Managed Security Service Provider, der in Anlage 1 (Sektor 6, Digitale Infrastruktur) als Einrichtungsart aufgeführt ist, und erfüllt die Größenmerkmale des § 28 Abs. 1 Nr. 4 BSIG mit mindestens 250 Mitarbeitern sowie einem Jahresumsatz über 50 Mio. EUR und einer Jahresbilanzsumme über 43 Mio. EUR.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-10a;erstcheck;Erstcheck Anwaltskanzlei [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei gehört nicht zu den in § 28 BSIG gelisteten Sektoren und ist daher vom NIS2-Umsetzungsrecht nicht erfasst.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10a;erstcheck;Erstcheck Anwaltskanzlei [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei fällt nicht in einen der in § 28 BSIG definierten Sektoren und ist daher unabhängig von ihrer Größe nicht vom BSI-Gesetz erfasst.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10a;erstcheck;Erstcheck Anwaltskanzlei [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Wirtschafts Kanzleien fallen nicht in einen der im BSI-Gesetz definierten Sektoren wie Energie, Wasser, Gesundheit oder Finanzwesen.""}
+```";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10a;erstcheck;Erstcheck Anwaltskanzlei [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei fällt nicht in einen der in NIS2 und dem BSI-Gesetz definierten Sektoren wie Energie, Verkehr, Gesundheit oder digitale Infrastruktur.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10a;erstcheck;Erstcheck Anwaltskanzlei [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei gehört nicht zu den Sektoren, die dem NIS2-Umsetzungsrecht unterliegen.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10b;erstcheck;Erstcheck Anwaltskanzlei [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei ist keiner der in Anlage 1 oder Anlage 2 genannten Einrichtungsarten zuzuordnen.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10b;erstcheck;Erstcheck Anwaltskanzlei [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei ist in keiner der in Anlage 1 oder Anlage 2 zum BSIG genannten Sektoren aufgeführt und fällt daher nicht unter die Definitionen besonders wichtiger oder wichtiger Einrichtungen.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10b;erstcheck;Erstcheck Anwaltskanzlei [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei fällt unter keinen der in Anlage 1 oder Anlage 2 genannten Sektoren und erfüllt auch nicht die Kriterien für Telekommunikationsanbieter oder Vertrauensdiensteanbieter.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10b;erstcheck;Erstcheck Anwaltskanzlei [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Wirtschaftskanzlei ist keiner in Anlage 1 oder 2 genannten Einrichtungsart zuzuordnen und erfüllt auch die Größenmerkmale für wichtige Einrichtungen nicht, da Mitarbeiterzahl, Umsatz und Bilanzsumme unter den jeweiligen Schwellenwerten liegen.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-10b;erstcheck;Erstcheck Anwaltskanzlei [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Wirtschaftskanzlei.
+Mitarbeiter: 25.
+Jahresumsatz: 5 Mio. EUR.
+Jahresbilanzsumme: 2 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Wirtschaftskanzlei ist keiner der in Anlage 1 oder Anlage 2 zum BSIG genannten Einrichtungsarten zuzuordnen und fällt daher nicht unter die Definitionen besonders wichtiger oder wichtiger Einrichtungen.""}";[pruefen] erwartet: nicht_betroffen (BSIG § 28, Anlagen 1/2).;;
+erst-11a;erstcheck;Erstcheck Cloud-Anbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Cloud-Computing-Anbieter fallen in den Sektor der wichtigen Einrichtungen; mit 60 Mitarbeitern, 11 Mio. EUR Umsatz und 8 Mio. EUR Bilanzsumme werden die Größenkriterien für 'wichtig' überschritten, nicht aber die für 'besonders wichtig'.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11a;erstcheck;Erstcheck Cloud-Anbieter [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Anbieter von Cloud-Computing-Diensten fallen unter digitale Dienste gemäß Anhang I des BSI-Gesetzes und sind somit besonders wichtige Einrichtungen, unabhängig von der Unternehmensgröße.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11a;erstcheck;Erstcheck Cloud-Anbieter [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+```json
+{
+  ""einstufung"": ""nicht_betroffen"",
+  ""begruendung"": ""Ich kenne die genauen Schwellenwerte und Kriterien des deutschen BSI-Gesetzes nach NIS2-Umsetzung nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""
+}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11a;erstcheck;Erstcheck Cloud-Anbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Cloud-Computing-Dienste fallen unter die digitalen Infrastrukturen im BSI-Gesetz, und die Einrichtung erfüllt mit 60 Mitarbeitern, 11 Mio. EUR Umsatz und 8 Mio. EUR Bilanzsumme die Größenkriterien für eine wichtige Einrichtung, nicht jedoch für eine besonders wichtige.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11a;erstcheck;Erstcheck Cloud-Anbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Cloud-Computing-Anbieter fallen unter einen kritischen Sektor des BSI-Gesetzes; mit 60 Mitarbeitern und 11 Mio. EUR Umsatz überschreitet die Einrichtung die Schwellenwerte für mittlere Unternehmen, erreicht aber nicht die Kriterien für besonders wichtige Einrichtungen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11b;erstcheck;Erstcheck Cloud-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist als Anbieter von Cloud-Computing-Diensten der Anlage 1 (Digitale Infrastruktur) zuzuordnen und erfüllt nach § 28 Abs. 2 Nr. 3 BSIG die Schwelle von mindestens 50 Mitarbeitern, womit sie als wichtige Einrichtung gilt.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11b;erstcheck;Erstcheck Cloud-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Cloud-Computing-Dienste sind in Anlage 1 (Sektor Digitale Infrastruktur) als Einrichtungsart genannt; mit 60 Mitarbeitern erfüllt die Einrichtung die Schwelle von mindestens 50 Mitarbeitern für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11b;erstcheck;Erstcheck Cloud-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung fällt unter Anlage 1 Sektor 6 (Digitale Infrastruktur) und erfüllt die Kriterien einer wichtigen Einrichtung nach § 28 Abs. 2 Nr. 3, da sie mindestens 50 Mitarbeiter beschäftigt.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11b;erstcheck;Erstcheck Cloud-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Cloud-Computing-Dienste fallen unter Anlage 1 Sektor 6 (Digitale Infrastruktur). Mit 60 Mitarbeitern erfüllt die Einrichtung die Schwelle von mindestens 50 Mitarbeitern nach § 28 Abs. 2 Nr. 3 BSIG, sodass sie als wichtige Einrichtung gilt.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-11b;erstcheck;Erstcheck Cloud-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Anbieter von Cloud-Computing-Diensten für Unternehmen.
+Mitarbeiter: 60.
+Jahresumsatz: 11 Mio. EUR.
+Jahresbilanzsumme: 8 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Cloud-Computing-Dienste fallen unter Anlage 1 (Digitale Infrastruktur), und mit 60 Mitarbeitern erfüllt die Einrichtung das Kriterium für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12a;erstcheck;Erstcheck DNS-Anbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Dienste sind in Anhang I der NIS2-Richtlinie als Teil der digitalen Infrastruktur aufgeführt und gelten daher unabhängig von der Größe als besonders wichtige Einrichtung.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12a;erstcheck;Erstcheck DNS-Anbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter sind nach NIS2 und dem BSI-Gesetz unabhängig von ihrer Größe als besonders wichtige Einrichtungen eingestuft, da DNS-Dienste zu den kritischen digitalen Infrastrukturen gehören.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12a;erstcheck;Erstcheck DNS-Anbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter sind gemäß NIS2-Richtlinie und BSI-Gesetz als besonders wichtige Einrichtungen eingestuft, unabhängig von Mitarbeiterzahl, Umsatz oder Bilanzsumme.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12a;erstcheck;Erstcheck DNS-Anbieter [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""DNS-Diensteanbieter fallen unter den Sektor Digitale Infrastruktur (Anhang I BSI-Gesetz), erfüllen aber nicht die Größenmerkmale für besonders wichtig (>250 Mitarbeiter, >50 Mio. EUR Umsatz, >25 Mio. EUR Bilanzsumme).""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12a;erstcheck;Erstcheck DNS-Anbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter sind nach NIS2 und dem BSI-Gesetz als besonders wichtige Einrichtungen eingestuft, unabhängig von Unternehmensgröße oder Umsatz.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12b;erstcheck;Erstcheck DNS-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter werden in § 28 Abs. 1 Nr. 2 BSIG ohne Größenschwelle als besonders wichtige Einrichtungen eingestuft, unabhängig von Mitarbeiterzahl, Umsatz oder Bilanzsumme.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12b;erstcheck;Erstcheck DNS-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter werden in § 28 Abs. 1 Nr. 2 BSIG ausdrücklich als besonders wichtige Einrichtungen genannt, ohne dass eine Größenschwelle (Mitarbeiterzahl, Umsatz oder Bilanzsumme) vorausgesetzt wird; die geringe Größe der Einrichtung ist daher unerheblich.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12b;erstcheck;Erstcheck DNS-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter werden in § 28 Abs. 1 Nr. 2 BSIG ohne Größenbeschränkung als besonders wichtige Einrichtungen eingestuft, unabhängig von Mitarbeiterzahl, Umsatz oder Bilanzsumme.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12b;erstcheck;Erstcheck DNS-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter werden in § 28 Abs. 1 Nr. 2 BSIG ohne Größenbeschränkung als besonders wichtige Einrichtungen eingestuft, sodass Mitarbeiterzahl und Umsatz hier nicht relevant sind.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-12b;erstcheck;Erstcheck DNS-Anbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines autoritativen DNS-Dienstes für Kunden (DNS-Diensteanbieter).
+Mitarbeiter: 12.
+Jahresumsatz: 2 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""DNS-Diensteanbieter sind gemäß § 28 Abs. 1 Nr. 2 BSIG ohne Größenbeschränkung als besonders wichtige Einrichtungen eingestuft, unabhängig von Mitarbeiterzahl, Umsatz oder Bilanzsumme.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13a;erstcheck;Erstcheck Vertrauensdiensteanbieter [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Vertrauensdiensteanbieter sind im BSI-Gesetz als besonders wichtige Einrichtungen eingestuft.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13a;erstcheck;Erstcheck Vertrauensdiensteanbieter [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{
+  ""einstufung"": ""nicht_betroffen"",
+  ""begruendung"": ""Ich bin nicht sicher, ob ein qualifizierter Vertrauensdiensteanbieter unter das BSI-Gesetz fällt.""
+}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13a;erstcheck;Erstcheck Vertrauensdiensteanbieter [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Qualifizierte Vertrauensdiensteanbieter sind mir im BSI-Gesetz nicht als besonders wichtige oder wichtige Einrichtungen bekannt; ich kann keine sichere Zuordnung vornehmen.""}
+```";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13a;erstcheck;Erstcheck Vertrauensdiensteanbieter [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich bin mir nicht sicher, ob qualifizierte Vertrauensdiensteanbieter unter die im BSI-Gesetz geregelten Sektoren fallen, und kenne die genaue Einordnung nicht.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13a;erstcheck;Erstcheck Vertrauensdiensteanbieter [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";;[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13b;erstcheck;Erstcheck Vertrauensdiensteanbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Qualifizierte Vertrauensdiensteanbieter werden in § 28 Abs. 1 Nr. 2 BSIG unabhängig von Mitarbeiterzahl, Umsatz oder Bilanzsumme als besonders wichtige Einrichtungen eingestuft.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13b;erstcheck;Erstcheck Vertrauensdiensteanbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Ein qualifizierter Vertrauensdiensteanbieter fällt unter § 28 Abs. 1 Nr. 2 BSIG als besonders wichtige Einrichtung, ohne dass die Schwellenwerte für Mitarbeiter, Umsatz und Bilanzsumme greifen.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13b;erstcheck;Erstcheck Vertrauensdiensteanbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Qualifizierte Vertrauensdiensteanbieter sind gemäß § 28 Abs. 1 Nr. 2 BSIG besonders wichtige Einrichtungen ohne Größenbeschränkung, sodass die geringen Mitarbeiter-, Umsatz- und Bilanzzahlen irrelevant sind.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13b;erstcheck;Erstcheck Vertrauensdiensteanbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Qualifizierte Vertrauensdiensteanbieter werden in § 28 Abs. 1 Nr. 2 BSIG ausdrücklich als besonders wichtige Einrichtungen genannt, ohne dass eine Größenbeschränkung gilt. Die geringen Mitarbeiter-, Umsatz- und Bilanzsummen sind daher irrelevant.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-13b;erstcheck;Erstcheck Vertrauensdiensteanbieter [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Qualifizierter Vertrauensdiensteanbieter (qualifizierte Zertifikate und Zeitstempel).
+Mitarbeiter: 9.
+Jahresumsatz: 1.5 Mio. EUR.
+Jahresbilanzsumme: 1 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Ein qualifizierter Vertrauensdiensteanbieter wird gemäß § 28 Abs. 1 Nr. 2 BSIG ohne Größenbeschränkung als besonders wichtige Einrichtung eingestuft.""}";[pruefen] erwartet: besonders_wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14a;erstcheck;Erstcheck Online-Marktplatz [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Ein Online-Marktplatz für Handwerksleistungen fällt unter den Sektor Digitaldienste, der zu den wichtigen Einrichtungen nach NIS2/BSI-Gesetz zählt. Mit 70 Mitarbeitern, 18 Mio. EUR Umsatz und 9 Mio. EUR Bilanzsumme erfüllt das Unternehmen die Größenmerkmale eines mittelgroßen Unternehmens und ist daher betroffen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14a;erstcheck;Erstcheck Online-Marktplatz [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen sektoralen Zuordnungskriterien des BSI-Gesetzes für Online-Marktplätze nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14a;erstcheck;Erstcheck Online-Marktplatz [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Kriterien des deutschen NIS2-Umsetzungsrechts im BSI-Gesetz nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14a;erstcheck;Erstcheck Online-Marktplatz [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich bin nicht sicher, ob ein Online-Marktplatz für Handwerksleistungen unter einen der NIS2-Sektoren im BSI-Gesetz fällt; die Sektoren sind spezifisch definiert und ich kann nicht mit Sicherheit sagen, ob diese Einrichtung betroffen ist.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14a;erstcheck;Erstcheck Online-Marktplatz [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ein Online-Marktplatz für Handwerksleistungen fällt nicht in einen der Sektoren, die nach dem BSI-Gesetz (NIS2-Umsetzung) als wichtige oder besonders wichtige Einrichtungen eingestuft werden.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14b;erstcheck;Erstcheck Online-Marktplatz [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Online-Marktplatz fällt unter Anlage 2 (Anbieter digitaler Dienste) und erfüllt die Kriterien einer wichtigen Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG, da er mindestens 50 Mitarbeiter beschäftigt.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14b;erstcheck;Erstcheck Online-Marktplatz [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Betreiber eines Online-Marktplatzes fällt unter Anlage 2 Punkt 6 (Anbieter digitaler Dienste) und erfüllt mit 70 Mitarbeitern das Kriterium von mindestens 50 Mitarbeitern für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14b;erstcheck;Erstcheck Online-Marktplatz [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Online-Marktplatz und fällt damit unter Anlage 2 Nr. 6 (Anbieter digitaler Dienste); mit 70 Mitarbeitern erfüllt sie die Schwelle von mindestens 50 Mitarbeitern gemäß § 28 Abs. 2 Nr. 3 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14b;erstcheck;Erstcheck Online-Marktplatz [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist als Anbieter digitaler Dienste (Online-Marktplatz) Anlage 2 zuzuordnen und erfüllt die Kriterien einer wichtigen Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG, da sie mindestens 50 Mitarbeiter beschäftigt.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-14b;erstcheck;Erstcheck Online-Marktplatz [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Betreiber eines Online-Marktplatzes für Handwerksleistungen.
+Mitarbeiter: 70.
+Jahresumsatz: 18 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Online-Marktplatz fällt unter Anlage 2 Nr. 6 (Anbieter digitaler Dienste) und erfüllt die Kriterien für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG, da er mindestens 50 Mitarbeiter beschäftigt.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15a;erstcheck;Erstcheck Paketdienst [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Der Paket- und Kurierdienst fällt unter den NIS2-Sektor Post und Paketdienste und ist mit 400 Mitarbeitern sowie 150 Mio. EUR Umsatz ein großes Unternehmen, das als besonders wichtige Einrichtung gilt.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15a;erstcheck;Erstcheck Paketdienst [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich bin mir nicht sicher, ob Paket- und Kurierdienste im BSI-Gesetz nach NIS2-Umsetzung explizit als besonders wichtige oder wichtige Einrichtungen eingestuft sind, und möchte keine falsche Einordnung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15a;erstcheck;Erstcheck Paketdienst [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Paket- und Kurierdienste fallen unter den Sektor Post- und Kurierdienste, der in der NIS2-Richtlinie als besonders wichtige Einrichtung eingestuft ist.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15a;erstcheck;Erstcheck Paketdienst [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Paket- und Kurierdienste fallen unter die Kategorie Post- und Kurierdienste, die nach NIS2 als wichtige Einrichtungen gelten. Die Größe des Unternehmens mit 400 Mitarbeitern und 150 Mio. EUR Umsatz überschreitet die Schwellenwerte für wichtige Einrichtungen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15a;erstcheck;Erstcheck Paketdienst [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Paket- und Kurierdienste fallen unter den Sektor Post- und Kurierdienste; mit 400 Mitarbeitern sowie 150 Mio. EUR Umsatz und 100 Mio. EUR Bilanzsumme erfüllt die Einrichtung die Kriterien eines großen Unternehmens und ist damit besonders wichtige Einrichtung.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15b;erstcheck;Erstcheck Paketdienst [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Paket- und Kurierdienst ist in Anlage 2 (Postdienste einschließlich Kurierdienste) eingeordnet und erfüllt die Kriterien für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG, da er mindestens 50 Mitarbeiter beschäftigt und Umsatz sowie Bilanzsumme jeweils über 10 Millionen Euro liegen.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15b;erstcheck;Erstcheck Paketdienst [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Paket- und Kurierdienst ist in Anlage 2 (Postdienste einschließlich Kurierdienste) aufgeführt und erfüllt die Schwellenwerte für wichtige Einrichtungen (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme über 10 Mio. EUR).""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15b;erstcheck;Erstcheck Paketdienst [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Paket- und Kurierdienst fällt unter Anlage 2 (Postdienste einschließlich Kurierdiensten) und erfüllt die Schwellenwerte für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme jeweils über 10 Mio. EUR).""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15b;erstcheck;Erstcheck Paketdienst [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Paket- und Kurierdienst ist einer in Anlage 2 bestimmten Einrichtungsart (Postdienste einschließlich Kurierdiensten) zuzuordnen und erfüllt die Schwellenwerte für eine wichtige Einrichtung nach § 28 (2) Nr. 3 BSIG (mindestens 50 Mitarbeiter bzw. Jahresumsatz und Jahresbilanzsumme jeweils über 10 Mio. EUR)."" }
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-15b;erstcheck;Erstcheck Paketdienst [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Paket- und Kurierdienst.
+Mitarbeiter: 400.
+Jahresumsatz: 150 Mio. EUR.
+Jahresbilanzsumme: 100 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Paket- und Kurierdienst ist einer in Anlage 2 bestimmten Einrichtungsart (Postdienste einschließlich Kurierdiensten) zuzuordnen und erfüllt die Größenmerkmale (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme über 10 Mio. EUR), sodass er als wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG gilt; eine besonders wichtige Einrichtung scheidet aus, da die Einrichtungsart nicht in Anlage 1 aufgeführt ist.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16a;erstcheck;Erstcheck Chemiehersteller [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Hersteller von chemischen Stoffen fällt in den erfassten Sektor Chemie und überschreitet mit 260 Mitarbeitern, 90 Mio. EUR Umsatz und 70 Mio. EUR Bilanzsumme die Schwellenwerte für ein großes Unternehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16a;erstcheck;Erstcheck Chemiehersteller [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Schwellenwerte und Kriterien des BSI-Gesetzes zur NIS2-Umsetzung nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16a;erstcheck;Erstcheck Chemiehersteller [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Schwellenwerte und Sektorzuordnungen des deutschen BSI-Gesetzes zur NIS2-Umsetzung nicht sicher und kann daher keine verlässliche Einstufung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16a;erstcheck;Erstcheck Chemiehersteller [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Einstufungskriterien und Sektoren des deutschen NIS2-Umsetzungsrechts (BSI-Gesetz) nicht sicher und kann daher keine verlässliche Zuordnung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16a;erstcheck;Erstcheck Chemiehersteller [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich kenne die genauen Einstufungskriterien und Schwellenwerte des deutschen NIS2-Umsetzungsrechts nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16b;erstcheck;Erstcheck Chemiehersteller [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Hersteller chemischer Stoffe und Gemische, was in Anlage 2 zum BSIG aufgeführt ist. Da die chemischen Stoffe nicht in Anlage 1, sondern in Anlage 2 genannt werden, greift § 28 Abs. 2 Nr. 3 (wichtige Einrichtungen) und nicht Abs. 1 Nr. 4 (besonders wichtige Einrichtungen). Die Schwellenwerte (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme über 10 Mio. EUR) sind erfüllt.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16b;erstcheck;Erstcheck Chemiehersteller [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist einer in Anlage 2 bestimmten Einrichtungsart zuzuordnen und erfüllt die Größenmerkmale für wichtige Einrichtungen nach § 28 Abs. 2 Nr. 3 BSIG (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme jeweils über 10 Millionen Euro).""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16b;erstcheck;Erstcheck Chemiehersteller [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Hersteller von chemischen Stoffen und Gemischen, was in Anlage 2 (nicht Anlage 1) aufgeführt ist, und überschreitet mit 260 Mitarbeitern die Schwelle von 50 Mitarbeitern für wichtige Einrichtungen.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16b;erstcheck;Erstcheck Chemiehersteller [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Hersteller chemischer Stoffe und Gemische, was unter Anlage 2 (Sektor 3) fällt. Gemäß § 28 Abs. 2 BSIG gelten sonstige Personen, die einer in den Anlagen 1 und 2 bestimmten Einrichtungsart zuzuordnen sind und mindestens 50 Mitarbeiter beschäftigen oder einen Jahresumsatz und eine Jahresbilanzsumme von jeweils über 10 Millionen Euro aufweisen, als wichtige Einrichtungen. Die Einrichtung erfüllt alle Kriterien (260 Mitarbeiter, 90 Mio. EUR Umsatz, 70 Mio. EUR Bilanzsumme).""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-16b;erstcheck;Erstcheck Chemiehersteller [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von chemischen Stoffen und Gemischen.
+Mitarbeiter: 260.
+Jahresumsatz: 90 Mio. EUR.
+Jahresbilanzsumme: 70 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Der Hersteller von chemischen Stoffen und Gemischen ist in Anlage 2 (Sektor 3) gelistet und erfüllt die Kriterien einer wichtigen Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG (mindestens 50 Mitarbeiter bzw. Umsatz und Bilanzsumme jeweils über 10 Mio. EUR). Da er nicht in Anlage 1 gelistet ist, handelt es sich nicht um eine besonders wichtige Einrichtung.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17a;erstcheck;Erstcheck Autozulieferer [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Hersteller von Kraftwagenteilen mit 520 Mitarbeitern und 210 Mio. EUR Umsatz überschreiten typische Schwellenwerte für wesentliche Einrichtungen nach NIS2-Richtlinie; die genauen deutschen Umsetzungskriterien im BSI-Gesetz kenne ich jedoch nicht sicher.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17a;erstcheck;Erstcheck Autozulieferer [Kopf];1.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Hersteller von Kraftwagenteilen fällt unter die Kategorie Herstellung im BSI-Gesetz; mit 520 Mitarbeitern und 210 Mio. EUR Umsatz überschreitet das Unternehmen die Schwellenwerte für wesentliche Einrichtungen, jedoch bin ich mir nicht sicher, ob es die für besonders wesentliche Einrichtungen überschreitet.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17a;erstcheck;Erstcheck Autozulieferer [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Großes Unternehmen mit über 250 Mitarbeitern und deutlich über 50 Mio. EUR Umsatz in einem potenziell erfassten Sektor (Verkehr/Fahrzeugteile).""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17a;erstcheck;Erstcheck Autozulieferer [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ein Hersteller von Kraftwagenteilen fällt nicht in einen der in Anhang I oder II des BSI-Gesetzes (NIS2UmsuCG) aufgeführten Sektoren wie Energie, Verkehr, Gesundheit oder digitale Infrastruktur, da es sich um einen produzierenden Betrieb und nicht um einen Verkehrsdienstleister oder Betreiber kritischer Infrastruktur handelt.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17a;erstcheck;Erstcheck Autozulieferer [Kopf];0.0;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+```json
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Hersteller von Kraftwagenteilen fallen in den erfassten Verkehrssektor und überschreiten mit 520 Mitarbeitern und 210 Mio. EUR Umsatz die Größenschwellen für besonders wichtige Einrichtungen.""}
+```";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17b;erstcheck;Erstcheck Autozulieferer [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Kraftwagenteile sind in Anlage 2 (Verarbeitendes Gewerbe) aufgeführt, nicht in Anlage 1, sodass die Einrichtung nicht als besonders wichtig gilt; sie erfüllt jedoch die Kriterien für wichtige Einrichtungen, da sie mindestens 50 Mitarbeiter beschäftigt und Umsatz sowie Bilanzsumme jeweils über 10 Mio. Euro liegen.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17b;erstcheck;Erstcheck Autozulieferer [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung fällt unter Anlage 2 Sektor 5 (Verarbeitendes Gewerbe, Kraftwagen und Kraftwagenteile) und überschreitet mit 520 Mitarbeitern sowie 210 Mio. EUR Umsatz die Schwellenwerte für eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG; da Anlage 1 nicht einschlägig ist, liegt keine besonders wichtige Einrichtung vor.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17b;erstcheck;Erstcheck Autozulieferer [Text];0.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Der Hersteller von Kraftwagenteilen ist einer in Anlage 1 (Sektor 5, Verarbeitendes Gewerbe) bestimmten Einrichtungsart zuzuordnen und überschreitet mit 520 Mitarbeitern die Schwelle von 250 Mitarbeitern sowie mit 210 Mio. EUR Umsatz und 150 Mio. EUR Bilanzsumme die Schwellenwerte für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17b;erstcheck;Erstcheck Autozulieferer [Text];0.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+{""einstufung"": ""besonders_wichtig"", ""begruendung"": ""Hersteller von Kraftwagenteilen fallen unter Anlage 1 Sektor 5 (Verarbeitendes Gewerbe, Kraftwagen und Kraftwagenteilen) und erfüllen mit 520 Mitarbeitern die Schwelle von mindestens 250 Mitarbeitern für besonders wichtige Einrichtungen nach § 28 Abs. 1 Nr. 4 BSIG.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-17b;erstcheck;Erstcheck Autozulieferer [Text];1.0;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Kraftwagenteilen.
+Mitarbeiter: 520.
+Jahresumsatz: 210 Mio. EUR.
+Jahresbilanzsumme: 150 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Hersteller von Kraftwagenteilen und fällt unter Anlage 2 Nr. 5 (Verarbeitendes Gewerbe). Da sie nicht in Anlage 1 aufgeführt ist, handelt es sich nicht um eine besonders wichtige Einrichtung, sondern um eine wichtige Einrichtung nach § 28 Abs. 2 Nr. 3 BSIG, da sie mindestens 50 Mitarbeiter beschäftigt und Umsatz sowie Bilanzsumme jeweils über 10 Mio. EUR liegen.""}";[pruefen] erwartet: wichtig (BSIG § 28, Anlagen 1/2).;;
+erst-18a;erstcheck;Erstcheck Systemhaus Handel [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Das Systemhaus betreibt keine Kundeninfrastruktur und fällt nach meinem Kenntnisstand nicht unter die im BSI-Gesetz definierten kritischen Sektoren oder Größenmerkmale; ich bin mir jedoch nicht vollständig sicher.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18a;erstcheck;Erstcheck Systemhaus Handel [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Das Systemhaus ist im Sektor Informationstechnik und Telekommunikation tätig und erfüllt die Größenkriterien für wichtige Einrichtungen (mehr als 50 Mitarbeiter und mehr als 10 Mio. EUR Umsatz).""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18a;erstcheck;Erstcheck Systemhaus Handel [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein mittleres Unternehmen, da sie 60 Mitarbeiter hat und 14 Mio. EUR Umsatz erzielt, womit zwei der drei Größenmerkmale für wichtige Einrichtungen erfüllt sind.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18a;erstcheck;Erstcheck Systemhaus Handel [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Das Systemhaus erbringt als ICT-Dienstleister digitale Dienste für andere Unternehmen und überschreitet mit 60 Mitarbeitern, 14 Mio. EUR Umsatz und 6 Mio. EUR Bilanzsumme die NIS2-Schwellenwerte für wichtige Einrichtungen.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18a;erstcheck;Erstcheck Systemhaus Handel [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 Mio. EUR.";"
+
+```json
+{
+  ""einstufung"": ""nicht_betroffen"",
+  ""begruendung"": ""Die Einrichtung betreibt keine Kundeninfrastruktur und fällt damit nicht in die erfassten Sektoren des BSI-Gesetzes (z. B. ICT-Dienstleistungsmanagement mit Infrastrukturbetrieb).""
+}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18b;erstcheck;Erstcheck Systemhaus Handel [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 M";"
+
+```json
+{
+  ""einstufung"": ""wichtig"",
+  ""begruendung"": ""Das Systemhaus erfüllt die Größenmerkmale für wichtige Einrichtungen (mindestens 50 Mitarbeiter), jedoch ist unklar, ob es einer in Anlage 1 oder 2 bestimmten Einrichtungsart zuzuordnen ist, da es keine Kundeninfrastruktur betreibt und nicht eindeutig in eine der genannten Kategorien fällt.""
+}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18b;erstcheck;Erstcheck Systemhaus Handel [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 M";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Das Systemhaus hat 60 Mitarbeiter und überschreitet damit die Schwelle von 50 Mitarbeitern für wichtige Einrichtungen; es fällt vermutlich unter Anlage 2 (verarbeitendes Gewerbe / elektronische Erzeugnisse), wobei die Zuordnung zu einem Sektor unsicher ist, da es primär Hardware verkauft und keine Kundeninfrastruktur betreibt.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18b;erstcheck;Erstcheck Systemhaus Handel [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 M";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Das Systemhaus ist keiner der in Anlage 1 oder 2 genannten Einrichtungsarten zuzuordnen, da es weder Telekommunikationsdienste anbietet noch Cloud-Computing, Rechenzentrumsdienste, Managed Services oder eine der anderen gelisteten Sektoren bedient.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18b;erstcheck;Erstcheck Systemhaus Handel [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 M";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Das Systemhaus ist keiner der in Anlage 1 oder 2 genannten Einrichtungsarten (z. B. Telekommunikationsdienste, digitale Infrastruktur, Anbieter digitaler Dienste) eindeutig zuzuordnen, da es IT-Hardware verkauft und Einzelprojekte durchführt, aber keine der dort aufgeführten spezifischen Tätigkeiten ausübt.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-18b;erstcheck;Erstcheck Systemhaus Handel [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Systemhaus: verkauft IT-Hardware und Lizenzen und führt Einzelprojekte durch, betreibt keine Kundeninfrastruktur.
+Mitarbeiter: 60.
+Jahresumsatz: 14 Mio. EUR.
+Jahresbilanzsumme: 6 M";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Das Systemhaus ist keiner der in Anlage 1 oder Anlage 2 genannten Einrichtungsarten klar zuzuordnen, da es keine Kundeninfrastruktur betreibt und kein Telekommunikations-, Cloud- oder Rechenzentrumsanbieter ist; Unsicherheit besteht, ob es als Managed Service Provider gelten könnte.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19a;erstcheck;Erstcheck Softwarehersteller [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung ist ein Softwarehersteller, der unter die Kategorie Fertigung (Anhang II NIS2) fällt, und überschreitet die Schwellenwerte für mittlere Unternehmen (>= 50 Mitarbeiter und > 10 Mio. EUR Umsatz), weshalb sie als wichtig einzustufen ist.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19a;erstcheck;Erstcheck Softwarehersteller [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+```json
+{
+  ""einstufung"": ""wichtig"",
+  ""begruendung"": ""Die Einrichtung überschreitet die Schwellenwerte für wichtige Einrichtungen im BSI-Gesetz und fällt als Softwarehersteller möglicherweise unter die Kategorie der digitalen Anbieter.""
+}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19a;erstcheck;Erstcheck Softwarehersteller [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+```json
+{
+  ""einstufung"": ""wichtig"",
+  ""begruendung"": ""Softwarehersteller fällt unter die Sektoren Herstellung bzw. digitale Anbieter und erfüllt mit 200 Mitarbeitern, 40 Mio. EUR Umsatz und 20 Mio. EUR Bilanzsumme die Größenkriterien für ein mittleres Unternehmen, ist jedoch keine besonders wichtige Einrichtung nach NIS2/BSI-Gesetz.""
+}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19a;erstcheck;Erstcheck Softwarehersteller [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung erfüllt mit 200 Mitarbeitern und 40 Mio. EUR Umsatz die Größenmerkmale für wichtige Einrichtungen nach BSI-Gesetz, sofern der Sektor ICT-Dienstleistungsmanagement betroffen ist.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19a;erstcheck;Erstcheck Softwarehersteller [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Ich bin nicht sicher, ob ein Softwarehersteller ohne eigenen Hosting- oder Cloud-Betrieb unter die Sektoren des BSI-Gesetzes nach NIS2-Umsetzung fällt; die genaue Einordnung kann ich nicht mit Sicherheit vornehmen.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19b;erstcheck;Erstcheck Softwarehersteller [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Einrichtung erfüllt die Schwellenwerte für wichtige Einrichtungen (50+ Mitarbeiter, Umsatz und Bilanzsumme jeweils über 10 Mio. EUR) und könnte am ehesten unter das verarbeitende Gewerbe (Anlage 2, Punkt 5) fallen; die Zuordnung von Softwareherstellung zu den Sektoren ist jedoch unsicher, da keine Kategorie explizit Softwarehersteller nennt.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19b;erstcheck;Erstcheck Softwarehersteller [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist keiner in Anlage 1 oder 2 genannten Einrichtungsart zuzuordnen; ein ERP-Softwarehersteller ohne Cloud-Betrieb fällt weder unter Digitale Infrastruktur noch unter Anbieter digitaler Dienste, und die Schwellenwerte für besonders wichtige Einrichtungen werden ohnehin nicht erreicht.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19b;erstcheck;Erstcheck Softwarehersteller [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist keiner der in Anlage 1 oder Anlage 2 aufgeführten Einrichtungsarten klar zuzuordnen; ein ERP-Softwarehersteller ohne Hosting/Cloud-Betrieb fällt weder unter digitale Infrastruktur noch unter Anbieter digitaler Dienste oder verarbeitendes Gewerbe im Sinne der Anlagen.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19b;erstcheck;Erstcheck Softwarehersteller [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist weder in Anlage 1 noch in Anlage 2 als Einrichtungsart aufgeführt und erfüllt auch nicht die Kriterien für Telekommunikationsanbieter oder Vertrauensdiensteanbieter.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-19b;erstcheck;Erstcheck Softwarehersteller [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Hersteller von Standard-Branchensoftware (ERP), ohne eigenen Hosting- oder Cloud-Betrieb.
+Mitarbeiter: 200.
+Jahresumsatz: 40 Mio. EUR.
+Jahresbilanzsumme: 20 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die Einrichtung ist ein Softwarehersteller (ERP), der keiner der in Anlage 1 oder Anlage 2 explizit genannten Einrichtungsarten zuzuordnen ist; insbesondere handelt es sich nicht um Cloud-Computing, Rechenzentrumsdienste, Telekommunikationsdienste oder die in Anlage 2 genannten Produktkategorien.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20a;erstcheck;Erstcheck Spedition [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Spedition fällt in den Verkehrssektor und überschreitet mit 90 Mitarbeitern, 16 Mio. EUR Umsatz und 9 Mio. EUR Bilanzsumme die Schwellenwerte für wichtige Einrichtungen, nicht aber für besonders wichtige.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20a;erstcheck;Erstcheck Spedition [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Der Straßengüterverkehr gehört nicht zu den nach NIS2/BSI-Gesetz erfassten Sektoren; die besonders wichtigen Verkehrssektoren sind Luft-, Schienen- und Binnenschifffahrt.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20a;erstcheck;Erstcheck Spedition [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Die genauen Einstufungskriterien und Schwellenwerte des BSI-Gesetzes für die NIS2-Umsetzung kenne ich nicht sicher, daher kann ich keine verlässliche Einordnung vornehmen.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20a;erstcheck;Erstcheck Spedition [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Speditionen im Straßenfrachtverkehr fallen unter den Verkehrssektor der NIS2-Richtlinie; mit 90 Mitarbeitern und 16 Mio. EUR Umsatz überschreitet die Einrichtung die Schwellenwerte für mittlere Unternehmen und ist daher als wichtige Einrichtung einzustufen.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20a;erstcheck;Erstcheck Spedition [Kopf];;"Ordne die folgende Einrichtung nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz) ein. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Spedition fällt in den erfassten Sektor Verkehr und überschreitet die Schwellenwerte für wichtige Einrichtungen (50 Mitarbeiter, 10 Mio. EUR Umsatz, 2 Mio. EUR Bilanzsumme), erreicht aber nicht die Schwellen für besonders wichtige Einrichtungen (250 Mitarbeiter, 50 Mio. EUR Umsatz, 43 Mio. EUR Bilanzsumme).""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20b;erstcheck;Erstcheck Spedition [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Spedition hat 90 Mitarbeiter und fällt damit unter die Mitarbeiterzahl-Schwelle von 50 für wichtige Einrichtungen; sie ist dem Transport- und Verkehrssektor zuzuordnen, allerdings ist unklar, ob eine Straßenspedition konkret einer in Anlage 1 oder 2 genannten Einrichtungsart entspricht.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20b;erstcheck;Erstcheck Spedition [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Spedition ist dem Transportsektor zuzuordnen und erfüllt mit 90 Mitarbeitern die Größenschwelle für wichtige Einrichtungen; die genaue Zuordnung zu Anlage 2 (Kurierdienste) ist jedoch nicht eindeutig.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20b;erstcheck;Erstcheck Spedition [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""nicht_betroffen"", ""begruendung"": ""Eine Spedition für Güterverkehr auf der Straße ist weder in Anlage 1 (dort nur Betreiber von Verkehrsbeeinflussungsanlagen oder intelligenten Verkehrssystemen im Straßenverkehr) noch in Anlage 2 (dort nur Postdienste einschließlich Kurierdiensten) als Einrichtungsart aufgeführt.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20b;erstcheck;Erstcheck Spedition [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+```json
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Spedition ist als Transportunternehmen wahrscheinlich einer in Anlage 2 genannten Einrichtungsart (Postdienste/Kurierdienste) zuzuordnen und erfüllt mit 90 Mitarbeitern die Schwelle von mindestens 50 Mitarbeitern für wichtige Einrichtungen; die genaue Zuordnung zu einer Einrichtungsart ist jedoch nicht eindeutig, da der Text Speditionen nicht explizit nennt.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;
+erst-20b;erstcheck;Erstcheck Spedition [Text];;"Ordne die folgende Einrichtung ausschließlich auf Grundlage des folgenden Textes ein. Wenn der Text nicht ausreicht, wähle die wahrscheinlichste Einstufung und nenne die Unsicherheit in der Begründung. Antworte ausschließlich mit JSON in diesem Format: {""einstufung"": ""besonders_wichtig"" | ""wichtig"" | ""nicht_betroffen"", ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_erstcheck.txt}}
+TEXT>>>
+
+Einrichtung: Spedition für Güterverkehr auf der Straße.
+Mitarbeiter: 90.
+Jahresumsatz: 16 Mio. EUR.
+Jahresbilanzsumme: 9 Mio. EUR.";"
+
+{""einstufung"": ""wichtig"", ""begruendung"": ""Die Spedition ist im Transportsektor tätig und erfüllt mit 90 Mitarbeitern die Schwellenwerte für wichtige Einrichtungen; unsicher ist, ob eine Spedition für Güterverkehr unter 'Postdienste einschließlich Kurierdienste' (Anlage 2) fällt.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 28, Anlagen 1/2).;;

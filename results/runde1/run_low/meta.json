@@ -1,0 +1,11 @@
+{
+ "base_url": "http://localhost:8000/v1",
+ "model": "Aleph-Alpha/Kolibri-1",
+ "effort": "low",
+ "temperature": 1.0,
+ "top_p": 0.97,
+ "top_k": 128,
+ "max_tokens": 6000,
+ "repeats": 2,
+ "ts": "2026-10-05 18:26:04"
+}

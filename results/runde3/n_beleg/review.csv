@@ -1,0 +1,1450 @@
+id;suite;titel;auto_score;frage;antwort;schluessel;bewertung_1-5;notiz
+bel-01;beleg;Beleg 1 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Schwarzwald IT-Service GmbH & Co. KG
+Beleg-Nr.: RE-2026-6234 | Datum 17.09.2026 | Lieferdatum 08.08.2026
+Nettobetrag ........ 3.413,18 €
+MwSt 19% ........ 648,50 €
+Summe ........ 4.061,68 €
+Vielen Dank";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-6234"", ""rechnungsdatum"": ""2026-09-17"", ""netto"": 3413.18, ""ust_satz"": 19, ""ust_betrag"": 648.5, ""brutto"": 4061.68}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-6234; 2026-09-17; netto 3413.18; USt 19% = 648.50; brutto 4061.68";;
+bel-01;beleg;Beleg 1 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Schwarzwald IT-Service GmbH & Co. KG
+Beleg-Nr.: RE-2026-6234 | Datum 17.09.2026 | Lieferdatum 08.08.2026
+Nettobetrag ........ 3.413,18 €
+MwSt 19% ........ 648,50 €
+Summe ........ 4.061,68 €
+Vielen Dank";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-6234"", ""rechnungsdatum"": ""2026-09-17"", ""netto"": 3413.18, ""ust_satz"": 19, ""ust_betrag"": 648.5, ""brutto"": 4061.68}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-6234; 2026-09-17; netto 3413.18; USt 19% = 648.50; brutto 4061.68";;
+bel-01;beleg;Beleg 1 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Schwarzwald IT-Service GmbH & Co. KG
+Beleg-Nr.: RE-2026-6234 | Datum 17.09.2026 | Lieferdatum 08.08.2026
+Nettobetrag ........ 3.413,18 €
+MwSt 19% ........ 648,50 €
+Summe ........ 4.061,68 €
+Vielen Dank";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-6234"", ""rechnungsdatum"": ""2026-09-17"", ""netto"": 3413.18, ""ust_satz"": 19, ""ust_betrag"": 648.5, ""brutto"": 4061.68}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-6234; 2026-09-17; netto 3413.18; USt 19% = 648.50; brutto 4061.68";;
+bel-01;beleg;Beleg 1 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Schwarzwald IT-Service GmbH & Co. KG
+Beleg-Nr.: RE-2026-6234 | Datum 17.09.2026 | Lieferdatum 08.08.2026
+Nettobetrag ........ 3.413,18 €
+MwSt 19% ........ 648,50 €
+Summe ........ 4.061,68 €
+Vielen Dank";"
+
+```json
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-6234"", ""rechnungsdatum"": ""2026-09-17"", ""netto"": 3413.18, ""ust_satz"": 19, ""ust_betrag"": 648.5, ""brutto"": 4061.68}
+```";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-6234; 2026-09-17; netto 3413.18; USt 19% = 648.50; brutto 4061.68";;
+bel-01;beleg;Beleg 1 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Schwarzwald IT-Service GmbH & Co. KG
+Beleg-Nr.: RE-2026-6234 | Datum 17.09.2026 | Lieferdatum 08.08.2026
+Nettobetrag ........ 3.413,18 €
+MwSt 19% ........ 648,50 €
+Summe ........ 4.061,68 €
+Vielen Dank";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-6234"", ""rechnungsdatum"": ""2026-09-17"", ""netto"": 3413.18, ""ust_satz"": 19, ""ust_betrag"": 648.5, ""brutto"": 4061.68}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-6234; 2026-09-17; netto 3413.18; USt 19% = 648.50; brutto 4061.68";;
+bel-02;beleg;Beleg 2 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 26.09.2026 (Leistung erbracht am 25.08.2026)
+Rechnungsnummer: RE-2026-7891
+Betrag ohne USt.: 4.436,61 €
+zzgl. 7 % USt: 310,56 €
+Rechnungsbetrag (brutto): 4.747,17 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-7891"", ""rechnungsdatum"": ""2026-09-26"", ""netto"": 4436.61, ""ust_satz"": 7, ""ust_betrag"": 310.56, ""brutto"": 4747.17}";"Bodensee Metallbau GmbH; RE-2026-7891; 2026-09-26; netto 4436.61; USt 7% = 310.56; brutto 4747.17";;
+bel-02;beleg;Beleg 2 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 26.09.2026 (Leistung erbracht am 25.08.2026)
+Rechnungsnummer: RE-2026-7891
+Betrag ohne USt.: 4.436,61 €
+zzgl. 7 % USt: 310,56 €
+Rechnungsbetrag (brutto): 4.747,17 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-7891"", ""rechnungsdatum"": ""2026-09-26"", ""netto"": 4436.61, ""ust_satz"": 7, ""ust_betrag"": 310.56, ""brutto"": 4747.17}";"Bodensee Metallbau GmbH; RE-2026-7891; 2026-09-26; netto 4436.61; USt 7% = 310.56; brutto 4747.17";;
+bel-02;beleg;Beleg 2 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 26.09.2026 (Leistung erbracht am 25.08.2026)
+Rechnungsnummer: RE-2026-7891
+Betrag ohne USt.: 4.436,61 €
+zzgl. 7 % USt: 310,56 €
+Rechnungsbetrag (brutto): 4.747,17 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-7891"", ""rechnungsdatum"": ""2026-09-26"", ""netto"": 4436.61, ""ust_satz"": 7, ""ust_betrag"": 310.56, ""brutto"": 4747.17}";"Bodensee Metallbau GmbH; RE-2026-7891; 2026-09-26; netto 4436.61; USt 7% = 310.56; brutto 4747.17";;
+bel-02;beleg;Beleg 2 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 26.09.2026 (Leistung erbracht am 25.08.2026)
+Rechnungsnummer: RE-2026-7891
+Betrag ohne USt.: 4.436,61 €
+zzgl. 7 % USt: 310,56 €
+Rechnungsbetrag (brutto): 4.747,17 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-7891"", ""rechnungsdatum"": ""2026-09-26"", ""netto"": 4436.61, ""ust_satz"": 7, ""ust_betrag"": 310.56, ""brutto"": 4747.17}";"Bodensee Metallbau GmbH; RE-2026-7891; 2026-09-26; netto 4436.61; USt 7% = 310.56; brutto 4747.17";;
+bel-02;beleg;Beleg 2 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 26.09.2026 (Leistung erbracht am 25.08.2026)
+Rechnungsnummer: RE-2026-7891
+Betrag ohne USt.: 4.436,61 €
+zzgl. 7 % USt: 310,56 €
+Rechnungsbetrag (brutto): 4.747,17 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-7891"", ""rechnungsdatum"": ""2026-09-26"", ""netto"": 4436.61, ""ust_satz"": 7, ""ust_betrag"": 310.56, ""brutto"": 4747.17}";"Bodensee Metallbau GmbH; RE-2026-7891; 2026-09-26; netto 4436.61; USt 7% = 310.56; brutto 4747.17";;
+bel-03;beleg;Beleg 3 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH
+Rechnung Nr. RE-2026-8226
+Rechnungsdatum: 08.01.2026
+Leistungszeitraum: bis 04.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.240,19 €
+Zwischensumme netto: 3.240,19 €
+Umsatzsteuer 19 %: 615,64 ";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8226"", ""rechnungsdatum"": ""2026-01-08"", ""netto"": 3240.19, ""ust_satz"": 19, ""ust_betrag"": 615.64, ""brutto"": 3855.83}";"Bodensee Metallbau GmbH; RE-2026-8226; 2026-01-08; netto 3240.19; USt 19% = 615.64; brutto 3855.83";;
+bel-03;beleg;Beleg 3 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH
+Rechnung Nr. RE-2026-8226
+Rechnungsdatum: 08.01.2026
+Leistungszeitraum: bis 04.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.240,19 €
+Zwischensumme netto: 3.240,19 €
+Umsatzsteuer 19 %: 615,64 ";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8226"", ""rechnungsdatum"": ""2026-01-08"", ""netto"": 3240.19, ""ust_satz"": 19, ""ust_betrag"": 615.64, ""brutto"": 3855.83}";"Bodensee Metallbau GmbH; RE-2026-8226; 2026-01-08; netto 3240.19; USt 19% = 615.64; brutto 3855.83";;
+bel-03;beleg;Beleg 3 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH
+Rechnung Nr. RE-2026-8226
+Rechnungsdatum: 08.01.2026
+Leistungszeitraum: bis 04.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.240,19 €
+Zwischensumme netto: 3.240,19 €
+Umsatzsteuer 19 %: 615,64 ";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8226"", ""rechnungsdatum"": ""2026-01-08"", ""netto"": 3240.19, ""ust_satz"": 19, ""ust_betrag"": 615.64, ""brutto"": 3855.83}";"Bodensee Metallbau GmbH; RE-2026-8226; 2026-01-08; netto 3240.19; USt 19% = 615.64; brutto 3855.83";;
+bel-03;beleg;Beleg 3 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH
+Rechnung Nr. RE-2026-8226
+Rechnungsdatum: 08.01.2026
+Leistungszeitraum: bis 04.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.240,19 €
+Zwischensumme netto: 3.240,19 €
+Umsatzsteuer 19 %: 615,64 ";"
+
+```json
+{
+  ""lieferant"": ""Bodensee Metallbau GmbH"",
+  ""rechnungsnummer"": ""RE-2026-8226"",
+  ""rechnungsdatum"": ""2026-01-08"",
+  ""netto"": 3240.19,
+  ""ust_satz"": 19,
+  ""ust_betrag"": 615.64,
+  ""brutto"": 3855.83
+}
+```";"Bodensee Metallbau GmbH; RE-2026-8226; 2026-01-08; netto 3240.19; USt 19% = 615.64; brutto 3855.83";;
+bel-03;beleg;Beleg 3 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH
+Rechnung Nr. RE-2026-8226
+Rechnungsdatum: 08.01.2026
+Leistungszeitraum: bis 04.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.240,19 €
+Zwischensumme netto: 3.240,19 €
+Umsatzsteuer 19 %: 615,64 ";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8226"", ""rechnungsdatum"": ""2026-01-08"", ""netto"": 3240.19, ""ust_satz"": 19, ""ust_betrag"": 615.64, ""brutto"": 3855.83}";"Bodensee Metallbau GmbH; RE-2026-8226; 2026-01-08; netto 3240.19; USt 19% = 615.64; brutto 3855.83";;
+bel-04;beleg;Beleg 4 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Beyer & Söhne Elektrotechnik
+Beleg-Nr.: RE-2026-2606 | Datum 15.01.2026 | Lieferdatum 22.01.2026
+Nettobetrag ........ 4.291,70 €
+MwSt 7% ........ 300,42 €
+Summe ........ 4.592,12 €
+Vielen Dank für Ihre";"
+
+{""lieferant"": ""Beyer & Söhne Elektrotechnik"", ""rechnungsnummer"": ""RE-2026-2606"", ""rechnungsdatum"": ""2026-01-15"", ""netto"": 4291.70, ""ust_satz"": 7, ""ust_betrag"": 300.42, ""brutto"": 4592.12}";"Beyer & Söhne Elektrotechnik; RE-2026-2606; 2026-01-15; netto 4291.70; USt 7% = 300.42; brutto 4592.12";;
+bel-04;beleg;Beleg 4 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Beyer & Söhne Elektrotechnik
+Beleg-Nr.: RE-2026-2606 | Datum 15.01.2026 | Lieferdatum 22.01.2026
+Nettobetrag ........ 4.291,70 €
+MwSt 7% ........ 300,42 €
+Summe ........ 4.592,12 €
+Vielen Dank für Ihre";"
+
+{
+  ""lieferant"": ""Beyer & Söhne Elektrotechnik"",
+  ""rechnungsnummer"": ""RE-2026-2606"",
+  ""rechnungsdatum"": ""2026-01-15"",
+  ""netto"": 4291.70,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 300.42,
+  ""brutto"": 4592.12
+}";"Beyer & Söhne Elektrotechnik; RE-2026-2606; 2026-01-15; netto 4291.70; USt 7% = 300.42; brutto 4592.12";;
+bel-04;beleg;Beleg 4 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Beyer & Söhne Elektrotechnik
+Beleg-Nr.: RE-2026-2606 | Datum 15.01.2026 | Lieferdatum 22.01.2026
+Nettobetrag ........ 4.291,70 €
+MwSt 7% ........ 300,42 €
+Summe ........ 4.592,12 €
+Vielen Dank für Ihre";"
+
+```json
+{""lieferant"": ""Beyer & Söhne Elektrotechnik"", ""rechnungsnummer"": ""RE-2026-2606"", ""rechnungsdatum"": ""2026-01-15"", ""netto"": 4291.70, ""ust_satz"": 7, ""ust_betrag"": 300.42, ""brutto"": 4592.12}
+```";"Beyer & Söhne Elektrotechnik; RE-2026-2606; 2026-01-15; netto 4291.70; USt 7% = 300.42; brutto 4592.12";;
+bel-04;beleg;Beleg 4 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Beyer & Söhne Elektrotechnik
+Beleg-Nr.: RE-2026-2606 | Datum 15.01.2026 | Lieferdatum 22.01.2026
+Nettobetrag ........ 4.291,70 €
+MwSt 7% ........ 300,42 €
+Summe ........ 4.592,12 €
+Vielen Dank für Ihre";"
+
+```json
+{""lieferant"": ""Beyer & Söhne Elektrotechnik"", ""rechnungsnummer"": ""RE-2026-2606"", ""rechnungsdatum"": ""2026-01-15"", ""netto"": 4291.70, ""ust_satz"": 7, ""ust_betrag"": 300.42, ""brutto"": 4592.12}
+```";"Beyer & Söhne Elektrotechnik; RE-2026-2606; 2026-01-15; netto 4291.70; USt 7% = 300.42; brutto 4592.12";;
+bel-04;beleg;Beleg 4 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Beyer & Söhne Elektrotechnik
+Beleg-Nr.: RE-2026-2606 | Datum 15.01.2026 | Lieferdatum 22.01.2026
+Nettobetrag ........ 4.291,70 €
+MwSt 7% ........ 300,42 €
+Summe ........ 4.592,12 €
+Vielen Dank für Ihre";"
+
+{""lieferant"": ""Beyer & Söhne Elektrotechnik"", ""rechnungsnummer"": ""RE-2026-2606"", ""rechnungsdatum"": ""2026-01-15"", ""netto"": 4291.70, ""ust_satz"": 7, ""ust_betrag"": 300.42, ""brutto"": 4592.12}";"Beyer & Söhne Elektrotechnik; RE-2026-2606; 2026-01-15; netto 4291.70; USt 7% = 300.42; brutto 4592.12";;
+bel-05;beleg;Beleg 5 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Pfinztal Catering GmbH - Rechnung
+vom 13.05.2026 (Leistung erbracht am 26.04.2026)
+Rechnungsnummer: RE-2026-4444
+Betrag ohne USt.: 1.842,72 €
+zzgl. 19 % USt: 350,12 €
+Rechnungsbetrag (brutto): 2.192,84 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Pfinztal Catering GmbH"", ""rechnungsnummer"": ""RE-2026-4444"", ""rechnungsdatum"": ""2026-05-13"", ""netto"": 1842.72, ""ust_satz"": 19, ""ust_betrag"": 350.12, ""brutto"": 2192.84}";"Pfinztal Catering GmbH; RE-2026-4444; 2026-05-13; netto 1842.72; USt 19% = 350.12; brutto 2192.84";;
+bel-05;beleg;Beleg 5 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Pfinztal Catering GmbH - Rechnung
+vom 13.05.2026 (Leistung erbracht am 26.04.2026)
+Rechnungsnummer: RE-2026-4444
+Betrag ohne USt.: 1.842,72 €
+zzgl. 19 % USt: 350,12 €
+Rechnungsbetrag (brutto): 2.192,84 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Pfinztal Catering GmbH"", ""rechnungsnummer"": ""RE-2026-4444"", ""rechnungsdatum"": ""2026-05-13"", ""netto"": 1842.72, ""ust_satz"": 19, ""ust_betrag"": 350.12, ""brutto"": 2192.84}";"Pfinztal Catering GmbH; RE-2026-4444; 2026-05-13; netto 1842.72; USt 19% = 350.12; brutto 2192.84";;
+bel-05;beleg;Beleg 5 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Pfinztal Catering GmbH - Rechnung
+vom 13.05.2026 (Leistung erbracht am 26.04.2026)
+Rechnungsnummer: RE-2026-4444
+Betrag ohne USt.: 1.842,72 €
+zzgl. 19 % USt: 350,12 €
+Rechnungsbetrag (brutto): 2.192,84 €
+Bitte überweisen S";"
+
+```json
+{
+  ""lieferant"": ""Pfinztal Catering GmbH"",
+  ""rechnungsnummer"": ""RE-2026-4444"",
+  ""rechnungsdatum"": ""2026-05-13"",
+  ""netto"": 1842.72,
+  ""ust_satz"": 19,
+  ""ust_betrag"": 350.12,
+  ""brutto"": 2192.84
+}
+```";"Pfinztal Catering GmbH; RE-2026-4444; 2026-05-13; netto 1842.72; USt 19% = 350.12; brutto 2192.84";;
+bel-05;beleg;Beleg 5 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Pfinztal Catering GmbH - Rechnung
+vom 13.05.2026 (Leistung erbracht am 26.04.2026)
+Rechnungsnummer: RE-2026-4444
+Betrag ohne USt.: 1.842,72 €
+zzgl. 19 % USt: 350,12 €
+Rechnungsbetrag (brutto): 2.192,84 €
+Bitte überweisen S";"
+
+```json
+{""lieferant"": ""Pfinztal Catering GmbH"", ""rechnungsnummer"": ""RE-2026-4444"", ""rechnungsdatum"": ""2026-05-13"", ""netto"": 1842.72, ""ust_satz"": 19, ""ust_betrag"": 350.12, ""brutto"": 2192.84}
+```";"Pfinztal Catering GmbH; RE-2026-4444; 2026-05-13; netto 1842.72; USt 19% = 350.12; brutto 2192.84";;
+bel-05;beleg;Beleg 5 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Pfinztal Catering GmbH - Rechnung
+vom 13.05.2026 (Leistung erbracht am 26.04.2026)
+Rechnungsnummer: RE-2026-4444
+Betrag ohne USt.: 1.842,72 €
+zzgl. 19 % USt: 350,12 €
+Rechnungsbetrag (brutto): 2.192,84 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Pfinztal Catering GmbH"", ""rechnungsnummer"": ""RE-2026-4444"", ""rechnungsdatum"": ""2026-05-13"", ""netto"": 1842.72, ""ust_satz"": 19, ""ust_betrag"": 350.12, ""brutto"": 2192.84}";"Pfinztal Catering GmbH; RE-2026-4444; 2026-05-13; netto 1842.72; USt 19% = 350.12; brutto 2192.84";;
+bel-06;beleg;Beleg 6 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-9414
+Rechnungsdatum: 21.02.2026
+Leistungszeitraum: bis 03.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.811,18 €
+Zwischensumme netto: 3.811,18 €
+Umsatzsteuer 19 %";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-9414"", ""rechnungsdatum"": ""2026-02-21"", ""netto"": 3811.18, ""ust_satz"": 19, ""ust_betrag"": 724.12, ""brutto"": 4535.30}";"Nordwest Software Solutions GmbH; RE-2026-9414; 2026-02-21; netto 3811.18; USt 19% = 724.12; brutto 4535.30";;
+bel-06;beleg;Beleg 6 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-9414
+Rechnungsdatum: 21.02.2026
+Leistungszeitraum: bis 03.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.811,18 €
+Zwischensumme netto: 3.811,18 €
+Umsatzsteuer 19 %";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-9414"", ""rechnungsdatum"": ""2026-02-21"", ""netto"": 3811.18, ""ust_satz"": 19, ""ust_betrag"": 724.12, ""brutto"": 4535.30}";"Nordwest Software Solutions GmbH; RE-2026-9414; 2026-02-21; netto 3811.18; USt 19% = 724.12; brutto 4535.30";;
+bel-06;beleg;Beleg 6 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-9414
+Rechnungsdatum: 21.02.2026
+Leistungszeitraum: bis 03.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.811,18 €
+Zwischensumme netto: 3.811,18 €
+Umsatzsteuer 19 %";"
+
+```json
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-9414"", ""rechnungsdatum"": ""2026-02-21"", ""netto"": 3811.18, ""ust_satz"": 19, ""ust_betrag"": 724.12, ""brutto"": 4535.30}
+```";"Nordwest Software Solutions GmbH; RE-2026-9414; 2026-02-21; netto 3811.18; USt 19% = 724.12; brutto 4535.30";;
+bel-06;beleg;Beleg 6 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-9414
+Rechnungsdatum: 21.02.2026
+Leistungszeitraum: bis 03.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.811,18 €
+Zwischensumme netto: 3.811,18 €
+Umsatzsteuer 19 %";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-9414"", ""rechnungsdatum"": ""2026-02-21"", ""netto"": 3811.18, ""ust_satz"": 19, ""ust_betrag"": 724.12, ""brutto"": 4535.30}";"Nordwest Software Solutions GmbH; RE-2026-9414; 2026-02-21; netto 3811.18; USt 19% = 724.12; brutto 4535.30";;
+bel-06;beleg;Beleg 6 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-9414
+Rechnungsdatum: 21.02.2026
+Leistungszeitraum: bis 03.01.2026
+
+Position 1: Dienstleistung / Lieferung   3.811,18 €
+Zwischensumme netto: 3.811,18 €
+Umsatzsteuer 19 %";"
+
+```json
+{
+  ""lieferant"": ""Nordwest Software Solutions GmbH"",
+  ""rechnungsnummer"": ""RE-2026-9414"",
+  ""rechnungsdatum"": ""2026-02-21"",
+  ""netto"": 3811.18,
+  ""ust_satz"": 19,
+  ""ust_betrag"": 724.12,
+  ""brutto"": 4535.30
+}
+```";"Nordwest Software Solutions GmbH; RE-2026-9414; 2026-02-21; netto 3811.18; USt 19% = 724.12; brutto 4535.30";;
+bel-07;beleg;Beleg 7 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9815 | Datum 10.05.2026 | Lieferdatum 21.04.2026
+Nettobetrag ........ 2.418,34 €
+MwSt 19% ........ 459,48 €
+Summe ........ 2.877,82 €
+Vielen Dank für Ihr";"
+
+{""lieferant"": ""Heidelberger Fachverlag GmbH"", ""rechnungsnummer"": ""RE-2026-9815"", ""rechnungsdatum"": ""2026-05-10"", ""netto"": 2418.34, ""ust_satz"": 19, ""ust_betrag"": 459.48, ""brutto"": 2877.82}";"Heidelberger Fachverlag GmbH; RE-2026-9815; 2026-05-10; netto 2418.34; USt 19% = 459.48; brutto 2877.82";;
+bel-07;beleg;Beleg 7 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9815 | Datum 10.05.2026 | Lieferdatum 21.04.2026
+Nettobetrag ........ 2.418,34 €
+MwSt 19% ........ 459,48 €
+Summe ........ 2.877,82 €
+Vielen Dank für Ihr";"
+
+{""lieferant"": ""Heidelberger Fachverlag GmbH"", ""rechnungsnummer"": ""RE-2026-9815"", ""rechnungsdatum"": ""2026-05-10"", ""netto"": 2418.34, ""ust_satz"": 19, ""ust_betrag"": 459.48, ""brutto"": 2877.82}";"Heidelberger Fachverlag GmbH; RE-2026-9815; 2026-05-10; netto 2418.34; USt 19% = 459.48; brutto 2877.82";;
+bel-07;beleg;Beleg 7 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9815 | Datum 10.05.2026 | Lieferdatum 21.04.2026
+Nettobetrag ........ 2.418,34 €
+MwSt 19% ........ 459,48 €
+Summe ........ 2.877,82 €
+Vielen Dank für Ihr";"
+
+```json
+{
+  ""lieferant"": ""Heidelberger Fachverlag GmbH"",
+  ""rechnungsnummer"": ""RE-2026-9815"",
+  ""rechnungsdatum"": ""2026-05-10"",
+  ""netto"": 2418.34,
+  ""ust_satz"": 19,
+  ""ust_betrag"": 459.48,
+  ""brutto"": 2877.82
+}
+```";"Heidelberger Fachverlag GmbH; RE-2026-9815; 2026-05-10; netto 2418.34; USt 19% = 459.48; brutto 2877.82";;
+bel-07;beleg;Beleg 7 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9815 | Datum 10.05.2026 | Lieferdatum 21.04.2026
+Nettobetrag ........ 2.418,34 €
+MwSt 19% ........ 459,48 €
+Summe ........ 2.877,82 €
+Vielen Dank für Ihr";"
+
+```json
+{""lieferant"": ""Heidelberger Fachverlag GmbH"", ""rechnungsnummer"": ""RE-2026-9815"", ""rechnungsdatum"": ""2026-05-10"", ""netto"": 2418.34, ""ust_satz"": 19, ""ust_betrag"": 459.48, ""brutto"": 2877.82}
+```";"Heidelberger Fachverlag GmbH; RE-2026-9815; 2026-05-10; netto 2418.34; USt 19% = 459.48; brutto 2877.82";;
+bel-07;beleg;Beleg 7 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9815 | Datum 10.05.2026 | Lieferdatum 21.04.2026
+Nettobetrag ........ 2.418,34 €
+MwSt 19% ........ 459,48 €
+Summe ........ 2.877,82 €
+Vielen Dank für Ihr";"
+
+{""lieferant"": ""Heidelberger Fachverlag GmbH"", ""rechnungsnummer"": ""RE-2026-9815"", ""rechnungsdatum"": ""2026-05-10"", ""netto"": 2418.34, ""ust_satz"": 19, ""ust_betrag"": 459.48, ""brutto"": 2877.82}";"Heidelberger Fachverlag GmbH; RE-2026-9815; 2026-05-10; netto 2418.34; USt 19% = 459.48; brutto 2877.82";;
+bel-08;beleg;Beleg 8 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 01.06.2026 (Leistung erbracht am 14.05.2026)
+Rechnungsnummer: RE-2026-6062
+Betrag ohne USt.: 1.926,00 €
+zzgl. 7 % USt: 134,82 €
+Rechnungsbetrag (brutto): 2.060,82 €
+Bitte überweisen S";"
+
+```json
+{
+  ""lieferant"": ""Bodensee Metallbau GmbH"",
+  ""rechnungsnummer"": ""RE-2026-6062"",
+  ""rechnungsdatum"": ""2026-06-01"",
+  ""netto"": 1926.0,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 134.82,
+  ""brutto"": 2060.82
+}
+```";"Bodensee Metallbau GmbH; RE-2026-6062; 2026-06-01; netto 1926.00; USt 7% = 134.82; brutto 2060.82";;
+bel-08;beleg;Beleg 8 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 01.06.2026 (Leistung erbracht am 14.05.2026)
+Rechnungsnummer: RE-2026-6062
+Betrag ohne USt.: 1.926,00 €
+zzgl. 7 % USt: 134,82 €
+Rechnungsbetrag (brutto): 2.060,82 €
+Bitte überweisen S";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-6062"", ""rechnungsdatum"": ""2026-06-01"", ""netto"": 1926.00, ""ust_satz"": 7, ""ust_betrag"": 134.82, ""brutto"": 2060.82}";"Bodensee Metallbau GmbH; RE-2026-6062; 2026-06-01; netto 1926.00; USt 7% = 134.82; brutto 2060.82";;
+bel-08;beleg;Beleg 8 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 01.06.2026 (Leistung erbracht am 14.05.2026)
+Rechnungsnummer: RE-2026-6062
+Betrag ohne USt.: 1.926,00 €
+zzgl. 7 % USt: 134,82 €
+Rechnungsbetrag (brutto): 2.060,82 €
+Bitte überweisen S";"
+
+```json
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-6062"", ""rechnungsdatum"": ""2026-06-01"", ""netto"": 1926.00, ""ust_satz"": 7, ""ust_betrag"": 134.82, ""brutto"": 2060.82}
+```";"Bodensee Metallbau GmbH; RE-2026-6062; 2026-06-01; netto 1926.00; USt 7% = 134.82; brutto 2060.82";;
+bel-08;beleg;Beleg 8 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 01.06.2026 (Leistung erbracht am 14.05.2026)
+Rechnungsnummer: RE-2026-6062
+Betrag ohne USt.: 1.926,00 €
+zzgl. 7 % USt: 134,82 €
+Rechnungsbetrag (brutto): 2.060,82 €
+Bitte überweisen S";"
+
+```json
+{
+  ""lieferant"": ""Bodensee Metallbau GmbH"",
+  ""rechnungsnummer"": ""RE-2026-6062"",
+  ""rechnungsdatum"": ""2026-06-01"",
+  ""netto"": 1926.00,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 134.82,
+  ""brutto"": 2060.82
+}
+```";"Bodensee Metallbau GmbH; RE-2026-6062; 2026-06-01; netto 1926.00; USt 7% = 134.82; brutto 2060.82";;
+bel-08;beleg;Beleg 8 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Bodensee Metallbau GmbH - Rechnung
+vom 01.06.2026 (Leistung erbracht am 14.05.2026)
+Rechnungsnummer: RE-2026-6062
+Betrag ohne USt.: 1.926,00 €
+zzgl. 7 % USt: 134,82 €
+Rechnungsbetrag (brutto): 2.060,82 €
+Bitte überweisen S";"
+
+```json
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-6062"", ""rechnungsdatum"": ""2026-06-01"", ""netto"": 1926.0, ""ust_satz"": 7, ""ust_betrag"": 134.82, ""brutto"": 2060.82}
+```";"Bodensee Metallbau GmbH; RE-2026-6062; 2026-06-01; netto 1926.00; USt 7% = 134.82; brutto 2060.82";;
+bel-09;beleg;Beleg 9 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG
+Rechnung Nr. RE-2026-7533
+Rechnungsdatum: 19.09.2026
+Leistungszeitraum: bis 14.08.2026
+
+Position 1: Dienstleistung / Lieferung   2.633,34 €
+Zwischensumme netto: 2.633,34 €
+Umsatzsteuer ";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-7533"", ""rechnungsdatum"": ""2026-09-19"", ""netto"": 2633.34, ""ust_satz"": 19, ""ust_betrag"": 500.33, ""brutto"": 3133.67}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-7533; 2026-09-19; netto 2633.34; USt 19% = 500.33; brutto 3133.67";;
+bel-09;beleg;Beleg 9 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG
+Rechnung Nr. RE-2026-7533
+Rechnungsdatum: 19.09.2026
+Leistungszeitraum: bis 14.08.2026
+
+Position 1: Dienstleistung / Lieferung   2.633,34 €
+Zwischensumme netto: 2.633,34 €
+Umsatzsteuer ";"
+
+```json
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-7533"", ""rechnungsdatum"": ""2026-09-19"", ""netto"": 2633.34, ""ust_satz"": 19, ""ust_betrag"": 500.33, ""brutto"": 3133.67}
+```";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-7533; 2026-09-19; netto 2633.34; USt 19% = 500.33; brutto 3133.67";;
+bel-09;beleg;Beleg 9 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG
+Rechnung Nr. RE-2026-7533
+Rechnungsdatum: 19.09.2026
+Leistungszeitraum: bis 14.08.2026
+
+Position 1: Dienstleistung / Lieferung   2.633,34 €
+Zwischensumme netto: 2.633,34 €
+Umsatzsteuer ";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-7533"", ""rechnungsdatum"": ""2026-09-19"", ""netto"": 2633.34, ""ust_satz"": 19, ""ust_betrag"": 500.33, ""brutto"": 3133.67}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-7533; 2026-09-19; netto 2633.34; USt 19% = 500.33; brutto 3133.67";;
+bel-09;beleg;Beleg 9 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG
+Rechnung Nr. RE-2026-7533
+Rechnungsdatum: 19.09.2026
+Leistungszeitraum: bis 14.08.2026
+
+Position 1: Dienstleistung / Lieferung   2.633,34 €
+Zwischensumme netto: 2.633,34 €
+Umsatzsteuer ";"
+
+```json
+{
+  ""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"",
+  ""rechnungsnummer"": ""RE-2026-7533"",
+  ""rechnungsdatum"": ""2026-09-19"",
+  ""netto"": 2633.34,
+  ""ust_satz"": 19,
+  ""ust_betrag"": 500.33,
+  ""brutto"": 3133.67
+}
+```";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-7533; 2026-09-19; netto 2633.34; USt 19% = 500.33; brutto 3133.67";;
+bel-09;beleg;Beleg 9 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG
+Rechnung Nr. RE-2026-7533
+Rechnungsdatum: 19.09.2026
+Leistungszeitraum: bis 14.08.2026
+
+Position 1: Dienstleistung / Lieferung   2.633,34 €
+Zwischensumme netto: 2.633,34 €
+Umsatzsteuer ";"
+
+```json
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-7533"", ""rechnungsdatum"": ""2026-09-19"", ""netto"": 2633.34, ""ust_satz"": 19, ""ust_betrag"": 500.33, ""brutto"": 3133.67}
+```";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-7533; 2026-09-19; netto 2633.34; USt 19% = 500.33; brutto 3133.67";;
+bel-10;beleg;Beleg 10 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9045 | Datum 13.09.2026 | Lieferdatum 19.08.2026
+Nettobetrag ........ 1.376,03 €
+MwSt 7% ........ 96,32 €
+Summe ........ 1.472,35 €
+Vielen Dank für Ihren";"
+
+```json
+{""lieferant"": ""Heidelberger Fachverlag GmbH"", ""rechnungsnummer"": ""RE-2026-9045"", ""rechnungsdatum"": ""2026-09-13"", ""netto"": 1376.03, ""ust_satz"": 7, ""ust_betrag"": 96.32, ""brutto"": 1472.35}
+```";"Heidelberger Fachverlag GmbH; RE-2026-9045; 2026-09-13; netto 1376.03; USt 7% = 96.32; brutto 1472.35";;
+bel-10;beleg;Beleg 10 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9045 | Datum 13.09.2026 | Lieferdatum 19.08.2026
+Nettobetrag ........ 1.376,03 €
+MwSt 7% ........ 96,32 €
+Summe ........ 1.472,35 €
+Vielen Dank für Ihren";"
+
+```json
+{
+  ""lieferant"": ""Heidelberger Fachverlag GmbH"",
+  ""rechnungsnummer"": ""RE-2026-9045"",
+  ""rechnungsdatum"": ""2026-09-13"",
+  ""netto"": 1376.03,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 96.32,
+  ""brutto"": 1472.35
+}
+```";"Heidelberger Fachverlag GmbH; RE-2026-9045; 2026-09-13; netto 1376.03; USt 7% = 96.32; brutto 1472.35";;
+bel-10;beleg;Beleg 10 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9045 | Datum 13.09.2026 | Lieferdatum 19.08.2026
+Nettobetrag ........ 1.376,03 €
+MwSt 7% ........ 96,32 €
+Summe ........ 1.472,35 €
+Vielen Dank für Ihren";"
+
+{""lieferant"": ""Heidelberger Fachverlag GmbH"", ""rechnungsnummer"": ""RE-2026-9045"", ""rechnungsdatum"": ""2026-09-13"", ""netto"": 1376.03, ""ust_satz"": 7, ""ust_betrag"": 96.32, ""brutto"": 1472.35}";"Heidelberger Fachverlag GmbH; RE-2026-9045; 2026-09-13; netto 1376.03; USt 7% = 96.32; brutto 1472.35";;
+bel-10;beleg;Beleg 10 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9045 | Datum 13.09.2026 | Lieferdatum 19.08.2026
+Nettobetrag ........ 1.376,03 €
+MwSt 7% ........ 96,32 €
+Summe ........ 1.472,35 €
+Vielen Dank für Ihren";"
+
+```json
+{
+  ""lieferant"": ""Heidelberger Fachverlag GmbH"",
+  ""rechnungsnummer"": ""RE-2026-9045"",
+  ""rechnungsdatum"": ""2026-09-13"",
+  ""netto"": 1376.03,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 96.32,
+  ""brutto"": 1472.35
+}
+```";"Heidelberger Fachverlag GmbH; RE-2026-9045; 2026-09-13; netto 1376.03; USt 7% = 96.32; brutto 1472.35";;
+bel-10;beleg;Beleg 10 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Heidelberger Fachverlag GmbH
+Beleg-Nr.: RE-2026-9045 | Datum 13.09.2026 | Lieferdatum 19.08.2026
+Nettobetrag ........ 1.376,03 €
+MwSt 7% ........ 96,32 €
+Summe ........ 1.472,35 €
+Vielen Dank für Ihren";"
+
+```json
+{
+  ""lieferant"": ""Heidelberger Fachverlag GmbH"",
+  ""rechnungsnummer"": ""RE-2026-9045"",
+  ""rechnungsdatum"": ""2026-09-13"",
+  ""netto"": 1376.03,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 96.32,
+  ""brutto"": 1472.35
+}
+```";"Heidelberger Fachverlag GmbH; RE-2026-9045; 2026-09-13; netto 1376.03; USt 7% = 96.32; brutto 1472.35";;
+bel-11;beleg;Beleg 11 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Albtal Reinigungsdienste - Rechnung
+vom 17.01.2026 (Leistung erbracht am 25.01.2026)
+Rechnungsnummer: RE-2026-9404
+Betrag ohne USt.: 3.037,36 €
+zzgl. 19 % USt: 577,10 €
+Rechnungsbetrag (brutto): 3.614,46 €
+Bitte überweisen";"
+
+```json
+{
+  ""lieferant"": ""Albtal Reinigungsdienste"",
+  ""rechnungsnummer"": ""RE-2026-9404"",
+  ""rechnungsdatum"": ""2026-01-17"",
+  ""netto"": 3037.36,
+  ""ust_satz"": 19,
+  ""ust_betrag"": 577.10,
+  ""brutto"": 3614.46
+}
+```";"Albtal Reinigungsdienste; RE-2026-9404; 2026-01-17; netto 3037.36; USt 19% = 577.10; brutto 3614.46";;
+bel-11;beleg;Beleg 11 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Albtal Reinigungsdienste - Rechnung
+vom 17.01.2026 (Leistung erbracht am 25.01.2026)
+Rechnungsnummer: RE-2026-9404
+Betrag ohne USt.: 3.037,36 €
+zzgl. 19 % USt: 577,10 €
+Rechnungsbetrag (brutto): 3.614,46 €
+Bitte überweisen";"
+
+{""lieferant"": ""Albtal Reinigungsdienste"", ""rechnungsnummer"": ""RE-2026-9404"", ""rechnungsdatum"": ""2026-01-17"", ""netto"": 3037.36, ""ust_satz"": 19, ""ust_betrag"": 577.10, ""brutto"": 3614.46}";"Albtal Reinigungsdienste; RE-2026-9404; 2026-01-17; netto 3037.36; USt 19% = 577.10; brutto 3614.46";;
+bel-11;beleg;Beleg 11 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Albtal Reinigungsdienste - Rechnung
+vom 17.01.2026 (Leistung erbracht am 25.01.2026)
+Rechnungsnummer: RE-2026-9404
+Betrag ohne USt.: 3.037,36 €
+zzgl. 19 % USt: 577,10 €
+Rechnungsbetrag (brutto): 3.614,46 €
+Bitte überweisen";"
+
+```json
+{""lieferant"": ""Albtal Reinigungsdienste"", ""rechnungsnummer"": ""RE-2026-9404"", ""rechnungsdatum"": ""2026-01-17"", ""netto"": 3037.36, ""ust_satz"": 19, ""ust_betrag"": 577.10, ""brutto"": 3614.46}
+```";"Albtal Reinigungsdienste; RE-2026-9404; 2026-01-17; netto 3037.36; USt 19% = 577.10; brutto 3614.46";;
+bel-11;beleg;Beleg 11 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Albtal Reinigungsdienste - Rechnung
+vom 17.01.2026 (Leistung erbracht am 25.01.2026)
+Rechnungsnummer: RE-2026-9404
+Betrag ohne USt.: 3.037,36 €
+zzgl. 19 % USt: 577,10 €
+Rechnungsbetrag (brutto): 3.614,46 €
+Bitte überweisen";"
+
+{""lieferant"": ""Albtal Reinigungsdienste"", ""rechnungsnummer"": ""RE-2026-9404"", ""rechnungsdatum"": ""2026-01-17"", ""netto"": 3037.36, ""ust_satz"": 19, ""ust_betrag"": 577.1, ""brutto"": 3614.46}";"Albtal Reinigungsdienste; RE-2026-9404; 2026-01-17; netto 3037.36; USt 19% = 577.10; brutto 3614.46";;
+bel-11;beleg;Beleg 11 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Albtal Reinigungsdienste - Rechnung
+vom 17.01.2026 (Leistung erbracht am 25.01.2026)
+Rechnungsnummer: RE-2026-9404
+Betrag ohne USt.: 3.037,36 €
+zzgl. 19 % USt: 577,10 €
+Rechnungsbetrag (brutto): 3.614,46 €
+Bitte überweisen";"
+
+{""lieferant"": ""Albtal Reinigungsdienste"", ""rechnungsnummer"": ""RE-2026-9404"", ""rechnungsdatum"": ""2026-01-17"", ""netto"": 3037.36, ""ust_satz"": 19, ""ust_betrag"": 577.10, ""brutto"": 3614.46}";"Albtal Reinigungsdienste; RE-2026-9404; 2026-01-17; netto 3037.36; USt 19% = 577.10; brutto 3614.46";;
+bel-12;beleg;Beleg 12 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Karlsruher Druckhaus e.K.
+Rechnung Nr. RE-2026-1800
+Rechnungsdatum: 23.09.2026
+Leistungszeitraum: bis 23.08.2026
+
+Position 1: Dienstleistung / Lieferung   4.669,51 €
+Zwischensumme netto: 4.669,51 €
+Umsatzsteuer 19 %: 887,2";"
+
+{""lieferant"": ""Karlsruher Druckhaus e.K."", ""rechnungsnummer"": ""RE-2026-1800"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 4669.51, ""ust_satz"": 19, ""ust_betrag"": 887.21, ""brutto"": 5556.72}";"Karlsruher Druckhaus e.K.; RE-2026-1800; 2026-09-23; netto 4669.51; USt 19% = 887.21; brutto 5556.72";;
+bel-12;beleg;Beleg 12 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Karlsruher Druckhaus e.K.
+Rechnung Nr. RE-2026-1800
+Rechnungsdatum: 23.09.2026
+Leistungszeitraum: bis 23.08.2026
+
+Position 1: Dienstleistung / Lieferung   4.669,51 €
+Zwischensumme netto: 4.669,51 €
+Umsatzsteuer 19 %: 887,2";"
+
+{""lieferant"": ""Karlsruher Druckhaus e.K."", ""rechnungsnummer"": ""RE-2026-1800"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 4669.51, ""ust_satz"": 19, ""ust_betrag"": 887.21, ""brutto"": 5556.72}";"Karlsruher Druckhaus e.K.; RE-2026-1800; 2026-09-23; netto 4669.51; USt 19% = 887.21; brutto 5556.72";;
+bel-12;beleg;Beleg 12 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Karlsruher Druckhaus e.K.
+Rechnung Nr. RE-2026-1800
+Rechnungsdatum: 23.09.2026
+Leistungszeitraum: bis 23.08.2026
+
+Position 1: Dienstleistung / Lieferung   4.669,51 €
+Zwischensumme netto: 4.669,51 €
+Umsatzsteuer 19 %: 887,2";"
+
+{""lieferant"": ""Karlsruher Druckhaus e.K."", ""rechnungsnummer"": ""RE-2026-1800"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 4669.51, ""ust_satz"": 19, ""ust_betrag"": 887.21, ""brutto"": 5556.72}";"Karlsruher Druckhaus e.K.; RE-2026-1800; 2026-09-23; netto 4669.51; USt 19% = 887.21; brutto 5556.72";;
+bel-12;beleg;Beleg 12 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Karlsruher Druckhaus e.K.
+Rechnung Nr. RE-2026-1800
+Rechnungsdatum: 23.09.2026
+Leistungszeitraum: bis 23.08.2026
+
+Position 1: Dienstleistung / Lieferung   4.669,51 €
+Zwischensumme netto: 4.669,51 €
+Umsatzsteuer 19 %: 887,2";"
+
+{""lieferant"": ""Karlsruher Druckhaus e.K."", ""rechnungsnummer"": ""RE-2026-1800"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 4669.51, ""ust_satz"": 19, ""ust_betrag"": 887.21, ""brutto"": 5556.72}";"Karlsruher Druckhaus e.K.; RE-2026-1800; 2026-09-23; netto 4669.51; USt 19% = 887.21; brutto 5556.72";;
+bel-12;beleg;Beleg 12 (Layout 1, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Karlsruher Druckhaus e.K.
+Rechnung Nr. RE-2026-1800
+Rechnungsdatum: 23.09.2026
+Leistungszeitraum: bis 23.08.2026
+
+Position 1: Dienstleistung / Lieferung   4.669,51 €
+Zwischensumme netto: 4.669,51 €
+Umsatzsteuer 19 %: 887,2";"
+
+{""lieferant"": ""Karlsruher Druckhaus e.K."", ""rechnungsnummer"": ""RE-2026-1800"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 4669.51, ""ust_satz"": 19, ""ust_betrag"": 887.21, ""brutto"": 5556.72}";"Karlsruher Druckhaus e.K.; RE-2026-1800; 2026-09-23; netto 4669.51; USt 19% = 887.21; brutto 5556.72";;
+bel-13;beleg;Beleg 13 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Bodensee Metallbau GmbH
+Beleg-Nr.: RE-2026-8035 | Datum 16.03.2026 | Lieferdatum 28.02.2026
+Nettobetrag ........ 2.547,66 €
+MwSt 19% ........ 484,06 €
+Summe ........ 3.031,72 €
+Vielen Dank für Ihren Au";"
+
+```json
+{
+  ""lieferant"": ""Bodensee Metallbau GmbH"",
+  ""rechnungsnummer"": ""RE-2026-8035"",
+  ""rechnungsdatum"": ""2026-03-16"",
+  ""netto"": 2547.66,
+  ""ust_satz"": 19,
+  ""ust_betrag"": 484.06,
+  ""brutto"": 3031.72
+}
+```";"Bodensee Metallbau GmbH; RE-2026-8035; 2026-03-16; netto 2547.66; USt 19% = 484.06; brutto 3031.72";;
+bel-13;beleg;Beleg 13 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Bodensee Metallbau GmbH
+Beleg-Nr.: RE-2026-8035 | Datum 16.03.2026 | Lieferdatum 28.02.2026
+Nettobetrag ........ 2.547,66 €
+MwSt 19% ........ 484,06 €
+Summe ........ 3.031,72 €
+Vielen Dank für Ihren Au";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8035"", ""rechnungsdatum"": ""2026-03-16"", ""netto"": 2547.66, ""ust_satz"": 19, ""ust_betrag"": 484.06, ""brutto"": 3031.72}";"Bodensee Metallbau GmbH; RE-2026-8035; 2026-03-16; netto 2547.66; USt 19% = 484.06; brutto 3031.72";;
+bel-13;beleg;Beleg 13 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Bodensee Metallbau GmbH
+Beleg-Nr.: RE-2026-8035 | Datum 16.03.2026 | Lieferdatum 28.02.2026
+Nettobetrag ........ 2.547,66 €
+MwSt 19% ........ 484,06 €
+Summe ........ 3.031,72 €
+Vielen Dank für Ihren Au";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8035"", ""rechnungsdatum"": ""2026-03-16"", ""netto"": 2547.66, ""ust_satz"": 19, ""ust_betrag"": 484.06, ""brutto"": 3031.72}";"Bodensee Metallbau GmbH; RE-2026-8035; 2026-03-16; netto 2547.66; USt 19% = 484.06; brutto 3031.72";;
+bel-13;beleg;Beleg 13 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Bodensee Metallbau GmbH
+Beleg-Nr.: RE-2026-8035 | Datum 16.03.2026 | Lieferdatum 28.02.2026
+Nettobetrag ........ 2.547,66 €
+MwSt 19% ........ 484,06 €
+Summe ........ 3.031,72 €
+Vielen Dank für Ihren Au";"
+
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8035"", ""rechnungsdatum"": ""2026-03-16"", ""netto"": 2547.66, ""ust_satz"": 19, ""ust_betrag"": 484.06, ""brutto"": 3031.72}";"Bodensee Metallbau GmbH; RE-2026-8035; 2026-03-16; netto 2547.66; USt 19% = 484.06; brutto 3031.72";;
+bel-13;beleg;Beleg 13 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Bodensee Metallbau GmbH
+Beleg-Nr.: RE-2026-8035 | Datum 16.03.2026 | Lieferdatum 28.02.2026
+Nettobetrag ........ 2.547,66 €
+MwSt 19% ........ 484,06 €
+Summe ........ 3.031,72 €
+Vielen Dank für Ihren Au";"
+
+```json
+{""lieferant"": ""Bodensee Metallbau GmbH"", ""rechnungsnummer"": ""RE-2026-8035"", ""rechnungsdatum"": ""2026-03-16"", ""netto"": 2547.66, ""ust_satz"": 19, ""ust_betrag"": 484.06, ""brutto"": 3031.72}
+```";"Bodensee Metallbau GmbH; RE-2026-8035; 2026-03-16; netto 2547.66; USt 19% = 484.06; brutto 3031.72";;
+bel-14;beleg;Beleg 14 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 22.08.2026 (Leistung erbracht am 18.07.2026)
+Rechnungsnummer: RE-2026-8484
+Betrag ohne USt.: 3.766,15 €
+zzgl. 19 % USt: 715,57 €
+Rechnungsbetrag (brutto): 4.481,72 €
+Bitt";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8484"", ""rechnungsdatum"": ""2026-08-22"", ""netto"": 3766.15, ""ust_satz"": 19, ""ust_betrag"": 715.57, ""brutto"": 4481.72}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8484; 2026-08-22; netto 3766.15; USt 19% = 715.57; brutto 4481.72";;
+bel-14;beleg;Beleg 14 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 22.08.2026 (Leistung erbracht am 18.07.2026)
+Rechnungsnummer: RE-2026-8484
+Betrag ohne USt.: 3.766,15 €
+zzgl. 19 % USt: 715,57 €
+Rechnungsbetrag (brutto): 4.481,72 €
+Bitt";"
+
+```json
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8484"", ""rechnungsdatum"": ""2026-08-22"", ""netto"": 3766.15, ""ust_satz"": 19, ""ust_betrag"": 715.57, ""brutto"": 4481.72}
+```";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8484; 2026-08-22; netto 3766.15; USt 19% = 715.57; brutto 4481.72";;
+bel-14;beleg;Beleg 14 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 22.08.2026 (Leistung erbracht am 18.07.2026)
+Rechnungsnummer: RE-2026-8484
+Betrag ohne USt.: 3.766,15 €
+zzgl. 19 % USt: 715,57 €
+Rechnungsbetrag (brutto): 4.481,72 €
+Bitt";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8484"", ""rechnungsdatum"": ""2026-08-22"", ""netto"": 3766.15, ""ust_satz"": 19, ""ust_betrag"": 715.57, ""brutto"": 4481.72}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8484; 2026-08-22; netto 3766.15; USt 19% = 715.57; brutto 4481.72";;
+bel-14;beleg;Beleg 14 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 22.08.2026 (Leistung erbracht am 18.07.2026)
+Rechnungsnummer: RE-2026-8484
+Betrag ohne USt.: 3.766,15 €
+zzgl. 19 % USt: 715,57 €
+Rechnungsbetrag (brutto): 4.481,72 €
+Bitt";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8484"", ""rechnungsdatum"": ""2026-08-22"", ""netto"": 3766.15, ""ust_satz"": 19, ""ust_betrag"": 715.57, ""brutto"": 4481.72}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8484; 2026-08-22; netto 3766.15; USt 19% = 715.57; brutto 4481.72";;
+bel-14;beleg;Beleg 14 (Layout 3, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 22.08.2026 (Leistung erbracht am 18.07.2026)
+Rechnungsnummer: RE-2026-8484
+Betrag ohne USt.: 3.766,15 €
+zzgl. 19 % USt: 715,57 €
+Rechnungsbetrag (brutto): 4.481,72 €
+Bitt";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8484"", ""rechnungsdatum"": ""2026-08-22"", ""netto"": 3766.15, ""ust_satz"": 19, ""ust_betrag"": 715.57, ""brutto"": 4481.72}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8484; 2026-08-22; netto 3766.15; USt 19% = 715.57; brutto 4481.72";;
+bel-15;beleg;Beleg 15 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-6040
+Rechnungsdatum: 18.09.2026
+Leistungszeitraum: bis 26.08.2026
+
+Position 1: Dienstleistung / Lieferung   3.681,22 €
+Zwischensumme netto: 3.681,22 €
+Umsatzsteuer 7 %:";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-6040"", ""rechnungsdatum"": ""2026-09-18"", ""netto"": 3681.22, ""ust_satz"": 7, ""ust_betrag"": 257.69, ""brutto"": 3938.91}";"Nordwest Software Solutions GmbH; RE-2026-6040; 2026-09-18; netto 3681.22; USt 7% = 257.69; brutto 3938.91";;
+bel-15;beleg;Beleg 15 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-6040
+Rechnungsdatum: 18.09.2026
+Leistungszeitraum: bis 26.08.2026
+
+Position 1: Dienstleistung / Lieferung   3.681,22 €
+Zwischensumme netto: 3.681,22 €
+Umsatzsteuer 7 %:";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-6040"", ""rechnungsdatum"": ""2026-09-18"", ""netto"": 3681.22, ""ust_satz"": 7, ""ust_betrag"": 257.69, ""brutto"": 3938.91}";"Nordwest Software Solutions GmbH; RE-2026-6040; 2026-09-18; netto 3681.22; USt 7% = 257.69; brutto 3938.91";;
+bel-15;beleg;Beleg 15 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-6040
+Rechnungsdatum: 18.09.2026
+Leistungszeitraum: bis 26.08.2026
+
+Position 1: Dienstleistung / Lieferung   3.681,22 €
+Zwischensumme netto: 3.681,22 €
+Umsatzsteuer 7 %:";"
+
+```json
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-6040"", ""rechnungsdatum"": ""2026-09-18"", ""netto"": 3681.22, ""ust_satz"": 7, ""ust_betrag"": 257.69, ""brutto"": 3938.91}
+```";"Nordwest Software Solutions GmbH; RE-2026-6040; 2026-09-18; netto 3681.22; USt 7% = 257.69; brutto 3938.91";;
+bel-15;beleg;Beleg 15 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-6040
+Rechnungsdatum: 18.09.2026
+Leistungszeitraum: bis 26.08.2026
+
+Position 1: Dienstleistung / Lieferung   3.681,22 €
+Zwischensumme netto: 3.681,22 €
+Umsatzsteuer 7 %:";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-6040"", ""rechnungsdatum"": ""2026-09-18"", ""netto"": 3681.22, ""ust_satz"": 7, ""ust_betrag"": 257.69, ""brutto"": 3938.91}";"Nordwest Software Solutions GmbH; RE-2026-6040; 2026-09-18; netto 3681.22; USt 7% = 257.69; brutto 3938.91";;
+bel-15;beleg;Beleg 15 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Nordwest Software Solutions GmbH
+Rechnung Nr. RE-2026-6040
+Rechnungsdatum: 18.09.2026
+Leistungszeitraum: bis 26.08.2026
+
+Position 1: Dienstleistung / Lieferung   3.681,22 €
+Zwischensumme netto: 3.681,22 €
+Umsatzsteuer 7 %:";"
+
+```json
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-6040"", ""rechnungsdatum"": ""2026-09-18"", ""netto"": 3681.22, ""ust_satz"": 7, ""ust_betrag"": 257.69, ""brutto"": 3938.91}
+```";"Nordwest Software Solutions GmbH; RE-2026-6040; 2026-09-18; netto 3681.22; USt 7% = 257.69; brutto 3938.91";;
+bel-16;beleg;Beleg 16 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-8095 | Datum 07.05.2026 | Lieferdatum 01.04.2026
+Nettobetrag ........ 4.381,24 €
+MwSt 19% ........ 832,44 €
+Summe ........ 5.213,68 €
+Vielen Dank für";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-8095"", ""rechnungsdatum"": ""2026-05-07"", ""netto"": 4381.24, ""ust_satz"": 19, ""ust_betrag"": 832.44, ""brutto"": 5213.68}";"Nordwest Software Solutions GmbH; RE-2026-8095; 2026-05-07; netto 4381.24; USt 19% = 832.44; brutto 5213.68";;
+bel-16;beleg;Beleg 16 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-8095 | Datum 07.05.2026 | Lieferdatum 01.04.2026
+Nettobetrag ........ 4.381,24 €
+MwSt 19% ........ 832,44 €
+Summe ........ 5.213,68 €
+Vielen Dank für";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-8095"", ""rechnungsdatum"": ""2026-05-07"", ""netto"": 4381.24, ""ust_satz"": 19, ""ust_betrag"": 832.44, ""brutto"": 5213.68}";"Nordwest Software Solutions GmbH; RE-2026-8095; 2026-05-07; netto 4381.24; USt 19% = 832.44; brutto 5213.68";;
+bel-16;beleg;Beleg 16 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-8095 | Datum 07.05.2026 | Lieferdatum 01.04.2026
+Nettobetrag ........ 4.381,24 €
+MwSt 19% ........ 832,44 €
+Summe ........ 5.213,68 €
+Vielen Dank für";"
+
+```json
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-8095"", ""rechnungsdatum"": ""2026-05-07"", ""netto"": 4381.24, ""ust_satz"": 19, ""ust_betrag"": 832.44, ""brutto"": 5213.68}
+```";"Nordwest Software Solutions GmbH; RE-2026-8095; 2026-05-07; netto 4381.24; USt 19% = 832.44; brutto 5213.68";;
+bel-16;beleg;Beleg 16 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-8095 | Datum 07.05.2026 | Lieferdatum 01.04.2026
+Nettobetrag ........ 4.381,24 €
+MwSt 19% ........ 832,44 €
+Summe ........ 5.213,68 €
+Vielen Dank für";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-8095"", ""rechnungsdatum"": ""2026-05-07"", ""netto"": 4381.24, ""ust_satz"": 19, ""ust_betrag"": 832.44, ""brutto"": 5213.68}";"Nordwest Software Solutions GmbH; RE-2026-8095; 2026-05-07; netto 4381.24; USt 19% = 832.44; brutto 5213.68";;
+bel-16;beleg;Beleg 16 (Layout 2, 19 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-8095 | Datum 07.05.2026 | Lieferdatum 01.04.2026
+Nettobetrag ........ 4.381,24 €
+MwSt 19% ........ 832,44 €
+Summe ........ 5.213,68 €
+Vielen Dank für";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-8095"", ""rechnungsdatum"": ""2026-05-07"", ""netto"": 4381.24, ""ust_satz"": 19, ""ust_betrag"": 832.44, ""brutto"": 5213.68}";"Nordwest Software Solutions GmbH; RE-2026-8095; 2026-05-07; netto 4381.24; USt 19% = 832.44; brutto 5213.68";;
+bel-17;beleg;Beleg 17 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Müller Bürobedarf GmbH - Rechnung
+vom 21.08.2026 (Leistung erbracht am 12.07.2026)
+Rechnungsnummer: RE-2026-3455
+Betrag ohne USt.: 4.232,90 €
+zzgl. 7 % USt: 296,30 €
+Rechnungsbetrag (brutto): 4.529,20 €
+Bitte überweisen Si";"
+
+```json
+{
+  ""lieferant"": ""Müller Bürobedarf GmbH"",
+  ""rechnungsnummer"": ""RE-2026-3455"",
+  ""rechnungsdatum"": ""2026-08-21"",
+  ""netto"": 4232.9,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 296.3,
+  ""brutto"": 4529.2
+}
+```";"Müller Bürobedarf GmbH; RE-2026-3455; 2026-08-21; netto 4232.90; USt 7% = 296.30; brutto 4529.20";;
+bel-17;beleg;Beleg 17 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Müller Bürobedarf GmbH - Rechnung
+vom 21.08.2026 (Leistung erbracht am 12.07.2026)
+Rechnungsnummer: RE-2026-3455
+Betrag ohne USt.: 4.232,90 €
+zzgl. 7 % USt: 296,30 €
+Rechnungsbetrag (brutto): 4.529,20 €
+Bitte überweisen Si";"
+
+```json
+{
+  ""lieferant"": ""Müller Bürobedarf GmbH"",
+  ""rechnungsnummer"": ""RE-2026-3455"",
+  ""rechnungsdatum"": ""2026-08-21"",
+  ""netto"": 4232.90,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 296.30,
+  ""brutto"": 4529.20
+}
+```";"Müller Bürobedarf GmbH; RE-2026-3455; 2026-08-21; netto 4232.90; USt 7% = 296.30; brutto 4529.20";;
+bel-17;beleg;Beleg 17 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Müller Bürobedarf GmbH - Rechnung
+vom 21.08.2026 (Leistung erbracht am 12.07.2026)
+Rechnungsnummer: RE-2026-3455
+Betrag ohne USt.: 4.232,90 €
+zzgl. 7 % USt: 296,30 €
+Rechnungsbetrag (brutto): 4.529,20 €
+Bitte überweisen Si";"
+
+{""lieferant"": ""Müller Bürobedarf GmbH"", ""rechnungsnummer"": ""RE-2026-3455"", ""rechnungsdatum"": ""2026-08-21"", ""netto"": 4232.90, ""ust_satz"": 7, ""ust_betrag"": 296.30, ""brutto"": 4529.20}";"Müller Bürobedarf GmbH; RE-2026-3455; 2026-08-21; netto 4232.90; USt 7% = 296.30; brutto 4529.20";;
+bel-17;beleg;Beleg 17 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Müller Bürobedarf GmbH - Rechnung
+vom 21.08.2026 (Leistung erbracht am 12.07.2026)
+Rechnungsnummer: RE-2026-3455
+Betrag ohne USt.: 4.232,90 €
+zzgl. 7 % USt: 296,30 €
+Rechnungsbetrag (brutto): 4.529,20 €
+Bitte überweisen Si";"
+
+{""lieferant"": ""Müller Bürobedarf GmbH"", ""rechnungsnummer"": ""RE-2026-3455"", ""rechnungsdatum"": ""2026-08-21"", ""netto"": 4232.90, ""ust_satz"": 7, ""ust_betrag"": 296.30, ""brutto"": 4529.20}";"Müller Bürobedarf GmbH; RE-2026-3455; 2026-08-21; netto 4232.90; USt 7% = 296.30; brutto 4529.20";;
+bel-17;beleg;Beleg 17 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Müller Bürobedarf GmbH - Rechnung
+vom 21.08.2026 (Leistung erbracht am 12.07.2026)
+Rechnungsnummer: RE-2026-3455
+Betrag ohne USt.: 4.232,90 €
+zzgl. 7 % USt: 296,30 €
+Rechnungsbetrag (brutto): 4.529,20 €
+Bitte überweisen Si";"
+
+{""lieferant"": ""Müller Bürobedarf GmbH"", ""rechnungsnummer"": ""RE-2026-3455"", ""rechnungsdatum"": ""2026-08-21"", ""netto"": 4232.9, ""ust_satz"": 7, ""ust_betrag"": 296.3, ""brutto"": 4529.2}";"Müller Bürobedarf GmbH; RE-2026-3455; 2026-08-21; netto 4232.90; USt 7% = 296.30; brutto 4529.20";;
+bel-18;beleg;Beleg 18 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Rheinland Logistik AG
+Rechnung Nr. RE-2026-5261
+Rechnungsdatum: 23.08.2026
+Leistungszeitraum: bis 26.07.2026
+
+Position 1: Dienstleistung / Lieferung   2.466,62 €
+Zwischensumme netto: 2.466,62 €
+Umsatzsteuer 7 %: 172,66 €
+G";"
+
+```json
+{""lieferant"": ""Rheinland Logistik AG"", ""rechnungsnummer"": ""RE-2026-5261"", ""rechnungsdatum"": ""2026-08-23"", ""netto"": 2466.62, ""ust_satz"": 7, ""ust_betrag"": 172.66, ""brutto"": 2639.28}
+```";"Rheinland Logistik AG; RE-2026-5261; 2026-08-23; netto 2466.62; USt 7% = 172.66; brutto 2639.28";;
+bel-18;beleg;Beleg 18 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Rheinland Logistik AG
+Rechnung Nr. RE-2026-5261
+Rechnungsdatum: 23.08.2026
+Leistungszeitraum: bis 26.07.2026
+
+Position 1: Dienstleistung / Lieferung   2.466,62 €
+Zwischensumme netto: 2.466,62 €
+Umsatzsteuer 7 %: 172,66 €
+G";"
+
+{""lieferant"": ""Rheinland Logistik AG"", ""rechnungsnummer"": ""RE-2026-5261"", ""rechnungsdatum"": ""2026-08-23"", ""netto"": 2466.62, ""ust_satz"": 7, ""ust_betrag"": 172.66, ""brutto"": 2639.28}";"Rheinland Logistik AG; RE-2026-5261; 2026-08-23; netto 2466.62; USt 7% = 172.66; brutto 2639.28";;
+bel-18;beleg;Beleg 18 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Rheinland Logistik AG
+Rechnung Nr. RE-2026-5261
+Rechnungsdatum: 23.08.2026
+Leistungszeitraum: bis 26.07.2026
+
+Position 1: Dienstleistung / Lieferung   2.466,62 €
+Zwischensumme netto: 2.466,62 €
+Umsatzsteuer 7 %: 172,66 €
+G";"
+
+```json
+{
+  ""lieferant"": ""Rheinland Logistik AG"",
+  ""rechnungsnummer"": ""RE-2026-5261"",
+  ""rechnungsdatum"": ""2026-08-23"",
+  ""netto"": 2466.62,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 172.66,
+  ""brutto"": 2639.28
+}
+```";"Rheinland Logistik AG; RE-2026-5261; 2026-08-23; netto 2466.62; USt 7% = 172.66; brutto 2639.28";;
+bel-18;beleg;Beleg 18 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Rheinland Logistik AG
+Rechnung Nr. RE-2026-5261
+Rechnungsdatum: 23.08.2026
+Leistungszeitraum: bis 26.07.2026
+
+Position 1: Dienstleistung / Lieferung   2.466,62 €
+Zwischensumme netto: 2.466,62 €
+Umsatzsteuer 7 %: 172,66 €
+G";"
+
+```json
+{
+  ""lieferant"": ""Rheinland Logistik AG"",
+  ""rechnungsnummer"": ""RE-2026-5261"",
+  ""rechnungsdatum"": ""2026-08-23"",
+  ""netto"": 2466.62,
+  ""ust_satz"": 7,
+  ""ust_betrag"": 172.66,
+  ""brutto"": 2639.28
+}
+```";"Rheinland Logistik AG; RE-2026-5261; 2026-08-23; netto 2466.62; USt 7% = 172.66; brutto 2639.28";;
+bel-18;beleg;Beleg 18 (Layout 1, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Rheinland Logistik AG
+Rechnung Nr. RE-2026-5261
+Rechnungsdatum: 23.08.2026
+Leistungszeitraum: bis 26.07.2026
+
+Position 1: Dienstleistung / Lieferung   2.466,62 €
+Zwischensumme netto: 2.466,62 €
+Umsatzsteuer 7 %: 172,66 €
+G";"
+
+{""lieferant"": ""Rheinland Logistik AG"", ""rechnungsnummer"": ""RE-2026-5261"", ""rechnungsdatum"": ""2026-08-23"", ""netto"": 2466.62, ""ust_satz"": 7, ""ust_betrag"": 172.66, ""brutto"": 2639.28}";"Rheinland Logistik AG; RE-2026-5261; 2026-08-23; netto 2466.62; USt 7% = 172.66; brutto 2639.28";;
+bel-19;beleg;Beleg 19 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-1550 | Datum 27.05.2026 | Lieferdatum 26.04.2026
+Nettobetrag ........ 1.680,19 €
+MwSt 7% ........ 117,61 €
+Summe ........ 1.797,80 €
+Vielen Dank für ";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-1550"", ""rechnungsdatum"": ""2026-05-27"", ""netto"": 1680.19, ""ust_satz"": 7, ""ust_betrag"": 117.61, ""brutto"": 1797.80}";"Nordwest Software Solutions GmbH; RE-2026-1550; 2026-05-27; netto 1680.19; USt 7% = 117.61; brutto 1797.80";;
+bel-19;beleg;Beleg 19 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-1550 | Datum 27.05.2026 | Lieferdatum 26.04.2026
+Nettobetrag ........ 1.680,19 €
+MwSt 7% ........ 117,61 €
+Summe ........ 1.797,80 €
+Vielen Dank für ";"
+
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-1550"", ""rechnungsdatum"": ""2026-05-27"", ""netto"": 1680.19, ""ust_satz"": 7, ""ust_betrag"": 117.61, ""brutto"": 1797.80}";"Nordwest Software Solutions GmbH; RE-2026-1550; 2026-05-27; netto 1680.19; USt 7% = 117.61; brutto 1797.80";;
+bel-19;beleg;Beleg 19 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-1550 | Datum 27.05.2026 | Lieferdatum 26.04.2026
+Nettobetrag ........ 1.680,19 €
+MwSt 7% ........ 117,61 €
+Summe ........ 1.797,80 €
+Vielen Dank für ";"
+
+```json
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-1550"", ""rechnungsdatum"": ""2026-05-27"", ""netto"": 1680.19, ""ust_satz"": 7, ""ust_betrag"": 117.61, ""brutto"": 1797.80}
+```";"Nordwest Software Solutions GmbH; RE-2026-1550; 2026-05-27; netto 1680.19; USt 7% = 117.61; brutto 1797.80";;
+bel-19;beleg;Beleg 19 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-1550 | Datum 27.05.2026 | Lieferdatum 26.04.2026
+Nettobetrag ........ 1.680,19 €
+MwSt 7% ........ 117,61 €
+Summe ........ 1.797,80 €
+Vielen Dank für ";"
+
+```json
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-1550"", ""rechnungsdatum"": ""2026-05-27"", ""netto"": 1680.19, ""ust_satz"": 7, ""ust_betrag"": 117.61, ""brutto"": 1797.80}
+```";"Nordwest Software Solutions GmbH; RE-2026-1550; 2026-05-27; netto 1680.19; USt 7% = 117.61; brutto 1797.80";;
+bel-19;beleg;Beleg 19 (Layout 2, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+RECHNUNG
+Aussteller: Nordwest Software Solutions GmbH
+Beleg-Nr.: RE-2026-1550 | Datum 27.05.2026 | Lieferdatum 26.04.2026
+Nettobetrag ........ 1.680,19 €
+MwSt 7% ........ 117,61 €
+Summe ........ 1.797,80 €
+Vielen Dank für ";"
+
+```json
+{""lieferant"": ""Nordwest Software Solutions GmbH"", ""rechnungsnummer"": ""RE-2026-1550"", ""rechnungsdatum"": ""2026-05-27"", ""netto"": 1680.19, ""ust_satz"": 7, ""ust_betrag"": 117.61, ""brutto"": 1797.80}
+```";"Nordwest Software Solutions GmbH; RE-2026-1550; 2026-05-27; netto 1680.19; USt 7% = 117.61; brutto 1797.80";;
+bel-20;beleg;Beleg 20 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 23.09.2026 (Leistung erbracht am 06.08.2026)
+Rechnungsnummer: RE-2026-8183
+Betrag ohne USt.: 1.377,02 €
+zzgl. 7 % USt: 96,39 €
+Rechnungsbetrag (brutto): 1.473,41 €
+Bitte ";"
+
+```json
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8183"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 1377.02, ""ust_satz"": 7, ""ust_betrag"": 96.39, ""brutto"": 1473.41}
+```";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8183; 2026-09-23; netto 1377.02; USt 7% = 96.39; brutto 1473.41";;
+bel-20;beleg;Beleg 20 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 23.09.2026 (Leistung erbracht am 06.08.2026)
+Rechnungsnummer: RE-2026-8183
+Betrag ohne USt.: 1.377,02 €
+zzgl. 7 % USt: 96,39 €
+Rechnungsbetrag (brutto): 1.473,41 €
+Bitte ";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8183"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 1377.02, ""ust_satz"": 7, ""ust_betrag"": 96.39, ""brutto"": 1473.41}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8183; 2026-09-23; netto 1377.02; USt 7% = 96.39; brutto 1473.41";;
+bel-20;beleg;Beleg 20 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 23.09.2026 (Leistung erbracht am 06.08.2026)
+Rechnungsnummer: RE-2026-8183
+Betrag ohne USt.: 1.377,02 €
+zzgl. 7 % USt: 96,39 €
+Rechnungsbetrag (brutto): 1.473,41 €
+Bitte ";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8183"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 1377.02, ""ust_satz"": 7, ""ust_betrag"": 96.39, ""brutto"": 1473.41}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8183; 2026-09-23; netto 1377.02; USt 7% = 96.39; brutto 1473.41";;
+bel-20;beleg;Beleg 20 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 23.09.2026 (Leistung erbracht am 06.08.2026)
+Rechnungsnummer: RE-2026-8183
+Betrag ohne USt.: 1.377,02 €
+zzgl. 7 % USt: 96,39 €
+Rechnungsbetrag (brutto): 1.473,41 €
+Bitte ";"
+
+```json
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8183"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 1377.02, ""ust_satz"": 7, ""ust_betrag"": 96.39, ""brutto"": 1473.41}
+```";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8183; 2026-09-23; netto 1377.02; USt 7% = 96.39; brutto 1473.41";;
+bel-20;beleg;Beleg 20 (Layout 3, 7 % USt);1.0;"Extrahiere aus dem folgenden Beleg die Felder. Zahlen mit Punkt als Dezimaltrenner, ohne Tausenderpunkt und ohne Währungszeichen. Datum im Format JJJJ-MM-TT (Rechnungsdatum, nicht Leistungsdatum). Antworte ausschließlich mit JSON: {""lieferant"": ""..."", ""rechnungsnummer"": ""..."", ""rechnungsdatum"": ""..."", ""netto"": 0.00, ""ust_satz"": 19, ""ust_betrag"": 0.00, ""brutto"": 0.00}
+
+Beleg:
+Schwarzwald IT-Service GmbH & Co. KG - Rechnung
+vom 23.09.2026 (Leistung erbracht am 06.08.2026)
+Rechnungsnummer: RE-2026-8183
+Betrag ohne USt.: 1.377,02 €
+zzgl. 7 % USt: 96,39 €
+Rechnungsbetrag (brutto): 1.473,41 €
+Bitte ";"
+
+{""lieferant"": ""Schwarzwald IT-Service GmbH & Co. KG"", ""rechnungsnummer"": ""RE-2026-8183"", ""rechnungsdatum"": ""2026-09-23"", ""netto"": 1377.02, ""ust_satz"": 7, ""ust_betrag"": 96.39, ""brutto"": 1473.41}";"Schwarzwald IT-Service GmbH & Co. KG; RE-2026-8183; 2026-09-23; netto 1377.02; USt 7% = 96.39; brutto 1473.41";;

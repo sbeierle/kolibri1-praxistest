@@ -1,0 +1,2005 @@
+id;suite;titel;auto_score;frage;antwort;schluessel;bewertung_1-5;notiz
+tri-01a;triage;Triage Ransomware Produktion [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Ransomware-Verschlüsselung von ERP und Produktionssteuerung mit mehrtägigem Produktionsstillstand und Lösegeldforderung stellt eine wesentliche Beeinträchtigung der Verfügbarkeit kritischer Systeme dar und ist daher als erheblicher Sicherheitsvorfall einzustufen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01a;triage;Triage Ransomware Produktion [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Ransomware, die ERP und Produktionssteuerung verschlüsselt und die Produktion über drei Tage stilllegt, stellt eine wesentliche Beeinträchtigung der Verfügbarkeit kritischer Systeme dar.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01a;triage;Triage Ransomware Produktion [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Ein Ransomware-Angriff, der ERP- und Produktionssteuerungssysteme verschlüsselt und die Produktion für drei Tage stilllegt, stellt eine erhebliche Beeinträchtigung der Verfügbarkeit kritischer Dienste dar und fällt damit unter die Meldepflicht nach § 8b BSIG.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01a;triage;Triage Ransomware Produktion [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Ransomware verschlüsselt kritische Systeme (ERP und Produktionssteuerung) und legt die Produktion für drei Tage still, was die Verfügbarkeit wesentlich beeinträchtigt und somit einen erheblichen Sicherheitsvorfall darstellt.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01a;triage;Triage Ransomware Produktion [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Verschlüsselung von ERP und Produktionssteuerung durch Ransomware mit dreitägigem Produktionsstillstand stellt eine wesentliche Beeinträchtigung der Verfügbarkeit kritischer Informationssysteme dar und erfüllt damit die Kriterien eines erheblichen Sicherheitsvorfalls nach dem BSI-Gesetz.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01b;triage;Triage Ransomware Produktion [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Die stillstehende Produktion über drei Tage stellt eine schwerwiegende Betriebsstörung der Dienste dar.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01b;triage;Triage Ransomware Produktion [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Die seit drei Tagen stillstehende Produktion stellt eine schwerwiegende Betriebsstörung der Dienste dar.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01b;triage;Triage Ransomware Produktion [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Stilllegung der Produktion über drei Tage stellt eine schwerwiegende Betriebsstörung der Dienste dar, was gemäß § 2 Nr. 11 BSIG Buchstabe a) einen erheblichen Sicherheitsvorfall begründet.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01b;triage;Triage Ransomware Produktion [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Produktion steht seit drei Tagen still, was eine schwerwiegende Betriebsstörung darstellt. Zudem liegt eine Lösegeldforderung vor, die finanzielle Verluste verursacht.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-01b;triage;Triage Ransomware Produktion [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ransomware verschlüsselt ERP und Produktionssteuerung. Die Produktion steht seit drei Tagen still, es liegt eine Lösegeldforderung vor.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Verschlüsselung von ERP und Produktionssteuerung durch Ransomware verursacht eine schwerwiegende Betriebsstörung, da die Produktion seit drei Tagen stillsteht.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02a;triage;Triage Datenabfluss Kunden [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ob der Vorfall als erheblicher Sicherheitsvorfall nach dem BSI-Gesetz gilt, hängt davon ab, ob die betroffene Organisation unter den Anwendungsbereich des Gesetzes fällt (z. B. Betreiber kritischer Infrastruktur oder wichtiger Entität); dies ist aus der Beschreibung nicht ersichtlich.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02a;triage;Triage Datenabfluss Kunden [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kann nicht sicher beurteilen, ob die betroffene Einrichtung unter den Geltungsbereich des BSI-Gesetzes nach NIS2-Umsetzung fällt, da mir die genauen Kriterien und der Sektor der Einrichtung nicht bekannt sind.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02a;triage;Triage Datenabfluss Kunden [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+{""erheblich"": false, ""begruendung"": ""Ohne Kenntnis, ob die betroffene Organisation eine wesentliche oder wichtige Einrichtung im Sinne des BSI-Gesetzes ist, kann nicht von einem NIS2-relevanten erheblichen Sicherheitsvorfall ausgegangen werden.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02a;triage;Triage Datenabfluss Kunden [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kann dies nicht sicher beurteilen, da mir wesentliche Informationen fehlen, insbesondere ob die betroffene Organisation eine wesentliche oder wichtige Einrichtung im Sinne des NIS2/BSI-Gesetzes ist und ob der Vorfall die dort definierten Schwellenwerte für erhebliche Auswirkungen erfüllt.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02a;triage;Triage Datenabfluss Kunden [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Die Anwendbarkeit des BSI-Gesetzes (NIS2-Umsetzung) hängt davon ab, ob die betroffene Organisation in einen der erfassten Sektoren fällt; dieser ist nicht angegeben, daher kann ein NIS2-Bezug nicht bestätigt werden.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02b;triage;Triage Datenabfluss Kunden [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Kompromittierung von 40.000 Kundendatensätzen inklusive Bankverbindungen kann andere natürliche Personen durch erhebliche materielle oder immaterielle Schäden beeinträchtigen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02b;triage;Triage Datenabfluss Kunden [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall kann andere natürliche oder juristische Personen durch erhebliche materielle oder immaterielle Schäden beeinträchtigen, da 40.000 Kundendatensätze mit Bankverbindungen im Darknet angeboten wurden.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02b;triage;Triage Datenabfluss Kunden [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Kompromittierung von 40.000 Kundendatensätzen mit sensiblen Bankverbindungen kann andere natürliche Personen durch erhebliche materielle oder immaterielle Schäden beeinträchtigen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02b;triage;Triage Datenabfluss Kunden [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall kann andere natürliche Personen durch erhebliche materielle oder immaterielle Schäden beeinträchtigen, da 40.000 Kundendatensätze mit Bankverbindungen kopiert und im Darknet angeboten wurden.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-02b;triage;Triage Datenabfluss Kunden [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Angreifer haben eine Datenbank mit 40.000 Kundendatensätzen (Namen, Adressen, Bankverbindungen) kopiert und im Darknet angeboten.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Diebstahl von 40.000 Kundendatensätzen inklusive Bankverbindungen kann andere natürliche Personen durch erhebliche materielle oder immaterielle Schäden wie Identitätsdiebstahl oder finanziellen Missbrauch beeinträchtigen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03a;triage;Triage DDoS Webshop [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich bin nicht sicher, ob ein Online-Shop in den Anwendungsbereich des BSI-Gesetzes nach NIS2-Umsetzung fällt, da die Sektor- und Größenkriterien für 'wichtige' und 'besonders wichtige Einrichtungen' im Handel mir nicht genau genug bekannt sind, um eine verlässliche Einordnung vorzunehmen.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03a;triage;Triage DDoS Webshop [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": true, ""begruendung"": ""Ein DDoS-Angriff, der 80 Prozent des Umsatzes eines Online-Shops für 14 Stunden lahmlegt und einen Verlust von 250.000 EUR verursacht, stellt offensichtlich einen schwerwiegenden Sicherheitsvorfall dar. Ich kenne jedoch die genauen Schwellenwerte und Kriterien des novellierten BSI-Gesetzes zur Einstufung als 'erheblicher Sicherheitsvorfall' nicht im Detail und kann daher keine rechtsverbindliche Einschätzung geben.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03a;triage;Triage DDoS Webshop [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien des BSI-Gesetzes für erhebliche Sicherheitsvorfälle nicht sicher und kann daher nicht beurteilen, ob dieser Vorfall die gesetzlichen Schwellenwerte erfüllt.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03a;triage;Triage DDoS Webshop [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien des novellierten BSI-Gesetzes nicht sicher und kann nicht beurteilen, ob ein Online-Shop in den Anwendungsbereich fällt.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03a;triage;Triage DDoS Webshop [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien und Schwellenwerte für erhebliche Sicherheitsvorfälle im novellierten BSI-Gesetz nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03b;triage;Triage DDoS Webshop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall verursacht schwerwiegende Betriebsstörungen und finanzielle Verluste für die Einrichtung.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03b;triage;Triage DDoS Webshop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": true, ""begruendung"": ""Der DDoS-Angriff verursachte eine schwerwiegende Betriebsstörung des Online-Shops und finanzielle Verluste von 250.000 EUR, was die Definition eines erheblichen Sicherheitsvorfalls nach § 2 Nr. 11 BSIG Buchstabe a) erfüllt.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03b;triage;Triage DDoS Webshop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": true, ""begruendung"": ""Der DDoS-Angriff verursachte einen finanziellen Verlust von 250.000 EUR und legte den Online-Shop, der 80 Prozent des Umsatzes erzeugt, für 14 Stunden lahm, was schwerwiegende Betriebsstörungen und erhebliche finanzielle Verluste für die Einrichtung darstellt.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03b;triage;Triage DDoS Webshop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": true, ""begruendung"": ""Der DDoS-Angriff verursachte eine schwerwiegende Betriebsstörung der Dienste und finanzielle Verluste von 250.000 EUR für die Einrichtung.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-03b;triage;Triage DDoS Webshop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein DDoS-Angriff legt den Online-Shop, der 80 Prozent des Umsatzes erzeugt, 14 Stunden lahm. Geschätzter Verlust: 250.000 EUR.";"
+
+{""erheblich"": true, ""begruendung"": ""Der DDoS-Angriff verursachte eine schwerwiegende Betriebsstörung der Dienste und einen finanziellen Verlust für die Einrichtung, was den Begriff des erheblichen Sicherheitsvorfalls nach § 2 Nr. 11 BSIG erfüllt.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04a;triage;Triage Domänen-Admin kompromittiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall beeinträchtigt die Vertraulichkeit und Integrität von Informationssystemen wesentlich, da ein Domänen-Administrator-Konto über neun Tage kompromittiert war, Backup-Systeme und Fileserver zugänglich waren und Konstruktionsdaten exfiltriert wurden.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04a;triage;Triage Domänen-Admin kompromittiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+```json
+{""erheblich"": true, ""begruendung"": ""Die Kompromittierung eines Domänen-Administrator-Kontos über neun Tage mit Zugriff auf Fileserver und Backup-Systeme sowie der Abzug von Konstruktionsdaten stellt einen schwerwiegenden Vorfall mit erheblichen Auswirkungen auf die Vertraulichkeit und Verfügbarkeit kritischer Systeme dar.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04a;triage;Triage Domänen-Admin kompromittiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+```json
+{""erheblich"": true, ""begruendung"": ""Kompromittierung eines Domänen-Administrator-Kontos über neun Tage mit Zugriff auf Backup-Systeme und Diebstahl von Konstruktionsdaten stellt einen schwerwiegenden Sicherheitsvorfall dar.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04a;triage;Triage Domänen-Admin kompromittiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+```json
+{""erheblich"": true, ""begruendung"": ""Kompromittierung eines Domänen-Administrator-Kontos über neun Tage mit Zugriff auf Fileserver und Backup-Systeme sowie Abzug von Konstruktionsdaten stellt einen schwerwiegenden Sicherheitsvorfall dar. Ob die betroffene Organisation konkret unter die Meldepflichten des BSI-Gesetzes fällt, hängt von ihrer Einstufung als wesentliche oder wichtige Einrichtung ab, was hier nicht angegeben ist.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04a;triage;Triage Domänen-Admin kompromittiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+{""erheblich"": true, ""begruendung"": ""Neun Tage unbefugter Zugriff mit einem Domänen-Administrator-Konto auf Fileserver und Backup-Systeme sowie der Abzug von Konstruktionsdaten stellt eine wesentliche Beeinträchtigung der Funktionsfähigkeit eines Unternehmens dar und erfüllt damit die Kriterien eines erheblichen Sicherheitsvorfalls nach dem BSI-Gesetz.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04b;triage;Triage Domänen-Admin kompromittiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Abzug von Konstruktionsdaten stellt einen erheblichen immateriellen Schaden dar, und die Kompromittierung von Backup-Systemen kann schwerwiegende Betriebsstörungen verursachen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04b;triage;Triage Domänen-Admin kompromittiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Abzug von Konstruktionsdaten stellt einen erheblichen immateriellen Schaden dar, und der neuntägige Zugriff auf Fileserver und Backup-Systeme durch ein kompromittiertes Domänen-Administrator-Konto kann schwerwiegende Betriebsstörungen verursachen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04b;triage;Triage Domänen-Admin kompromittiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Abzug von Konstruktionsdaten und der Zugriff auf Backup-Systeme können erhebliche immaterielle Schäden beziehungsweise schwerwiegende Betriebsstörungen verursachen, was der Definition eines erheblichen Sicherheitsvorfalls entspricht.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04b;triage;Triage Domänen-Admin kompromittiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall kann schwerwiegende Betriebsstörungen verursachen, da Backup-Systeme kompromittiert wurden, und der Abzug von Konstruktionsdaten kann erhebliche immaterielle Schäden für die Einrichtung oder Dritte verursachen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-04b;triage;Triage Domänen-Admin kompromittiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Domänen-Administrator-Konto war neun Tage lang in Angreiferhand. Zugriff auf Fileserver und Backup-Systeme, Konstruktionsdaten wurden abgezogen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Abzug von Konstruktionsdaten und der Zugriff auf Backup-Systeme können erhebliche materielle oder immaterielle Schäden verursachen oder verursachen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05a;triage;Triage Rechenzentrum Ausfall [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien für erhebliche Sicherheitsvorfälle nach dem deutschen NIS2-Umsetzungsrecht nicht sicher genug, um eine verlässliche Einschätzung abzugeben.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05a;triage;Triage Rechenzentrum Ausfall [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien und Schwellenwerte für einen erheblichen Sicherheitsvorfall nach dem BSI-Gesetz nicht sicher und kann daher nicht bestätigen, dass dieser Vorfall die gesetzlichen Voraussetzungen erfüllt.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05a;triage;Triage Rechenzentrum Ausfall [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Schwellenwerte und Kriterien des deutschen BSIG für erhebliche Sicherheitsvorfälle nicht sicher genug, um dies definitiv zu beurteilen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05a;triage;Triage Rechenzentrum Ausfall [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+```json
+{""erheblich"": true, ""begruendung"": ""Ein sechsstündiger Ausfall der Rechenzentrumssteuerung mit 120 betroffenen Kunden und drohenden Vertragsstrafen stellt eine erhebliche Beeinträchtigung der Funktionsfähigkeit dar, sofern das Rechenzentrum als wichtige Einrichtung im Sinne des BSI-Gesetzes gilt.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05a;triage;Triage Rechenzentrum Ausfall [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien und Schwellenwerte für erhebliche Sicherheitsvorfälle nach dem novellierten BSI-Gesetz nicht sicher und kann daher keine verlässliche Einschätzung abgeben.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05b;triage;Triage Rechenzentrum Ausfall [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall verursacht eine schwerwiegende Betriebsstörung der Dienste, da die Steuerung eines Rechenzentrums sechs Stunden ausfällt und 120 Kunden ohne Dienst sind.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05b;triage;Triage Rechenzentrum Ausfall [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Ausfall der Rechenzentrumssteuerung für sechs Stunden mit 120 betroffenen Kunden stellt eine schwerwiegende Betriebsstörung der Dienste dar, und es drohen finanzielle Verluste durch Vertragsstrafen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05b;triage;Triage Rechenzentrum Ausfall [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Ausfall der Steuerung eines Rechenzentrums für sechs Stunden und der Verlust des Dienstes für 120 Kunden sowie drohende Vertragsstrafen stellen schwerwiegende Betriebsstörungen und finanzielle Verluste dar.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05b;triage;Triage Rechenzentrum Ausfall [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Ausfall der Rechenzentrumssteuerung über sechs Stunden stellt eine schwerwiegende Betriebsstörung dar und es drohen finanzielle Verluste durch Vertragsstrafen, was den Kriterien des § 2 Nr. 11 BSIG entspricht.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-05b;triage;Triage Rechenzentrum Ausfall [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Durch eine Fehlkonfiguration fällt die Steuerung eines Rechenzentrums sechs Stunden aus. 120 Kunden sind ohne Dienst, es drohen Vertragsstrafen.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Ausfall der Rechenzentrumssteuerung für sechs Stunden mit 120 Kunden ohne Dienst stellt eine schwerwiegende Betriebsstörung der Dienste dar, und es drohen finanzielle Verluste durch Vertragsstrafen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06a;triage;Triage Lieferkette Update [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien und Schwellenwerte für erhebliche Sicherheitsvorfälle im BSI-Gesetz nicht sicher und kann daher keine verlässliche Einschätzung abgeben.""}
+```";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06a;triage;Triage Lieferkette Update [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien und Schwellenwerte des BSI-Gesetzes für erhebliche Sicherheitsvorfälle nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06a;triage;Triage Lieferkette Update [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": true, ""begruendung"": ""Ein manipuliertes Update, das Schadcode auf 35 Kundensystemen installiert, stellt nach meinem Verständnis einen erheblichen Sicherheitsvorfall dar.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06a;triage;Triage Lieferkette Update [Kopf];0.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen rechtlichen Kriterien des BSI-Gesetzes für erhebliche Sicherheitsvorfälle nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06a;triage;Triage Lieferkette Update [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Installation von Schadcode auf 35 Kundensystemen stellt eine wesentliche Beeinträchtigung der Integrität und Vertraulichkeit von Informationssystemen dar und erfüllt damit die Kriterien eines erheblichen Sicherheitsvorfalls nach dem BSI-Gesetz.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06b;triage;Triage Lieferkette Update [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": true, ""begruendung"": ""Die Installation von Schadcode auf 35 Kundensystemen beeinträchtigt andere natürliche oder juristische Personen durch erhebliche materielle oder immaterielle Schäden, was der Definition eines erheblichen Sicherheitsvorfalls nach § 2 Nr. 11 BSIG entspricht.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06b;triage;Triage Lieferkette Update [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall beeinträchtigt andere natürliche oder juristische Personen (die 35 Kunden) durch die Installation von Schadcode, was erhebliche materielle oder immaterielle Schäden verursachen kann.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06b;triage;Triage Lieferkette Update [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall beeinträchtigt andere natürliche oder juristische Personen (35 Kundensysteme) durch erhebliche materielle oder immaterielle Schäden, was der Definition eines erheblichen Sicherheitsvorfalls entspricht.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06b;triage;Triage Lieferkette Update [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall beeinträchtigt 35 Kundensysteme, was auf erhebliche materielle oder immaterielle Schäden für andere juristische Personen hindeutet und somit die Definition eines erheblichen Sicherheitsvorfalls erfüllt.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-06b;triage;Triage Lieferkette Update [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein manipuliertes Update der Fernwartungssoftware eines IT-Dienstleisters hat Schadcode auf 35 Kundensystemen installiert.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Vorfall hat Schadcode auf 35 Kundensystemen installiert, wodurch andere natürliche oder juristische Personen durch erhebliche materielle oder immaterielle Schäden beeinträchtigt wurden oder beeinträchtigen können.""}";[pruefen] erwartet: True (BSIG § 2 Nr. 11).;;
+tri-07a;triage;Triage Phishing abgefangen [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+{""erheblich"": false, ""begruendung"": ""Keine Daten abgeflossen, Endpoint-Schutz hat den Download blockiert, Schaden begrenzt. Die genauen Kriterien des BSI-Gesetzes für erhebliche Sicherheitsvorfälle kenne ich jedoch nicht sicher.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07a;triage;Triage Phishing abgefangen [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Der Vorfall wurde durch den Endpoint-Schutz abgewehrt, es sind keine Daten abgeflossen und keine wesentliche Beeinträchtigung der Systeme eingetreten.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07a;triage;Triage Phishing abgefangen [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Da der Endpoint-Schutz den schädlichen Download blockierte, keine Daten abgeflossen sind und lediglich ein Passwort zurückgesetzt wurde, liegen keine erheblichen Auswirkungen auf die Verfügbarkeit, Integrität, Vertraulichkeit oder Authentizität von Diensten vor.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07a;triage;Triage Phishing abgefangen [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+{""erheblich"": false, ""begruendung"": ""Keine Daten abgeflossen, Endpoint-Schutz hat funktioniert, Passwort zurückgesetzt; der Vorfall ist geringfügig.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07a;triage;Triage Phishing abgefangen [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Der Vorfall wurde durch technische Maßnahmen verhindert und es sind keine Daten abgeflossen; zudem kenne ich die genaue gesetzliche Definition eines erheblichen Sicherheitsvorfalls nach dem NIS2-umsetzenden BSI-Gesetz nicht sicher genug, um eine verbindliche rechtliche Einordnung vorzunehmen.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07b;triage;Triage Phishing abgefangen [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen, keine finanziellen Verluste und keine erheblichen materiellen oder immateriellen Schäden für andere Personen, da der Endpoint-Schutz den Download blockierte und keine Daten abflossen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07b;triage;Triage Phishing abgefangen [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall hat keine schwerwiegenden Betriebsstörungen oder finanziellen Verluste verursacht und keine anderen Personen durch erhebliche materielle oder immaterielle Schäden beeinträchtigt, da der Endpoint-Schutz den Download blockierte und keine Daten abgeflossen sind.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07b;triage;Triage Phishing abgefangen [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall hat keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder erheblichen materiellen oder immateriellen Schäden für andere Personen verursacht.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07b;triage;Triage Phishing abgefangen [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen, keine finanziellen Verluste und keine erheblichen materiellen oder immateriellen Schäden für andere Personen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-07b;triage;Triage Phishing abgefangen [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein Mitarbeiter klickt auf einen Phishing-Link. Der Endpoint-Schutz blockiert den Download, das Passwort wird zurückgesetzt, es sind keine Daten abgeflossen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen oder finanziellen Verluste und beeinträchtigte keine anderen Personen durch erhebliche materielle oder immaterielle Schäden, da der Endpoint-Schutz den Download blockierte und keine Daten abflossen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08a;triage;Triage Trojaner Laptop [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein einzelner blockierter Trojaner auf einem Laptop ohne weitere Auswirkungen stellt keinen erheblichen Sicherheitsvorfall im Sinne des BSI-Gesetzes dar, da keine erhebliche Beeinträchtigung der Funktionsfähigkeit einer kritischen Infrastruktur oder wichtigen Einrichtung vorliegt.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08a;triage;Triage Trojaner Laptop [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein einzelner Laptop mit einem blockierten Trojaner und ohne weitere Auswirkungen stellt keinen erheblichen Sicherheitsvorfall dar, da keine Betriebsunterbrechung, kein Datenverlust in nennenswertem Umfang und keine Auswirkungen auf kritische Infrastrukturen vorliegen.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08a;triage;Triage Trojaner Laptop [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein einzelner blockierter Trojaner auf einem Laptop ohne weitere Auswirkungen stellt keine wesentliche Beeinträchtigung der Verfügbarkeit, Vertraulichkeit, Integrität oder Authentizität von Netzwerken und Informationssystemen dar.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08a;triage;Triage Trojaner Laptop [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein einzelner Trojaner auf einem Laptop ohne weitere Auswirkungen stellt nach allgemeinem Verständnis keinen erheblichen Sicherheitsvorfall dar, da keine erheblichen Auswirkungen auf die Verfügbarkeit, Integrität oder Vertraulichkeit von Diensten oder Daten vorliegen. Die genauen rechtlichen Schwellenwerte des BSI-Gesetzes kenne ich jedoch nicht sicher.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08a;triage;Triage Trojaner Laptop [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein lokal begrenzter Vorfall auf einem einzelnen Gerät ohne Auswirkungen auf kritische Dienste oder wichtige Einrichtungen stellt keinen erheblichen Sicherheitsvorfall im Sinne des NIS2-Umsetzungsrechts dar.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08b;triage;Triage Trojaner Laptop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall betraf nur einen einzelnen Laptop ohne schwerwiegende Betriebsstörungen, finanzielle Verluste oder Beeinträchtigungen anderer Personen durch erhebliche materielle oder immaterielle Schäden.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08b;triage;Triage Trojaner Laptop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall betraf nur einen einzelnen Laptop ohne schwerwiegende Betriebsstörungen, finanzielle Verluste oder Beeinträchtigungen anderer Personen durch erhebliche Schäden.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08b;triage;Triage Trojaner Laptop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall betraf nur einen einzelnen Laptop ohne schwerwiegende Betriebsstörungen, finanzielle Verluste oder Beeinträchtigungen anderer Personen durch erhebliche materielle oder immaterielle Schäden.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08b;triage;Triage Trojaner Laptop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen der Dienste, keine finanziellen Verluste und beeinträchtigte keine anderen natürlichen oder juristischen Personen durch erhebliche materielle oder immaterielle Schäden.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-08b;triage;Triage Trojaner Laptop [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Virenscanner blockiert einen Trojaner auf einem einzelnen Laptop. Das Gerät wird neu aufgesetzt, es gab keine weiteren Auswirkungen.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall betraf nur einen einzelnen Laptop ohne schwerwiegende Betriebsstörungen, finanzielle Verluste oder Beeinträchtigungen anderer Personen durch erhebliche Schäden.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09a;triage;Triage Brute Force blockiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Alle Anmeldeversuche wurden blockiert und es kam zu keinem Zugriff, sodass keine tatsächliche Beeinträchtigung von Verfügbarkeit, Integrität oder Vertraulichkeit eintrat.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09a;triage;Triage Brute Force blockiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Kein Zugriff erfolgte und alle Versuche wurden blockiert; ob die genauen Schwellenwerte des BSI-Gesetzes für erhebliche Sicherheitsvorfälle hier erfüllt sind, kann ich nicht mit Sicherheit beurteilen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09a;triage;Triage Brute Force blockiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Die Angriffe wurden vollständig abgewehrt und es kam zu keinem Zugriff oder Schaden; ob dies nach den genauen gesetzlichen Kriterien des BSI-Gesetzes als erheblich einzustufen ist, kann ich nicht mit Sicherheit beurteilen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09a;triage;Triage Brute Force blockiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Es kam zu keinem tatsächlichen Zugriff oder einer Datenkompromittierung; die Angriffe wurden vollständig abgewehrt. Die genauen gesetzlichen Schwellenwerte für erhebliche Sicherheitsvorfälle nach dem BSI-Gesetz kenne ich jedoch nicht im Detail.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09a;triage;Triage Brute Force blockiert [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Alle Anmeldeversuche wurden blockiert, es kam zu keinem unbefugten Zugriff und somit zu keiner wesentlichen Beeinträchtigung von Daten, Diensten oder Systemen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09b;triage;Triage Brute Force blockiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen oder finanziellen Verluste und beeinträchtigte keine anderen Personen durch materielle oder immaterielle Schäden, da alle Anmeldeversuche blockiert wurden und kein Zugriff erfolgte.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09b;triage;Triage Brute Force blockiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen, keine finanziellen Verluste und keine materiellen oder immateriellen Schäden für andere Personen, da alle Anmeldeversuche blockiert wurden und kein Zugriff erfolgte.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09b;triage;Triage Brute Force blockiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen und keine finanziellen Verluste, da alle Anmeldeversuche blockiert wurden und kein Zugriff erfolgte; zudem wurden keine anderen Personen durch materielle oder immaterielle Schäden beeinträchtigt.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09b;triage;Triage Brute Force blockiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen, keine finanziellen Verluste und keine Beeinträchtigung anderer Personen durch materielle oder immaterielle Schäden, da alle Anmeldeversuche blockiert wurden und kein Zugriff erfolgte.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-09b;triage;Triage Brute Force blockiert [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firewall protokolliert 2.000 fehlgeschlagene Anmeldeversuche aus dem Ausland. Alle wurden blockiert, es gab keinen Zugriff.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Vorfall verursachte keine schwerwiegenden Betriebsstörungen der Dienste, keine finanziellen Verluste und keine Beeinträchtigung anderer Personen durch materielle oder immaterielle Schäden, da alle Anmeldeversuche blockiert wurden und kein Zugriff erfolgte.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10a;triage;Triage Druckerserver [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein 40-minütiger Ausfall eines Druckerservers mit anschließender Nachdruckmöglichkeit stellt keinen erheblichen Sicherheitsvorfall dar, da keine schwerwiegenden Auswirkungen auf die Verfügbarkeit kritischer Dienste oder die Sicherheit von Systemen vorliegen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10a;triage;Triage Druckerserver [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein 40-minütiger, update-bedingter Ausfall eines Druckerservers stellt keinen erheblichen Sicherheitsvorfall dar, da es sich um einen planbaren technischen Betriebsausfall ohne Cyberangriff, Datenpanne oder unbefugten Zugriff handelt.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10a;triage;Triage Druckerserver [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein geplanter Ausfall durch ein Update ist kein Sicherheitsvorfall im Sinne des NIS2-Umsetzungsrechts, und ein Druckerserver fällt typischerweise nicht unter kritische Infrastruktur.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10a;triage;Triage Druckerserver [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein geplanter, update-bedingter Ausfall eines Druckerservers über 40 Minuten stellt keine erhebliche Störung kritischer Dienste im Sinne des BSI-Gesetzes dar.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10a;triage;Triage Druckerserver [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein 40-minütiger Ausfall eines Druckerservers aufgrund eines Updates stellt keinen erheblichen Sicherheitsvorfall im Sinne des BSI-Gesetzes dar, da es sich um einen kurzen, nicht sicherheitsrelevanten Betriebsunterbruch handelt.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10b;triage;Triage Druckerserver [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein 40-minütiger Ausfall eines Druckerservers stellt keine schwerwiegende Betriebsstörung der Dienste dar und hat keine erheblichen materiellen oder immateriellen Schäden für andere Personen verursacht.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10b;triage;Triage Druckerserver [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein 40-minütiger Ausfall eines Druckerservers wegen eines Updates stellt keine schwerwiegende Betriebsstörung dar und verursacht keine erheblichen materiellen oder immateriellen Schäden für Dritte.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10b;triage;Triage Druckerserver [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+{""erheblich"": false, ""begruendung"": ""Der 40-minütige Ausfall eines Druckerservers stellt keine schwerwiegende Betriebsstörung dar und hat keine erheblichen materiellen oder immateriellen Schäden verursacht.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10b;triage;Triage Druckerserver [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein 40-minütiger Ausfall eines Druckerservers stellt keine schwerwiegende Betriebsstörung der Dienste dar und hat keine erheblichen materiellen oder immateriellen Schäden für andere Personen verursacht.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-10b;triage;Triage Druckerserver [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Der Druckerserver fällt wegen eines Updates 40 Minuten aus. Mitarbeiter drucken danach nach.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein 40-minütiger Ausfall eines Druckerservers stellt keine schwerwiegende Betriebsstörung der Dienste dar und hat keine erheblichen materiellen oder immateriellen Schäden für andere Personen verursacht.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11a;triage;Triage Spam-Welle [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter hat alle Spam-Mails erfolgreich abgefangen, sodass keine Beeinträchtigung der Funktionsfähigkeit eines Systems eingetreten ist oder drohte.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11a;triage;Triage Spam-Welle [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter fing alle Spam-Mails ab, sodass keine tatsächliche Beeinträchtigung von Systemen oder Diensten eintrat.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11a;triage;Triage Spam-Welle [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter fängt alle Mails ab, sodass kein tatsächlicher Schaden oder keine Beeinträchtigung entsteht; zudem kenne ich die genauen Schwellenwerte des deutschen NIS2-Umsetzungsrechts nicht sicher genug für eine definitive rechtliche Einordnung.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11a;triage;Triage Spam-Welle [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter hat alle Schadlinks erfolgreich abgefangen, sodass keine Störung der Funktionsfähigkeit oder Beeinträchtigung wesentlicher Dienstleistungen eingetreten ist.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11a;triage;Triage Spam-Welle [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter hat alle Schadlinks erfolgreich abgefangen, sodass keine Störung der Funktionsfähigkeit eingetreten ist und keine erheblichen Auswirkungen auf die Gesellschaft oder Wirtschaft zu erwarten sind.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11b;triage;Triage Spam-Welle [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter hat alle Spam-Mails mit Schadlink abgefangen, sodass keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder Beeinträchtigungen anderer Personen eingetreten sind.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11b;triage;Triage Spam-Welle [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter hat alle Spam-Mails mit Schadlink abgefangen, sodass keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder Beeinträchtigungen anderer Personen durch materielle oder immaterielle Schäden verursacht wurden oder verursachen können.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11b;triage;Triage Spam-Welle [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter fing alle Spam-Mails ab, sodass keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder Schäden bei anderen Personen entstanden sind.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11b;triage;Triage Spam-Welle [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter fing alle Spam-Mails ab, sodass keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder Beeinträchtigungen anderer Personen entstanden sind.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-11b;triage;Triage Spam-Welle [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: 300 Spam-Mails mit Schadlink treffen ein. Der Mailfilter fängt alle ab.";"
+
+{""erheblich"": false, ""begruendung"": ""Der Mailfilter hat alle Spam-Mails mit Schadlink abgefangen, sodass weder schwerwiegende Betriebsstörungen noch finanzielle Verluste noch Beeinträchtigungen anderer Personen eingetreten sind oder eintreten konnten.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12a;triage;Triage Geplante Wartung [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Es handelt sich um eine geplante, angekündigte Wartung und nicht um einen Sicherheitsvorfall im Sinne des BSI-Gesetzes.""}
+```";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12a;triage;Triage Geplante Wartung [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine geplante, angekündigte Wartung ist kein Sicherheitsvorfall im Sinne des BSI-Gesetzes, da keine Störung der Verfügbarkeit, Integrität oder Vertraulichkeit durch einen Angriff oder ein unvorhergesehenes Ereignis vorliegt.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12a;triage;Triage Geplante Wartung [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine geplante, angekündigte Wartung außerhalb der Geschäftszeiten stellt keinen Sicherheitsvorfall im Sinne des BSI-Gesetzes dar, da kein Angriff, keine Störung durch externe Akteure und keine Beeinträchtigung der Verfügbarkeit oder Integrität von Systemen vorliegt.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12a;triage;Triage Geplante Wartung [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine geplante, vorher angekündigte Wartung außerhalb der Geschäftszeiten stellt keinen unerwarteten Sicherheitsvorfall dar, da keine Beeinträchtigung der Verfügbarkeit, Integrität oder Vertraulichkeit im Sinne des BSI-Gesetzes vorliegt.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12a;triage;Triage Geplante Wartung [Kopf];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine geplante, vorher angekündigte Wartung außerhalb der Geschäftszeiten stellt keinen unerwarteten Sicherheitsvorfall dar, da keine Beeinträchtigung der Verfügbarkeit, Vertraulichkeit oder Integrität durch einen Angriff oder ein unvorhergesehenes Ereignis vorliegt.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12b;triage;Triage Geplante Wartung [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine geplante, vorher angekündigte Wartung außerhalb der Geschäftszeiten verursacht keine schwerwiegenden Betriebsstörungen und beeinträchtigt keine Personen durch erhebliche materielle oder immaterielle Schäden.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12b;triage;Triage Geplante Wartung [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Die geplante und vorher angekündigte Wartung verursachte keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder erheblichen Schäden für andere Personen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12b;triage;Triage Geplante Wartung [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine geplante, angekündigte Wartung außerhalb der Geschäftszeiten verursacht keine schwerwiegenden Betriebsstörungen und beeinträchtigt keine Personen durch erhebliche materielle oder immaterielle Schäden.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12b;triage;Triage Geplante Wartung [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Die geplante und vorher angekündigte Wartung verursachte keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder erheblichen materiellen oder immateriellen Schäden für andere Personen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-12b;triage;Triage Geplante Wartung [Text];1.0;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Geplante Wartung des Mailservers, zwei Stunden außerhalb der Geschäftszeiten, vorher angekündigt.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine geplante, vorher angekündigte Wartung außerhalb der Geschäftszeiten verursacht keine schwerwiegenden Betriebsstörungen, finanziellen Verluste oder erheblichen Schäden für andere Personen.""}";[pruefen] erwartet: False (BSIG § 2 Nr. 11).;;
+tri-13a;triage;Triage Grenzfall Website [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein dreistündiger Ausfall einer reinen Informationsseite ohne bekannte Auswirkungen auf kritische Dienste oder erhebliche Betriebsstörungen erreicht nach meinem Verständnis nicht die Schwelle eines erheblichen Sicherheitsvorfalls, doch kenne ich die genauen Kriterien des BSI-Gesetzes nicht sicher genug für eine verbindliche Einschätzung.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13a;triage;Triage Grenzfall Website [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine reine Informationswebsite mit dreistündiger Nichterreichbarkeit dürfte die Schwellenwerte für einen erheblichen Sicherheitsvorfall nach dem BSI-Gesetz in der Regel nicht erreichen, da keine kritischen Dienste oder wesentlichen Funktionen beeinträchtigt sind. Die genauen Kriterien und Schwellenwerte des BSI-Gesetzes kenne ich jedoch nicht sicher genug, um eine verbindliche Aussage zu treffen.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13a;triage;Triage Grenzfall Website [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine reine Informationsseite mit dreistündiger Nichterreichbarkeit und unklarer Ursache erfüllt nach meinem Kenntnisstand nicht die Kriterien eines erheblichen Sicherheitsvorfalls nach dem BSI-Gesetz, da mir die genauen gesetzlichen Schwellenwerte und Definitionen nicht sicher bekannt sind.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13a;triage;Triage Grenzfall Website [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ein dreistündiger Ausfall einer reinen Informationswebsite erreicht nach allgemeinem Verständnis nicht die Schwelle eines erheblichen Sicherheitsvorfalls, da keine kritischen Dienstleistungen oder lebenswichtigen Funktionen beeinträchtigt werden. Die genauen rechtlichen Kriterien des BSI-Gesetzes kenne ich jedoch nicht im Detail.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13a;triage;Triage Grenzfall Website [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Eine reine Informationsseite mit dreistündigem Ausfall stellt typischerweise keine wesentliche Beeinträchtigung der Verfügbarkeit, Authentizität, Integrität oder Vertraulichkeit von Netzwerken und Informationssystemen im Sinne des BSI-Gesetzes dar.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13b;triage;Triage Grenzfall Website [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Die dreistündige Nicht-Erreichbarkeit einer reinen Informationsseite verursacht keine schwerwiegenden Betriebsstörungen der Dienste und führt zu keinen erheblichen materiellen oder immateriellen Schäden für andere Personen.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13b;triage;Triage Grenzfall Website [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Die dreistündige Nichtverfügbarkeit einer reinen Informationsseite stellt keine schwerwiegende Betriebsstörung der Dienste dar und es sind keine erheblichen materiellen oder immateriellen Schäden für andere Personen ersichtlich.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13b;triage;Triage Grenzfall Website [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Die dreistündige Nichtverfügbarkeit einer reinen Informationsseite ohne Hinweise auf schwerwiegende Betriebsstörungen, finanzielle Verluste oder erhebliche Schäden für Dritte erfüllt die Kriterien eines erheblichen Sicherheitsvorfalls nicht.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13b;triage;Triage Grenzfall Website [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Die drei Stunden andauernde Nichterreichbarkeit einer reinen Informationsseite ohne Hinweise auf schwerwiegende Betriebsstörungen, finanzielle Verluste oder Schäden für andere Personen erfüllt nicht die Kriterien eines erheblichen Sicherheitsvorfalls.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-13b;triage;Triage Grenzfall Website [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Die Firmenwebsite (reine Informationsseite) ist drei Stunden nicht erreichbar, die Ursache ist unklar.";"
+
+{""erheblich"": false, ""begruendung"": ""Die dreistündige Nichterreichbarkeit einer reinen Informationsseite ohne Hinweise auf schwerwiegende Betriebsstörungen, finanzielle Verluste oder erhebliche Schäden für Dritte erfüllt die Voraussetzungen eines erheblichen Sicherheitsvorfalls nicht.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14a;triage;Triage Grenzfall Laptop [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien und Schwellenwerte des BSI-Gesetzes für erhebliche Sicherheitsvorfälle nicht sicher genug, um dies definitiv zu beurteilen; zudem hängt die Einordnung davon ab, ob die betroffene Organisation als wichtiger oder besonders wichtiger Anbieter gilt.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14a;triage;Triage Grenzfall Laptop [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+{""erheblich"": false, ""begruendung"": ""Ein verlorener Laptop mit Kundendatensätzen ist typischerweise ein Datenschutzvorfall nach DSGVO und kein erheblicher Sicherheitsvorfall nach NIS2/BSI-Gesetz, da keine kritischen Infrastrukturen oder wesentlichen Einrichtungen betroffen sind.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14a;triage;Triage Grenzfall Laptop [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien für erhebliche Sicherheitsvorfälle nach dem novellierten BSI-Gesetz nicht sicher und kann daher nicht beurteilen, ob dieser Vorfall die Schwelle erreicht.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14a;triage;Triage Grenzfall Laptop [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+```json
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien für erhebliche Sicherheitsvorfälle nach dem BSIG (NIS2-Umsetzung) nicht sicher und kann daher keine verlässliche Einordnung vornehmen.""}
+```";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14a;triage;Triage Grenzfall Laptop [Kopf];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall nach dem deutschen NIS2-Umsetzungsrecht (BSI-Gesetz)? Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+{""erheblich"": false, ""begruendung"": ""Ich kenne die genauen Kriterien für erhebliche Sicherheitsvorfälle nach dem BSI-Gesetz (NIS2-Umsetzung) nicht sicher genug, um eine definitive Aussage zu treffen.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14b;triage;Triage Grenzfall Laptop [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Verlust von 200 Kundendatensätzen kann andere natürliche oder juristische Personen durch erhebliche immaterielle Schäden beeinträchtigen.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14b;triage;Triage Grenzfall Laptop [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Verlust eines unverschlüsselten Laptops mit 200 Kundendatensätzen kann andere Personen durch erhebliche immaterielle Schäden beeinträchtigen.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14b;triage;Triage Grenzfall Laptop [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Verlust von 200 Kundendatensätzen kann andere natürliche oder juristische Personen durch erhebliche immaterielle Schäden beeinträchtigen, was der Definition eines erheblichen Sicherheitsvorfalls nach § 2 Nr. 11 BSIG entspricht.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14b;triage;Triage Grenzfall Laptop [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Verlust eines unverschlüsselten Laptops mit 200 Kundendatensätzen kann andere natürliche Personen durch erhebliche immaterielle Schäden (z. B. Datenschutzverletzung) beeinträchtigen, was unter Buchstabe b der Definition fällt.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+tri-14b;triage;Triage Grenzfall Laptop [Text];;"Handelt es sich bei folgendem Vorfall um einen erheblichen Sicherheitsvorfall? Antworte ausschließlich auf Grundlage des folgenden Textes. Antworte ausschließlich mit JSON: {""erheblich"": true | false, ""begruendung"": ""ein bis zwei Sätze""}
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Vorfall: Ein unverschlüsselter Laptop mit 200 Kundendatensätzen wurde im Zug liegen gelassen und ist verschwunden.";"
+
+{""erheblich"": true, ""begruendung"": ""Der Verlust von 200 Kundendatensätzen kann andere natürliche Personen durch erhebliche immaterielle Schäden beeinträchtigen, was dem Kriterium b) des § 2 Nr. 11 BSIG entspricht.""}";[pruefen] erwartet: Grenzfall, manuell lesen (BSIG § 2 Nr. 11).;;
+fri-01a;triage;Fristen ab 06.10. 08:15 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+## Meldefristen nach dem NIS2UmsuCG
+
+Die Rechtsgrundlage ist **§ 30 NIS2UmsuCG** (Gesetz zur Umsetzung der Richtlinie (EU) 2022/2555). Zuständige Meldestelle ist das **BSI**.
+
+Ausgangspunkt: Feststellung des Vorfalls am **06.10.2026 um 08:15 Uhr**.
+
+### (1) Frühwarnung (Erstmeldung)
+Spätestens **24 Stunden** nach Feststellung:
+→ **07.10.2026 um 08:15 Uhr**
+
+### (2) Vorfallmeldung
+Spätestens **72 Stunden** nach Feststellung:
+→ **09.10.2026 um 08:15 Uhr**
+
+### (3) Abschlussmeldung
+Spätestens **einen Monat nach Abschluss der Vorfallmeldung**. Wird die Vorfallmeldung am spätestmöglichen Tag (09.10.2026, 08:15 Uhr) übermittelt, dann läuft die Monatsfrist ab diesem Zeitpunkt:
+→ **09.11.2026 um 08:15 Uhr**
+
+---
+
+**Zusammenfassung:**
+
+| Meldung | Frist | Konkreter Termin |
+|---|---|---|
+| Frühwarnung | 24 h nach Feststellung | 07.10.2026, 08:15 Uhr |
+| Vorfallmeldung | 72 h nach Feststellung | 09.10.2026, 08:15 Uhr |
+| Abschlussmeldung | 1 Monat nach Vorfallmeldung | 09.11.2026, 08:15 Uhr |
+
+Die Meldungen sind an das BSI zu richten.";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01a;triage;Fristen ab 06.10. 08:15 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Nach § 8 des BSI-Gesetzes (BSIG), das am 17. Dezember 2024 in Kraft getreten ist und die NIS2-Richtlinie umsetzt, gelten folgende Meldefristen bei Feststellung eines erheblichen Sicherheitsvorfalls:
+
+**Ausgangspunkt:** Feststellung am 06.10.2026 um 08:15 Uhr.
+
+**(1) Frühe Erstmeldung:** unverzüglich, spätestens 24 Stunden nach Feststellung des Vorfalls.
+→ **07.10.2026, 08:15 Uhr**
+
+**(2) Vorfallmeldung:** spätestens 72 Stunden nach Feststellung des Vorfalls.
+→ **09.10.2026, 08:15 Uhr**
+
+**(3) Abschlussmeldung:** spätestens einen Monat nach Abschluss der Vorfallmeldung. Wird die Vorfallmeldung am spätestmöglichen Tag (09.10.2026) übermittelt, ist die Abschlussmeldung spätestens am **09.11.2026** abzugeben.
+
+Die Vorschrift ist § 8 BSIG.";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01a;triage;Fristen ab 06.10. 08:15 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Die konkreten Meldefristen für Sicherheitsvorfälle nach dem deutschen BSI-Gesetz in der NIS2-Umsetzung – also die genauen Fristen für Frühwarnung, Vorfallmeldung und Abschlussmeldung sowie die zugehörigen Vorschriften – kenne ich nicht mit hinreichender Sicherheit, um konkrete Daten und Uhrzeiten für den 06.10.2026 zu berechnen.
+
+Ich weiß, dass die NIS2-Richtlinie der EU grundsätzlich gestaffelte Meldefristen vorsieht (Frühwarnung, Vorfallmeldung, Abschlussmeldung), aber ich kann nicht mit Sicherheit bestätigen, wie diese im deutschen BSI-Gesetz im Detail umgesetzt sind, insbesondere nicht die genauen Stunden- und Tagesfristen.
+
+Ich empfehle, die aktuellen Vorschriften direkt im BSI-Gesetz (§ 8b BSI-Gesetz in der Fassung der NIS2-Umsetzung) oder auf der Website des BSI nachzuschlagen, da sich die genauen Fristen und Anforderungen durch die Umsetzung geändert haben könnten und ich hier keine verlässlichen Angaben machen kann.";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01a;triage;Fristen ab 06.10. 08:15 [Kopf];0.25;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Ich weiß, dass die NIS2-Richtlinie (EU) 2022/2555 in Deutschland durch das NIS2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2UmsuCG) umgesetzt wurde, das am 17. Oktober 2024 in Kraft trat. Die Richtlinie sieht grundsätzlich gestaffelte Meldefristen vor: eine Erstmeldung innerhalb von 24 Stunden, eine Zwischenmeldung innerhalb von 72 Stunden und eine Abschlussmeldung innerhalb eines Monats.
+
+Allerdings kenne ich die **genauen deutschen Vorschriften** – also die konkrete Paragraphenbezeichnung im deutschen Recht (z. B. ob es § 8 BSIG oder eine andere Norm ist) – und die **exakten Fristen und Formulierungen** der deutschen Umsetzung nicht mit ausreichender Sicherheit, um konkrete Daten und Uhrzeiten für Ihren Fall (06.10.2026, 08:15 Uhr) verbindlich zu nennen. Es könnte Abweichungen oder Besonderheiten in der deutschen Umsetzung geben, die ich nicht sicher weiß.
+
+Ich rate Ihnen daher, die aktuellen gesetzlichen Vorschriften direkt zu konsultieren – etwa die Website des BSI oder die einschlägigen Paragraphen des NIS2UmsuCG – oder rechtlichen Rat einzuholen, um die korrekten Fristen und Meldepflichten für Ihren konkreten Fall zu bestimmen.";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01a;triage;Fristen ab 06.10. 08:15 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Ich kenne die genauen Fristen des deutschen BSI-Gesetzes zur NIS2-Umsetzung nicht mit hinreichender Sicherheit, um konkrete Daten und Uhrzeiten für die Erstmeldung, die Vorfallmeldung und die Abschlussmeldung zu nennen. Ich möchte keine Fristen erfinden oder aus der EU-Richtlinie (EU) 2022/2555 ableiten, ohne sicher zu sein, dass das deutsche Umsetzungsgesetz diese exakt übernimmt.
+
+Ich empfehle, die aktuelle Fassung des NIS2-Umsetzungsgesetzes (BSI-Gesetz) direkt zu konsultieren oder das BSI zu kontaktieren, um die verbindlichen Meldefristen zu ermitteln.";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01b;triage;Fristen ab 06.10. 08:15 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**Kenntniserlangung:** 06.10.2026, 08:15 Uhr
+
+**1. Frühe Erstmeldung** (§ 32 Abs. 1 Satz 1 Nr. 1 BSIG):
+Spätestens innerhalb von 24 Stunden nach Kenntniserlangung, also bis **07.10.2026, 08:15 Uhr**.
+
+**2. Vorfallmeldung** (§ 32 Abs. 1 Satz 1 Nr. 2 BSIG):
+Spätestens innerhalb von 72 Stunden nach Kenntniserlangung, also bis **09.10.2026, 08:15 Uhr**.
+
+**3. Abschlussmeldung** (§ 32 Abs. 1 Satz 1 Nr. 4 BSIG):
+Spätestens einen Monat nach Übermittlung der Vorfallmeldung. Wird die Vorfallmeldung am spätestmöglichen Tag (09.10.2026) übermittelt, ist die Abschlussmeldung spätestens bis **09.11.2026** vorzulegen. Eine konkrete Uhrzeit ist in der Vorschrift nicht genannt.";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01b;triage;Fristen ab 06.10. 08:15 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**Kenntniserlangung:** 06.10.2026, 08:15 Uhr
+
+**(1) Frühe Erstmeldung:**
+Spätestens bis **07.10.2026, 08:15 Uhr** (24 Stunden nach Kenntniserlangung).
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 1 BSIG
+
+**(2) Vorfallmeldung:**
+Spätestens bis **09.10.2026, 08:15 Uhr** (72 Stunden nach Kenntniserlangung).
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 2 BSIG
+
+**(3) Abschlussmeldung:**
+Wenn die Vorfallmeldung am spätestmöglichen Tag (09.10.2026, 08:15 Uhr) übermittelt wird, ist die Abschlussmeldung spätestens einen Monat danach, also bis **09.11.2026, 08:15 Uhr**, vorzulegen.
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 4 BSIG";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01b;triage;Fristen ab 06.10. 08:15 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Basierend auf dem Text ergeben sich folgende Fristen und Daten:
+
+1. **Frühe Erstmeldung:** Spätestens am **07.10.2026 um 08:15 Uhr** (24 Stunden nach Kenntniserlangung am 06.10.2026 um 08:15 Uhr).
+2. **Vorfallmeldung:** Spätestens am **09.10.2026 um 08:15 Uhr** (72 Stunden nach Kenntniserlangung am 06.10.2026 um 08:15 Uhr).
+3. **Abschlussmeldung:** Spätestens am **09.11.2026** (ein Monat nach Übermittlung der Vorfallmeldung am 09.10.2026). Eine konkrete Uhrzeit für die Abschlussmeldung nennt der Text nicht.
+
+Die Vorschrift für all diese Meldepflichten ist **§ 32 BSIG**.";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01b;triage;Fristen ab 06.10. 08:15 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+1. Frühe Erstmeldung: spätestens am 07.10.2026 um 08:15 Uhr (§ 32 Abs. 1 Nr. 1 BSIG).
+2. Vorfallmeldung: spätestens am 09.10.2026 um 08:15 Uhr (§ 32 Abs. 1 Nr. 2 BSIG).
+3. Abschlussmeldung: spätestens am 09.11.2026 (§ 32 Abs. 1 Nr. 4 BSIG).";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-01b;triage;Fristen ab 06.10. 08:15 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 06.10.2026 um 08:15 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Basierend auf dem Text ergeben sich folgende Fristen und Daten:
+
+1. **Frühe Erstmeldung:** Spätestens am **07.10.2026 um 08:15 Uhr**.  
+   (Vorschrift: § 32 Abs. 1 Satz 1 Nr. 1 BSIG – unverzüglich, spätestens jedoch innerhalb von 24 Stunden nach Kenntniserlangung)
+
+2. **Vorfallmeldung:** Spätestens am **09.10.2026 um 08:15 Uhr**.  
+   (Vorschrift: § 32 Abs. 1 Satz 1 Nr. 2 BSIG – unverzüglich, spätestens jedoch innerhalb von 72 Stunden nach Kenntniserlangung)
+
+3. **Abschlussmeldung:** Spätestens am **09.11.2026**.  
+   (Vorschrift: § 32 Abs. 1 Satz 1 Nr. 4 BSIG – spätestens einen Monat nach Übermittlung der Meldung des Sicherheitsvorfalls gemäß Nummer 2; da die Vorfallmeldung am spätestmöglichen Tag, dem 09.10.2026, übermittelt wird, endet die Frist einen Monat später am 09.11.2026. Eine konkrete Uhrzeit ist im Text nicht genannt.)";"24h: 07.10. 08:15; 72h: 09.10. 08:15; Abschluss bis 09.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02a;triage;Fristen ab 20.10. 14:30 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Ich kenne die allgemeinen Fristen der NIS2-Richtlinie (2022/2555) grob – Frühwarnung unverzüglich, spätestens 24 Stunden; Vorfallmeldung spätestens 72 Stunden; Abschlussmeldung spätestens einen Monat nach Abschluss der Vorfallmeldung – aber ich bin mir **nicht sicher**, ob und wie diese Fristen in der deutschen Umsetzung (NIS2UmsuCG / Änderung des BSIG) exakt übernommen wurden, insbesondere ob es Abweichungen gibt.
+
+Da du **konkrete Daten und Uhrzeiten** sowie die **genaue Vorschrift** (Paragraph, Absatz) verlangst, und ich nicht sicher weiß, ob meine Erinnerung an die Fristen korrekt ist, möchte ich keine falschen Angaben machen.
+
+**Ich empfehle dir, die aktuellen Vorschriften direkt beim BSI oder in der aktuellen Fassung des BSIG (§ 30) nachzuschlagen**, da ich hier keine verlässliche Auskunft geben kann.";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02a;triage;Fristen ab 20.10. 14:30 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Nach dem BSI-Gesetz (NIS2-Umsetzung), konkret § 8b BSIG, gelten folgende Meldefristen bei einem erheblichen Sicherheitsvorfall:
+
+**Feststellung:** 20.10.2026, 14:30 Uhr
+
+**(1) Frühe Erstmeldung:**
+Innerhalb von **24 Stunden** nach Feststellung des Vorfalls.
+→ **21.10.2026, 14:30 Uhr**
+
+**(2) Vorfallmeldung:**
+Innerhalb von **72 Stunden** nach Feststellung des Vorfalls.
+→ **23.10.2026, 14:30 Uhr**
+
+**(3) Abschlussmeldung:**
+Spätestens **einen Monat** nach Abschluss der Vorfallmeldung. Wenn die Vorfallmeldung am spätestmöglichen Tag (23.10.2026) übermittelt wird, ist die Abschlussmeldung spätestens am **23.11.2026** abzugeben.
+
+**Vorschrift:** § 8b BSIG (Bundes-Sicherheitsgesetz)
+
+Hinweis: Ich bin mir bei der genauen Paragraphennummer nicht zu 100 % sicher, aber die Meldefristen (24 Stunden, 72 Stunden, ein Monat) sind mir klar.";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02a;triage;Fristen ab 20.10. 14:30 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Die Meldefristen ergeben sich aus § 8 Abs. 1 NIS2UmsuCG (Gesetz zur Umsetzung der Richtlinie (EU) 2022/2555).
+
+Feststellung des Vorfalls: 20.10.2026, 14:30 Uhr.
+
+(1) Frühe Erstmeldung: unverzüglich, spätestens jedoch 24 Stunden nach Feststellung.  
+→ 21.10.2026, 14:30 Uhr.
+
+(2) Vorfallmeldung: spätestens 72 Stunden nach Feststellung.  
+→ 23.10.2026, 14:30 Uhr.
+
+(3) Abschlussmeldung: spätestens einen Monat nach Abschluss der Vorfallmeldung. Wird die Vorfallmeldung am spätestmöglichen Tag, also am 23.10.2026, übermittelt, endet die Frist einen Monat später.  
+→ 23.11.2026.
+
+Hinweis: Die genauen Uhrzeiten für die Abschlussmeldung ergeben sich aus der Vorschrift nicht ausdrücklich; maßgeblich ist der Tag der Vorfallmeldung. Ich kenne keine weitergehende Regelung, die hier eine konkrete Uhrzeit vorgibt.";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02a;triage;Fristen ab 20.10. 14:30 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kenne die Meldefristen des NIS2-Umsetzungsgesetzes (NIS2UmsuCG), kann sie aber nur auf den Stand meines Wissens anwenden. Über Ereignisse nach dem 18.06.2026 weiß ich nichts; die folgende Rechnung ist eine Anwendung der mir bekannten Vorschrift auf das von Ihnen genannte Datum.
+
+**Vorschrift:** § 8 Abs. 1 NIS2UmsuCG
+
+**Ausgangspunkt:** Feststellung des erheblichen Sicherheitsvorfalls am **20.10.2026 um 14:30 Uhr**
+
+**(1) Frühe Erstmeldung:**
+unverzüglich, spätestens **24 Stunden** nach Feststellung des Vorfalls.
+→ **21.10.2026, 14:30 Uhr**
+
+**(2) Vorfallmeldung:**
+spätestens **72 Stunden** nach Feststellung des Vorfalls.
+→ **23.10.2026, 14:30 Uhr**
+
+**(3) Abschlussmeldung:**
+spätestens **einen Monat** nach Abschluss der Vorfallmeldung. Da die Vorfallmeldung am spätestmöglichen Tag, also am **23.10.2026**, übermittelt wird, endet die Frist einen Monat später.
+→ **23.11.2026**
+
+Hinweis: Die Frist für die Abschlussmeldung bemisst sich nach dem Abschluss der Vorfallmeldung, nicht nach der Feststellung des Vorfalls. Wenn die Vorfallmeldung früher als am 23.10.2026 erfolgt, verschiebt sich auch die Abschlussmeldung entsprechend nach vorn.";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02a;triage;Fristen ab 20.10. 14:30 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+# Meldefristen nach dem NIS2UmsuCG bei einem erheblichen Sicherheitsvorfall
+
+**Rechtsgrundlage:** § 8 NIS2UmsuCG (Gesetz zur Umsetzung der Richtlinie (EU) 2022/2555)
+
+**Feststellung des Vorfalls:** 20.10.2026, 14:30 Uhr
+
+---
+
+## (1) Frühe Erstmeldung (Frühwarnung)
+
+**Frist:** unverzüglich, spätestens **24 Stunden** nach Feststellung des Vorfalls
+
+**Konkreter Zeitpunkt:** **21.10.2026, 14:30 Uhr**
+
+---
+
+## (2) Vorfallmeldung
+
+**Frist:** spätestens **72 Stunden** nach Feststellung des Vorfalls
+
+**Konkreter Zeitpunkt:** **23.10.2026, 14:30 Uhr**
+
+---
+
+## (3) Abschlussmeldung
+
+**Frist:** spätestens **einen Monat** nach Abschluss der Vorfallmeldung
+
+Wenn die Vorfallmeldung am spätestmöglichen Tag (23.10.2026) übermittelt wird:
+
+**Konkreter Zeitpunkt:** **23.11.2026**
+
+---
+
+**Zusammenfassung:**
+
+| Meldung | Frist | Konkreter Zeitpunkt |
+|---|---|---|
+| Frühe Erstmeldung | 24 Stunden | 21.10.2026, 14:30 Uhr |
+| Vorfallmeldung | 72 Stunden | 23.10.2026, 14:30 Uhr |
+| Abschlussmeldung | 1 Monat nach Vorfallmeldung | 23.11.2026 |
+
+---
+
+**Hinweis:** Ich bin mir bei der genauen Paragraphennummerierung im NIS2UmsuCG nicht zu 100 % sicher. Die Fristen (24 Stunden, 72 Stunden, ein Monat) entsprechen der NIS2-Richtlinie (Art. 23) und deren deutscher Umsetzung. Bitte verifizieren Sie die genaue Vorschrift in der aktuellen Gesetzesfassung.";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02b;triage;Fristen ab 20.10. 14:30 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des Textes:
+
+**Kenntniserlangung:** 20.10.2026, 14:30 Uhr
+
+**(1) Frühe Erstmeldung:** spätestens innerhalb von 24 Stunden nach Kenntniserlangung, also bis zum **21.10.2026, 14:30 Uhr** (§ 32 Abs. 1 Satz 1 Nr. 1 BSIG).
+
+**(2) Vorfallmeldung:** spätestens innerhalb von 72 Stunden nach Kenntniserlangung, also bis zum **23.10.2026, 14:30 Uhr** (§ 32 Abs. 1 Satz 1 Nr. 2 BSIG).
+
+**Abschlussmeldung:** spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nr. 2. Wird die Vorfallmeldung am spätestmöglichen Tag, also am 23.10.2026, übermittelt, ist die Abschlussmeldung spätestens am **23.11.2026** vorzulegen (§ 32 Abs. 1 Satz 1 Nr. 4 BSIG).";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02b;triage;Fristen ab 20.10. 14:30 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Basierend auf dem Text:
+
+**Feststellung des Vorfalls:** 20.10.2026, 14:30 Uhr (Kenntniserlangung)
+
+**(1) Frühe Erstmeldung (§ 32 Abs. 1 Nr. 1 BSIG):**
+Spätestens innerhalb von 24 Stunden nach Kenntniserlangung.
+→ **21.10.2026, 14:30 Uhr**
+
+**(2) Vorfallmeldung (§ 32 Abs. 1 Nr. 2 BSIG):**
+Spätestens innerhalb von 72 Stunden nach Kenntniserlangung.
+→ **23.10.2026, 14:30 Uhr**
+
+**Abschlussmeldung (§ 32 Abs. 1 Nr. 4 BSIG):**
+Spätestens einen Monat nach Übermittlung der Vorfallmeldung.
+Wird die Vorfallmeldung am spätestmöglichen Tag (23.10.2026, 14:30 Uhr) übermittelt, dann:
+→ **23.11.2026, 14:30 Uhr**
+
+**Vorschrift:** § 32 BSIG";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02b;triage;Fristen ab 20.10. 14:30 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**1. Frühe Erstmeldung (§ 32 Abs. 1 Nr. 1 BSIG):**
+Spätestens 24 Stunden nach Kenntniserlangung. Kenntniserlangung am 20.10.2026 um 14:30 Uhr → Fristende: **21.10.2026 um 14:30 Uhr**.
+
+**2. Vorfallmeldung (§ 32 Abs. 1 Nr. 2 BSIG):**
+Spätestens 72 Stunden nach Kenntniserlangung. Kenntniserlangung am 20.10.2026 um 14:30 Uhr → Fristende: **23.10.2026 um 14:30 Uhr**.
+
+**3. Abschlussmeldung (§ 32 Abs. 1 Nr. 4 BSIG):**
+Spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nummer 2. Wird die Vorfallmeldung am spätestmöglichen Tag, also am 23.10.2026 um 14:30 Uhr, übermittelt, endet die Frist am **23.11.2026 um 14:30 Uhr**.";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02b;triage;Fristen ab 20.10. 14:30 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**1. Frühe Erstmeldung (§ 32 Abs. 1 Nr. 1 BSIG):**
+Spätestens innerhalb von 24 Stunden nach Kenntniserlangung. Kenntniserlangung: 20.10.2026, 14:30 Uhr.  
+**Fristende: 21.10.2026, 14:30 Uhr.**
+
+**2. Vorfallmeldung (§ 32 Abs. 1 Nr. 2 BSIG):**
+Spätestens innerhalb von 72 Stunden nach Kenntniserlangung. Kenntniserlangung: 20.10.2026, 14:30 Uhr.  
+**Fristende: 23.10.2026, 14:30 Uhr.**
+
+**3. Abschlussmeldung (§ 32 Abs. 1 Nr. 4 BSIG):**
+Spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nr. 2. Wird die Vorfallmeldung am spätestmöglichen Tag (23.10.2026, 14:30 Uhr) übermittelt, dann:  
+**Fristende: 23.11.2026, 14:30 Uhr.**";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-02b;triage;Fristen ab 20.10. 14:30 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 20.10.2026 um 14:30 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des bereitgestellten Textes (§ 32 BSIG) ergeben sich folgende Fristen, gerechnet ab Kenntniserlangung am **20.10.2026 um 14:30 Uhr**:
+
+1. **Frühe Erstmeldung** (§ 32 Abs. 1 Nr. 1 BSIG): spätestens innerhalb von **24 Stunden** nach Kenntniserlangung, also bis zum **21.10.2026 um 14:30 Uhr**.
+
+2. **Vorfallmeldung** (§ 32 Abs. 1 Nr. 2 BSIG): spätestens innerhalb von **72 Stunden** nach Kenntniserlangung, also bis zum **23.10.2026 um 14:30 Uhr**.
+
+3. **Abschlussmeldung** (§ 32 Abs. 1 Nr. 4 BSIG): spätestens **einen Monat nach Übermittlung** der Vorfallmeldung gemäß Nr. 2. Wird die Vorfallmeldung am spätestmöglichen Tag, also am **23.10.2026 um 14:30 Uhr**, übermittelt, endet die Frist am **23.11.2026 um 14:30 Uhr**.
+
+Hinweis: Die Frist für die Abschlussmeldung beginnt nicht mit der Kenntniserlangung, sondern mit der Übermittlung der Vorfallmeldung.";"24h: 21.10. 14:30; 72h: 23.10. 14:30; Abschluss bis 23.11.2026 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03a;triage;Fristen ab 01.12. 09:05 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kenne die NIS2-Richtlinie (EU) 2022/2555 und ihre Meldefristen, bin mir aber **nicht sicher**, ob die deutsche Umsetzung durch das NIS2UmsuCG (NIS2-Umsetzungs- und Cybersicherheitsstärkungsgesetz) in allen Details exakt diesen Fristen folgt. Ich gebe die Fristen nach der NIS2-Richtlinie wieder, ohne Gewähr für die deutsche Umsetzung im Detail.
+
+**Feststellung des Vorfalls:** 01.12.2026, 09:05 Uhr
+
+**(1) Frühe Erstmeldung (Frühwarnung):**
+Innerhalb von **24 Stunden** nach Feststellung.
+→ **02.12.2026, 09:05 Uhr**
+
+**(2) Vorfallmeldung (Incident Notification):**
+Innerhalb von **72 Stunden** nach Feststellung.
+→ **04.12.2026, 09:05 Uhr**
+
+**Abschlussmeldung (Final Report):**
+Innerhalb von **einem Monat** nach Abschluss der Vorfallmeldung. Wenn die Vorfallmeldung am spätestmöglichen Tag (04.12.2026) übermittelt wird:
+→ **04.01.2027**
+
+**Vorschrift:** Art. 23 NIS2-Richtlinie (EU) 2022/2555.
+
+Ich kann nicht mit Sicherheit bestätigen, dass das deutsche NIS2UmsuCG diese Fristen unverändert übernommen hat. Für eine verbindliche Auskunft empfehle ich, das BSI oder einen Fachanwalt zu konsultieren.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03a;triage;Fristen ab 01.12. 09:05 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Ich weiß, dass das NIS2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2UmsuCG) am 18. Dezember 2024 in Kraft getreten ist und die NIS2-Richtlinie in deutsches Recht umsetzt. Die Meldepflichten für erhebliche Sicherheitsvorfälle sind darin geregelt.
+
+Die konkreten Fristen – frühe Erstmeldung, Vorfallmeldung und Abschlussmeldung – sowie die genaue Vorschrift (Paragraph und Absatz) kenne ich jedoch nicht mit ausreichender Sicherheit, um Ihnen verbindliche Daten und Uhrzeiten zu nennen. Ich möchte keine Fristen erfinden, da dies für Sie rechtliche Konsequenzen haben könnte.
+
+Ich empfehle Ihnen, die aktuellen Vorschriften direkt im Gesetzestext (NIS2UmsuCG bzw. die entsprechenden Änderungen des BSIG) nachzuschlagen oder sich an die zuständige Behörde (BSI oder Bundesnetzagentur) zu wenden.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03a;triage;Fristen ab 01.12. 09:05 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der geforderten Präzision beantworten.
+
+Ich weiß, dass das NIS2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2UmsuCG) am 18. Juni 2024 in Kraft getreten ist und die NIS2-Richtlinie in deutsches Recht umgesetzt hat. Die konkreten Meldefristen für Sicherheitsvorfälle – also die frühe Erstmeldung, die Vorfallmeldung und die Abschlussmeldung – sowie die genauen Vorschriften und Uhrzeiten kann ich jedoch nicht mit Sicherheit wiedergeben. Ich möchte hier keine Fristen erfinden oder falsch zuordnen.
+
+Ich empfehle, die aktuellen Vorschriften direkt im Gesetzestext des NIS2UmsuCG bzw. des BSIG nachzuschlagen oder die offiziellen Kanäle des BSI zu konsultieren, um die korrekten Daten und Uhrzeiten für Ihren konkreten Fall zu ermitteln.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03a;triage;Fristen ab 01.12. 09:05 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der gewünschten Präzision beantworten.
+
+Die NIS2-Richtlinie der EU (2022/2555) sieht grundsätzlich vor:
+- Frühwarnung: so schnell wie möglich, spätestens innerhalb von 24 Stunden
+- Vorfallmeldung: spätestens innerhalb von 72 Stunden
+- Abschlussmeldung: spätestens einen Monat nach der Vorfallmeldung
+
+Allerdings kenne ich die **konkreten deutschen Vorschriften** des NIS2-Umsetzungsgesetzes (dessen genauer Titel und Paragraphen mir nicht sicher bekannt sind) nicht im Detail. Ich kann nicht mit Sicherheit sagen:
+
+1. Ob die deutschen Fristen exakt den EU-Vorgaben entsprechen oder Abweichungen bestehen
+2. Welche genaue Vorschrift (Paragraph) die Meldepflichten regelt
+3. Ob es spezifische Definitionen für „erheblichen Sicherheitsvorfall"" gibt, die die Meldefrist auslösen
+
+Da ich keine konkreten Daten und Uhrzeiten nennen kann, ohne zu raten, sage ich ausdrücklich: **Ich kenne die genauen Fristen und Vorschriften des deutschen NIS2-Umsetzungsgesetzes nicht sicher genug, um diese Frage korrekt zu beantworten.**
+
+Ich empfehle, die offiziellen Quellen des BSI oder des zuständigen Bundesamtes für Sicherheit in der Informationstechnik zu konsultieren, oder einen Fachanwalt für IT-Recht hinzuzuziehen.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03a;triage;Fristen ab 01.12. 09:05 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Das NIS2-Umsetzungsgesetz (NIS2UmsuCG) wurde zwar verabschiedet, aber ich bin mir nicht sicher, welche konkreten Meldefristen und Uhrzeiten es für die drei Meldepflichten (frühe Warnung, Vorfallmeldung, Abschlussmeldung) vorsieht und ob diese exakt den Fristen der EU-Richtlinie entsprechen. Ich kenne die genauen Vorschriften nicht gut genug, um konkrete Daten und Uhrzeiten für Ihren Fall (Feststellung am 01.12.2026 um 09:05 Uhr) zu berechnen, ohne zu riskieren, falsche Informationen zu geben.
+
+Ich empfehle, die aktuellen Vorschriften des NIS2UmsuCG direkt einzusehen oder rechtlichen Rat einzuholen.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03b;triage;Fristen ab 01.12. 09:05 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**1. Frühe Erstmeldung:**
+Spätestens **02.12.2026 um 09:05 Uhr** (§ 32 Abs. 1 Nr. 1 BSIG – 24 Stunden nach Kenntniserlangung am 01.12.2026 um 09:05 Uhr).
+
+**2. Vorfallmeldung (Meldung über den Sicherheitsvorfall):**
+Spätestens **04.12.2026 um 09:05 Uhr** (§ 32 Abs. 1 Nr. 2 BSIG – 72 Stunden nach Kenntniserlangung am 01.12.2026 um 09:05 Uhr).
+
+**3. Abschlussmeldung:**
+Spätestens **04.01.2027** (§ 32 Abs. 1 Nr. 4 BSIG – ein Monat nach Übermittlung der Vorfallmeldung gemäß Nr. 2). Da die Vorfallmeldung am spätestmöglichen Tag (04.12.2026) übermittelt wird, endet die Monatsfrist am 04.01.2027. Eine konkrete Uhrzeit ist aus dem Text nicht ableitbar, da die Vorschrift nur „spätestens einen Monat nach Übermittlung"" nennt.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03b;triage;Fristen ab 01.12. 09:05 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ausgehend von der Kenntniserlangung am **01.12.2026 um 09:05 Uhr** ergeben sich nach § 32 BSIG folgende Fristen:
+
+**1. Frühe Erstmeldung (§ 32 Abs. 1 Nr. 1 BSIG):**
+spätestens innerhalb von **24 Stunden** nach Kenntniserlangung → **02.12.2026 um 09:05 Uhr**
+
+**2. Vorfallmeldung (§ 32 Abs. 1 Nr. 2 BSIG):**
+spätestens innerhalb von **72 Stunden** nach Kenntniserlangung → **04.12.2026 um 09:05 Uhr**
+
+**3. Abschlussmeldung (§ 32 Abs. 1 Nr. 4 BSIG):**
+spätestens **einen Monat nach Übermittlung** der Vorfallmeldung gemäß Nr. 2. Wird die Vorfallmeldung am spätestmöglichen Tag (04.12.2026) übermittelt, ist die Abschlussmeldung spätestens am **04.01.2027** vorzulegen. Eine konkrete Uhrzeit ist für die Abschlussmeldung im Text nicht angegeben.
+
+Hinweis: Der Text enthält keine Regelung zu einer Uhrzeit für die Abschlussmeldung, sodass sich nur das Datum bestimmen lässt.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03b;triage;Fristen ab 01.12. 09:05 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des Textes § 32 BSIG:
+
+Kenntniserlangung: 01.12.2026, 09:05 Uhr.
+
+(1) Frühe Erstmeldung (§ 32 Abs. 1 Nr. 1 BSIG): spätestens innerhalb von 24 Stunden nach Kenntniserlangung, also bis zum **02.12.2026, 09:05 Uhr**.
+
+(2) Vorfallmeldung (§ 32 Abs. 1 Nr. 2 BSIG): spätestens innerhalb von 72 Stunden nach Kenntniserlangung, also bis zum **04.12.2026, 09:05 Uhr**.
+
+Abschlussmeldung (§ 32 Abs. 1 Nr. 4 BSIG): spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nummer 2. Wird die Vorfallmeldung am spätestmöglichen Tag, dem 04.12.2026, übermittelt, ist die Abschlussmeldung spätestens am **04.01.2027** vorzulegen. Eine konkrete Uhrzeit für die Abschlussmeldung nennt der Text nicht.";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03b;triage;Fristen ab 01.12. 09:05 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des Textes:
+
+**1. Frühe Erstmeldung:**
+Spätestens innerhalb von 24 Stunden nach Kenntniserlangung. Kenntniserlangung war am 01.12.2026 um 09:05 Uhr. Die Frist endet somit am **02.12.2026 um 09:05 Uhr**.
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 1 BSIG
+
+**2. Vorfallmeldung (Meldung über den Sicherheitsvorfall):**
+Spätestens innerhalb von 72 Stunden nach Kenntniserlangung. Die Frist endet somit am **04.12.2026 um 09:05 Uhr**.
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 2 BSIG
+
+**3. Abschlussmeldung:**
+Spätestens einen Monat nach Übermittlung der Meldung des Sicherheitsvorfalls gemäß Nummer 2. Wird die Vorfallmeldung am spätestmöglichen Tag (04.12.2026 um 09:05 Uhr) übermittelt, endet die Frist am **04.01.2027 um 09:05 Uhr**.
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 4 BSIG";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-03b;triage;Fristen ab 01.12. 09:05 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 01.12.2026 um 09:05 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**Ausgangspunkt:** Kenntniserlangung des erheblichen Sicherheitsvorfalls am **01.12.2026 um 09:05 Uhr**.
+
+**(1) Frühe Erstmeldung** – § 32 Abs. 1 Nr. 1 BSIG:
+unverzüglich, spätestens innerhalb von **24 Stunden** nach Kenntniserlangung.
+→ Fristende: **02.12.2026 um 09:05 Uhr**.
+
+**(2) Vorfallmeldung** – § 32 Abs. 1 Nr. 2 BSIG:
+unverzüglich, spätestens innerhalb von **72 Stunden** nach Kenntniserlangung.
+→ Fristende: **04.12.2026 um 09:05 Uhr**.
+
+**(3) Abschlussmeldung** – § 32 Abs. 1 Nr. 4 BSIG:
+spätestens **einen Monat nach Übermittlung** der Vorfallmeldung gemäß Nr. 2.
+Wird die Vorfallmeldung am spätestmöglichen Tag (04.12.2026, 09:05 Uhr) übermittelt, endet die Frist am **04.01.2027 um 09:05 Uhr**.
+
+**Hinweis:** Dauert der Sicherheitsvorfall zum Zeitpunkt des Monatsfristendes noch an, ist statt der Abschlussmeldung eine Fortschrittsmeldung vorzulegen; die Abschlussmeldung folgt erst nach abschließender Bearbeitung (§ 32 Abs. 2 BSIG).";"24h: 02.12. 09:05; 72h: 04.12. 09:05; Abschluss bis 04.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04a;triage;Fristen ab 15.12. 16:40 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Mein Wissen endet am 18.06.2026, und ich bin mir nicht sicher, ob die NIS2-Umsetzung in Deutschland zu diesem Zeitpunkt bereits vollständig in Kraft war und welche genauen Meldefristen im BSIG (oder einem etwaigen NIS2-Umsetzungsgesetz) festgelegt waren. Ich kenne die konkreten Vorschriften und Fristen nicht mit hinreichender Sicherheit, um konkrete Daten und Uhrzeiten zu nennen.
+
+Ich rate Ihnen, die aktuellen gesetzlichen Bestimmungen direkt beim BSI oder in der geltenden Fassung des BSIG nachzuschlagen, um die korrekten Meldefristen zu ermitteln.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04a;triage;Fristen ab 15.12. 16:40 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Nach § 8 BSIG (BSI-Gesetz, Umsetzung der NIS2-Richtlinie) gelten folgende Meldefristen bei Feststellung eines erheblichen Sicherheitsvorfalls:
+
+**Ausgangspunkt:** Feststellung am 15.12.2026 um 16:40 Uhr
+
+**(1) Frühe Erstmeldung:**
+Spätestens 24 Stunden nach Feststellung, also bis zum **16.12.2026 um 16:40 Uhr**.
+
+**(2) Vorfallmeldung:**
+Spätestens 72 Stunden nach Feststellung, also bis zum **18.12.2026 um 16:40 Uhr**.
+
+**(3) Abschlussmeldung:**
+Spätestens ein Monat nach Abgabe der Vorfallmeldung. Wenn die Vorfallmeldung am spätestmöglichen Tag (18.12.2026) übermittelt wird, ist die Abschlussmeldung bis zum **18.01.2027** abzugeben.
+
+**Vorschrift:** § 8 BSIG
+
+Hinweis: Ich kenne die genauen Details des § 8 BSIG bis zu meinem Wissensstand (18.06.2026). Es ist möglich, dass es seitdem Änderungen gegeben hat, über die ich keine Informationen habe. Für eine verbindliche rechtliche Beratung empfehle ich, die aktuelle Fassung des Gesetzes oder das BSI direkt zu konsultieren.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04a;triage;Fristen ab 15.12. 16:40 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der von Ihnen geforderten Präzision beantworten. Hier ist, was ich weiß und was nicht:
+
+**Was ich mit einiger Sicherheit weiß (aus der NIS2-Richtlinie (EU) 2022/2555):**
+
+- **Frühe Erstmeldung:** „so bald wie möglich und spätestens 24 Stunden nach Feststellung"" (Art. 23 NIS2).
+- **Vorfallmeldung:** „so bald wie möglich und spätestens 72 Stunden nach Feststellung"" (Art. 24 NIS2).
+- **Abschlussmeldung:** Die NIS2-Richtlinie sieht eine Abschlussmeldung vor, aber ich bin mir **nicht sicher**, welche genaue Frist dafür im deutschen Recht gilt.
+
+**Was ich nicht sicher weiß:**
+
+- Ob das deutsche **NIS2UmsuCG** (Gesetz zur Umsetzung der Richtlinie (EU) 2022/2555) die Fristen exakt so übernimmt oder abweichend regelt.
+- Die genaue Frist für die **Abschlussmeldung** und ob sie an die Vorfallmeldung oder an die Feststellung geknüpft ist.
+- Die genaue Vorschrift (Paragraph) im deutschen Recht, die diese Fristen regelt.
+
+**Was ich nicht tun werde:**
+
+Ich werde keine konkreten Daten und Uhrzeiten berechnen (z. B. 16.12.2026, 18.12.2026, 18.01.2027), da ich nicht sicher genug bin, dass die Fristen und ihre Anknüpfungspunkte korrekt sind. Eine falsche Antwort mit konkreten Daten wäre schlimmer als keine.
+
+**Empfehlung:** Bitte konsultieren Sie das NIS2UmsuCG direkt oder eine fachkundige Stelle, um die genauen Fristen und Vorschriften zu ermitteln.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04a;triage;Fristen ab 15.12. 16:40 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der geforderten Präzision beantworten.
+
+Ich kenne die genauen Meldefristen des deutschen NIS2-Umsetzungsgesetzes (NIS2UmsuCG) nicht mit hinreichender Sicherheit, um konkrete Daten und Uhrzeiten für Ihren Fall (Feststellung am 15.12.2026, 16:40 Uhr) zu berechnen. Ich weiß auch nicht, ob und welche Frist für die Abschlussmeldung im deutschen Gesetz vorgesehen ist.
+
+Die NIS2-Richtlinie (EU) 2022/2555 sieht grundsätzlich vor:
+- Frühwarnung innerhalb von 24 Stunden nach Feststellung,
+- Vorfallmeldung innerhalb von 72 Stunden nach Feststellung,
+- eine Abschlussmeldung ist in der Richtlinie nicht mit einer festen Frist geregelt.
+
+Ob das deutsche NIS2UmsuCG diese Fristen unverändert übernommen hat oder abweichende Regelungen enthält, kann ich nicht mit Sicherheit sagen. Ich möchte keine falschen konkreten Daten und Uhrzeiten nennen.
+
+Ich empfehle, die aktuellen Vorschriften des NIS2UmsuCG direkt einzusehen oder rechtlichen Rat einzuholen.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04a;triage;Fristen ab 15.12. 16:40 [Kopf];0.5;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+## Meldefristen nach § 8 NIS2UmsuCG
+
+Grundlage ist **§ 8 des NIS2-Umsetzungs- und Cybersicherheitsstärkungsgesetzes (NIS2UmsuCG)**.
+
+Feststellung des erheblichen Sicherheitsvorfalls: **15.12.2026, 16:40 Uhr**
+
+### (1) Frühe Erstmeldung (Frühwarnung)
+Nach **§ 8 Abs. 1 NIS2UmsuCG** ist die Frühwarnung **spätestens 24 Stunden nach Feststellung** abzugeben.
+
+**Fristende: 16.12.2026, 16:40 Uhr**
+
+### (2) Vorfallmeldung
+Nach **§ 8 Abs. 2 NIS2UmsuCG** ist die Vorfallmeldung **spätestens 72 Stunden nach Feststellung** abzugeben.
+
+**Fristende: 18.12.2026, 16:40 Uhr**
+
+### (3) Abschlussmeldung
+Nach **§ 8 Abs. 3 NIS2UmsuCG** ist die Abschlussmeldung **spätestens einen Monat nach Feststellung** abzugeben. Diese Frist ist unabhängig davon, wann die Vorfallmeldung übermittelt wurde.
+
+**Fristende: 15.01.2027, 16:40 Uhr**
+
+---
+
+**Zusammenfassung der konkreten Daten und Uhrzeiten:**
+
+| Meldung | Rechtsgrundlage | Fristende |
+|---|---|---|
+| Frühwarnung | § 8 Abs. 1 NIS2UmsuCG | 16.12.2026, 16:40 Uhr |
+| Vorfallmeldung | § 8 Abs. 2 NIS2UmsuCG | 18.12.2026, 16:40 Uhr |
+| Abschlussmeldung | § 8 Abs. 3 NIS2UmsuCG | 15.01.2027, 16:40 Uhr |";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04b;triage;Fristen ab 15.12. 16:40 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des Textes ergeben sich folgende Fristen:
+
+**1. Frühe Erstmeldung (§ 32 Abs. 1 Nr. 1 BSIG):**
+unverzüglich, spätestens jedoch innerhalb von 24 Stunden nach Kenntniserlangung.
+Kenntniserlangung: 15.12.2026, 16:40 Uhr.
+Fristende: **16.12.2026, 16:40 Uhr**.
+
+**2. Vorfallmeldung (§ 32 Abs. 1 Nr. 2 BSIG):**
+unverzüglich, spätestens jedoch innerhalb von 72 Stunden nach Kenntniserlangung.
+Kenntniserlangung: 15.12.2026, 16:40 Uhr.
+Fristende: **18.12.2026, 16:40 Uhr**.
+
+**3. Abschlussmeldung (§ 32 Abs. 1 Nr. 4 BSIG):**
+spätestens einen Monat nach Übermittlung der Meldung des Sicherheitsvorfalls gemäß Nummer 2.
+Wird die Vorfallmeldung am spätestmöglichen Tag, also am 18.12.2026 um 16:40 Uhr, übermittelt, endet die Frist einen Monat später:
+Fristende: **18.01.2027, 16:40 Uhr**.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04b;triage;Fristen ab 15.12. 16:40 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des Textes ergeben sich folgende Fristen und Daten:
+
+**1. Frühe Erstmeldung:**
+Spätestens innerhalb von 24 Stunden nach Kenntniserlangung.
+Kenntniserlangung: 15.12.2026, 16:40 Uhr.
+Fristende: **16.12.2026, 16:40 Uhr**.
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 1 BSIG.
+
+**2. Vorfallmeldung:**
+Spätestens innerhalb von 72 Stunden nach Kenntniserlangung.
+Kenntniserlangung: 15.12.2026, 16:40 Uhr.
+Fristende: **18.12.2026, 16:40 Uhr**.
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 2 BSIG.
+
+**3. Abschlussmeldung:**
+Spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nummer 2.
+Übermittlung der Vorfallmeldung am spätestmöglichen Tag: 18.12.2026, 16:40 Uhr.
+Fristende: **18.01.2027, 16:40 Uhr**.
+Vorschrift: § 32 Abs. 1 Satz 1 Nr. 4 BSIG.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04b;triage;Fristen ab 15.12. 16:40 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des bereitgestellten Textes ergeben sich folgende Fristen und Daten:
+
+**1. Frühe Erstmeldung:**
+Spätestens innerhalb von 24 Stunden nach Kenntniserlangung.
+Kenntniserlangung: 15.12.2026, 16:40 Uhr.
+Fristablauf: **16.12.2026, 16:40 Uhr**.
+Vorschrift: § 32 Abs. 1 Nr. 1 BSIG.
+
+**2. Vorfallmeldung (Meldung über den Sicherheitsvorfall):**
+Spätestens innerhalb von 72 Stunden nach Kenntniserlangung.
+Kenntniserlangung: 15.12.2026, 16:40 Uhr.
+Fristablauf: **18.12.2026, 16:40 Uhr**.
+Vorschrift: § 32 Abs. 1 Nr. 2 BSIG.
+
+**3. Abschlussmeldung:**
+Spätestens einen Monat nach Übermittlung der Meldung gemäß Nummer 2.
+Wenn die Vorfallmeldung am spätestmöglichen Tag (18.12.2026, 16:40 Uhr) übermittelt wird, endet die Frist einen Monat später.
+Fristablauf: **18.01.2027, 16:40 Uhr**.
+Vorschrift: § 32 Abs. 1 Nr. 4 BSIG.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04b;triage;Fristen ab 15.12. 16:40 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**Ausgangspunkt:** Kenntniserlangung am 15.12.2026 um 16:40 Uhr.
+
+**1. Frühe Erstmeldung**
+- Frist: unverzüglich, spätestens innerhalb von 24 Stunden nach Kenntniserlangung
+- Vorschrift: § 32 Abs. 1 Nr. 1 BSIG
+- Spätester Zeitpunkt: **16.12.2026, 16:40 Uhr**
+
+**2. Vorfallmeldung (Meldung über den Sicherheitsvorfall)**
+- Frist: unverzüglich, spätestens innerhalb von 72 Stunden nach Kenntniserlangung
+- Vorschrift: § 32 Abs. 1 Nr. 2 BSIG
+- Spätester Zeitpunkt: **18.12.2026, 16:40 Uhr**
+
+**3. Abschlussmeldung**
+- Frist: spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nr. 2
+- Vorschrift: § 32 Abs. 1 Nr. 4 BSIG
+- Wenn die Vorfallmeldung am spätestmöglichen Tag (18.12.2026) und zur spätestmöglichen Uhrzeit (16:40 Uhr) übermittelt wird, ist die Abschlussmeldung spätestens am **18.01.2027, 16:40 Uhr** vorzulegen.
+
+Hinweis: Die Uhrzeit für die Abschlussmeldung ergibt sich als Ableitung aus „einen Monat nach Übermittlung"" unter Annahme, dass die Vorfallmeldung exakt am 18.12.2026 um 16:40 Uhr übermittelt wird. Der Text selbst spezifiziert nicht ausdrücklich, ob bei der Monatsfrist die gleiche Uhrzeit maßgeblich ist.";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-04b;triage;Fristen ab 15.12. 16:40 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 15.12.2026 um 16:40 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des Textes ergeben sich folgende Fristen nach § 32 BSIG:
+
+**1. Frühe Erstmeldung (§ 32 Abs. 1 Nr. 1 BSIG):**
+Die frühe Erstmeldung ist unverzüglich, spätestens jedoch innerhalb von 24 Stunden nach Kenntniserlangung abzugeben.
+- Kenntniserlangung: 15.12.2026, 16:40 Uhr
+- Spätester Abgabetermin: **16.12.2026, 16:40 Uhr**
+
+**2. Vorfallmeldung (§ 32 Abs. 1 Nr. 2 BSIG):**
+Die Meldung über den Sicherheitsvorfall ist unverzüglich, spätestens jedoch innerhalb von 72 Stunden nach Kenntniserlangung abzugeben.
+- Kenntniserlangung: 15.12.2026, 16:40 Uhr
+- Spätester Abgabetermin: **18.12.2026, 16:40 Uhr**
+
+**3. Abschlussmeldung (§ 32 Abs. 1 Nr. 4 BSIG):**
+Die Abschlussmeldung ist spätestens einen Monat nach Übermittlung der Meldung des Sicherheitsvorfalls gemäß Nummer 2 abzugeben.
+- Späteste Übermittlung der Vorfallmeldung: 18.12.2026, 16:40 Uhr
+- Spätester Abgabetermin der Abschlussmeldung: **18.01.2027, 16:40 Uhr**";"24h: 16.12. 16:40; 72h: 18.12. 16:40; Abschluss bis 18.01.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05a;triage;Fristen ab 05.01. 11:00 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der von Ihnen geforderten Präzision beantworten.
+
+Die NIS2-Richtlinie (EU) 2022/2555 sieht in Artikel 23 grundsätzlich folgende Fristen vor:
+- Frühwarnung: so bald wie möglich, spätestens innerhalb von 24 Stunden nach Feststellung
+- Vorfallmeldung: spätestens innerhalb von 72 Stunden nach Feststellung
+- Abschlussmeldung: spätestens innerhalb eines Monats nach der Vorfallmeldung
+
+Ob und wie das deutsche NIS2-Umsetzungsgesetz (NIS2UmsuCG) diese Fristen im Detail übernommen hat – insbesondere ob es abweichende Fristen, spezifische Uhrzeiten oder zusätzliche Anforderungen gibt – kann ich nicht mit Sicherheit sagen. Ich kenne die genauen Vorschriften des NIS2UmsuCG nicht sicher genug, um konkrete Daten und Uhrzeiten für Ihren Fall (Feststellung am 05.01.2027 um 11:00 Uhr) zu nennen.
+
+Ich empfehle Ihnen, die aktuellen gesetzlichen Bestimmungen direkt zu konsultieren oder rechtlichen Rat einzuholen.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05a;triage;Fristen ab 05.01. 11:00 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der erforderlichen Sicherheit beantworten.
+
+Ich weiß, dass das NIS2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2UmsuCG) am 17. Oktober 2024 in Kraft getreten ist und die Meldepflichten für erhebliche Sicherheitsvorfälle im Bereich kritischer Infrastrukturen und wichtiger Einrichtungen regelt. Die konkreten Fristen für die frühe Erstmeldung, die Vorfallmeldung und die Abschlussmeldung – insbesondere die genauen Stunden- und Tagesangaben sowie die zugehörige Vorschrift – kenne ich jedoch nicht mit ausreichender Sicherheit, um Ihnen verbindliche Daten und Uhrzeiten für Ihren konkreten Fall (Feststellung am 05.01.2027 um 11:00 Uhr) zu nennen.
+
+Ich möchte keine Fristen erfinden. Bitte konsultieren Sie das NIS2UmsuCG direkt oder wenden Sie sich an das BSI oder eine fachkundige Rechtsberatung, um die genauen Meldefristen und -pflichten zu ermitteln.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05a;triage;Fristen ab 05.01. 11:00 [Kopf];0.75;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der geforderten Sicherheit beantworten.
+
+Die NIS2-Richtlinie (EU) 2022/2555 sieht grundsätzlich folgende Meldefristen vor:
+
+- **Frühe Erstmeldung:** innerhalb von 24 Stunden nach Feststellung
+- **Vorfallmeldung:** innerhalb von 72 Stunden nach Feststellung
+- **Abschlussmeldung:** spätestens einen Monat nach der Vorfallmeldung
+
+Wendet man diese Fristen auf Ihren Fall an (Feststellung am 05.01.2027 um 11:00 Uhr), ergäbe sich rechnerisch:
+
+1. Frühe Erstmeldung: bis **06.01.2027, 11:00 Uhr**
+2. Vorfallmeldung: bis **08.01.2027, 11:00 Uhr**
+3. Abschlussmeldung: bis **08.02.2027, 11:00 Uhr** (ein Monat nach der Vorfallmeldung am spätestmöglichen Tag)
+
+**Allerdings:** Ich kenne die genaue deutsche Umsetzung im BSI-Gesetz (BSIG) nicht mit Sicherheit. Ich weiß nicht mit Bestimmtheit, ob das deutsche Umsetzungsgesetz diese Fristen exakt so übernimmt, ob es Abweichungen gibt (z. B. bei der Berechnung des Monats oder bei der Definition des „Feststellungszeitpunkts""), oder welche konkrete Vorschrift (Paragraph) dafür maßgeblich ist. Mein Wissen endet am 18.06.2026, und ich kann nicht ausschließen, dass sich Details der deutschen Umsetzung von der EU-Richtlinie unterscheiden.
+
+Ich empfehle Ihnen dringend, die aktuellen Fristen direkt im BSI-Gesetz (BSIG) in der jeweils geltenden Fassung nachzuschlagen oder das BSI direkt zu kontaktieren, um verbindliche Angaben zu erhalten.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05a;triage;Fristen ab 05.01. 11:00 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der geforderten Präzision beantworten.
+
+Die NIS2-Richtlinie (EU) 2022/2555 sieht grundsätzlich folgende Meldefristen vor:
+
+- **Frühwarnung:** innerhalb von 24 Stunden nach Feststellung eines erheblichen Sicherheitsvorfalls
+- **Vorfallmeldung:** innerhalb von 72 Stunden nach Feststellung
+- **Abschlussmeldung:** innerhalb eines Monats nach Abschluss des Vorfalls
+
+Ob und wie das deutsche Umsetzungsgesetz (NIS2UmsuCG) diese Fristen konkret ausgestaltet – insbesondere ob es abweichende Stundenzahlen, konkrete Uhrzeiten oder besondere Berechnungsregeln (z. B. Kalendertage vs. 24-Stunden-Fristen) enthält – kann ich nicht mit Sicherheit sagen. Mir ist nicht sicher bekannt, ob das deutsche Gesetz die Richtlinienfristen eins zu eins übernimmt oder Modifikationen vornimmt.
+
+Da ich keine verlässlichen Informationen zum genauen Wortlaut des deutschen Umsetzungsgesetzes habe, möchte ich keine konkreten Daten und Uhrzeiten erfinden. Ich empfehle, die maßgeblichen Vorschriften direkt im Gesetzestext (NIS2UmsuCG) oder in den offiziellen BSI-Hinweisen nachzuschlagen.
+
+Falls Sie mir den relevanten Gesetzestext oder eine Quelle zur Verfügung stellen, helfe ich gerne bei der Berechnung der konkreten Fristen.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05a;triage;Fristen ab 05.01. 11:00 [Kopf];0.0;"Beantworte die Frage nach dem deutschen BSI-Gesetz (NIS2-Umsetzung).
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Ich kann diese Frage nicht mit der geforderten Präzision beantworten.
+
+Ich kenne die genauen Meldefristen und die spezifische Vorschrift des deutschen NIS2-Umsetzungsgesetzes nicht mit Sicherheit. Ich weiß, dass es ein Umsetzungsgesetz gibt und dass Meldepflichten für erhebliche Sicherheitsvorfälle bestehen, aber die konkreten Fristen (Erstmeldung, Vorfallmeldung, Abschlussmeldung) sowie die zugehörigen Paragraphen kann ich nicht verlässlich nennen.
+
+Ich möchte keine Daten und Uhrzeiten erfinden. Bitte konsultieren Sie das aktuelle NIS2-Umsetzungsgesetz oder wenden Sie sich an das BSI oder eine fachkundige Rechtsberatung, um die korrekten Fristen zu ermitteln.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05b;triage;Fristen ab 05.01. 11:00 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des Textes des § 32 BSIG:
+
+Kenntniserlangung: 05.01.2027, 11:00 Uhr
+
+(1) Frühe Erstmeldung (§ 32 Abs. 1 Satz 1 Nr. 1 BSIG): spätestens innerhalb von 24 Stunden nach Kenntniserlangung, also bis zum **06.01.2027, 11:00 Uhr**.
+
+(2) Vorfallmeldung (§ 32 Abs. 1 Satz 1 Nr. 2 BSIG): spätestens innerhalb von 72 Stunden nach Kenntniserlangung, also bis zum **08.01.2027, 11:00 Uhr**.
+
+Abschlussmeldung (§ 32 Abs. 1 Satz 1 Nr. 4 BSIG): spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nr. 2. Wird die Vorfallmeldung am spätestmöglichen Tag, dem 08.01.2027, übermittelt, ist die Abschlussmeldung spätestens bis zum **08.02.2027** vorzulegen. Eine konkrete Uhrzeit ist im Text nicht genannt.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05b;triage;Fristen ab 05.01. 11:00 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des vorliegenden Textes (§ 32 BSIG) und der Annahme, dass die Kenntniserlangung am **05.01.2027 um 11:00 Uhr** erfolgt:
+
+**(1) Frühe Erstmeldung** (§ 32 Abs. 1 Nr. 1 BSIG):
+spätestens innerhalb von **24 Stunden** nach Kenntniserlangung → **06.01.2027, 11:00 Uhr**
+
+**(2) Vorfallmeldung** (§ 32 Abs. 1 Nr. 2 BSIG):
+spätestens innerhalb von **72 Stunden** nach Kenntniserlangung → **08.01.2027, 11:00 Uhr**
+
+**Abschlussmeldung** (§ 32 Abs. 1 Nr. 4 BSIG):
+spätestens **einen Monat nach Übermittlung** der Vorfallmeldung gemäß Nr. 2. Wird die Vorfallmeldung am spätestmöglichen Tag, also am **08.01.2027 um 11:00 Uhr**, übermittelt, endet die Frist am **08.02.2027 um 11:00 Uhr**.
+
+Hinweis: Der Text definiert nicht näher, wie „ein Monat"" im Sinne des § 32 Abs. 1 Nr. 4 BSIG zu berechnen ist (Kalendermonat oder feste Tageszahl). Die Angabe „08.02.2027, 11:00 Uhr"" geht von einem Kalendermonat aus.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05b;triage;Fristen ab 05.01. 11:00 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+**1. Frühe Erstmeldung**
+
+- **Frist:** spätestens 24 Stunden nach Kenntniserlangung
+- **Kenntniserlangung:** 05.01.2027, 11:00 Uhr
+- **Spätester Abgabetermin:** **06.01.2027, 11:00 Uhr**
+- **Vorschrift:** § 32 Abs. 1 Satz 1 Nr. 1 BSIG
+
+**2. Vorfallmeldung (Meldung über den Sicherheitsvorfall)**
+
+- **Frist:** spätestens 72 Stunden nach Kenntniserlangung
+- **Kenntniserlangung:** 05.01.2027, 11:00 Uhr
+- **Spätester Abgabetermin:** **08.01.2027, 11:00 Uhr**
+- **Vorschrift:** § 32 Abs. 1 Satz 1 Nr. 2 BSIG
+
+**3. Abschlussmeldung**
+
+- **Frist:** spätestens einen Monat nach Übermittlung der Meldung gemäß Nr. 2
+- **Übermittlung der Vorfallmeldung am spätestmöglichen Tag:** 08.01.2027, 11:00 Uhr
+- **Spätester Abgabetermin:** **08.02.2027, 11:00 Uhr**
+- **Vorschrift:** § 32 Abs. 1 Satz 1 Nr. 4 BSIG
+
+**Hinweis:** Die Fristen beginnen jeweils mit der Kenntniserlangung bzw. – bei der Abschlussmeldung – mit der Übermittlung der Vorfallmeldung. Die Meldepflicht gilt frühestens ab Einrichtung des Meldewegs.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05b;triage;Fristen ab 05.01. 11:00 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Auf Grundlage des bereitgestellten Textes (§ 32 BSIG):
+
+**Kenntniserlangung:** 05.01.2027, 11:00 Uhr
+
+**(1) Frühe Erstmeldung** (§ 32 Abs. 1 Satz 1 Nr. 1):
+unverzüglich, spätestens jedoch innerhalb von **24 Stunden** nach Kenntniserlangung.
+→ Spätester Zeitpunkt: **06.01.2027, 11:00 Uhr**
+
+**(2) Vorfallmeldung** (§ 32 Abs. 1 Satz 1 Nr. 2):
+unverzüglich, spätestens jedoch innerhalb von **72 Stunden** nach Kenntniserlangung.
+→ Spätester Zeitpunkt: **08.01.2027, 11:00 Uhr**
+
+**Abschlussmeldung** (§ 32 Abs. 1 Satz 1 Nr. 4):
+spätestens **einen Monat nach Übermittlung** der Vorfallmeldung gemäß Nr. 2.
+Wenn die Vorfallmeldung am spätestmöglichen Tag (08.01.2027) übermittelt wird:
+→ Spätester Zeitpunkt: **08.02.2027**
+
+Hinweis: Der Text gibt für die Abschlussmeldung keine konkrete Uhrzeit an, nur den Monatsrahmen. Die Frist beginnt mit der Übermittlung der Vorfallmeldung, nicht mit der Kenntniserlangung.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;
+fri-05b;triage;Fristen ab 05.01. 11:00 [Text];1.0;"Beantworte die Frage ausschließlich auf Grundlage des folgenden Textes.
+
+<<<TEXT
+{{CONTEXT:nis2_triage.txt}}
+TEXT>>>
+
+Wir stellen am 05.01.2027 um 11:00 Uhr einen erheblichen Sicherheitsvorfall fest. Bis wann müssen wir (1) die frühe Erstmeldung und (2) die Vorfallmeldung abgeben? Und bis wann spätestens die Abschlussmeldung, wenn wir die Vorfallmeldung nach (2) am spätestmöglichen Tag übermitteln? Nenne konkrete Daten und Uhrzeiten und die Vorschrift.";"
+
+Basierend auf dem Text des § 32 BSIG und dem Zeitpunkt der Kenntniserlangung am 05.01.2027 um 11:00 Uhr ergeben sich folgende Fristen:
+
+1. **Frühe Erstmeldung** (§ 32 Abs. 1 Nr. 1 BSIG):  
+   Spätestens innerhalb von 24 Stunden nach Kenntniserlangung.  
+   **Fristende: 06.01.2027 um 11:00 Uhr.**
+
+2. **Vorfallmeldung** (§ 32 Abs. 1 Nr. 2 BSIG):  
+   Spätestens innerhalb von 72 Stunden nach Kenntniserlangung.  
+   **Fristende: 08.01.2027 um 11:00 Uhr.**
+
+3. **Abschlussmeldung** (§ 32 Abs. 1 Nr. 4 BSIG):  
+   Spätestens einen Monat nach Übermittlung der Vorfallmeldung gemäß Nummer 2.  
+   Wenn die Vorfallmeldung am spätestmöglichen Tag (08.01.2027) übermittelt wird, ist die Abschlussmeldung **spätestens am 08.02.2027** fällig.  
+   Da die Vorschrift keine konkrete Uhrzeit für die Vorfallmeldung vorgibt (nur die 72-Stunden-Frist), lässt sich die genaue Uhrzeit der Abschlussmeldung nicht eindeutig bestimmen. Unter der Annahme, dass die Vorfallmeldung am 08.01.2027 um 11:00 Uhr übermittelt wird, wäre die Abschlussmeldung **spätestens am 08.02.2027 um 11:00 Uhr** fällig.";"24h: 06.01. 11:00; 72h: 08.01. 11:00; Abschluss bis 08.02.2027 (§ 32 Abs. 1 Nr. 1, 2, 4 BSIG; alle Tage Werktage, keine Fristverschiebung).";;

@@ -1,0 +1,50 @@
+HINWEIS ZUR QUELLE: Gesetzesauszüge, abgerufen über lxgesetze.de mit einem Abruf-Werkzeug. Wortgetreu wiedergegeben sind § 32 BSIG, § 38 BSIG, § 203 StGB und § 517 ZPO. Sinngemäß zusammengefasst (nicht wortgetreu) sind § 28 BSIG, § 30 BSIG, § 33 BSIG, § 43e BRAO und § 520 ZPO. Vor Veröffentlichung gegen den amtlichen Text prüfen.
+
+=== § 28 BSIG – Besonders wichtige Einrichtungen und wichtige Einrichtungen [sinngemäß] ===
+(1) Als besonders wichtige Einrichtung gelten: 1. Betreiber kritischer Anlagen; 2. qualifizierte Vertrauensdiensteanbieter, Top Level Domain Name Registries oder DNS-Diensteanbieter; 3. Anbieter öffentlich zugänglicher Telekommunikationsdienste oder Betreiber öffentlicher Telekommunikationsnetze mit mindestens 50 Mitarbeitern oder einem Jahresumsatz und einer Jahresbilanzsumme von jeweils über 10 Millionen Euro; 4. sonstige natürliche oder juristische Personen, die anderen entgeltlich Waren oder Dienstleistungen anbieten, einer in Anlage 1 bestimmten Einrichtungsart zuzuordnen sind und mindestens 250 Mitarbeiter beschäftigen oder einen Jahresumsatz über 50 Millionen Euro und eine Jahresbilanzsumme über 43 Millionen Euro aufweisen.
+(2) Als wichtige Einrichtungen gelten: 1. Vertrauensdiensteanbieter; 2. kleine Telekommunikationsanbieter (unter 50 Mitarbeiter, Umsatz und Bilanzsumme jeweils höchstens 10 Millionen Euro); 3. sonstige Personen, die entgeltlich Waren oder Dienstleistungen anbieten, einer in den Anlagen 1 und 2 bestimmten Einrichtungsart zuzuordnen sind und mindestens 50 Mitarbeiter beschäftigen oder einen Jahresumsatz und eine Jahresbilanzsumme von jeweils über 10 Millionen Euro aufweisen. Ausgenommen sind besonders wichtige Einrichtungen und Einrichtungen der Bundesverwaltung.
+(3) Vernachlässigbare Geschäftstätigkeiten können bei der Zuordnung unberücksichtigt bleiben.
+(4) Für Mitarbeiterzahl, Jahresumsatz und Jahresbilanzsumme gilt die Empfehlung 2003/361/EG der Kommission.
+
+=== § 30 BSIG – Risikomanagementmaßnahmen [sinngemäß] ===
+(1) Besonders wichtige und wichtige Einrichtungen müssen geeignete, verhältnismäßige und wirksame technische und organisatorische Maßnahmen ergreifen, um Störungen zu vermeiden und die Auswirkungen von Sicherheitsvorfällen möglichst gering zu halten. Die Einhaltung ist zu dokumentieren.
+(2) Die Maßnahmen sollen den Stand der Technik einhalten und europäische und internationale Normen beachten. Sie müssen insbesondere umfassen: Konzepte für Risikoanalyse und Sicherheit der Informationssysteme, Bewältigung von Sicherheitsvorfällen, Aufrechterhaltung des Betriebs, Sicherheit der Lieferkette einschließlich sicherheitsbezogener Aspekte der Beziehungen zu unmittelbaren Anbietern oder Diensteanbietern, Sicherheit bei Erwerb, Entwicklung und Wartung von Systemen, Bewertung der Wirksamkeit der Risikomanagementmaßnahmen, Schulungen, Kryptografie, Personalsicherheit sowie Multi-Faktor-Authentifizierung.
+
+=== § 32 BSIG – Meldepflichten [wortgetreu] ===
+(1) Besonders wichtige Einrichtungen und wichtige Einrichtungen sind verpflichtet, folgende Informationen an eine vom Bundesamt und dem Bundesamt für Bevölkerungsschutz und Katastrophenhilfe eingerichtete gemeinsame Meldestelle zu melden:
+1. unverzüglich, spätestens jedoch innerhalb von 24 Stunden nach Kenntniserlangung von einem erheblichen Sicherheitsvorfall, eine frühe Erstmeldung, in der angegeben wird, ob der Verdacht besteht, dass der erhebliche Sicherheitsvorfall auf rechtswidrige oder böswillige Handlungen zurückzuführen ist oder grenzüberschreitende Auswirkungen haben könnte;
+2. unverzüglich, spätestens jedoch innerhalb von 72 Stunden nach Kenntniserlangung von einem erheblichen Sicherheitsvorfall, eine Meldung über diesen Sicherheitsvorfall, in der die in Nummer 1 genannten Informationen bestätigt oder aktualisiert werden und eine erste Bewertung des erheblichen Sicherheitsvorfalls, einschließlich seines Schweregrads und seiner Auswirkungen, sowie gegebenenfalls die Kompromittierungsindikatoren angegeben werden;
+3. auf Ersuchen des Bundesamtes eine Zwischenmeldung über relevante Statusaktualisierungen;
+4. spätestens einen Monat nach Übermittlung der Meldung des Sicherheitsvorfalls gemäß Nummer 2, vorbehaltlich Absatz 2, eine Abschlussmeldung, die Folgendes enthält:
+a) eine ausführliche Beschreibung des Sicherheitsvorfalls, einschließlich seines Schweregrads und seiner Auswirkungen;
+b) Angaben zur Art der Bedrohung beziehungsweise ihrer zugrunde liegenden Ursache, die wahrscheinlich den Sicherheitsvorfall ausgelöst hat;
+c) Angaben zu den getroffenen und laufenden Abhilfemaßnahmen;
+d) gegebenenfalls die grenzüberschreitenden Auswirkungen des Sicherheitsvorfalls.
+Die Verpflichtung nach Satz 1 gilt frühestens ab Einrichtung des Meldewegs.
+(2) Dauert der Sicherheitsvorfall zum in Absatz 1 Satz 1 Nummer 4 genannten Zeitpunkt noch an, legt die betreffende Einrichtung statt einer Abschlussmeldung zu diesem Zeitpunkt eine Fortschrittsmeldung vor. Die Abschlussmeldung ist dem Bundesamt nach abschließender Bearbeitung des Sicherheitsvorfalls durch die betreffende Einrichtung vorzulegen.
+
+=== § 33 BSIG – Registrierungspflicht [sinngemäß] ===
+(1) Besonders wichtige Einrichtungen und wichtige Einrichtungen sowie Domain-Name-Registry-Dienstleister sind verpflichtet, spätestens drei Monate, nachdem sie erstmals oder erneut als eine der genannten Einrichtungen gelten oder Domain-Name-Registry-Dienste anbieten, dem Bundesamt über die gemeinsam eingerichtete Registrierungsmöglichkeit Name und Rechtsform, Anschrift und Kontaktdaten, den relevanten Sektor, die betroffenen EU-Mitgliedstaaten und die zuständigen Aufsichtsbehörden zu übermitteln.
+(5) Änderungen sind unverzüglich, spätestens jedoch binnen zwei Wochen mitzuteilen.
+
+=== § 38 BSIG – Billigungs-, Überwachungs- und Schulungspflicht der Geschäftsleitung [wortgetreu] ===
+(1) Geschäftsleitungen besonders wichtiger Einrichtungen und wichtiger Einrichtungen sind verpflichtet, die von diesen Einrichtungen nach § 30 zu ergreifenden Risikomanagementmaßnahmen umzusetzen und ihre Umsetzung zu überwachen.
+(2) Geschäftsleitungen, die ihre Pflichten nach Absatz 1 verletzen, haften ihrer Einrichtung für einen schuldhaft verursachten Schaden nach den auf die Rechtsform der Einrichtung anwendbaren Regeln des Gesellschaftsrechts. Nach diesem Gesetz haften sie nur, wenn die für die Einrichtung maßgeblichen gesellschaftsrechtlichen Bestimmungen keine Haftungsregelung nach Satz 1 enthalten.
+(3) Die Geschäftsleitungen besonders wichtiger Einrichtungen und wichtiger Einrichtungen müssen regelmäßig an Schulungen teilnehmen, um ausreichende Kenntnisse und Fähigkeiten zur Erkennung und Bewertung von Risiken und von Risikomanagementpraktiken im Bereich der Sicherheit in der Informationstechnik zu erlangen sowie um die Auswirkungen von Risiken sowie Risikomanagementpraktiken auf die von der Einrichtung erbrachten Dienste beurteilen zu können.
+
+=== § 43e BRAO – Inanspruchnahme von Dienstleistungen [sinngemäß] ===
+(1) Der Rechtsanwalt darf Dienstleistern den Zugang zu fremden Geheimnissen eröffnen, soweit dies für die Inanspruchnahme der Dienstleistung erforderlich ist.
+(2) Der Rechtsanwalt ist verpflichtet, den Dienstleister sorgfältig auszuwählen. Die Zusammenarbeit ist unverzüglich zu beenden, wenn die Einhaltung der dem Dienstleister nach Absatz 3 zu machenden Vorgaben nicht gewährleistet ist.
+(3) Der Vertrag mit dem Dienstleister bedarf der Textform. Der Vertrag muss regeln: 1. die Verschwiegenheitsverpflichtung des Dienstleisters, 2. die Beschränkung auf die notwendige Kenntnisnahme, 3. die Hinzuziehung weiterer Personen.
+(4) Bei Dienstleistern im Ausland ist ein vergleichbarer Geheimnisschutz erforderlich.
+
+=== § 203 StGB – Verletzung von Privatgeheimnissen (Absatz 1 und 6, Auszug) [wortgetreu] ===
+(1) Wer unbefugt ein fremdes Geheimnis, namentlich ein zum persönlichen Lebensbereich gehörendes Geheimnis oder ein Betriebs- oder Geschäftsgeheimnis, offenbart, das ihm als [... unter anderem 3. Rechtsanwalt, Kammerrechtsbeistand, Patentanwalt, Notar, Verteidiger in einem gesetzlich geordneten Verfahren, Wirtschaftsprüfer, vereidigtem Buchprüfer, Steuerberater, Steuerbevollmächtigten ...] anvertraut worden oder sonst bekanntgeworden ist, wird mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft.
+(6) Handelt der Täter gegen Entgelt oder in der Absicht, sich oder einen anderen zu bereichern oder einen anderen zu schädigen, so ist die Strafe Freiheitsstrafe bis zu zwei Jahren oder Geldstrafe.
+
+=== § 517 ZPO – Berufungsfrist [wortgetreu] ===
+Die Berufungsfrist beträgt einen Monat; sie ist eine Notfrist und beginnt mit der Zustellung des in vollständiger Form abgefassten Urteils, spätestens aber mit dem Ablauf von fünf Monaten nach der Verkündung.
+
+=== § 520 ZPO – Berufungsbegründung [sinngemäß] ===
+(1) Der Berufungskläger muss die Berufung begründen.
+(2) Die Frist für die Berufungsbegründung beträgt zwei Monate. Sie beginnt mit der Zustellung des in vollständiger Form abgefassten Urteils, spätestens aber mit Ablauf von fünf Monaten nach der Verkündung. Die Frist kann auf Antrag verlängert werden.

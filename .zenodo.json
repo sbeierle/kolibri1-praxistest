@@ -1,0 +1,17 @@
+{
+  "title": "Kolibri-1 im Praxistest: NIS2, Kanzlei, IT-Dienstleister (Testcode und Rohdaten)",
+  "upload_type": "software",
+  "description": "Testcode, Kontextdateien und Rohdaten zum unabhängigen Praxistest des offenen Modells Aleph Alpha Kolibri-1 (NIS2/BSIG, Kanzlei, IT-Dienstleister). 1.851 gewertete Läufe, regelbasierte Auswertung. Preprint, nicht begutachtet. Bericht, Testcode und Antwortschlüssel wurden gemeinsam mit Claude (Anthropic) erstellt; die Antwortschlüssel sind nicht juristisch geprüft. Kein Rechtsrat. Der zugehörige Bericht liegt unter der verwandten DOI.",
+  "creators": [
+    {"name": "Beierle, Stefan", "orcid": "0009-0005-8512-3839", "affiliation": "Independent Researcher, Makkah, Saudi Arabia"}
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "language": "deu",
+  "keywords": ["Kolibri-1", "NIS2", "BSIG", "LLM evaluation", "open-weight models"],
+  "version": "1.0",
+  "publication_date": "2026-10-05",
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.23171160", "scheme": "doi", "resource_type": "publication-preprint"}
+  ]
+}
